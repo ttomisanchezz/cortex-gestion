@@ -57,7 +57,8 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 5. **Montos en centavos enteros.** El IVA se redondea una vez por alícuota y por comprobante.
 6. **El costo promedio se actualiza con cada compra.** Con factura A, el costo va sin IVA y el IVA queda como crédito.
 7. **Precios de venta con IVA incluido.**
-8. **Resultado del mes** = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma a costo ± diferencias de arqueo.
+8. **Resultado del mes** = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma a costo ± diferencias de arqueo ± diferencia de cambio (solo en negocios con caja en dólares).
+   - Diferencia de cambio del mes = valor en pesos de la caja USD al cierre (a la última cotización del mes) − valor al inicio − entradas en USD (a la cotización de cada día) + salidas en USD (a la cotización de cada día). Suma o resta al resultado. Sin cotización de cierre: `FALTA DATO`. Decidido por Tomás el 08/10/2026 (Somos Piedra).
    - El IVA a favor va aparte, no suma y no se arrastra solo al mes siguiente.
    - Un faltante de conteo resta. Un sobrante se muestra pero no suma.
    - Decidido por Tomás el 08/10/2026.
@@ -71,6 +72,7 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 
 ## 4. Lo que cambia por rubro (checklist de la primera sesión)
 - **Qué vende y en qué unidad:** unidad, m², metro lineal, caja o paquete, kg. ¿Se fracciona?
+  - La unidad va en el producto, no en el negocio: uno solo puede vender por m², bolsón y planta (Somos Piedra, 08/10/2026).
 - **Si produce o solo revende.** Si produce: insumos, mano de obra, merma de producción y costo por unidad producida.
 - **Servicios** (instalación, colocación, envío, mano de obra): si son propios o de terceros, y cómo se costean.
 - **Si vende por presupuesto u obra:** presupuesto → seña → entrega → saldo, con avances.
@@ -85,7 +87,8 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 ## 5. El proceso, en orden
 1. **Investigación del rubro**, con dos agentes en paralelo:
    - el software de referencia;
-   - cómo funciona el negocio en Argentina y en la zona.
+   - cómo funciona el negocio en Argentina y en la zona;
+   - antes que nada, la presencia pública del cliente (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tenía vivero y que vendía en muchas unidades, y eso cambió el diseño (08/10/2026).
 
    Va a `claude/investigacion-<cliente>.md` (proyecto de Claude), con fuentes.
 2. **Preguntas hasta el 90%**, con AskUserQuestion (máximo 4 por ronda, la recomendada primero) y el checklist de §4.

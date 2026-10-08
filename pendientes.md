@@ -4,21 +4,43 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - Formato: `- [ ] qué — quién — desde DD/MM`.
 - Acá va solo lo abierto. Lo cerrado se mueve a `pendientes-archivo.md`.
 
-## 1. Somos Piedra (`somos-piedra`)
-- [ ] Investigación del rubro con dos agentes en paralelo: software de referencia, y cómo funciona el revestimiento de piedra en Argentina y en la zona (ver `clientes/somos-piedra/README.md`). Va a `claude/investigacion-piedra.md` en el proyecto de Claude — Claude — desde 08/10
-- [ ] Preguntas hasta el 90% con el checklist de `metodo/` §4 — Claude pregunta, Tomás contesta — desde 08/10
-- [ ] Spec v1 (`claude/spec-piedra-v1.md`), con la misma forma que la del vivero — Claude arma, Tomás aprueba — desde 08/10
-- [ ] Datos del cliente: nombre legal, zona, condición fiscal, quién carga y cómo vende hoy — Tomás — desde 08/10
-
-## 2. Sistema multi-negocio (`producto`)
-- [ ] Diseño de la conversión de `E:\vivero` a multi-negocio, antes de tocar código y con los dos rubros a la vista. Preguntas a Tomás en `producto/README.md` — Claude (Fable 5) — desde 08/10
-- [ ] Hosting: Vercel Pro u otro con funciones Node (Vercel Hobby no permite uso comercial) — Tomás — desde 08/10
+## 1. Sistema multi-negocio (`producto`)
+- [ ] **Diseño de la conversión de `E:\vivero` a multi-negocio**, con los dos rubros a la vista.
+  - Sale como una corrida de VS Code en un solo mensaje: base multi-negocio + ramas de Somos Piedra (spec §11) + integración.
+  - Las preguntas del diseño ya están contestadas (`producto/README.md`).
+  - Claude (Fable 5), en un chat nuevo de `producto` — desde 08/10
+- [ ] Hosting: Vercel Pro u otro con funciones Node (Vercel Hobby no permite uso comercial). Como va un dominio por cliente, tiene que aceptar dominios propios — Tomás — desde 08/10
 - [ ] Supabase: crear el proyecto único del sistema — Tomás — desde 08/10
 - [ ] Nombre y carpeta definitivos del repo (hoy `E:\vivero`; por ejemplo `E:\sistema-gestion`) — Tomás decide — desde 08/10
 - [ ] Precio del abono — Tomás — desde 08/10
+- [ ] Dominios, uno por cliente: quién los compra y quién los paga (el cliente, o Tomás dentro del abono) — Tomás — desde 08/10
+- [ ] Avisarle a cada cliente que Tomás tiene un usuario de soporte que entra a su negocio. Va en los términos y en la política de privacidad — Tomás — desde 08/10
+- [ ] Cobro del abono (transferencia o Mercado Pago Suscripciones), nombre comercial del sistema y borradores legales — Tomás — desde 08/10
+- [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
+
+## 2. Somos Piedra (`somos-piedra`)
+- [ ] **Datos para la app** (no frenan la construcción: quedan `FALTA DATO`):
+  - % de cada medio de pago;
+  - planes de cuotas, con su recargo y su comisión;
+  - comisiones de MP y del posnet;
+  - % de desperdicio;
+  - precio del envío (fijo o por zona);
+  - categorías y gastos fijos.
+
+  — Tomás / cliente — desde 08/10
+- [ ] El Excel o planilla actual, con la cobertura de cada producto (m² por caja o malla), para el importador — cliente — desde 08/10
+- [ ] **Para facturar:**
+  - razón social y CUIT (verificar 33-71680803-9);
+  - IIBB e inicio de actividades;
+  - punto de venta para web services;
+  - delegación de wsfe al CUIT de Tomás.
+
+  — cliente — desde 08/10
+- [ ] Con el contador: alícuotas de IVA de plantas, envío y parquización, y el régimen de IIBB — Tomás / contador — desde 08/10
+- [ ] Construcción, dentro de la corrida multi-negocio (ramas de la spec §11) — Claude arma los prompts — desde 08/10
 
 ## 3. Ibero (`ibero`)
-- [ ] Probar la app en modo local siguiendo los 6 pasos de `metodo/` §5.7 y pasar todo lo que cambiar en un solo mensaje — Tomás — desde 08/10
+- [ ] Probar la app en modo local siguiendo los 6 pasos de `metodo/` §5.7 y pasar todo lo que cambiar en un solo mensaje. Conviene hacerlo antes de la corrida multi-negocio, así lo que salga entra en la misma — Tomás — desde 08/10
 - [ ] Lo que falta del cliente (`E:\vivero\REVISAR.md` §4): datos fiscales, punto de venta y delegación de wsfe, alícuotas de IVA, comisiones reales, nombre, precios de los servicios y gastos fijos — Tomás / cliente — desde 08/10
 - [ ] Lista "Con el contador" de `REVISAR.md` §4, incluido el arrastre del IVA a favor — Tomás — desde 08/10
 - [ ] Export del sistema viejo (comprado en Mercado Libre), para probar el importador con el archivo real — cliente — desde 08/10
@@ -27,3 +49,4 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 ## Cortex (`cortex`)
 - [ ] Crear el repo privado en GitHub para este Cortex y conectarlo (`git remote add origin <url>`): hasta entonces `sync.cmd` solo commitea — Tomás — desde 08/10
 - [ ] Pegar `herramientas/instrucciones-proyectos/sistema-gestion.md` en las instrucciones del proyecto de Claude "Sistema de Gestión de Empresas" — Tomás — desde 08/10
+- [ ] Sacar de las instrucciones del proyecto de Claude el prompt del bot de Somos iPhone que quedó pegado al final ("Otro modelo con la entrega ya dicha…") — Tomás — desde 08/10

@@ -9,7 +9,7 @@ Hay una carpeta por cliente, con su `README.md`. Cada README tiene:
 | id | Cliente | Rubro | Estado | Desde |
 |---|---|---|---|---|
 | `ibero` | Ibero | Vivero (Alto Valle) | v1 completa en modo local; falta multi-negocio y puesta en línea | 07/10/2026 |
-| `somos-piedra` | Somos Piedra | Revestimiento de piedra | Arrancando: falta investigación y spec | 08/10/2026 |
+| `somos-piedra` | Somos Piedra | Revestimiento de piedra (y vivero), Neuquén | Spec v1 aprobada; se construye en la corrida multi-negocio | 08/10/2026 |
 
 **Cliente nuevo:**
 1. Creá la carpeta `clientes/<id>/README.md`, copiando la forma de las que ya están.

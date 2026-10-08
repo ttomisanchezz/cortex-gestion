@@ -3,6 +3,18 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 08/10/2026 — Multi-negocio:
+  - Tomás tiene un usuario de soporte que entra a todos los negocios;
+  - el alta de negocios es a mano por ahora;
+  - cada cliente ve su nombre, su logo y sus colores;
+  - un dominio por cliente.
+
+  — Tomás — `producto/`
+- 08/10/2026 — Unidad, cobertura y moneda del precio van en el producto, no en el rubro. Los módulos se prenden por negocio: % por medio, USD, cheques, calculadora de m², servicios tercerizados y factura al guardar. (Somos Piedra vende por m², bolsón y planta en el mismo negocio.) — Claude lo propuso y Tomás lo aprobó con la spec — `producto/`, spec-piedra-v1 §10
+- 08/10/2026 — Spec v1 de Somos Piedra aprobada. El detalle está en `clientes/somos-piedra/README.md` y en `claude/spec-piedra-v1.md` — Tomás — `somos-piedra`
+- 08/10/2026 — Pago mixto: el % de cada medio se aplica a la parte de la lista que paga ese medio. Ejemplo: lista $100.000 → $45.000 en efectivo (−10%) + $57.500 en 3 cuotas (+15%) = $102.500 — Tomás — spec-piedra-v1 §2.2
+- 08/10/2026 — Cheque rechazado: sale de la cartera y queda "le debe" a nombre del cliente. La venta no cambia. Si estaba endosado, vuelve a subir la deuda con el proveedor — Tomás — spec-piedra-v1 §2.5
+- 08/10/2026 — Diferencia de cambio de la caja USD: suma o resta al resultado del mes. Tomás la eligió en lugar de mostrarla aparte, que era lo recomendado — Tomás — `metodo/` §3.8, CLAUDE.md, spec-piedra-v1 §2.4
 - 08/10/2026 — VS Code: si el trabajo se puede dividir en ramas independientes, se mandan todos los prompts juntos en un solo mensaje (base si hace falta, uno por rama e integración). No se suma además un prompt que haga todo con subagentes — Tomás — `metodo/` §6, instrucciones del proyecto
 - 08/10/2026 — Todo prompt para Claude Code empieza con el bloque "DELEGACIÓN Y PARALELIZACIÓN" y termina con "SI TENÉS QUE ELEGIR", tal cual el modelo del Cortex de Somos iPhone — Tomás — instrucciones del proyecto
 - 08/10/2026 — El sistema es una sola app multi-negocio (un repo, un hosting y una base), y el rubro se configura por negocio. Se arma antes de poner Ibero en línea (un arreglo llega a todos, se paga un solo hosting y una sola base, y ARCA ya está pensado con un certificado para varios CUIT) — Tomás — `producto/`, `E:\vivero`

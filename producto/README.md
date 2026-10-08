@@ -15,8 +15,23 @@ Una sola app de gestión de plata que usan varias empresas. Cada empresa ve solo
 - La app del vivero (Ibero) está completa en modo local. Hoy la base deja entrar a un solo dueño (tabla `duenos`), sin `negocio_id`.
 - No hay hosting ni Supabase todavía. Nada está en línea.
 
+## Respuestas de Tomás para el diseño (08/10/2026)
+- **Usuarios:** un dueño por negocio (Ibero y Somos Piedra). Los empleados con permisos quedan fuera por ahora.
+- **Tomás tiene un usuario de soporte** que entra a todos los negocios. Hay que avisarle al cliente: va en los términos.
+- **Alta de negocios:** a mano, la hace Tomás por ahora.
+- **Marca:** cada cliente ve su nombre, su logo y sus colores. Eso incluye el manifest de la PWA (nombre e ícono) de cada cliente.
+- **Dominio:** uno por cliente. La app reconoce el negocio por el dominio, y el hosting tiene que aceptar dominios propios.
+- **Lo que se configura por negocio** (`claude/spec-piedra-v1.md` §10):
+  - cuentas con moneda (ARS o USD) y tipo (normal o cheques en cartera);
+  - módulos que se prenden: % por medio y cuotas, USD, cheques, calculadora de m², servicios tercerizados;
+  - facturación "al guardar" o "a pedido";
+  - categorías con su alícuota, motivos de baja y % de desperdicio.
+
+  Unidad, cobertura y moneda del precio van en el producto.
+- **Siguen abiertos:** cobro del abono, nombre comercial, legal, precio del abono, quién paga los dominios y si Números estima IIBB.
+
 ## Orden de trabajo
-1. **Somos Piedra:** investigación y spec v1. Es el segundo rubro, y sirve para ver qué se configura por negocio.
+1. ~~**Somos Piedra:** investigación y spec v1.~~ Hecho el 08/10: spec aprobada. Es el segundo rubro, y sirve para ver qué se configura por negocio.
 2. **Diseño multi-negocio (Fable 5)**, antes de tocar código y con los dos rubros a la vista. Preguntas a Tomás abajo.
 3. **Conversión del repo a multi-negocio**, en ramas paralelas.
    - `negocio_id` y RLS en todas las tablas;
@@ -29,7 +44,7 @@ Una sola app de gestión de plata que usan varias empresas. Cada empresa ve solo
 4. **Lo nuevo que pida Somos Piedra**, como módulos que se prenden por negocio.
 5. **Puesta en línea:** hosting, Supabase, migraciones y ARCA. Primero Ibero, después Somos Piedra.
 
-## Preguntas para el diseño multi-negocio (hacerlas antes del prompt)
+## Preguntas para el diseño multi-negocio (contestadas el 08/10: ver arriba)
 - **Usuarios:**
   - ¿Un solo dueño por negocio, o también empleados con un rol que carga ventas pero no ve ganancias ni caja total?
   - Ibero: solo el dueño. Somos Piedra: FALTA DATO.

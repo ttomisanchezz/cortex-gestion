@@ -10,6 +10,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Esperas en segundo plano.** `sleep 540` en primer plano gasta un turno cada 9 minutos. Hay que usar `until <condición>; do sleep 120; done` en segundo plano: no gasta turnos hasta que termina.
 - **08/10/2026 — Señales con commits de mensaje exacto.** "fase A lista" para la base y "rama <nombre> lista" para cada rama. La integración espera los 7 con `git log --all --grep`.
 
+## Investigación de clientes
+- **08/10/2026 — Buscar primero la presencia pública del cliente** (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tiene vivero y que vende por m², bolsón, unidad y planta. Eso llevó la unidad al producto y cambió el diseño multi-negocio.
+- **08/10/2026 — Una SAS no puede ser monotributista:** solo pueden las personas humanas y las sucesiones indivisas. Si el cliente es una SAS, es Responsable Inscripto.
+
 ## Plata
 - **08/10/2026 — El IVA a favor no es ganancia.** En la prueba de punta a punta del vivero, el resultado ($35.563) daba más que la ganancia bruta ($28.773), porque el IVA a favor sumaba. Corregido: queda en $16.440.
 - **08/10/2026 — La merma y los faltantes de arqueo son pérdidas reales.** La spec no los restaba y se corrigió. En cada spec nueva, chequear la fórmula del resultado contra el método §3.

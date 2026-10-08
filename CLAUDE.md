@@ -23,7 +23,7 @@ Tomás la arma, la hostea y cobra un abono mensual. **El cliente no usa Claude**
 | # | Cliente | Rubro | id | Estado |
 |---|---|---|---|---|
 | 1 | Ibero | Vivero (Alto Valle) | `ibero` | v1 completa en modo local (`E:\vivero`, 275 tests en verde). Falta que Tomás la pruebe, pasarla a multi-negocio y ponerla en línea |
-| 2 | Somos Piedra | Revestimiento de piedra | `somos-piedra` | Arrancando: faltan la investigación del rubro y la spec |
+| 2 | Somos Piedra | Revestimiento de piedra (y vivero), Neuquén | `somos-piedra` | Spec v1 aprobada (08/10). Se construye dentro de la corrida multi-negocio |
 
 - El detalle de cada cliente está en `clientes/<id>/README.md`.
 - El registro con las prioridades está en `proyectos.json`, y **ese orden manda** cuando se pregunta "qué tengo pendiente".
@@ -73,7 +73,7 @@ Cada prompt lleva arriba de todo la línea `Modelo: …`.
 2. Nada se borra: se anula con nota. Una factura emitida se anula con nota de crédito.
 3. Nunca se completa un dato que falta: `FALTA DATO` en rojo. Nunca 0, promedio ni estimación.
 4. Fecha real. Montos en centavos enteros.
-5. Resultado del mes = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma ± diferencias de arqueo.
+5. Resultado del mes = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma ± diferencias de arqueo ± diferencia de cambio (solo con caja en dólares; decidido el 08/10).
    - El IVA a favor va aparte y no suma.
    - Un faltante de conteo resta; un sobrante no suma.
 6. Comisión solo en las cuentas que la cobran (Mercado Pago, posnet).

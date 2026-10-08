@@ -1,21 +1,21 @@
 [
   {
-    "id": "somos-piedra",
-    "nombre": "Somos Piedra (revestimiento de piedra)",
-    "prioridad": 1,
-    "estado": "Arrancando (08/10/2026). Falta la investigación del rubro, las preguntas hasta el 90% y la spec v1. Su rubro es el segundo caso que define qué se configura por negocio en el sistema.",
-    "donde": "clientes/somos-piedra/README.md; spec e investigación en el proyecto de Claude (claude/)",
-    "necesita_de_tomas": "Datos del cliente: nombre legal, zona, condición fiscal, quién carga, cómo vende hoy",
-    "detalle": "clientes/somos-piedra/README.md"
-  },
-  {
     "id": "producto",
     "nombre": "Sistema multi-negocio (núcleo)",
-    "prioridad": 2,
-    "estado": "Decidido el 08/10/2026: una sola app multi-negocio. Falta diseñar la conversión de E:\\vivero (negocio_id + RLS, usuarios por negocio, configuración del rubro, sync filtrado, ARCA por CUIT de cada negocio, tests de aislamiento). Se diseña con los dos rubros a la vista.",
+    "prioridad": 1,
+    "estado": "Decidido el 08/10/2026: una sola app multi-negocio. Las preguntas del diseño están contestadas (usuario de soporte de Tomás, alta a mano, marca por cliente, un dominio por cliente). Falta el diseño leyendo E:\\vivero y la corrida de VS Code: base multi-negocio + ramas de Somos Piedra + integración.",
     "donde": "E:\\vivero (repo del sistema); producto/README.md",
-    "necesita_de_tomas": "Hosting (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, precio del abono, contestar las preguntas del diseño multi-negocio",
+    "necesita_de_tomas": "Hosting con dominios propios (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, precio y cobro del abono, quién paga los dominios, si Números estima IIBB",
     "detalle": "producto/README.md"
+  },
+  {
+    "id": "somos-piedra",
+    "nombre": "Somos Piedra (revestimiento de piedra)",
+    "prioridad": 2,
+    "estado": "Spec v1 aprobada (08/10/2026). Se construye dentro de la corrida multi-negocio, como ramas (spec §11).",
+    "donde": "clientes/somos-piedra/README.md; claude/investigacion-piedra.md y claude/spec-piedra-v1.md en el proyecto de Claude",
+    "necesita_de_tomas": "% por medio y planes de cuotas, comisiones, desperdicio, precio del envío, categorías, gastos fijos, el Excel actual, datos fiscales y delegación de wsfe, alícuotas e IIBB con el contador",
+    "detalle": "clientes/somos-piedra/README.md"
   },
   {
     "id": "ibero",
