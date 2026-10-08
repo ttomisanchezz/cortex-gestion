@@ -1,0 +1,18 @@
+# Credenciales: nunca van a git
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.csr
+credentials*.json
+service-account*.json
+token*.json
+secrets/
+
+# Sistema y editores
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini

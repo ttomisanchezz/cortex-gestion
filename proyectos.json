@@ -1,0 +1,38 @@
+[
+  {
+    "id": "somos-piedra",
+    "nombre": "Somos Piedra (revestimiento de piedra)",
+    "prioridad": 1,
+    "estado": "Arrancando (08/10/2026). Falta la investigación del rubro, las preguntas hasta el 90% y la spec v1. Su rubro es el segundo caso que define qué se configura por negocio en el sistema.",
+    "donde": "clientes/somos-piedra/README.md; spec e investigación en el proyecto de Claude (claude/)",
+    "necesita_de_tomas": "Datos del cliente: nombre legal, zona, condición fiscal, quién carga, cómo vende hoy",
+    "detalle": "clientes/somos-piedra/README.md"
+  },
+  {
+    "id": "producto",
+    "nombre": "Sistema multi-negocio (núcleo)",
+    "prioridad": 2,
+    "estado": "Decidido el 08/10/2026: una sola app multi-negocio. Falta diseñar la conversión de E:\\vivero (negocio_id + RLS, usuarios por negocio, configuración del rubro, sync filtrado, ARCA por CUIT de cada negocio, tests de aislamiento). Se diseña con los dos rubros a la vista.",
+    "donde": "E:\\vivero (repo del sistema); producto/README.md",
+    "necesita_de_tomas": "Hosting (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, precio del abono, contestar las preguntas del diseño multi-negocio",
+    "detalle": "producto/README.md"
+  },
+  {
+    "id": "ibero",
+    "nombre": "Ibero (vivero)",
+    "prioridad": 3,
+    "estado": "v1 completa en modo local (08/10/2026): 275 tests, build y prueba de punta a punta en verde. Ajustes de plata hechos. Falta que Tomás la pruebe, pasarla a multi-negocio y ponerla en línea (etapa 8).",
+    "donde": "E:\\vivero (CONTEXTO.md §8 y REVISAR.md)",
+    "necesita_de_tomas": "Probarla en modo local; datos fiscales, alícuotas (contador), comisiones reales, export del sistema viejo",
+    "detalle": "clientes/ibero/README.md"
+  },
+  {
+    "id": "cortex",
+    "nombre": "Este Cortex y el método",
+    "prioridad": 4,
+    "estado": "Creado el 08/10/2026.",
+    "donde": "C:\\Users\\PC\\Documents\\cortex-gestion",
+    "necesita_de_tomas": "Crear el repo privado en GitHub y pegar las instrucciones en el proyecto de Claude",
+    "detalle": "CLAUDE.md"
+  }
+]
