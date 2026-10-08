@@ -14,6 +14,16 @@ Una sola app de gestión de plata que usan varias empresas. Cada empresa ve solo
 ## Estado (08/10/2026)
 - La app del vivero (Ibero) está completa en modo local. Hoy la base deja entrar a un solo dueño (tabla `duenos`), sin `negocio_id`.
 - No hay hosting ni Supabase todavía. Nada está en línea.
+- **Diseño multi-negocio hecho (08/10):** `E:\vivero\contexto\multinegocio.md`. Ahí están las decisiones, el esquema, qué archivo es de cada rama y los tests con los números de la spec.
+- **Corrida 2026-10-08a en curso** (lanzada a las 17:48): base multi-negocio + ramas de Somos Piedra (marca, unidades, importador, medios, dolares, cheques, servicios) + integración.
+
+## Diseño (08/10/2026, resumen; el detalle está en el repo)
+- **Cuentas:** catálogo fijo (efectivo, MP, banco, posnet, dólares, cheques) que se prende por negocio (Tomás).
+- **Base:** `negocio_id` en todo, con FKs compuestas; RLS por acceso (dueño o soporte); sync por negocio; `editado_por`.
+- **App:** el negocio sale del dominio; login con mail; IndexedDB por negocio; modo local con "Vivero de prueba" y "Piedra de prueba".
+- **Módulos** (medios, usd, cheques, calculadora, servicios de terceros) y facturación por negocio: los prende solo Tomás con `npm run negocio:alta`.
+- **Medios de pago** separados de las cuentas; el ajuste del medio se reparte entre los renglones.
+- **ARCA:** un certificado; datos fiscales, bloqueo y numeración por negocio.
 
 ## Respuestas de Tomás para el diseño (08/10/2026)
 - **Usuarios:** un dueño por negocio (Ibero y Somos Piedra). Los empleados con permisos quedan fuera por ahora.
@@ -31,6 +41,8 @@ Una sola app de gestión de plata que usan varias empresas. Cada empresa ve solo
 - **Siguen abiertos:** cobro del abono, nombre comercial, legal, precio del abono, quién paga los dominios y si Números estima IIBB.
 
 ## Orden de trabajo
+**Al 08/10 a las 18:00:** 1 y 2 hechos; 3 y 4 en curso en la corrida 2026-10-08a.
+
 1. ~~**Somos Piedra:** investigación y spec v1.~~ Hecho el 08/10: spec aprobada. Es el segundo rubro, y sirve para ver qué se configura por negocio.
 2. **Diseño multi-negocio (Fable 5)**, antes de tocar código y con los dos rubros a la vista. Preguntas a Tomás abajo.
 3. **Conversión del repo a multi-negocio**, en ramas paralelas.

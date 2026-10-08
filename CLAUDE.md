@@ -15,15 +15,15 @@ Una app mobile-first (PWA que funciona sin señal) para que el dueño de una emp
 Tomás la arma, la hostea y cobra un abono mensual. **El cliente no usa Claude**: para él solo existe la app.
 
 - **Arquitectura (decidida el 08/10/2026): una sola app multi-negocio.** Un repo, un hosting y una base de datos. Cada empresa ve solo lo suyo y el rubro se configura por negocio.
-- **Repo del sistema:** `E:\vivero`. Hoy tiene la v1 del vivero, que es de un solo negocio. Se pasa a multi-negocio antes de ponerla en línea.
+- **Repo del sistema:** `E:\vivero`. Se está pasando a multi-negocio (corrida 2026-10-08a, lanzada el 08/10). El diseño está en `E:\vivero\contexto\multinegocio.md`.
 - **Método completo:** `metodo/metodo-sistema-gestion.md`. Tiene el núcleo común, las reglas de plata, el checklist por rubro, el proceso, cómo lanzar sesiones y la parte técnica.
 - **Producto:** `producto/README.md`. Tiene la arquitectura, el estado, lo que falta decidir y los costos.
 
 ## Clientes (al 08/10/2026)
 | # | Cliente | Rubro | id | Estado |
 |---|---|---|---|---|
-| 1 | Ibero | Vivero (Alto Valle) | `ibero` | v1 completa en modo local (`E:\vivero`, 275 tests en verde). Falta que Tomás la pruebe, pasarla a multi-negocio y ponerla en línea |
-| 2 | Somos Piedra | Revestimiento de piedra (y vivero), Neuquén | `somos-piedra` | Spec v1 aprobada (08/10). Se construye dentro de la corrida multi-negocio |
+| 1 | Ibero | Vivero (Alto Valle) | `ibero` | v1 completa en modo local (`E:\vivero`, 275 tests en verde). En conversión a multi-negocio (corrida 2026-10-08a). Después: que Tomás la pruebe y la puesta en línea |
+| 2 | Somos Piedra | Revestimiento de piedra (y vivero), Neuquén | `somos-piedra` | Spec v1 aprobada (08/10). En construcción en la corrida 2026-10-08a |
 
 - El detalle de cada cliente está en `clientes/<id>/README.md`.
 - El registro con las prioridades está en `proyectos.json`, y **ese orden manda** cuando se pregunta "qué tengo pendiente".

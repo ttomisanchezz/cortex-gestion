@@ -116,15 +116,15 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 - **Todos los prompts juntos (Tomás, 08/10/2026).** Si el trabajo se puede dividir en ramas independientes, se mandan en un solo mensaje, listos para pegar, uno por sesión de VS Code.
   - Arriba va una tabla: sesión, modelo y qué hace.
   - **Un id de corrida** (por ejemplo `2026-10-09a`), igual en todos los prompts. Cada sesión reserva `mkdir <repo>\.sesiones\<corrida>\<nombre>`; si ya existe, termina avisando "sesión duplicada". Así no hace falta borrar nada entre corridas.
-  - **Base**, si hay algo compartido que tiene que existir antes (esquema, dependencias, tipos, componentes): termina con un commit de mensaje exacto (por ejemplo `fase A lista`).
+  - **Base**, si hay algo compartido que tiene que existir antes (esquema, dependencias, tipos, componentes): termina con un commit de mensaje exacto (por ejemplo `base 2026-10-08a lista`: las señales llevan el id de la corrida, porque las de corridas anteriores quedan en el historial).
   - **Una por rama:**
     - espera la señal en segundo plano (`until <condición>; do sleep 120; done`);
     - reserva su lugar;
     - recién después crea su worktree `.wt/<rama>` y corre `npm install`;
     - tiene sus archivos y su rango de migraciones;
-    - termina con el commit `rama <nombre> lista` y su `REVISAR-<rama>.md`.
+    - termina con el commit `rama <nombre> <corrida> lista` y su `REVISAR-<rama>.md`.
   - **Integración:**
-    - espera todos los `rama … lista`;
+    - espera todos los `rama … <corrida> lista`;
     - mergea de a una con tests y build en verde;
     - junta los REVISAR;
     - borra los worktrees y las ramas mergeadas.
@@ -146,7 +146,8 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 - **Reparto del trabajo:**
   - el esquema completo y las dependencias se resuelven en la base;
   - los tests corren con un glob;
-  - cada pantalla nueva es una línea en `nav.ts`.
+  - cada pantalla nueva es una línea en `nav.ts`;
+  - si varias ramas tocan la misma pantalla (Vender), la base la parte en piezas, un archivo por rama, y cada rama reemplaza solo los suyos (corrida 2026-10-08a).
 - **Modelos:**
   - **Fable 5:** esquema, plata, buscador, ARCA, diagnósticos.
   - **Opus 5.5 u Opus 5:** pantallas y ajustes.

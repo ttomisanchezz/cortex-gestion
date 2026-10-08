@@ -62,15 +62,15 @@ Cuando Tomás diga que sí: cierre completo, traspaso del día en claude/ y un p
 **VS Code en varias ramas a la vez.** Todo lo que vaya a VS Code: primero evaluá si se puede dividir en ramas independientes. Si se puede, **mandá todos los prompts juntos en un solo mensaje**, listos para pegar, uno por sesión de VS Code:
 - **Primero una tabla:** sesión, modelo y qué hace.
 - **Un id de corrida** (por ejemplo `2026-10-09a`), el mismo en todos los prompts del mensaje. Cada sesión reserva su lugar con `mkdir <repo>\.sesiones\<corrida>\<nombre>`; si ya existe, termina avisando "sesión duplicada". Como cada corrida tiene su carpeta, no hace falta borrar nada.
-- **Base**, solo si hay algo compartido que tiene que existir antes (esquema, dependencias, tipos, componentes): termina con un commit de mensaje exacto (por ejemplo `fase A lista`), que es la señal para las demás.
+- **Base**, solo si hay algo compartido que tiene que existir antes (esquema, dependencias, tipos, componentes): termina con un commit de mensaje exacto (por ejemplo `base 2026-10-08a lista`: las señales llevan el id de la corrida, porque las de corridas anteriores quedan en el historial), que es la señal para las demás.
 - **Una por rama:**
   - espera la señal en segundo plano, con `until <condición>; do sleep 120; done` (nunca `sleep` largos en primer plano);
   - reserva su lugar;
   - recién después crea su worktree `.wt/<rama>` y corre `npm install`;
   - tiene sus archivos y su rango de migraciones;
-  - termina con el commit `rama <nombre> lista` y su `REVISAR-<rama>.md`.
+  - termina con el commit `rama <nombre> <corrida> lista` y su `REVISAR-<rama>.md`.
 - **Integración:**
-  - espera todos los `rama … lista`;
+  - espera todos los `rama … <corrida> lista`;
   - mergea de a una, con tests y build en verde después de cada merge;
   - junta los REVISAR en `REVISAR.md`;
   - borra los worktrees y las ramas mergeadas.

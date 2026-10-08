@@ -3,16 +3,16 @@
     "id": "producto",
     "nombre": "Sistema multi-negocio (núcleo)",
     "prioridad": 1,
-    "estado": "Decidido el 08/10/2026: una sola app multi-negocio. Las preguntas del diseño están contestadas (usuario de soporte de Tomás, alta a mano, marca por cliente, un dominio por cliente). Falta el diseño leyendo E:\\vivero y la corrida de VS Code: base multi-negocio + ramas de Somos Piedra + integración.",
+    "estado": "Diseño multi-negocio hecho el 08/10/2026 (E:\\vivero\\contexto\\multinegocio.md). Corrida 2026-10-08a en curso desde las 17:48: base multi-negocio + ramas de Somos Piedra + integración (9 sesiones). Falta revisar el resultado.",
     "donde": "E:\\vivero (repo del sistema); producto/README.md",
-    "necesita_de_tomas": "Hosting con dominios propios (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, precio y cobro del abono, quién paga los dominios, si Números estima IIBB",
+    "necesita_de_tomas": "Pegar el resultado de la corrida; hosting con dominios propios (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, logos y colores de cada cliente, precio y cobro del abono, quién paga los dominios, si Números estima IIBB",
     "detalle": "producto/README.md"
   },
   {
     "id": "somos-piedra",
     "nombre": "Somos Piedra (revestimiento de piedra)",
     "prioridad": 2,
-    "estado": "Spec v1 aprobada (08/10/2026). Se construye dentro de la corrida multi-negocio, como ramas (spec §11).",
+    "estado": "Spec v1 aprobada (08/10/2026). En construcción en la corrida 2026-10-08a: ramas unidades, importador, medios, dolares, cheques y servicios.",
     "donde": "clientes/somos-piedra/README.md; claude/investigacion-piedra.md y claude/spec-piedra-v1.md en el proyecto de Claude",
     "necesita_de_tomas": "% por medio y planes de cuotas, comisiones, desperdicio, precio del envío, categorías, gastos fijos, el Excel actual, datos fiscales y delegación de wsfe, alícuotas e IIBB con el contador",
     "detalle": "clientes/somos-piedra/README.md"
@@ -21,7 +21,7 @@
     "id": "ibero",
     "nombre": "Ibero (vivero)",
     "prioridad": 3,
-    "estado": "v1 completa en modo local (08/10/2026): 275 tests, build y prueba de punta a punta en verde. Ajustes de plata hechos. Falta que Tomás la pruebe, pasarla a multi-negocio y ponerla en línea (etapa 8).",
+    "estado": "v1 completa en modo local (275 tests). En conversión a multi-negocio (corrida 2026-10-08a). Después: que Tomás la pruebe sobre la versión multi-negocio y la puesta en línea (etapa 8).",
     "donde": "E:\\vivero (CONTEXTO.md §8 y REVISAR.md)",
     "necesita_de_tomas": "Probarla en modo local; datos fiscales, alícuotas (contador), comisiones reales, export del sistema viejo",
     "detalle": "clientes/ibero/README.md"

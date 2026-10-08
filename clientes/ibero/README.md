@@ -20,8 +20,8 @@ Vivero minorista del Alto Valle. Es el primer cliente del sistema, y con él se 
   - el importador;
   - factura A/B con ARCA, probada con mocks.
 - **Falta:**
-  - que Tomás la pruebe;
-  - pasarla a multi-negocio;
+  - pasarla a multi-negocio: en curso (corrida 2026-10-08a);
+  - que Tomás la pruebe después de la corrida ("Vivero de prueba" en modo local);
   - la puesta en línea (etapa 8).
 
 ## Decisiones del cliente

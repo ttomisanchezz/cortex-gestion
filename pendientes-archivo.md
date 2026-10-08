@@ -10,6 +10,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] Investigación del rubro con dos agentes en paralelo (`claude/investigacion-piedra.md`) — 08/10
 - [x] Preguntas hasta el 90%: 5 rondas, con las respuestas en `clientes/somos-piedra/README.md` — 08/10
 - [x] Spec v1 (`claude/spec-piedra-v1.md`), aprobada por Tomás — 08/10
+- [x] Prompts de la construcción: ramas unidades, importador, medios, dolares, cheques y servicios, en la corrida 2026-10-08a — 08/10
 - [x] Datos del cliente: nombre legal, zona, condición fiscal, quién carga y cómo vende hoy — 08/10
 
 ## Sistema multi-negocio (`producto`)
@@ -21,3 +22,4 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
   - un dominio por cliente.
 
   — 08/10
+- [x] Diseño multi-negocio leyendo `E:\vivero` (`contexto/multinegocio.md`, commit `d15851d`) y corrida 2026-10-08a lanzada — 08/10

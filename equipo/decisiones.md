@@ -3,6 +3,20 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 08/10/2026 — Corrida 2026-10-08a: 9 sesiones (base, marca, unidades, importador, medios, dolares, cheques, servicios, integración). Las señales llevan el id de la corrida (`base 2026-10-08a lista`, `rama <nombre> 2026-10-08a lista`) — Claude, lanzada por Tomás — `E:\vivero`, `metodo/` §6
+- 08/10/2026 — Diseño multi-negocio (`E:\vivero\contexto\multinegocio.md`):
+  - las migraciones 0001–0009 se reescriben en el lugar (nunca se aplicaron) y la semilla pasa a plantillas por rubro;
+  - `negocio_id` en todas las tablas, con FKs compuestas y fijo; ids determinísticos con el negocio adentro;
+  - RLS por acceso (dueño o soporte), sync por negocio y `editado_por` en cada fila;
+  - login con mail y contraseña; el negocio sale del dominio;
+  - módulos y facturación por negocio, que prende solo Tomás;
+  - medios de pago separados de las cuentas, y el ajuste del medio se reparte entre los renglones;
+  - USD: el monto en pesos más `monto_usd` y `cotizacion` en la cuenta Dólares;
+  - IndexedDB por negocio y modo local con dos negocios de prueba;
+  - ARCA: un certificado y, por negocio, los datos fiscales, el bloqueo y la numeración.
+
+  (Claude lo propuso y Tomás lo aceptó al lanzar la corrida.) — `producto/`, `E:\vivero`
+- 08/10/2026 — Cuentas: catálogo fijo (efectivo, Mercado Pago, banco, posnet, dólares, cheques) que se prende por negocio. La moneda y el tipo vienen con la cuenta. Una cuenta nueva (otro banco, Ualá) = una migración chica. Se descartaron las cuentas libres, que obligaban a reescribir caja, arqueo, ventas, compras y los 275 tests — Tomás — `producto/`, `E:\vivero`
 - 08/10/2026 — Multi-negocio:
   - Tomás tiene un usuario de soporte que entra a todos los negocios;
   - el alta de negocios es a mano por ahora;

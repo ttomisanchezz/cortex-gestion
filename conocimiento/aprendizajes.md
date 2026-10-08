@@ -9,6 +9,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
   - Desde el 08/10 cada corrida tiene su id (`.sesiones\<corrida>\<nombre>`), así no hace falta borrar nada: el bloque "SI TENÉS QUE ELEGIR" frena ante los borrados.
 - **08/10/2026 — Esperas en segundo plano.** `sleep 540` en primer plano gasta un turno cada 9 minutos. Hay que usar `until <condición>; do sleep 120; done` en segundo plano: no gasta turnos hasta que termina.
 - **08/10/2026 — Señales con commits de mensaje exacto.** "fase A lista" para la base y "rama <nombre> lista" para cada rama. La integración espera los 7 con `git log --all --grep`.
+- **08/10/2026 — Las señales llevan el id de la corrida.** "fase A lista" y "rama importador lista" ya estaban en el historial de `E:\vivero`: una rama nueva con el mismo nombre habría arrancado sola, sin esperar a la base. Desde la corrida 2026-10-08a: `base <corrida> lista` y `rama <nombre> <corrida> lista`.
+- **08/10/2026 — Una pantalla que tocan varias ramas** (Vender, con 5 ramas) se parte en piezas en la base, un archivo por rama, para que los merges no choquen.
 
 ## Investigación de clientes
 - **08/10/2026 — Buscar primero la presencia pública del cliente** (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tiene vivero y que vende por m², bolsón, unidad y planta. Eso llevó la unidad al producto y cambió el diseño multi-negocio.
@@ -25,6 +27,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — La identidad git global de la PC es `frannnn87` (de Fran).** Los commits del vivero salieron con ese autor. En cada repo nuevo hay que configurar `user.name` y `user.email` locales.
 - **08/10/2026 — Datos de prueba viejos:** en modo local, después de cambiar el esquema o las reglas, hay que borrar los datos del sitio en el navegador.
 - **08/10/2026 — El Edge de la PC no está donde se esperaba.** La prueba de punta a punta usa Chrome: el script busca los dos.
+- **08/10/2026 — Multi-negocio: los ids determinísticos llevan el negocio adentro.** `idArqueo(fecha)` o `idConfig(clave)` darían la misma pk para Ibero y Piedra el mismo día.
+- **08/10/2026 — Commitear desde Cowork** pide permiso de borrado en la carpeta, porque git borra sus propios `.lock`.
 
 ## Trabajo con Tomás
 - **08/10/2026 — Tomás dicta por voz.** La transcripción cambia palabras: "video" por vivero, "corte" o "xottex" por Cortex, "Diphons" por iPhones, "useful code" por VS Code. Se interpreta por el contexto y, si no cierra, se pregunta.

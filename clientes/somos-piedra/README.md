@@ -10,7 +10,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 
 ## Estado (08/10/2026)
 - **Spec v1 aprobada por Tomás.** La investigación está hecha y las preguntas, contestadas (abajo).
-- **Próximo paso:** se construye dentro de la corrida multi-negocio (`producto`), como ramas (spec §11).
+- **En construcción:** corrida 2026-10-08a (lanzada el 08/10 a las 17:48), ramas unidades, importador, medios, dolares, cheques y servicios. El reparto está en `E:\vivero\contexto\multinegocio.md` §4 y §5.
 
 ## Datos del cliente
 - **Nombre legal:** Elija Piedra SAS ("Somos Piedra"). El CUIT según cuitonline es 33-71680803-9: **verificar**.
