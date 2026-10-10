@@ -35,7 +35,7 @@ PENDIENTES — <día DD/MM>
 HOY (máximo 5, en orden de prioridad)
 1. <qué> — <proyecto o cliente> — <quién>
    Por qué hoy: <una línea>
-   Si va a VS Code: Modelo: Fable 5 | Opus 5.5 | Opus 5 (y si se divide en ramas)
+   Si va a VS Code: Modelo: Sonnet 5.5 + advisor | Sonnet 5.5 (y si se divide en ramas)
 
 ESPERANDO
 - <qué> — <de quién>
@@ -47,6 +47,6 @@ DESACTUALIZADO
 - <qué no coincide y dónde>
 ```
 
-Para el modelo, aplicá la regla del CLAUDE.md: si equivocarse cuesta caro o se arrastra, Fable 5; si no, Opus.
+Para el modelo, aplicá la regla del CLAUDE.md: si equivocarse cuesta caro o se arrastra, Sonnet 5.5 + advisor; si no, Sonnet 5.5.
 
 Cerrá con una sola pregunta: "¿Arrancamos por el 1?".

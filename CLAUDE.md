@@ -55,26 +55,26 @@ Tomás la arma, la hostea y cobra un abono mensual. **El cliente no usa Claude**
 
 El detalle está en `metodo/` §6.
 
-## Modelos para VS Code (Claude Code)
-Tres: **Fable 5**, **Opus 5.5** y **Opus 5**.
+## Modelos para VS Code (Claude Code) — fuente única
+**Esta es la única regla de modelos.** Las instrucciones del proyecto de Claude, el método y las skills no la repiten: remiten acá (decidido el 09/10/2026).
 
-| Va con **Fable 5** | Va con **Opus 5.5 / Opus 5** |
-|---|---|
-| Esquema de base, arquitectura, multi-negocio | Pantallas, componentes, endpoints |
-| Todo lo que toca plata: costo, IVA, comisiones, caja, Números | Fixes y ajustes chicos |
-| Factura ARCA | Cambios mecánicos y migraciones con verificación |
-| El buscador tolerante, diagnósticos | Lo que los tests atajarían si sale mal |
+- **Siempre Sonnet 5.5** (effort high) en la sesión principal. Es la que va en el selector del panel.
+- **+ advisor Opus 5.5** cuando equivocarse cuesta caro o se arrastra: esquema, multi-negocio, plata (costo, IVA, comisiones, caja, Números) y ARCA. El prompt le pide consultarlo antes del plan y antes de terminar.
+- **Subagentes:** `explorer` y `researcher` (Haiku 5.5) para buscar; `worker` (Sonnet 5.5) para partes acotadas.
+- **Fable 5 y Opus 5 no se usan.**
+- La red de seguridad no es el modelo: son los tests con el número exacto, el REVISAR y la verificación de las cuentas a mano en el chat.
 
-Regla corta: **si equivocarse cuesta caro o se arrastra, Fable 5. El resto, Opus.**
-Cada prompt lleva arriba de todo la línea `Modelo: …`.
+Primera línea de cada prompt: `Modelo: Sonnet 5.5 (advisor Opus 5.5) — sesión NUEVA` o `Modelo: Sonnet 5.5 — sesión NUEVA`.
+Motor sugerido del semáforo: `Sonnet 5.5 + advisor`, `Sonnet 5.5` o `—`.
 
 ## Reglas de plata (resumen; el detalle está en `metodo/` §3)
 1. Venta y caja son cosas distintas.
 2. Nada se borra: se anula con nota. Una factura emitida se anula con nota de crédito.
 3. Nunca se completa un dato que falta: `FALTA DATO` en rojo. Nunca 0, promedio ni estimación.
 4. Fecha real. Montos en centavos enteros.
-5. Resultado del mes = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma ± diferencias de arqueo ± diferencia de cambio (solo con caja en dólares; decidido el 08/10).
-   - El IVA a favor va aparte y no suma.
+5. Resultado del mes = ganancia bruta − gastos del negocio − comisiones − IVA de lo facturado (débito) − merma ± diferencias de arqueo ± diferencia de cambio (solo con caja en dólares; decidido el 08/10).
+   - Con factura A el costo va sin IVA, así que el crédito no se resta otra vez (arreglo (a), 09/10).
+   - El IVA a pagar a ARCA (débito − crédito) y el saldo a favor van aparte y no suman. El saldo a favor se arrastra (09/10).
    - Un faltante de conteo resta; un sobrante no suma.
 6. Comisión solo en las cuentas que la cobran (Mercado Pago, posnet).
 7. Tres gastos separados: pago a proveedor, gasto del negocio y retiro personal. Un retiro nunca es gasto.

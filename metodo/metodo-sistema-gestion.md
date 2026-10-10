@@ -56,10 +56,12 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 4. **Fecha real.**
 5. **Montos en centavos enteros.** El IVA se redondea una vez por alícuota y por comprobante.
 6. **El costo promedio se actualiza con cada compra.** Con factura A, el costo va sin IVA y el IVA queda como crédito.
-7. **Precios de venta con IVA incluido.**
-8. **Resultado del mes** = ganancia bruta − gastos del negocio − comisiones − IVA a pagar (≥ 0) − merma a costo ± diferencias de arqueo ± diferencia de cambio (solo en negocios con caja en dólares).
+7. **Precios de venta con IVA incluido**, salvo en los negocios con el módulo `forma_iva` (Somos Piedra, 09/10/2026): cada venta va sin factura (lista, sin IVA), con factura e IVA incluido (lista) o con factura e IVA sumado (lista × 1,21). El IVA va dentro de la lista antes del % del medio.
+8. **Resultado del mes** = ganancia bruta − gastos del negocio − comisiones − IVA de lo facturado (débito) − merma a costo ± diferencias de arqueo ± diferencia de cambio (solo en negocios con caja en dólares).
+   - Con factura A el costo ya va sin IVA (regla 6): el crédito está adentro del costo y no se resta otra vez. Así el crédito no pesa dos veces (arreglo (a), decidido por Tomás el 09/10/2026; antes se restaba débito − crédito).
    - Diferencia de cambio del mes = valor en pesos de la caja USD al cierre (a la última cotización del mes) − valor al inicio − entradas en USD (a la cotización de cada día) + salidas en USD (a la cotización de cada día). Suma o resta al resultado. Sin cotización de cierre: `FALTA DATO`. Decidido por Tomás el 08/10/2026 (Somos Piedra).
-   - El IVA a favor va aparte, no suma y no se arrastra solo al mes siguiente.
+   - El IVA a pagar a ARCA (débito − crédito) y el saldo a favor se muestran aparte, como información, y no suman. El saldo a favor se arrastra al mes siguiente, como en ARCA (09/10/2026).
+   - Una venta sin factura no tiene IVA de débito. Una venta que tenía que facturarse y todavía no tiene la factura emitida deja el IVA en `FALTA DATO`.
    - Un faltante de conteo resta. Un sobrante se muestra pero no suma.
    - Decidido por Tomás el 08/10/2026.
 9. **Comisión solo en las cuentas que la cobran** (Mercado Pago, posnet). Efectivo y banco no la llevan (08/10/2026).
@@ -149,8 +151,7 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
   - cada pantalla nueva es una línea en `nav.ts`;
   - si varias ramas tocan la misma pantalla (Vender), la base la parte en piezas, un archivo por rama, y cada rama reemplaza solo los suyos (corrida 2026-10-08a).
 - **Modelos:**
-  - **Fable 5:** esquema, plata, buscador, ARCA, diagnósticos.
-  - **Opus 5.5 u Opus 5:** pantallas y ajustes.
+  - la regla está solo en `CLAUDE.md` ("Modelos para VS Code"): Sonnet 5.5 siempre, + advisor Opus 5.5 en esquema, plata y ARCA.
 
 ## 7. Técnica y costos
 - **Stack:**

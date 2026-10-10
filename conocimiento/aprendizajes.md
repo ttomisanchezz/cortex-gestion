@@ -12,6 +12,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Las señales llevan el id de la corrida.** "fase A lista" y "rama importador lista" ya estaban en el historial de `E:\vivero`: una rama nueva con el mismo nombre habría arrancado sola, sin esperar a la base. Desde la corrida 2026-10-08a: `base <corrida> lista` y `rama <nombre> <corrida> lista`.
 - **08/10/2026 — Una pantalla que tocan varias ramas** (Vender, con 5 ramas) se parte en piezas en la base, un archivo por rama, para que los merges no choquen.
 
+- **09/10/2026 — Corrida 2026-10-09a: unas 6 horas.** Base 2 h 10 (15:16 → 17:25), ramas de 40 min a 2 h 10, integración hasta las 21:00 aprox. Para estimar, sumar la base, la rama más larga y la integración.
+- **09/10/2026 — `.claude/agents/` no existía en `E:\vivero`.** Las sesiones usaron `Plan` o `general-purpose` con Opus como advisor. Antes de la próxima corrida, crearlos o sacarlos del bloque de delegación.
+- **09/10/2026 — Codex sin cupo** (hasta el 14/10): las sesiones lo reemplazaron con un revisor Opus de solo lectura. `/codex:review` lo lanza solo una persona.
+- **09/10/2026 — Los prompts de las ramas tienen que nombrar el contrato de la base** (`contexto/multinegocio.md` §8 y su REVISAR), no solo la spec.
 ## Investigación de clientes
 - **08/10/2026 — Buscar primero la presencia pública del cliente** (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tiene vivero y que vende por m², bolsón, unidad y planta. Eso llevó la unidad al producto y cambió el diseño multi-negocio.
 - **08/10/2026 — Una SAS no puede ser monotributista:** solo pueden las personas humanas y las sucesiones indivisas. Si el cliente es una SAS, es Responsable Inscripto.
@@ -31,5 +35,24 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Commitear desde Cowork** pide permiso de borrado en la carpeta, porque git borra sus propios `.lock`.
 
 ## Trabajo con Tomás
+- **09/10/2026 — Si Tomás pega una plantilla de respuestas sin completar, preguntar antes de armar nada** (llegó "factura [persona / SAS] con el CUIT [__]").
+- **09/10/2026 — Antes de armar prompts, cruzar las instrucciones del proyecto con el CLAUDE.md del Cortex.** Los modelos estaban contradichos (Sonnet vs. Fable/Opus) y no se avisó a tiempo. Ahora la regla vive solo en CLAUDE.md.
 - **08/10/2026 — Tomás dicta por voz.** La transcripción cambia palabras: "video" por vivero, "corte" o "xottex" por Cortex, "Diphons" por iPhones, "useful code" por VS Code. Se interpreta por el contexto y, si no cierra, se pregunta.
 - **08/10/2026 — Tomás quiere los prompts listos para pegar**, todos juntos, y ver en la tabla qué modelo va en cada sesión.
+
+## Pauta para clientes
+- **09/10/2026 — Precios, impuestos, fees de gestión y método:** `conocimiento/pauta-precios-2026-10.md`.
+- **09/10/2026 — Ver si el Facebook del cliente es una página o un perfil personal** antes de proponer anuncios: con un perfil no se puede anunciar.
+- **09/10/2026 — Tarjetas de anuncios con código sobre fotos reales, no generadas con IA:** la IA cambia el color y las vetas de la piedra y equivoca letras. La IA, solo para retoques puntuales.
+- **09/10/2026 — Links de Instagram:** al leerlos por JS salen bloqueados. Sirve abrir cada publicación en su pestaña con `location.href` desde la página; la URL aparece en el contexto de las pestañas.
+
+- 09/10/2026 — **Bajar fotos de Instagram y Facebook para trabajar con código** (el contenedor no tiene red):
+  - en la página de la publicación, las URLs originales están en el JSON de los `<script>` (`image_versions2`, con `carousel_media`); la API `web_profile_info` da 429;
+  - en FB, abrir la foto y tomar el `<img>` más grande;
+  - con JS: `fetch` → achicar a 1600 px con OffscreenCanvas → armar un .zip en la página → un solo `a.download` a Descargas;
+  - pedir acceso a la carpeta Descargas y subir el zip al contenedor.
+  No devolver URLs de fbcdn o cdninstagram en la salida: las bloquea el filtro.
+- 09/10/2026 — **Fotos de la pauta:** el cliente prefiere ver la piedra **ya colocada** (paredes, frentes, pisos) antes que en la mano. Buscar primero un catálogo o PDF con obras. Los flyers del IG suelen tener imágenes de stock o IA: no usarlas. Preguntar siempre cómo se entrega (granel, pallet, cajas) antes de escribir textos de cantidades.
+
+## Verificar una corrida
+- **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.

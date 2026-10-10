@@ -28,7 +28,7 @@ Pendientes cerrados:
 - ...
 Aprendizajes (errores o trucos para no repetir):
 - ...
-Próximo paso: <una línea> — Modelo: Fable 5 | Opus 5.5 | Opus 5 | —
+Próximo paso: <una línea> — Modelo: Sonnet 5.5 + advisor | Sonnet 5.5 | —
 Cambia una regla de plata o del método: sí/no (cuál)
 ```
 Salí solo de lo que pasó en la sesión: no agregues cosas que no pasaron.

@@ -84,9 +84,7 @@ Cuando Tomás diga que sí: cierre completo, traspaso del día en claude/ y un p
   Así el bloque "SI TENÉS QUE ELEGIR" no lo frena. El push nunca.
 - Si la tarea es chica o no se puede dividir, va un solo prompt.
 
-**Modelos.** Cuando armes un prompt para ejecutar en VS Code, poné arriba de todo `Modelo: Fable 5`, `Modelo: Opus 5.5` o `Modelo: Opus 5`, según la regla del CLAUDE.md del Cortex:
-- si equivocarse cuesta caro o se arrastra (esquema, plata, multi-negocio, ARCA), Fable 5;
-- si ya está decidido y es mecánico, Opus.
+**Modelos.** La regla está solo en el CLAUDE.md del Cortex ("Modelos para VS Code"). Resumen: `Modelo: Sonnet 5.5 (advisor Opus 5.5)` si toca esquema, plata, multi-negocio o ARCA; `Modelo: Sonnet 5.5` si es mecánico.
 
 Decí también si hay que abrir una sesión nueva de VS Code.
 
@@ -138,6 +136,6 @@ Terminá SIEMPRE cada respuesta con: "Chat: 🟢/🟡/🔴 | Motor sugerido: <mo
 - 🟢: el chat está liviano.
 - 🟡: ya van 2 o 3 tareas grandes, o se leyeron muchos archivos, logs o capturas. Se cierra al terminar lo que está en curso.
 - 🔴: el chat se compactó, se pierden detalles o pasaron más de 3 tareas grandes.
-- Motor sugerido: el modelo para el próximo prompt de VS Code (`Fable 5`, `Opus 5.5`, `Opus 5`), o `—` si no se genera nada.
+- Motor sugerido: el modelo para el próximo prompt de VS Code (`Sonnet 5.5 + advisor` o `Sonnet 5.5`), o `—` si no se genera nada.
 
 En 🔴: primero `cierre`, después el resumen de traspaso de 3 a 5 líneas para pegar en el chat nuevo.

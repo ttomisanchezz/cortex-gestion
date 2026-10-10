@@ -15,7 +15,7 @@ Una sola app de gestión de plata que usan varias empresas. Cada empresa ve solo
 - La app del vivero (Ibero) está completa en modo local. Hoy la base deja entrar a un solo dueño (tabla `duenos`), sin `negocio_id`.
 - No hay hosting ni Supabase todavía. Nada está en línea.
 - **Diseño multi-negocio hecho (08/10):** `E:\vivero\contexto\multinegocio.md`. Ahí están las decisiones, el esquema, qué archivo es de cada rama y los tests con los números de la spec.
-- **Corrida 2026-10-08a en curso** (lanzada a las 17:48): base multi-negocio + ramas de Somos Piedra (marca, unidades, importador, medios, dolares, cheques, servicios) + integración.
+- **Corrida 2026-10-08a terminada** (09/10, `main` en `fa641f3`): base multi-negocio + ramas de Somos Piedra (marca, unidades, importador, medios, dolares, cheques, servicios) + integración. 567 tests, build y los dos e2e en verde. Cuentas verificadas a mano el 09/10; faltan las decisiones de plata de Tomás (`pendientes.md`).
 
 ## Diseño (08/10/2026, resumen; el detalle está en el repo)
 - **Cuentas:** catálogo fijo (efectivo, MP, banco, posnet, dólares, cheques) que se prende por negocio (Tomás).

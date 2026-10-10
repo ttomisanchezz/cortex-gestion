@@ -3,18 +3,18 @@
     "id": "producto",
     "nombre": "Sistema multi-negocio (núcleo)",
     "prioridad": 1,
-    "estado": "Diseño multi-negocio hecho el 08/10/2026 (E:\\vivero\\contexto\\multinegocio.md). Corrida 2026-10-08a en curso desde las 17:48: base multi-negocio + ramas de Somos Piedra + integración (9 sesiones). Falta revisar el resultado.",
+    "estado": "Corrida 2026-10-09a (v1.1 de Somos Piedra, arreglo (a) del IVA) integrada al 21:00 del 09/10: falta su commit final y leer REVISAR.md. Siguen abiertas las decisiones de plata de la corrida 2026-10-08a (pendientes.md).",
     "donde": "E:\\vivero (repo del sistema); producto/README.md",
-    "necesita_de_tomas": "Pegar el resultado de la corrida; hosting con dominios propios (Vercel Pro u otro con funciones Node), crear el proyecto de Supabase, logos y colores de cada cliente, precio y cobro del abono, quién paga los dominios, si Números estima IIBB",
+    "necesita_de_tomas": "Decisiones de plata de la corrida (IVA de facturas A, IVA de ventas sin factura, sobrante USD y las otras de pendientes.md); hosting con dominios propios, Supabase, logos y colores, precio del abono, quién paga los dominios, si Números estima IIBB",
     "detalle": "producto/README.md"
   },
   {
     "id": "somos-piedra",
     "nombre": "Somos Piedra (revestimiento de piedra)",
     "prioridad": 2,
-    "estado": "Spec v1 aprobada (08/10/2026). En construcción en la corrida 2026-10-08a: ramas unidades, importador, medios, dolares, cheques y servicios.",
-    "donde": "clientes/somos-piedra/README.md; claude/investigacion-piedra.md y claude/spec-piedra-v1.md en el proyecto de Claude",
-    "necesita_de_tomas": "% por medio y planes de cuotas, comisiones, desperdicio, precio del envío, categorías, gastos fijos, el Excel actual, datos fiscales y delegación de wsfe, alícuotas e IIBB con el contador",
+    "estado": "Spec v1.1 aprobada (09/10). Corrida 2026-10-09a (v1.1: con y sin factura, IVA al día, empleados, corte inicial, solo piedras) integrada al 21:00 del 09/10, falta leer su REVISAR. Próximo: probar la demo en local con el CSV de ejemplo y mostrársela al dueño. Pauta: carruseles 1, 2, 3 y 5 hechos, faltan precios.",
+    "donde": "clientes/somos-piedra/README.md y pauta-piedra.md; claude/investigacion-piedra.md, claude/spec-piedra-v1.md y claude/pauta-piedra.md en el proyecto de Claude; claude/spec-piedra-v1.1.md; E:\\vivero\\prompts\\2026-10-09a\\",
+    "necesita_de_tomas": "Las 8 decisiones de plata de la corrida 2026-10-09a (pendientes.md); probar la demo; datos de empleados; confirmación del contador del cambio de titular al 01/11; alícuotas. Para la pauta: lista de precios, cuenta publicitaria, WhatsApp Business, fotos de obras",
     "detalle": "clientes/somos-piedra/README.md"
   },
   {

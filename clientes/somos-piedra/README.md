@@ -35,7 +35,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Software de referencia** para corralones, marmolerías y revestimientos.
 - **El tipo de piedra:**
   - natural (laja, San Luis, Mar del Plata, París);
-  - o reconstituida, que se fabrica con moldes (cemento, arena, pigmentos), con su costo de producción y su merma.
+  - o reconstituida, que se fabrica con moldes (cemento, arena, pigmentos), con su costo de producción y su merma. **No aplica a Somos Piedra: trabaja solo piedra natural (Tomás, 09/10).**
 - **Cómo se vende:**
   - la unidad: m², metro lineal (esquineros, guardas) o caja/paquete que cubre X m²;
   - el desperdicio por corte en el presupuesto.
@@ -100,3 +100,43 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **% por medio en un pago mixto:** cada parte lleva su %.
   - Ejemplo: lista $100.000, pagada $45.000 en efectivo (−10%), que cubre $50.000 de lista, y el resto con tarjeta en 3 cuotas (+15%), $57.500.
   - Total: $102.500.
+
+## Pauta publicitaria (08/10/2026)
+- Análisis completo: `clientes/somos-piedra/pauta-piedra.md` (también en `claude/pauta-piedra.md` del proyecto). Precios y método para otras empresas: `conocimiento/pauta-precios-2026-10.md`.
+- Artifact para el dueño (borrador 1): https://claude.ai/artifact/BtZvUSLkbXoehs1HzXwb9C
+- **Dueño: Fran** (según Tomás). La gestión de la pauta no se cobra.
+- Datos de Tomás: ticket ~$600.000 y margen ~30% (estimados); escenarios $150.000 / $300.000 / $600.000; productos a empujar: laja y pórfido, travertino y pizarra, granza; zona: Neuquén, Alto Valle hasta Roca, Añelo y Rincón.
+- Redes actuales: IG @somospiedranqn; Facebook "Elija Piedra Sas" (perfil personal, no sirve para anunciar). Viejas a cerrar: IG @somospiedra.cipolletti, FB elijapiedrasas y ElijaPiedra.
+- WhatsApp del negocio para anuncios: 299 459-0936. Del dueño: 299 415-2119.
+- A confirmar: página FB "SomosPiedraoficial" (177 seguidores, sin publicar desde 2023); IG @viverosomospiedra, que es "Vivero Somos Piedra" de Cinco Saltos (San Lorenzo y Güemes, WhatsApp 299 463-7323) con el mismo logo; y si las fotos de la web son de obras propias.
+- **Carruseles (09/10):** 5 ángulos con fotos y textos (`pauta-piedra.md` §7 a §9). Las tarjetas las arma Claude con código sobre las fotos del IG, con el precio en una etiqueta "Desde $__ el m²" vacía. Primero los carruseles 1, 2, 3 y 5. **Hechos el 09/10:** `clientes/somos-piedra/carruseles/` (un .zip por carrusel + `make-carruseles.py`), con las fotos del catálogo y el IG; faltan los precios de las etiquetas.
+
+## Cambios del 09/10/2026 (Tomás; van a la spec v1.1)
+- **Solo piedras.** El vivero es otro negocio y sale de Somos Piedra (reemplaza "entra todo" del 08/10).
+- **Con y sin factura.** La mayoría de las ventas van sin factura, con transferencia o efectivo y a precio sin IVA. Con factura, el IVA va incluido o se suma (× 1,21), según la venta.
+- **IVA al día:** arreglo (a). Hay que ver cuánto se debe cada mes y cuánto crédito falta.
+- **Empleados:** vencimientos y pagos, con aviso en Hoy.
+- **A nombre de Tomás** (falta saber con qué CUIT).
+- **Corte inicial ("día cero")** antes de arrancar.
+- **Solo piedra natural (todo natural).** En piedras no hay nada de cemento: ni reconstituida ni símil. Lo único de cemento que venden son **baldosas**.
+- **Entrega:** la piedra va **a granel en la camioneta** o **paletizada en camión**. No se vende en cajas ni en nada cerrado.
+- **Fotos del catálogo** (`Catalogo SOMOS PIEDRA.pdf`, en Descargas de Tomás): son de **obras propias** y se usan en los anuncios.
+- **La "ocre" del IG es la piedra Bariloche** del catálogo.
+
+## Respuestas de Fran (vía Tomás, 09/10/2026)
+- **Precios:** Tomás va a pasar la lista de precios que ya tienen hecha. Va en las etiquetas "Desde $__ el m²" y en la carga de productos.
+- **Cuotas:** se usan poco. Se cobran con el posnet de Mercado Pago, con interés, y el cliente se entera en el momento. **Pedido para la app:** una parte de **cotizaciones** para cotizar las cuotas desde ahí, sin usar el posnet para cotizar (va a la spec v1.1).
+- **Granza:** se vende **por m²**. Una bolsa (~40 kg) cubre **1 m² a 3 cm** (la altura máxima de la piedra), puesta pareja. Va en bolsas con la camioneta; si es mucho, a veces en bolsón.
+- **Envío:** a veces se cobra y a veces no, **siempre se consulta antes**. Añelo y esa zona van **en camión** (por el peso y el recorrido). En los anuncios: nada de "envío gratis".
+- **Facebook para anunciar:** la página **"Somos Piedra, elija piedra"** https://www.facebook.com/profile.php?id=61589214484295 (es página: categoría Materiales de construcción, 4 seguidores, WhatsApp 299 459-0936, Belgrano 3090). Reemplaza a SomosPiedraoficial y al perfil "Elija Piedra Sas".
+- **@viverosomospiedra (Cinco Saltos):** es el vivero del papá de Fran, un negocio familiar aparte. No tiene que ver con las piedras: **no se usan sus fotos ni su nombre**.
+- **Fotos de la web:** según Fran, son ilustrativas: algunas las sacaron ellos y otras son **de Google**. Hasta saber cuáles son propias, no van en los anuncios (derechos de autor y regla de fotos reales).
+- **Fotos de obras:** Fran va a buscar si tiene más.
+
+## Respuestas de Tomás (09/10/2026, para la v1.1)
+- **Titular:** desde el 01/11/2026 el negocio pasa a nombre de Tomás (persona, RI), CUIT 20-45734050-9 ("seguramente": falta que lo confirme el contador). Hasta el 31/10, la SAS.
+- **Precio:** sin factura = lista; con factura e IVA incluido = lista; con factura e IVA sumado = lista × 1,21. El descuento por efectivo o transferencia **no se suma** al "sin factura".
+- **Empleados:** convenio Comercio. F931: lo pagan ellos con el VEP que manda el contador. FALTA DATO: cuántos, día de pago, sindicato.
+- **Spec v1.1:** `claude/spec-piedra-v1.1.md` (proyecto de Claude), borrador para aprobar. Abiertas en su §10: medios aceptados sin factura, qué viene marcado en Vender, camión del paletizado propio o de fletero.
+- **Cerrado 09/10 13:50 (§10 de la v1.1):** sin factura se acepta efectivo, transferencia, dólares y cheque; tarjeta y cuotas solo con factura. En Vender viene marcado "sin factura". El paletizado va en camión de un fletero: servicio con costo y deuda con él.
+- **Spec v1.1 aprobada por Tomás (09/10 13:54).** Construida en la corrida 2026-10-09a (`E:\vivero\prompts\2026-10-09a\`): base 17:25, ramas iva, catalogo, empleados y corte, integración al 21:00. Falta leer el REVISAR y probar la demo (`tests/fixtures/piedra-ejemplo.csv`).
