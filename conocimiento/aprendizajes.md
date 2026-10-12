@@ -53,6 +53,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
   - pedir acceso a la carpeta Descargas y subir el zip al contenedor.
   No devolver URLs de fbcdn o cdninstagram en la salida: las bloquea el filtro.
 - 09/10/2026 — **Fotos de la pauta:** el cliente prefiere ver la piedra **ya colocada** (paredes, frentes, pisos) antes que en la mano. Buscar primero un catálogo o PDF con obras. Los flyers del IG suelen tener imágenes de stock o IA: no usarlas. Preguntar siempre cómo se entrega (granel, pallet, cajas) antes de escribir textos de cantidades.
+- 12/10/2026 — **Claude no puede subir imágenes a Meta:** rupload.facebook.com está bloqueado en el contenedor y en la PC, y GitHub no deja crear repos. Las sube Tomás a mano en el Administrador o se usa una URL pública.
+- 12/10/2026 — **Página en un portfolio empresarial:** se suma gente por invitación de mail (Business Suite → Configuración → Personas). Los clics que dan permisos los bloquea el sistema de Claude: los termina Tomás.
+- 12/10/2026 — **Conjunto de anuncios:** `location_types: home` y la edad sugerida con Advantage+ dan error; usar solo `custom_locations`. Un anuncio creado desde la UI toma por defecto el IG de otra cuenta: revisar Identidad.
+- 12/10/2026 — **Archivos que "no aparecen":** buscar por hora de modificación; el reloj del Linux de Cowork está en UTC (+3 h respecto de Argentina).
 
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.

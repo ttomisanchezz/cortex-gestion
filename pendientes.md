@@ -46,10 +46,12 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
   — cliente — desde 08/10
 - [ ] Con el contador: alícuotas de IVA de plantas, envío y parquización, y el régimen de IIBB — Tomás / contador — desde 08/10
 - [ ] **Pauta:** que Fran diga qué fotos de la web son propias (hasta entonces no se usan); definir si el artifact dice "la gestión la hace Tomás, sin cargo" — Tomás / Fran — desde 09/10
-- [ ] **Antes de pautar:** cuenta publicitaria con tarjeta en la página "Somos Piedra, elija piedra" (https://www.facebook.com/profile.php?id=61589214484295), vincular @somospiedranqn y el WhatsApp Business 299 459-0936 (mensaje fuera de horario, etiqueta "anuncio"), píxel de Meta y etiqueta de Google en la web, perfil de Google (categoría, fotos, productos, horario) — Tomás — desde 09/10
+- [ ] **Lanzar los carruseles:** Tomás sube las 24 placas de `E:\anuncios somos piedra\nuevooss` a la cuenta 2044879766141120; Claude las revisa antes (color de la piedra, sin precio ni "envío gratis", falta la placa 6 de c3), arma los 4 anuncios en el conjunto "Toda la zona - abierto" (identidad = la página, no @somosiphone_nqn), borra el anuncio vacío y publica con el OK de Tomás — Tomás / Claude — desde 12/10
+- [ ] Editar los 3 videos de los lentes Meta → campaña de Reels de $5.000/día — Tomás — desde 09/10
+- [ ] Vincular IG @somospiedranqn a la página; píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
+- [ ] Invitación pendiente a tomassanchez2018@gmail.com en el portfolio de Piedra: dejar vencer o cancelar — Tomás — desde 12/10
 - [ ] Cerrar las cuentas viejas (IG @somospiedra.cipolletti, FB elijapiedrasas y ElijaPiedra) y pedir el retiro con la herramienta de Google — Tomás / dueño — desde 09/10
 - [ ] Probar Somos Piedra en modo local (`npm run local`, "Piedra de prueba", recorrido de `REVISAR.md` §9) — Tomás — desde 09/10
-- [ ] **Lista de precios** de Somos Piedra, para completar las etiquetas "Desde $__ el m²" de los 4 carruseles y la carga de productos — Tomás — desde 09/10
 - [ ] Fotos de obras propias (antes y después, para el carrusel 4) — Fran — desde 09/10
 - [ ] **Corrida 2026-10-09a (v1.1):** leer el PARA COPIAR Y PEGAR de la integración y `E:\vivero\REVISAR.md` (sección de la corrida); verificar las cuentas — Tomás / Claude — desde 09/10
 - [ ] **Decisiones de plata de las ramas** (recomendación de Claude: sí a 1–6):

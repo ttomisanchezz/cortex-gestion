@@ -7,6 +7,8 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] Ajustes de plata: IVA a favor aparte, merma y arqueo restan, comisión solo en MP y Posnet (275 tests) — 08/10
 
 ## Somos Piedra (`somos-piedra`)
+- [x] **Antes de pautar:** cuenta publicitaria con tarjeta en la página "Somos Piedra, elija piedra" (https://www.facebook.com/profile.php?id=61589214484295), vincular @somospiedranqn y el WhatsApp Business 299 459-0936 (mensaje fuera de horario, etiqueta "anuncio"), píxel de Meta y etiqueta de Google en la web, perfil de Google (categoría, fotos, productos, horario) — Tomás — desde 09/10 → 12/10: tarjeta cargada en la cuenta 2044879766141120 y WhatsApp conectado a la página; lo que falta pasó a un pendiente nuevo
+- [x] **Lista de precios** de Somos Piedra, para completar las etiquetas "Desde $__ el m²" de los 4 carruseles y la carga de productos — Tomás — desde 09/10 → 09/10: Fran no quiere precios en los anuncios; etiqueta "Consultá precio"
 - [x] Spec v1.1 (solo piedras, con y sin factura, IVA al día, empleados, corte inicial) aprobada por Tomás — 09/10
 - [x] Preguntas para la v1.1 (titular y CUIT, tres formas de precio, empleados) — 09/10
 - [x] **Generar los carruseles 1, 2, 3 y 5** con código sobre las fotos del IG (1080×1080, etiqueta "Desde $__ el m²" vacía, entrega en el chat). Detalle en `clientes/somos-piedra/pauta-piedra.md` §7 a §9 — Claude, chat nuevo — desde 09/10 → hechos el 09/10 (`clientes/somos-piedra/carruseles/`, un .zip por carrusel)

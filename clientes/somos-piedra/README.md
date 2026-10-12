@@ -140,3 +140,11 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Spec v1.1:** `claude/spec-piedra-v1.1.md` (proyecto de Claude), borrador para aprobar. Abiertas en su §10: medios aceptados sin factura, qué viene marcado en Vender, camión del paletizado propio o de fletero.
 - **Cerrado 09/10 13:50 (§10 de la v1.1):** sin factura se acepta efectivo, transferencia, dólares y cheque; tarjeta y cuotas solo con factura. En Vender viene marcado "sin factura". El paletizado va en camión de un fletero: servicio con costo y deuda con él.
 - **Spec v1.1 aprobada por Tomás (09/10 13:54).** Construida en la corrida 2026-10-09a (`E:\vivero\prompts\2026-10-09a\`): base 17:25, ramas iva, catalogo, empleados y corte, integración al 21:00. Falta leer el REVISAR y probar la demo (`tests/fixtures/piedra-ejemplo.csv`).
+
+## Pauta en Meta (12/10/2026)
+- Cuenta publicitaria **2044879766141120** (tarjeta cargada). Página "Somos Piedra, elija piedra" (id 1025898313949204), administrada por Tomás con la invitación a frantomiphones@gmail.com. WhatsApp 299 459-0936 conectado (id 1025932387279130).
+- En **borrador y sin errores:** campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120252633268900624, $5.000/día) y conjunto "Toda la zona - abierto" (id 120252633271510624: Neuquén +40 km, Roca, Añelo y Rincón +15 km, público abierto, conversaciones a WhatsApp).
+- Anuncio vacío de la UI (id 120252633342820624): borrar cuando estén los 4 carruseles.
+- **Placas finales:** las de ChatGPT de Tomás, en `E:\anuncios somos piedra\nuevooss\` (c1-frente, c2-piedra, c3-estilo, c5-granza). Las tarjetas de código, sin precio ("Consultá precio"), quedan en `carruseles/` y en `Descargas\piedra-tarjetas-anuncios`.
+- Textos y mensajes armados de cada carrusel: `pauta-piedra.md` §7 (carrusel 1 sin "cajas"; granza: "1 bolsa (40 kg aprox.) cubre 1 m² a 3 cm", envío a consultar).
+- Segunda campaña: Reels con los 3 videos de los lentes Meta (stock afuera, revestimientos adentro, el local), $5.000/día, cuando Tomás los edite.
