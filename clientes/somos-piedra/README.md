@@ -141,7 +141,14 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Cerrado 09/10 13:50 (§10 de la v1.1):** sin factura se acepta efectivo, transferencia, dólares y cheque; tarjeta y cuotas solo con factura. En Vender viene marcado "sin factura". El paletizado va en camión de un fletero: servicio con costo y deuda con él.
 - **Spec v1.1 aprobada por Tomás (09/10 13:54).** Construida en la corrida 2026-10-09a (`E:\vivero\prompts\2026-10-09a\`): base 17:25, ramas iva, catalogo, empleados y corte, integración al 21:00. Falta leer el REVISAR y probar la demo (`tests/fixtures/piedra-ejemplo.csv`).
 
-## Pauta en Meta (12/10/2026)
+## Pauta en Meta (13/10/2026) — PUBLICADA
+- **Cuenta de Somos Piedra: 1945796639629607** (Facebook "Somos Piedra, elija piedra"; el conector de Meta está conectado con ese Facebook). Fondos: $30.000 cargados el 13/10.
+- Campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120250759505930411), **$10.000/día**, publicada el 13/10 ~10:56. Conjunto "Toda la zona - abierto" (id 120250759509110411).
+- Anuncios: C1 Frente (120250759603290411), C2 Piedra (120250759610680411), C3 Estilo (120250759612040411), C5 Granza (120250759618840411). C1 y C5 con orden fijo de tarjetas. Sin Instagram vinculado.
+- Placas subidas desde `E:\anuncios somos piedra\nuevooss\_subir\`. Revisar el 20/10.
+- Lo de abajo (12/10) quedó en la cuenta 2044879766141120, que es del Facebook de Somos iPhone: hay que descartarlo.
+
+## Pauta en Meta (12/10/2026) — reemplazada
 - Cuenta publicitaria **2044879766141120** (tarjeta cargada). Página "Somos Piedra, elija piedra" (id 1025898313949204), administrada por Tomás con la invitación a frantomiphones@gmail.com. WhatsApp 299 459-0936 conectado (id 1025932387279130).
 - En **borrador y sin errores:** campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120252633268900624, $5.000/día) y conjunto "Toda la zona - abierto" (id 120252633271510624: Neuquén +40 km, Roca, Añelo y Rincón +15 km, público abierto, conversaciones a WhatsApp).
 - Anuncio vacío de la UI (id 120252633342820624): borrar cuando estén los 4 carruseles.

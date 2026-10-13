@@ -46,7 +46,10 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
   — cliente — desde 08/10
 - [ ] Con el contador: alícuotas de IVA de plantas, envío y parquización, y el régimen de IIBB — Tomás / contador — desde 08/10
 - [ ] **Pauta:** que Fran diga qué fotos de la web son propias (hasta entonces no se usan); definir si el artifact dice "la gestión la hace Tomás, sin cargo" — Tomás / Fran — desde 09/10
-- [ ] **Lanzar los carruseles:** Tomás sube las 24 placas de `E:\anuncios somos piedra\nuevooss` a la cuenta 2044879766141120; Claude las revisa antes (color de la piedra, sin precio ni "envío gratis", falta la placa 6 de c3), arma los 4 anuncios en el conjunto "Toda la zona - abierto" (identidad = la página, no @somosiphone_nqn), borra el anuncio vacío y publica con el OK de Tomás — Tomás / Claude — desde 12/10
+- [ ] Descartar el borrador vacío "Nuevo anuncio de Interacción" (120250759520900411) en la cuenta 1945796639629607 — Tomás — desde 13/10
+- [ ] Descartar los borradores de Somos Piedra en la cuenta vieja 2044879766141120 (Facebook de Somos iPhone) — Tomás — desde 13/10
+- [ ] **Revisar la campaña de carruseles el lunes 20/10:** costo por chat de cada carrusel y ventas (etiqueta "anuncio" en WhatsApp Business); apagar los 2 peores y sumar 2 ángulos nuevos — Tomás / Claude — desde 13/10
+- [ ] Fondos de la cuenta 1945796639629607: $30.000 cargados alcanzan ~3 días a $10.000/día; recargar antes del 16/10 — Tomás — desde 13/10
 - [ ] Editar los 3 videos de los lentes Meta → campaña de Reels de $5.000/día — Tomás — desde 09/10
 - [ ] Vincular IG @somospiedranqn a la página; píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
 - [ ] Invitación pendiente a tomassanchez2018@gmail.com en el portfolio de Piedra: dejar vencer o cancelar — Tomás — desde 12/10

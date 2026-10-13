@@ -53,10 +53,15 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
   - pedir acceso a la carpeta Descargas y subir el zip al contenedor.
   No devolver URLs de fbcdn o cdninstagram en la salida: las bloquea el filtro.
 - 09/10/2026 — **Fotos de la pauta:** el cliente prefiere ver la piedra **ya colocada** (paredes, frentes, pisos) antes que en la mano. Buscar primero un catálogo o PDF con obras. Los flyers del IG suelen tener imágenes de stock o IA: no usarlas. Preguntar siempre cómo se entrega (granel, pallet, cajas) antes de escribir textos de cantidades.
-- 12/10/2026 — **Claude no puede subir imágenes a Meta:** rupload.facebook.com está bloqueado en el contenedor y en la PC, y GitHub no deja crear repos. Las sube Tomás a mano en el Administrador o se usa una URL pública.
+- 12/10/2026 (reemplazada el 13/10: desde Chrome sí se puede) — **Claude no puede subir imágenes a Meta:** rupload.facebook.com está bloqueado en el contenedor y en la PC, y GitHub no deja crear repos. Las sube Tomás a mano en el Administrador o se usa una URL pública.
 - 12/10/2026 — **Página en un portfolio empresarial:** se suma gente por invitación de mail (Business Suite → Configuración → Personas). Los clics que dan permisos los bloquea el sistema de Claude: los termina Tomás.
 - 12/10/2026 — **Conjunto de anuncios:** `location_types: home` y la edad sugerida con Advantage+ dan error; usar solo `custom_locations`. Un anuncio creado desde la UI toma por defecto el IG de otra cuenta: revisar Identidad.
 - 12/10/2026 — **Archivos que "no aparecen":** buscar por hora de modificación; el reloj del Linux de Cowork está en UTC (+3 h respecto de Argentina).
+
+- 13/10/2026 — **Confirmar de qué Facebook es la cuenta publicitaria** antes de pautar para un cliente: la 2044879766141120 resultó ser del Facebook de Somos iPhone. El conector de Meta ve solo las cuentas del Facebook con que se conectó: para otra empresa, reconectarlo con su Facebook.
+- 13/10/2026 — **Claude sí puede subir imágenes a Meta desde Chrome** (reemplaza la del 12/10): editor de un anuncio → Configurar contenido → Anuncio con imagen → Subir. Tapar `HTMLInputElement.prototype.click` para que no abra el explorador, y en cada "Subir" usar `file_upload` sobre el input nuevo (máx. 10 MB por tanda, ~3 placas; los archivos tienen que estar en el contenedor). La biblioteca selecciona sola: deseleccionar al llegar a 9 (tope 10).
+- 13/10/2026 — **Con dos Chrome conectados** la extensión puede volver al otro: verificar el `act=` de la pestaña antes de tocar nada.
+- 13/10/2026 — **Carrusel a WhatsApp por API:** `link_data` con `child_attachments`, CTA `WHATSAPP_MESSAGE` (`app_destination: WHATSAPP`), `page_welcome_message` con el mensaje armado y `multi_share_optimized: false` para orden fijo.
 
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.
