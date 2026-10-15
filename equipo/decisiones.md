@@ -53,3 +53,12 @@ Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazad
 - 08/10/2026 — Ibero = el vivero — Tomás — `clientes/ibero/`
 - 08/10/2026 — Reglas de plata: el IVA a favor no suma al resultado; la merma y las diferencias de arqueo restan; un faltante de conteo resta y un sobrante no suma; la comisión es solo de Mercado Pago y Posnet — Tomás — `metodo/` §3, `E:\vivero`
 - 08/10/2026 — Spec v1 del vivero aprobada (decisiones en `clientes/ibero/README.md`) — Tomás — `E:\vivero`
+
+- 15/10/2026 (campaña conjunta Día de la Madre): destino de WhatsApp deseado = 299 404-1698 (vivero); sello de la tarjeta 1 = "ESPECIAL DÍA DE LA MADRE" (sin "OFERTA"); borrador duplicado descartado; Tomás confirma datos con el vivero.
+
+- 15/10/2026 (campaña conjunta Día de la Madre): destino de WhatsApp = 299 459-0936 (Somos Piedra), reemplaza la decisión previa de 404-1698. Tomás deriva los chats al vivero por su cuenta. Imágenes sin cambios.
+
+- 15/10/2026: campaña conjunta Día de la Madre ACTIVADA con OK de Tomás. Se sacaron precios, "desde $30.000" y horarios de los carruseles hasta confirmar con el vivero; sello "ESPECIAL" en las 4 tarjetas 1.
+
+- 15/10/2026: presupuesto de la campaña conjunta Día de la Madre sube a $20.000/día (Tomás). Saldo necesario hasta el 17/10: ~$60.000 (más la otra campaña de $10.000/día).
+

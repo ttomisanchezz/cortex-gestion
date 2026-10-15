@@ -29,3 +29,42 @@ Aprendizajes (errores o trucos para no repetir):
 
 Próximo paso: Tomás vincula el IG (o sube las imágenes) y avisa; Claude arma los 4 anuncios y activa solo con su OK — Modelo: —
 Cambia una regla de plata o del método: no
+
+Actualización 15/10 ~11:30 (misma sesión, campaña conjunta):
+- El IG sigue sin vincularse, pero no hace falta: las 21 tarjetas del Día de la Madre se suben como carruseles nuevos. Quedaron en JPG en `E:\anuncios somos piedra\dia-de-la-madre\_subir\` (dm-c1-01 … dm-c4-05; c1=6, c2=5, c3=5, c4=5 tarjetas).
+- En Chrome: el Browser 2 abre la cuenta de Somos iPhone (2044879766141120); la de Somos Piedra (1945796639629607) abre en el Browser 1. Hay que verificar `act=` y reseleccionar el Browser 1 si la extensión vuelve al otro.
+- Creado el anuncio vacío en borrador 120250806149670411 "C1 Rincon verde - pack para mama" en el conjunto 120250805473960411 (formato Secuencia, CTA Enviar mensaje de WhatsApp).
+- **BLOQUEO:** Meta pide autenticar la identidad (error #3858385, por actividad reciente de inicio de sesión): no deja crear ni modificar anuncios hasta que Tomás la complete en el Administrador de anuncios. Los anuncios actuales siguen en circulación.
+- El número de WhatsApp se elige en el conjunto de anuncios, no en el anuncio. Decisión abierta: el 459-0936 de la página o el 404-1698 del vivero (el de las tarjetas).
+
+Actualización 15/10 ~12:00 (campaña conjunta — anuncios armados, SIN activar):
+- Tomás autenticó la identidad en Meta: el bloqueo #3858385 se levantó.
+- 21 tarjetas subidas a la biblioteca de la cuenta 1945796639629607 (dm-c1-01 … dm-c4-05). Se subieron desde Chrome (Browser 1) con file_upload.
+- 4 anuncios creados por API en el conjunto 120250805473960411, en pausa: C1 120250806315930411, C2 120250806300780411, C3 120250806306350411, C4 120250806307720411 (carruseles a WhatsApp, `multi_share_optimized:false`, título de tarjeta "Escribinos por WhatsApp", mensaje precargado distinto por carrusel). Sin errores de entrega.
+- El conjunto manda los chats al WhatsApp 299 459-0936 (el de la página), NO al 404-1698 del vivero que figura en las tarjetas.
+- Queda además un borrador de la interfaz, sin publicar, con el mismo C1 (id 120250806149670411): conviene descartarlo para no duplicar.
+- La tarjeta 1 del carrusel 1 tiene sello "OFERTA DÍA DE LA MADRE": solo si hay oferta real (LEEME-textos).
+- Aprendizajes: la API ve solo los anuncios publicados; lo que se arma en el editor queda como borrador de la interfaz. Para varios anuncios, subir las imágenes desde el editor (Subir + `file_upload`, parcheando `HTMLInputElement.prototype.click`, enganchando el input al DOM con un aria-label para poder usar `find`) y crear los anuncios por API con los hashes de `ads_get_ad_images`. La extensión de Chrome vuelve sola al Browser 2 (cuenta de Somos iPhone): reselecionar Browser 1 y verificar `act=1945796639629607` antes de tocar nada. Los screenshots fallan si la ventana no está en primer plano.
+
+Actualización 15/10 ~14:45 (campaña conjunta — decisiones de Tomás y ajustes):
+- Tomás respondió: el WhatsApp de destino tiene que ser el 299 404-1698 (vivero); el sello "OFERTA" se cambia (lo hace Claude); él confirma con el vivero nombres, precios y horarios; el borrador duplicado se descarta.
+- Hecho: borrador de la interfaz 120250806149670411 eliminado (quedan 4 anuncios en el conjunto).
+- Hecho: fecha de fin cargada en el conjunto 120250805473960411: sáb 17/10 23:59 (ART) = 2026-10-18T02:59:00+0000. Antes no tenía fin y habría corrido sin parar.
+- Hecho: sello cambiado a "ESPECIAL DÍA DE LA MADRE" en la tarjeta 1 del C1 (imagen E:\anuncios somos piedra\dia-de-la-madre\_subir\dm-c1-01-especial.jpg, hash 4612c88258067157b9ee3634c87149a1). C1 nuevo = 120250806591170411; el C1 viejo con "OFERTA" (120250806315930411) quedó archivado.
+- Estado de revisión: C2, C3 y C4 pasaron la revisión de Meta; el C1 nuevo está en proceso. Campaña y conjunto siguen en pausa.
+- BLOQUEADO: el número de WhatsApp del conjunto no se puede cambiar ni por API (promoted_object no lo expone) ni en el editor ("Destino manual" de solo lectura). El conjunto manda los chats al 299 459-0936 (el de la página) y las tarjetas dicen 299 404-1698. Para resolverlo hay que vincular el 404-1698 a la página/portfolio (Tomás, con el código de WhatsApp) y crear un conjunto nuevo eligiéndolo, o bien cambiar el número de la última tarjeta a 459-0936.
+- Aprendizaje: para subir una imagen a la biblioteca desde Chrome sin dejar nada publicado: abrir el editor de un anuncio, parchear HTMLInputElement.prototype.click, "Cambiar imagen" > "Subir", enganchar el input al DOM con aria-label, find + file_upload, y salir sin publicar; el hash sale de ads_get_ad_images. Para cambiar una imagen de un carrusel: crear el anuncio nuevo por API con el hash y archivar el viejo (los creativos son inmutables). Con un desplegable nativo abierto los screenshots se cuelgan: cerrarlo o navegar.
+
+Actualización 15/10 ~12:00: Tomás decidió dejar todo como está: los chats van al 299 459-0936 (Somos Piedra) y él ve después cómo derivarlos al vivero. No se cambian las imágenes (la última tarjeta sigue con el 404-1698). No se vincula el 404-1698 por ahora (riesgo de afectar la campaña del 13/10); queda para la Fase 2.
+
+Actualización 15/10 ~13:00 — CAMPAÑA CONJUNTA ACTIVADA (OK de Tomás):
+- Tomás dijo: ACTIVA; el saldo lo carga él después; sacar de los carruseles los datos sin confirmar con el vivero (precios y horarios).
+- Cambios en las tarjetas (11 imágenes nuevas en E:\anuncios somos piedra\dia-de-la-madre\_subir_v2\v2-*.jpg): se sacó la tarjeta de precios del C1 (ahora 5 tarjetas, contador n/5), el botón "Packs desde $30.000" de la tarjeta 1 pasó a "Escribinos por WhatsApp", se sacó "Horarios: 10 a 18 h" de la última tarjeta de los 4, y el sello OFERTA pasó a ESPECIAL en los 4. Textos de los anuncios sin precio ("Pack: planta + maceta + granza.").
+- Anuncios nuevos (v2) ACTIVOS en el conjunto 120250805473960411: C1 120250807043320411, C2 120250807043650411, C3 120250807044920411, C4 120250807045860411. Esperando revisión de Meta (PENDING_REVIEW). Los 4 anteriores quedaron archivados (120250806315930411, 120250806591170411, 120250806300780411, 120250806306350411, 120250806307720411).
+- Campaña 120250805457440411 y conjunto 120250805473960411 ACTIVOS. Presupuesto $10.000/día, fin sáb 17/10 23:59 verificado. Campaña del 13/10 (120250759505930411) sigue ACTIVA sin tocar.
+- Destino de WhatsApp: 299 459-0936 (Somos Piedra). Tomás deriva al vivero.
+- Saldo: lo carga Tomás después. Ojo: si no hay saldo la campaña no entrega. ~$30.000 para 15, 16 y 17/10; el vivero paga $15.000.
+- Aprendizaje: sacar un dato de un carrusel obliga a recrear los anuncios (creativos inmutables) y a renumerar las tarjetas (n/N) si se saca una. Editar imágenes con PIL: tapar con el color plano, redibujar con Poppins; para fondos con foto usar cv2.inpaint. Subir varias imágenes juntas: poner multiple=true al input capturado.
+
+Actualización 15/10 ~13:00: Tomás subió el presupuesto de la campaña conjunta a $20.000/día (antes $10.000). Verificado en Meta: 20.000 ARS. Ojo: el cambio de presupuesto por API pausó la campaña sola; se reactivó y quedó ACTIVA (campaña y conjunto). Aprendizaje: ads_update_entity recibe daily_budget en unidades menores (ARS x100: $20.000 = 2000000) y pausa la campaña al cambiarlo: reactivar siempre después y verificar. En el Administrador, "En preparación" es el estado de una campaña recién activada mientras Meta termina de procesarla/revisarla.
+
