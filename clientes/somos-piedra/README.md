@@ -141,6 +141,14 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Cerrado 09/10 13:50 (§10 de la v1.1):** sin factura se acepta efectivo, transferencia, dólares y cheque; tarjeta y cuotas solo con factura. En Vender viene marcado "sin factura". El paletizado va en camión de un fletero: servicio con costo y deuda con él.
 - **Spec v1.1 aprobada por Tomás (09/10 13:54).** Construida en la corrida 2026-10-09a (`E:\vivero\prompts\2026-10-09a\`): base 17:25, ramas iva, catalogo, empleados y corte, integración al 21:00. Falta leer el REVISAR y probar la demo (`tests/fixtures/piedra-ejemplo.csv`).
 
+## Publicidad conjunta con Somos Vivero — Día de la Madre (15/10/2026) — BORRADOR
+- Somos Piedra y Somos Vivero (IG @somos_vivero) no son del mismo dueño pero sí de la misma familia. Propuesta conjunta (doc + PDF) por fases: 1 Día de la Madre, 2 sorteo cruzado, 3 escalar.
+- 4 carruseles del Día de la Madre hechos y publicados en IG (zips en `E:\anuncios somos piedra\dia-de-la-madre\`, textos y mensajes de WhatsApp en `LEEME-textos.txt`).
+- En Meta, **borrador** (nada activo): campaña 120250805457440411 "Somos Piedra + Vivero - Día de la Madre - WhatsApp - Oct 2026" (OUTCOME_ENGAGEMENT, CBO $10.000/día, fin sáb 17/10 23:59) y conjunto 120250805473960411 "Toda la zona - abierto" (CONVERSATIONS / WHATSAPP). **Faltan los 4 anuncios.**
+- $10.000/día = $5.000 de cada negocio. Destino de WhatsApp: el del vivero (299 404-1698). La campaña del 13/10 sigue corriendo. Se activa solo con el OK de Tomás; él recarga el saldo (~$40.000) y le cobra al vivero su mitad.
+- Bloqueo: el IG @somospiedranqn no está vinculado a la cuenta ni a la página; hay que vincularlo en Business Suite (y el permiso de partnership si el post es collab con el vivero) o subir las imágenes a Ads Manager.
+- Pendiente con el vivero: nombres de las plantas, precio con maceta y granza, sello "OFERTA" solo si hay oferta real.
+
 ## Pauta en Meta (13/10/2026) — PUBLICADA
 - **Cuenta de Somos Piedra: 1945796639629607** (Facebook "Somos Piedra, elija piedra"; el conector de Meta está conectado con ese Facebook). Fondos: $30.000 cargados el 13/10.
 - Campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120250759505930411), **$10.000/día**, publicada el 13/10 ~10:56. Conjunto "Toda la zona - abierto" (id 120250759509110411).

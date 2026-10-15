@@ -63,5 +63,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 13/10/2026 — **Con dos Chrome conectados** la extensión puede volver al otro: verificar el `act=` de la pestaña antes de tocar nada.
 - 13/10/2026 — **Carrusel a WhatsApp por API:** `link_data` con `child_attachments`, CTA `WHATSAPP_MESSAGE` (`app_destination: WHATSAPP`), `page_welcome_message` con el mensaje armado y `multi_share_optimized: false` para orden fijo.
 
+- 15/10/2026 — **Promocionar un post de Instagram** requiere el IG vinculado a la cuenta publicitaria y a la página (Business Suite); `ads_get_ig_accounts` = [] significa que no está vinculado. Si el post es collab con otra cuenta, además el permiso de partnership (`ads_ig_partnership_permission_manager`).
+- 15/10/2026 — **Imágenes a Meta:** por la API solo se suben por URL pública (la subida local no está habilitada para la cuenta de Piedra) y el contenedor no tiene salida a internet; la vía que anda es Chrome (ver 13/10).
+
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.

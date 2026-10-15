@@ -49,9 +49,13 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Descartar el borrador vacío "Nuevo anuncio de Interacción" (120250759520900411) en la cuenta 1945796639629607 — Tomás — desde 13/10
 - [ ] Descartar los borradores de Somos Piedra en la cuenta vieja 2044879766141120 (Facebook de Somos iPhone) — Tomás — desde 13/10
 - [ ] **Revisar la campaña de carruseles el lunes 20/10:** costo por chat de cada carrusel y ventas (etiqueta "anuncio" en WhatsApp Business); apagar los 2 peores y sumar 2 ángulos nuevos — Tomás / Claude — desde 13/10
-- [ ] Fondos de la cuenta 1945796639629607: $30.000 cargados alcanzan ~3 días a $10.000/día; recargar antes del 16/10 — Tomás — desde 13/10
+- [ ] Fondos de la cuenta 1945796639629607: $30.000 cargados alcanzan ~3 días a $10.000/día; recargar antes del 16/10 (15/10: para la campaña conjunta del Día de la Madre hacen falta ~$40.000 más; Tomás recarga después de armar todo) — Tomás — desde 13/10
+- [ ] **Campaña conjunta Somos Piedra + Vivero, Día de la Madre** (borrador 120250805457440411, $10.000/día, fin sáb 17/10 23:59): Tomás vincula el IG de Piedra (o sube las imágenes a Ads Manager) y avisa → Claude arma los 4 anuncios con el mensaje de WhatsApp precargado de cada carrusel, muestra el plan y activa solo con el OK de Tomás — Tomás / Claude — desde 15/10
+- [ ] WhatsApp de la campaña conjunta: el destino es el del vivero (299 404-1698, el de los creativos); el de la página es 299 459-0936. Hace falta el enlace wa.me — Claude / Tomás — desde 15/10
+- [ ] Confirmar con el vivero: nombres de las plantas, que el precio incluye maceta y granza, y el sello "OFERTA" solo si hay oferta real — Tomás — desde 15/10
+- [ ] Recargar saldo (~$40.000 para 4 días) y cobrarle al vivero su mitad ($5.000/día) — Tomás — desde 15/10
 - [ ] Editar los 3 videos de los lentes Meta → campaña de Reels de $5.000/día — Tomás — desde 09/10
-- [ ] Vincular IG @somospiedranqn a la página; píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
+- [ ] **Vincular IG @somospiedranqn a la página y a la cuenta publicitaria** (desde el 15/10 frena los anuncios del Día de la Madre: sin esto no se pueden promocionar los posts); píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
 - [ ] Invitación pendiente a tomassanchez2018@gmail.com en el portfolio de Piedra: dejar vencer o cancelar — Tomás — desde 12/10
 - [ ] Cerrar las cuentas viejas (IG @somospiedra.cipolletti, FB elijapiedrasas y ElijaPiedra) y pedir el retiro con la herramienta de Google — Tomás / dueño — desde 09/10
 - [ ] Probar Somos Piedra en modo local (`npm run local`, "Piedra de prueba", recorrido de `REVISAR.md` §9) — Tomás — desde 09/10
