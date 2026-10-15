@@ -66,5 +66,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 15/10/2026 — **Promocionar un post de Instagram** requiere el IG vinculado a la cuenta publicitaria y a la página (Business Suite); `ads_get_ig_accounts` = [] significa que no está vinculado. Si el post es collab con otra cuenta, además el permiso de partnership (`ads_ig_partnership_permission_manager`).
 - 15/10/2026 — **Imágenes a Meta:** por la API solo se suben por URL pública (la subida local no está habilitada para la cuenta de Piedra) y el contenedor no tiene salida a internet; la vía que anda es Chrome (ver 13/10).
 
+- 15/10/2026 — **Meta Ads por API:** `daily_budget` va en unidades menores (ARS x100: $20.000 = 2000000; 20000 da "Budget Too Low"). Cambiar el presupuesto de una campaña la pasa a PAUSADA: reactivar con `ads_activate_entity` y verificar. En el Administrador "En preparación" es el estado transitorio mientras Meta procesa.
+- 15/10/2026 — **Creativos de Meta son inmutables:** para cambiar imágenes o texto hay que crear un anuncio nuevo y archivar el viejo. El número de WhatsApp del conjunto toma el de la página y no se cambia por API ni en el editor.
+
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.

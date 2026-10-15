@@ -141,13 +141,14 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Cerrado 09/10 13:50 (§10 de la v1.1):** sin factura se acepta efectivo, transferencia, dólares y cheque; tarjeta y cuotas solo con factura. En Vender viene marcado "sin factura". El paletizado va en camión de un fletero: servicio con costo y deuda con él.
 - **Spec v1.1 aprobada por Tomás (09/10 13:54).** Construida en la corrida 2026-10-09a (`E:\vivero\prompts\2026-10-09a\`): base 17:25, ramas iva, catalogo, empleados y corte, integración al 21:00. Falta leer el REVISAR y probar la demo (`tests/fixtures/piedra-ejemplo.csv`).
 
-## Publicidad conjunta con Somos Vivero — Día de la Madre (15/10/2026) — BORRADOR
-- Somos Piedra y Somos Vivero (IG @somos_vivero) no son del mismo dueño pero sí de la misma familia. Propuesta conjunta (doc + PDF) por fases: 1 Día de la Madre, 2 sorteo cruzado, 3 escalar.
-- 4 carruseles del Día de la Madre hechos y publicados en IG (zips en `E:\anuncios somos piedra\dia-de-la-madre\`, textos y mensajes de WhatsApp en `LEEME-textos.txt`).
-- En Meta, **borrador** (nada activo): campaña 120250805457440411 "Somos Piedra + Vivero - Día de la Madre - WhatsApp - Oct 2026" (OUTCOME_ENGAGEMENT, CBO $10.000/día, fin sáb 17/10 23:59) y conjunto 120250805473960411 "Toda la zona - abierto" (CONVERSATIONS / WHATSAPP). **Faltan los 4 anuncios.**
-- $10.000/día = $5.000 de cada negocio. Destino de WhatsApp: el del vivero (299 404-1698). La campaña del 13/10 sigue corriendo. Se activa solo con el OK de Tomás; él recarga el saldo (~$40.000) y le cobra al vivero su mitad.
-- Bloqueo: el IG @somospiedranqn no está vinculado a la cuenta ni a la página; hay que vincularlo en Business Suite (y el permiso de partnership si el post es collab con el vivero) o subir las imágenes a Ads Manager.
-- Pendiente con el vivero: nombres de las plantas, precio con maceta y granza, sello "OFERTA" solo si hay oferta real.
+## Publicidad conjunta con Somos Vivero — Día de la Madre (15/10/2026) — ACTIVA
+- Somos Piedra y Somos Vivero (IG @somos_vivero) no son del mismo dueño pero sí de la misma familia. Propuesta conjunta por fases: 1 Día de la Madre, 2 sorteo cruzado, 3 escalar.
+- 4 carruseles del Día de la Madre (zips e imágenes v2 en `E:\anuncios somos piedra\dia-de-la-madre\`; v2 en `_subir_v2\`).
+- En Meta, **ACTIVA desde el 15/10**: campaña 120250805457440411 (CBO **$20.000/día**, fin sáb 17/10 23:59), conjunto 120250805473960411 "Toda la zona - abierto" (CONVERSATIONS / WHATSAPP), 4 anuncios v2 activos (C1 120250807043320411, C2 120250807043650411, C3 120250807044920411, C4 120250807045860411), en revisión de Meta al activar.
+- Destino de WhatsApp: **299 459-0936 (Somos Piedra)**; Tomás deriva al vivero. La última tarjeta aún muestra el 404-1698. Vincular el 404-1698 a la página queda para Fase 2.
+- Se sacó lo sin confirmar con el vivero (precios, "desde $30.000", horarios). Sello "ESPECIAL DÍA DE LA MADRE".
+- Plata: ~$60.000 para esta campaña (3 días a $20.000) + $10.000/día de la del 13/10. Tomás carga el saldo y le cobra al vivero su mitad (~$30.000).
+- Pendiente: verificar aprobación de los 4 anuncios; vivero confirma nombres/precios/maceta+granza/horarios; resultados el 17/10.
 
 ## Pauta en Meta (13/10/2026) — PUBLICADA
 - **Cuenta de Somos Piedra: 1945796639629607** (Facebook "Somos Piedra, elija piedra"; el conector de Meta está conectado con ese Facebook). Fondos: $30.000 cargados el 13/10.
