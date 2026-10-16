@@ -150,6 +150,12 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Plata: ~$60.000 para esta campaña (3 días a $20.000) + $10.000/día de la del 13/10. Tomás carga el saldo y le cobra al vivero su mitad (~$30.000).
 - Pendiente: verificar aprobación de los 4 anuncios; vivero confirma nombres/precios/maceta+granza/horarios; resultados el 17/10.
 
+## Madre + test 1-1-3 y 8 carruseles nuevos (15/10/2026 noche)
+- **Campaña MADRE:** la del 13/10 (120250759505930411), renombrada "Somos Piedra - MADRE - C5 Granza + C1 Frente - Oct 2026", **$5.000/día**, C2 y C3 pausados (en 2 días Meta gastó ~94% en C5 $14.212 y C1 $6.405).
+- **Test 1-1-3 (por crear):** 1 campaña, 1 conjunto (mismo público "Toda la zona - abierto", conversaciones a WhatsApp 459-0936), 3 anuncios: A quincho, B pileta, D obras; $5.000/día; mensajes armados distintos para etiquetar los chats.
+- **8 carruseles nuevos** (A quincho, B pileta, C entrada/pórfido, D obras, E formas de pago, F guía, G reseñas, H local): PNG 1080×1080 + HTML en `E:\anuncios somos piedra\nuevos-8-angulos\`, textos en `textos-y-mensajes.md`. Cada uno con datos a confirmar con Fran antes de publicarse. El 9 (antes y después) está bloqueado: faltan fotos propias.
+- Falta: subir las 18 imágenes (Chrome), armar el test en borrador, saldo de la cuenta (no visible por API).
+
 ## Pauta en Meta (13/10/2026) — PUBLICADA
 - **Cuenta de Somos Piedra: 1945796639629607** (Facebook "Somos Piedra, elija piedra"; el conector de Meta está conectado con ese Facebook). Fondos: $30.000 cargados el 13/10.
 - Campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120250759505930411), **$10.000/día**, publicada el 13/10 ~10:56. Conjunto "Toda la zona - abierto" (id 120250759509110411).

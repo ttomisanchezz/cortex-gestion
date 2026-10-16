@@ -71,3 +71,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.
+
+- 15/10/2026 — **Para repartir presupuesto entre creativos, 1 conjunto con varios anuncios:** Meta concentra el gasto en 1-2 (94% en C5+C1 en 2 días). Sirve para elegir ganador rápido, pero los otros no reciben prueba justa: por eso la madre queda con los 2 mejores y los nuevos se prueban aparte.
+- 15/10/2026 — **Antes de decir que un conector no tiene saldo, aclarar de qué cuenta es:** el conector de Higgsfield de la sesión mostraba 0,15 créditos; Tomás tiene crédito por API en otro lado. Pedirle que confirme cuál conector usar antes de planear gastos de generación.
+- 15/10/2026 — **Carruseles de código vs. generación con IA:** los de código (HTML + Playwright sobre fotos reales) mantienen fiel la piedra; para la IA, usar fotos del catálogo como referencia y validar color/textura antes de publicar.
+

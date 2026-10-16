@@ -68,3 +68,26 @@ Actualización 15/10 ~13:00 — CAMPAÑA CONJUNTA ACTIVADA (OK de Tomás):
 
 Actualización 15/10 ~13:00: Tomás subió el presupuesto de la campaña conjunta a $20.000/día (antes $10.000). Verificado en Meta: 20.000 ARS. Ojo: el cambio de presupuesto por API pausó la campaña sola; se reactivó y quedó ACTIVA (campaña y conjunto). Aprendizaje: ads_update_entity recibe daily_budget en unidades menores (ARS x100: $20.000 = 2000000) y pausa la campaña al cambiarlo: reactivar siempre después y verificar. En el Administrador, "En preparación" es el estado de una campaña recién activada mientras Meta termina de procesarla/revisarla.
 
+CIERRE — somos-piedra — 15/10 22:40 (sesión de estrategia creativa + madre/test)
+
+Hecho:
+- Estado de la campaña del 13/10 (sin analizar el Día de la Madre, a pedido de Tomás).
+- Investigación (Google + Biblioteca de anuncios) y **8 ángulos nuevos** de carrusel en HTML + PNG 1080×1080 con fotos reales: A quincho, B pileta, C entrada/pórfido, D obras, E formas de pago, F guía "5 cosas antes de revestir", G reseñas, H local (47 PNG). En `E:\anuncios somos piedra\nuevos-8-angulos\` (textos, titulares y mensajes armados en `textos-y-mensajes.md`; generador `make-nuevos-8-angulos.py`). El ángulo 9 (antes y después) queda bloqueado: no hay fotos propias del "antes".
+- Análisis de la campaña 120250759505930411: 4 anuncios en 1 conjunto; Meta concentró ~94% del gasto en C5 Granza + C1 Frente (C5 $14.212, C1 $6.405, C2 $1.035, C3 $437).
+- Reestructura en Meta, **ya aplicada**: campaña 120250759505930411 renombrada "Somos Piedra - MADRE - C5 Granza + C1 Frente - Oct 2026", presupuesto $10.000 → **$5.000/día** (verificado en Meta), C2 (120250759610680411) y C3 (120250759612040411) **pausados**. C5 y C1 siguen activos; campaña ACTIVA.
+Decisiones (qué y por qué):
+- Estructura de testeo **1-1-3** (1 campaña, 1 conjunto, 3 anuncios) con todo el presupuesto en el conjunto, para que Meta elija el que mejor anda; **$5.000/día test + $5.000/día madre**; madre = C5 + C1; creativos nuevos = A quincho, B pileta, D obras.
+Pendientes nuevos:
+- [ ] Crear la campaña de test 1-1-3 con A, B y D ($5.000/día; mismo público y destino que "Toda la zona - abierto"; mensajes armados distintos por carrusel) — Claude — falta subir las 18 imágenes
+- [ ] Subir las imágenes a Meta desde Chrome (vía del 13/10) o que las suba Tomás — Claude / Tomás
+- [ ] Chequear saldo de la cuenta 1945796639629607 antes de activar — Tomás
+- [ ] Confirmar con Fran lo de `textos-y-mensajes.md` (reseñas G, formas de pago E, horarios y stock H, "paletizado/Añelo" D, "Adoquín 10×10" C, % de cortes F) antes de publicar esos carruseles — Tomás / Fran
+- [ ] Probar la generación de carruseles con la API de Higgsfield (saldo en 0,15 créditos; recargar) — Tomás / Claude
+Pendientes cerrados:
+- Ninguno.
+Aprendizajes:
+- El conector de Higgsfield mostraba 0,15 créditos aun cuando Tomás dice tener crédito por API: son cuentas/créditos distintos; con ese conector no se puede generar.
+- Pausar anuncios y cambiar `daily_budget` por API no pausó la campaña esta vez (efectivo ACTIVA); igual verificar siempre.
+Próximo paso: subir las 18 imágenes por Chrome y armar la campaña de test en borrador — Modelo: Sonnet 5.5
+Cambia una regla de plata o del método: no
+
