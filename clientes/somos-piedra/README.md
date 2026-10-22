@@ -170,3 +170,15 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Placas finales:** las de ChatGPT de Tomás, en `E:\anuncios somos piedra\nuevooss\` (c1-frente, c2-piedra, c3-estilo, c5-granza). Las tarjetas de código, sin precio ("Consultá precio"), quedan en `carruseles/` y en `Descargas\piedra-tarjetas-anuncios`.
 - Textos y mensajes armados de cada carrusel: `pauta-piedra.md` §7 (carrusel 1 sin "cajas"; granza: "1 bolsa (40 kg aprox.) cubre 1 m² a 3 cm", envío a consultar).
 - Segunda campaña: Reels con los 3 videos de los lentes Meta (stock afuera, revestimientos adentro, el local), $5.000/día, cuando Tomás los edite.
+
+
+## Pauta 17–19/10/2026 — $20.000/día
+- **MADRE** (120250759505930411): $7.000/día, C5 Granza (120250759618840411) y C1 Frente (120250759603290411). Al 19/10: 86 chats a $563 desde el 13/10.
+- **TEST v2 código** (120250865076760411, CBO $13.000/día), conjunto 120250865080500411 (CONVERSATIONS / WHATSAPP, misma zona que la MADRE, Advantage+). 5 carruseles activos desde el 19/10, con orden fijo: Granza 120250865085520411, Frente 120250865088950411, 5 errores 120250865092770411, Cuánta piedra 120250865095370411, Patio y pileta 120250865098250411. Placas en `E:\anuncios somos piedra\anuncios-v2\final\`.
+- **Conjunta Día de la Madre** (120250805457440411): pausada el 19/10 (46 chats a $1.221).
+- Estilo decidido: "v2 por código" (fotos reales + esquemas; IA solo en portadas fotorrealistas con rótulo).
+- Referencias de Meta (AR, exterior, BR, MX): `claude/referencias-anuncios-2026-10-17.md` del proyecto de Claude.
+- Pendiente: Fran revisa 3 frases del carrusel "5 errores"; revisión el 26/10; ver Instagram; sin mensaje armado en los v2.
+
+## Réplicas 1-3-6 (21/10/2026)
+- Spec aprobada: `clientes/somos-piedra/replicas-1-3-6.md`. Apagados TEST v2, LAB Autoridad. MADRE a $9.000/día.
