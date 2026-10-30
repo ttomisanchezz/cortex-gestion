@@ -51,7 +51,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Test 1-1-3 (A quincho, B pileta, D obras), $5.000/día:** 18 PNG listos en `E:\anuncios somos piedra\nuevos-8-angulos\`; falta subirlas a Meta (Chrome, vía del 13/10), crear campaña/conjunto/3 anuncios en borrador y activar con OK de Tomás. Textos y mensajes en `textos-y-mensajes.md`. La campaña del 13/10 ya es la **MADRE** ($5.000/día, solo C5 + C1; C2 y C3 pausados) — Claude / Tomás — desde 15/10
 - [ ] Confirmar con Fran los datos de los 8 carruseles nuevos antes de publicarlos (reseñas G, pagos E, horarios/stock H, paletizado/Añelo D, Adoquín 10×10 C, % cortes F) y pasarle fotos de obras para el ángulo "antes y después" — Tomás / Fran — desde 15/10
 - [ ] Probar generación de carruseles con la API de Higgsfield (el conector de la sesión tiene 0,15 créditos; recargar o usar el conector que tenga la API) — Tomás — desde 15/10
-- [ ] **Revisar la campaña MADRE y el test el lunes 20/10:** costo por chat de cada carrusel y ventas (etiqueta "anuncio" en WhatsApp Business); rotar si la frecuencia del conjunto pasa 2,5 o C5 supera ~$650/chat dos días seguidos (criterio propuesto, no del método) — Tomás / Claude — desde 13/10
+- [x] (hecho 26 y 28/10) **Revisar la campaña MADRE y el test el lunes 20/10:** costo por chat de cada carrusel y ventas (etiqueta "anuncio" en WhatsApp Business); rotar si la frecuencia del conjunto pasa 2,5 o C5 supera ~$650/chat dos días seguidos (criterio propuesto, no del método) — Tomás / Claude — desde 13/10
 - [ ] Fondos de la cuenta 1945796639629607: $30.000 cargados alcanzan ~3 días a $10.000/día; recargar antes del 16/10 (15/10: para la campaña conjunta del Día de la Madre hacen falta ~$40.000 más; Tomás recarga después de armar todo) — Tomás — desde 13/10
 - [x] Autenticar la identidad en el Administrador de anuncios de la cuenta 1945796639629607 — hecho 15/10 (Tomás)
 - [ ] Elegir el número de WhatsApp de la campaña conjunta: 459-0936 (el de la página) o 404-1698 (el de las tarjetas, hay que conectarlo a la página) — Tomás — desde 15/10
@@ -60,7 +60,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Confirmar con el vivero: nombres de las plantas, que el precio incluye maceta y granza, y el sello "OFERTA" solo si hay oferta real — Tomás — desde 15/10
 - [ ] Recargar saldo (~$40.000 para 4 días) y cobrarle al vivero su mitad ($5.000/día) — Tomás — desde 15/10
 - [ ] Editar los 3 videos de los lentes Meta → campaña de Reels de $5.000/día — Tomás — desde 09/10
-- [ ] **Vincular IG @somospiedranqn a la página y a la cuenta publicitaria** (desde el 15/10 frena los anuncios del Día de la Madre: sin esto no se pueden promocionar los posts); píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
+- [ ] **Vincular IG @somospiedranqn a la página y a la cuenta publicitaria** (a la página: hecho 29/10; falta verificar la cuenta publicitaria) (desde el 15/10 frena los anuncios del Día de la Madre: sin esto no se pueden promocionar los posts); píxel de Meta y etiqueta de Google en la web; perfil de Google (categoría, fotos, productos, horario); mensaje fuera de horario y etiqueta "anuncio" en WhatsApp Business — Tomás — desde 09/10
 - [ ] Invitación pendiente a tomassanchez2018@gmail.com en el portfolio de Piedra: dejar vencer o cancelar — Tomás — desde 12/10
 - [ ] Cerrar las cuentas viejas (IG @somospiedra.cipolletti, FB elijapiedrasas y ElijaPiedra) y pedir el retiro con la herramienta de Google — Tomás / dueño — desde 09/10
 - [ ] Probar Somos Piedra en modo local (`npm run local`, "Piedra de prueba", recorrido de `REVISAR.md` §9) — Tomás — desde 09/10
@@ -81,6 +81,27 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Datos de empleados: cuántos, día de pago, si hay boleta de sindicato. Que el contador confirme el cambio de titular al 01/11 — Tomás / contador — desde 09/10
 - [ ] Cargar la alícuota del 21 % en las categorías de piedra y la del envío (contador): sin eso "IVA sumado" queda apagado — Tomás — desde 09/10
 - [ ] **Corte inicial ("día cero")** cuando la app esté lista: arqueo de cada cuenta (pesos, dólares, MP, banco), cheques en cartera, conteo de stock, deudas con proveedores y de clientes. Fecha de corte y, desde ahí, todo en la app. Copiar cómo se hizo en Somos iPhone, si Tomás deja leer ese Cortex — Tomás / Claude — desde 09/10
+
+- [ ] Fran revisa 3 frases del carrusel "5 errores" (placas 3 a 5: pared firme, limpia y a plomo; presentar las piezas en el piso; adhesivo para piedra natural). Si cambia algo, se reemplaza el anuncio 120250865092770411 — Tomás / Fran — desde 19/10
+- [ ] Revisión del TEST v2 (120250865076760411) el 26/10: apagar los 2 carruseles con peor costo por chat y meter 2 nuevos — Claude / Tomás — desde 19/10
+- [ ] Ver en el Administrador si los anuncios v2 salen en Instagram (la API no ve la cuenta de IG vinculada) — Tomás — desde 19/10
+- [ ] Los 5 anuncios v2 no tienen mensaje armado de WhatsApp (no se pudo por API): cargarlo desde el Administrador si se quiere — Tomás — desde 19/10
+- [ ] Reels: alguien de Somos Piedra hablando a cámara en el acopio (formato Super Pedras / Piedra Urbana), para un conjunto de Reels — Tomás — desde 17/10
+- [ ] Contar las ventas de los chats con la etiqueta "anuncio" en WhatsApp Business — Fran — desde 17/10
+
+- [ ] **Bot y simulador:** cargar en el `.env` del bot `OPENAI_API_KEY` y `GEMINI_IMAGEN_API_KEY` (proyecto con facturación) y dejar 5 a 10 fotos de clientes en `E:\bot-piedra\fotos\prueba-ab\` — Tomás — desde 23/10
+- [ ] **Fran, ronda 2** (`E:\bot-piedra\preguntas-fran-ronda2.md`): IVA con efectivo y con tarjeta, logo y datos del PDF, tramos de la granza (bolsón 20 o 25 m²), seguimiento (cuándo y cuántas veces), horario final del bot, cuotas; además el Excel, las fotos de cada piedra (`guia-fotos-piedra.md`), los contactos excluidos y las cuentas — Fran — desde 23/10
+- [ ] Decidir qué Cortex manda para el bot: el `CLAUDE.md` del bot apunta a `cortex-somosiphone\piedra\` y el proyecto a `cortex-gestion` — Tomás — desde 23/10
+- [ ] Aprobar las reglas del bot (`E:\bot-piedra\reglas\cerebro-reglas-piedra.md`, v2 del 23/10) y la spec v1 del simulador (`E:\bot-piedra\bot\spec-simulador-v1.md`) — Tomás — desde 23/10
+
+- [ ] **Reels del 28/10:** subirlos a `E:\anuncios somos piedra\reels-2026-10-28\`; Claude arma la campaña de test (CBO $4.900/día, un mensaje armado por reel) y, con el OK de Tomás, la prende y apaga el TEST 1-3-6 (T1 Granza). La MADRE no se toca — Tomás / Claude — desde 29/10
+- [ ] Fran confirma qué calientes de anuncios compraron (lista en `claude/traspaso-2026-10-29.md`) — Fran — desde 29/10
+- [ ] Anotar el origen de cada venta en el mostrador ("¿cómo nos conociste?") o con #vendido en el chat — Tomás / Fran — desde 29/10
+- [ ] Que el bot de Piedra arranque solo al prender la PC (caído del 24/10 19 h al 28/10 9:41) — Tomás / Claude — desde 29/10
+- [ ] Spec del agente nocturno que lee los chats y anota ventas por anuncio — Claude — desde 29/10
+- [ ] Reels orgánicos con música en IG: programarlos desde la app de IG si se quiere (Business Suite solo deja música en FB) — Tomás — desde 30/10
+- [ ] Medir las piezas orgánicas de la semana 30/10–5/11 (alcance, guardados, chats) y ajustar horarios — Claude / Tomás — desde 30/10
+- [ ] Armar y programar la semana de contenido desde el vie 6/11 — Claude — desde 30/10
 
 ## 3. Ibero (`ibero`)
 - [ ] Probar la app en modo local (`npm run local`, negocio "Vivero de prueba") siguiendo los 6 pasos de `metodo/` §5.7, **después de la corrida 2026-10-08a**, sobre la versión multi-negocio que va a estar en línea. Pasar todo lo que cambiar en un solo mensaje. Lo cargado antes en modo local no se ve más (la base local cambia de nombre por negocio) — Tomás — desde 08/10

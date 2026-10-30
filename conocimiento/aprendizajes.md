@@ -69,10 +69,22 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 15/10/2026 — **Meta Ads por API:** `daily_budget` va en unidades menores (ARS x100: $20.000 = 2000000; 20000 da "Budget Too Low"). Cambiar el presupuesto de una campaña la pasa a PAUSADA: reactivar con `ads_activate_entity` y verificar. En el Administrador "En preparación" es el estado transitorio mientras Meta procesa.
 - 15/10/2026 — **Creativos de Meta son inmutables:** para cambiar imágenes o texto hay que crear un anuncio nuevo y archivar el viejo. El número de WhatsApp del conjunto toma el de la página y no se cambia por API ni en el editor.
 
+- 19/10/2026 — Meta por API: cambiar el presupuesto de una campaña la pausa (`status_forced_to_paused`): reactivarla y verificar el estado.
+- 19/10/2026 — En la cuenta de Somos Piedra, `ads_create_creative` rechaza el CTA WHATSAPP_MESSAGE. Funciona `ads_create_ad` con `object_story_spec` inline: `link_data` + `child_attachments` con `picture` (URL pública), CTA WHATSAPP_MESSAGE y `multi_share_optimized: false` para el paso a paso.
+- 19/10/2026 — URL pública para subir placas a Meta: subirlas a Higgsfield (`/files/generate-upload-url`) da una URL de cloudfront que Meta acepta. GPT Image 2 no está en la API de Higgsfield con la clave de Tomás (`model_not_found`).
+- 17/10/2026 — Biblioteca de anuncios (AR, exterior, BR, MX): lo que más tiempo dura es foto real de obra sin texto (Via Stone, desde 01/2024) y persona a cámara en el acopio (Super Pedras); lo hecho con IA y lleno de texto es nuevo y sin prueba. Para ver las piezas hace falta Chrome. Detalle: `claude/referencias-anuncios-2026-10-17.md` del proyecto.
+
+- 29/10/2026 — Somos Piedra: la venta se cierra en el mostrador y WhatsApp solo muestra las de envío o transferencia, así que el costo por chat no elige al ganador: hace falta anotar el origen en el local.
+- 29/10/2026 — En un test 1-3-6, Meta le da ~90% del gasto al primer anuncio de cada conjunto: los demás quedan sin probar, no perdidos.
+- 29/10/2026 — Apagar un anuncio por API sin una orden explícita ("apagá X") lo frena el clasificador: pedir la frase antes.
+
 ## Verificar una corrida
 - **09/10/2026 — Mirar también los e2e.** El de Piedra mostró el IVA en $0 por ventas sin factura (alícuotas en FALTA DATO), y ninguna rama lo había marcado.
 
 - 15/10/2026 — **Para repartir presupuesto entre creativos, 1 conjunto con varios anuncios:** Meta concentra el gasto en 1-2 (94% en C5+C1 en 2 días). Sirve para elegir ganador rápido, pero los otros no reciben prueba justa: por eso la madre queda con los 2 mejores y los nuevos se prueban aparte.
 - 15/10/2026 — **Antes de decir que un conector no tiene saldo, aclarar de qué cuenta es:** el conector de Higgsfield de la sesión mostraba 0,15 créditos; Tomás tiene crédito por API en otro lado. Pedirle que confirme cuál conector usar antes de planear gastos de generación.
 - 15/10/2026 — **Carruseles de código vs. generación con IA:** los de código (HTML + Playwright sobre fotos reales) mantienen fiel la piedra; para la IA, usar fotos del catálogo como referencia y validar color/textura antes de publicar.
-
+- 30/10/2026 — Business Suite: un IG que está en el porfolio pero no conectado a la página no aparece en "Publicar en". Se conecta desde Configuración → Páginas → Conectar activos → Cuenta de Instagram (pide login de IG, lo hace Tomás).
+- 30/10/2026 — Reels en Business Suite: con música agregada solo se programan para FB ("Tu reel de Instagram editado no se puede programar"). Para IG: sin música, o desde la app.
+- 30/10/2026 — Subir archivos con Chrome: `file_upload` solo acepta lo que está en /mnt/user-data/uploads (no outputs). Para un archivo generado en el contenedor: commit a la carpeta del usuario y volver a stagearlo. Tope 10 MB por tanda (recomprimir reels con ffmpeg a ~4,5 Mbps).
+- 30/10/2026 — El editor de texto de Business Suite puede dar timeout de 30 s al escribir pero el texto entra: verificar con captura y no repetir.

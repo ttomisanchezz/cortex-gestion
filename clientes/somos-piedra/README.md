@@ -182,3 +182,33 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 
 ## Réplicas 1-3-6 (21/10/2026)
 - Spec aprobada: `clientes/somos-piedra/replicas-1-3-6.md`. Apagados TEST v2, LAB Autoridad. MADRE a $9.000/día.
+
+## Bot de WhatsApp y simulador de fotos (23/10/2026)
+- **Repo del bot:** `E:\bot-piedra` (git propio, puerto 3002, instancia de Evolution `somospiedra`). Traspasos del bot en `E:\bot-piedra\claude\`.
+- **Estado:** Etapa 2 de 5 (reglas en borrador, sin aprobar). En escucha (`CEREBRO_MODO=apagado`). Poda de iPhone mergeada el 19/10. Cotizador y catálogo hechos (16/10), sin conectar al cerebro (prompt 4). El último commit guarda de qué anuncio vino cada chat.
+- **Bloqueo:** `evolution.js` no deja mandar archivos. Hace falta una excepción solo para archivos que genera el bot (simulación y PDF).
+- **Respuestas de Fran del 23/10:** `E:\bot-piedra\reglas\respuestas-fran-2026-10-23-agente.txt` y `...-simulador-gestion.txt`. Resumen:
+  - local L a V 9 a 18 corrido, sábados 9 a 14, domingo cerrado; bot de 9 a 20 (quizás 22); lo de la madrugada se contesta desde las 9;
+  - no venden pegamento ni nailon; sí tela antimaleza, piedras y lajas, granza y césped en rollo;
+  - se cotiza el total con efectivo/transferencia y con tarjeta si no dice cómo paga;
+  - granza: bolsa ~40 kg ≈ 1 m² a 3 cm; bolsón ≈ 1 m³ ≈ 25 m²; precio por tramos (12 m² va con el de más de 10 bolsas);
+  - sin tarifa de envío (se escala); entrega 2–3 días (hasta una semana); sin seña; el bot nunca pasa alias ni CBU;
+  - factura: se suma el 21 %, sale sobre todo la A; dólares: promedio de compra y venta del blue;
+  - se escala desde 100 m² y con cheques, cuotas, descuentos, datos de pago, envío o cliente listo para comprar;
+  - seguimiento automático (1 mensaje natural); objeción de precio: "¿tenés otro presupuesto?"; colocadores: los pasa una persona;
+  - simulador: 4 o 5 fotos de referencia por piedra, 1 o 2 del cliente, solo cambia la superficie elegida, se manda y se espera;
+  - gestión: la carga el padre de Tomás; Excel real por llegar; nombre interno o alias de proveedores y materiales; Cinco Saltos es otro negocio (no sucursal); stock sin inventario (conteo inicial). Proveedores en Los Menucos, Zapala, San Luis y Mar del Plata, y Alessandrini.
+- **Simulador:** en paralelo, integrado al bot desde el lanzamiento. Prueba A/B de 10 fotos (Nano Banana 2 contra GPT Image 2 medium). Costo estimado ~USD 0,06–0,07 por imagen, ~USD 20/mes con 300 imágenes. Spec v1: `E:\bot-piedra\bot\spec-simulador-v1.md` (borrador para aprobar). Guía de fotos de cada piedra: `E:\bot-piedra\guia-fotos-piedra.md`.
+- **Reglas del bot:** `E:\bot-piedra\reglas\cerebro-reglas-piedra.md`, borrador v2 del 23/10 con las respuestas de Fran.
+
+
+## Pauta y ventas por anuncio (26 al 29/10/2026)
+- **$21.700/día:** MADRE $16.800 (C5 + C1) y TEST 1-3-6 solo con T1 Granza ($4.900). T3 apagado el 26/10, T2 el 27/10.
+- 23 al 28/10: 122 chats a $1.044 (C5 $923, R-A1 $922, C1 $449). 28/10: 42 chats a $481.
+- Export de Evolution del 13 al 28/10: `E:\bot-piedra\data\historial\export-2026-10-28-1136`. Con anuncio identificable solo 3 ventas, por ~$316.000; el resto se cierra en el mostrador sin rastro.
+- Reels (28/10): campaña de test nueva a $4.900/día que reemplaza al 1-3-6; precio en el chat; ángulos: Neuquén + envío, el local con stock, una entrega a un cliente.
+- Bot caído del 24/10 19 h al 28/10 9:41 (la PC no lo levantó).
+
+## Contenido orgánico programado (29/10/2026)
+- IG @somospiedranqn vinculado a la página el 29/10. Semana `contenido\semana-30-10\` programada completa en Business Suite (29/10 al 5/11): 3 piezas por día (carrusel mañana, placa 13:30, reel 20:30), FB + IG; reels con música solo en FB.
+- Próximo: semana desde el 6/11 y medir resultados.
