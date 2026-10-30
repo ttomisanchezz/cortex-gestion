@@ -50,7 +50,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Descartar los borradores de Somos Piedra en la cuenta vieja 2044879766141120 (Facebook de Somos iPhone) — Tomás — desde 13/10
 - [ ] **Test 1-1-3 (A quincho, B pileta, D obras), $5.000/día:** 18 PNG listos en `E:\anuncios somos piedra\nuevos-8-angulos\`; falta subirlas a Meta (Chrome, vía del 13/10), crear campaña/conjunto/3 anuncios en borrador y activar con OK de Tomás. Textos y mensajes en `textos-y-mensajes.md`. La campaña del 13/10 ya es la **MADRE** ($5.000/día, solo C5 + C1; C2 y C3 pausados) — Claude / Tomás — desde 15/10
 - [ ] Confirmar con Fran los datos de los 8 carruseles nuevos antes de publicarlos (reseñas G, pagos E, horarios/stock H, paletizado/Añelo D, Adoquín 10×10 C, % cortes F) y pasarle fotos de obras para el ángulo "antes y después" — Tomás / Fran — desde 15/10
-- [ ] Probar generación de carruseles con la API de Higgsfield (el conector de la sesión tiene 0,15 créditos; recargar o usar el conector que tenga la API) — Tomás — desde 15/10
 - [x] (hecho 26 y 28/10) **Revisar la campaña MADRE y el test el lunes 20/10:** costo por chat de cada carrusel y ventas (etiqueta "anuncio" en WhatsApp Business); rotar si la frecuencia del conjunto pasa 2,5 o C5 supera ~$650/chat dos días seguidos (criterio propuesto, no del método) — Tomás / Claude — desde 13/10
 - [ ] Fondos de la cuenta 1945796639629607: $30.000 cargados alcanzan ~3 días a $10.000/día; recargar antes del 16/10 (15/10: para la campaña conjunta del Día de la Madre hacen falta ~$40.000 más; Tomás recarga después de armar todo) — Tomás — desde 13/10
 - [x] Autenticar la identidad en el Administrador de anuncios de la cuenta 1945796639629607 — hecho 15/10 (Tomás)
@@ -94,7 +93,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir qué Cortex manda para el bot: el `CLAUDE.md` del bot apunta a `cortex-somosiphone\piedra\` y el proyecto a `cortex-gestion` — Tomás — desde 23/10
 - [ ] Aprobar las reglas del bot (`E:\bot-piedra\reglas\cerebro-reglas-piedra.md`, v2 del 23/10) y la spec v1 del simulador (`E:\bot-piedra\bot\spec-simulador-v1.md`) — Tomás — desde 23/10
 
-- [ ] **Reels del 28/10:** subirlos a `E:\anuncios somos piedra\reels-2026-10-28\`; Claude arma la campaña de test (CBO $4.900/día, un mensaje armado por reel) y, con el OK de Tomás, la prende y apaga el TEST 1-3-6 (T1 Granza). La MADRE no se toca — Tomás / Claude — desde 29/10
 - [ ] Fran confirma qué calientes de anuncios compraron (lista en `claude/traspaso-2026-10-29.md`) — Fran — desde 29/10
 - [ ] Anotar el origen de cada venta en el mostrador ("¿cómo nos conociste?") o con #vendido en el chat — Tomás / Fran — desde 29/10
 - [ ] Que el bot de Piedra arranque solo al prender la PC (caído del 24/10 19 h al 28/10 9:41) — Tomás / Claude — desde 29/10
@@ -102,6 +100,15 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Reels orgánicos con música en IG: programarlos desde la app de IG si se quiere (Business Suite solo deja música en FB) — Tomás — desde 30/10
 - [ ] Medir las piezas orgánicas de la semana 30/10–5/11 (alcance, guardados, chats) y ajustar horarios — Claude / Tomás — desde 30/10
 - [ ] Armar y programar la semana de contenido desde el vie 6/11 — Claude — desde 30/10
+
+- [ ] **Programar en Business Suite las piezas del 30/10** (carpeta `contenido\ideas-dia\2026-10-30\`: 3 carruseles + 3 placas, y `extra-antes-y-despues\`: 4 carruseles; más el reel B armado con fotos reales). Desde el vie 6/11, después de la semana-30-10. Plan en `claude/traspaso-2026-10-30.md` — chat nuevo — desde 30/10
+- [ ] Actualizar `contenido\ideas-dia\armar_dia.py` de la PC con soporte de escenas de IA ("escena:<id>", "split" con fotos reales, 4.º argumento con la carpeta de escenas, escenas en JPG de 1200 px para que pieza.html pese menos de 30 MB) — Claude — desde 30/10
+- [ ] Elegir uno de los 3 bocetos de estilo (Tierra, Ficha de cantera, Cuaderno de obra: https://claude.ai/artifact/XD2Hrs6a6bDGiSHHqGm8ms) o rotarlos, y sumarlo al armador — Tomás — desde 30/10
+- [ ] Fran: grabar el reel A (camioneta cargando y saliendo) y el C (rociador mojando la piedra); confirmar horario del sábado (9 a 14), espesores por piedra y granza roja de Olavarría en stock — Fran / Tomás — desde 30/10
+- [ ] Revisar TEST REELS (120251035611560411, $16.000/día) a las 24 h: costo por chat por anuncio y por lote; si un lote recibe <20% del gasto, gasto mínimo — Claude (tarea programada sáb 31/10 12:30) — desde 30/10
+- [ ] Cargar el mensaje armado de WhatsApp de cada uno de los 7 reels (Plantilla de mensaje en Ads Manager) — Tomás / Claude por Chrome — desde 30/10
+- [ ] Descartar el borrador vacío "L1-R1" en Ads Manager — Tomás — desde 30/10
+- [ ] Saldo de Higgsfield (API) en 0 desde el 30/10: recargar para que la tarea diaria tenga escenas (3 por día ≈ USD 0,84) — Tomás — desde 30/10
 
 ## 3. Ibero (`ibero`)
 - [ ] Probar la app en modo local (`npm run local`, negocio "Vivero de prueba") siguiendo los 6 pasos de `metodo/` §5.7, **después de la corrida 2026-10-08a**, sobre la versión multi-negocio que va a estar en línea. Pasar todo lo que cambiar en un solo mensaje. Lo cargado antes en modo local no se ve más (la base local cambia de nombre por negocio) — Tomás — desde 08/10

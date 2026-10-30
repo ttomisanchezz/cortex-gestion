@@ -26,6 +26,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Recibir una transferencia no tiene comisión.** Pedir un % para Banco dejaba el saldo en FALTA DATO sin motivo.
 
 ## Técnica
+- 30/10/2026 — **Escenas de IA con hf.py (Somos Piedra):** hf.py suma a todo prompt la regla "la piedra igual a la referencia"; para un «antes» (sacar la piedra) hay que llamar a la API sin esa regla, usando hf.py como librería. Para que antes y después sean el mismo lugar, el «antes» se genera con el «después» como referencia.
+- 30/10/2026 — **device_bash:** los procesos en segundo plano mueren al terminar la llamada (una escena por llamada, ~2 min); si /sessions está lleno, los scripts temporales van en /tmp.
+- 30/10/2026 — **device_commit_files rechaza archivos de más de 30 MB:** un pieza.html con escenas PNG de 2k pesa ~42 MB; pasar las escenas a JPG de 1200 px (queda en ~5 MB).
 - **08/10/2026 — Hosting:** Vercel Hobby no permite uso comercial.
 - **08/10/2026 — Supabase gratis:** deja pocos proyectos activos y pausa los que no se usan.
 - **08/10/2026 — La identidad git global de la PC es `frannnn87` (de Fran).** Los commits del vivero salieron con ese autor. En cada repo nuevo hay que configurar `user.name` y `user.email` locales.
@@ -41,6 +44,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Tomás quiere los prompts listos para pegar**, todos juntos, y ver en la tabla qué modelo va en cada sesión.
 
 ## Pauta para clientes
+- **30/10/2026 — Subir archivos a Meta o Business Suite desde Chrome sin que Tomás elija el archivo:** stagear el archivo al contenedor (`device_stage_files` → `/mnt/user-data/uploads/...`), en la página interceptar con JS `HTMLInputElement.prototype.click` y `dispatchEvent` del input file para dejarlo visible en el DOM, tocar el botón de subir y hacer `file_upload` con el ref del input. Tope 10 MB por llamada: comprimir antes (ffmpeg, 720 px, ~1,5 Mbps). Las rutas `E:\...` no sirven en `file_upload`.
+- **30/10/2026 — Conector de Meta:** no sube archivos locales; con el video ya en la biblioteca de la cuenta crea creativo y anuncio. Cada cambio de presupuesto pausa la campaña (reactivar y verificar). Aunque no liste la cuenta de IG, los anuncios salen en IG.
 - **09/10/2026 — Precios, impuestos, fees de gestión y método:** `conocimiento/pauta-precios-2026-10.md`.
 - **09/10/2026 — Ver si el Facebook del cliente es una página o un perfil personal** antes de proponer anuncios: con un perfil no se puede anunciar.
 - **09/10/2026 — Tarjetas de anuncios con código sobre fotos reales, no generadas con IA:** la IA cambia el color y las vetas de la piedra y equivoca letras. La IA, solo para retoques puntuales.

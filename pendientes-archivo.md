@@ -7,6 +7,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] Ajustes de plata: IVA a favor aparte, merma y arqueo restan, comisión solo en MP y Posnet (275 tests) — 08/10
 
 ## Somos Piedra (`somos-piedra`)
+- [x] (hecho 30/10: 15 escenas, fidelidad buena) Probar generación de carruseles con la API de Higgsfield — Tomás — desde 15/10
 - [x] **Lanzar los carruseles:** Tomás sube las 24 placas de `E:\anuncios somos piedra\nuevooss` a la cuenta 2044879766141120; Claude las revisa antes (color de la piedra, sin precio ni "envío gratis", falta la placa 6 de c3), arma los 4 anuncios en el conjunto "Toda la zona - abierto" (identidad = la página, no @somosiphone_nqn), borra el anuncio vacío y publica con el OK de Tomás — Tomás / Claude — desde 12/10 → hecho el 13/10: publicada en la cuenta 1945796639629607, $10.000/día
 - [x] **Antes de pautar:** cuenta publicitaria con tarjeta en la página "Somos Piedra, elija piedra" (https://www.facebook.com/profile.php?id=61589214484295), vincular @somospiedranqn y el WhatsApp Business 299 459-0936 (mensaje fuera de horario, etiqueta "anuncio"), píxel de Meta y etiqueta de Google en la web, perfil de Google (categoría, fotos, productos, horario) — Tomás — desde 09/10 → 12/10: tarjeta cargada en la cuenta 2044879766141120 y WhatsApp conectado a la página; lo que falta pasó a un pendiente nuevo
 - [x] **Lista de precios** de Somos Piedra, para completar las etiquetas "Desde $__ el m²" de los 4 carruseles y la carga de productos — Tomás — desde 09/10 → 09/10: Fran no quiere precios en los anuncios; etiqueta "Consultá precio"
@@ -39,3 +40,5 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
   - Cuando termine, pegar en un chat nuevo de `producto` el PARA COPIAR Y PEGAR de la integración (o el de la base si no dio la señal).
   - Claude verifica las cuentas a mano, lee `REVISAR.md` y trae las decisiones de plata con su recomendación.
   - Tomás / Claude — desde 08/10
+
+- [x] (hecho 30/10: TEST REELS armada y prendida a $16.000/día, TEST 1-3-6 apagado) **Reels del 28/10:** subirlos a `E:\anuncios somos piedra\reels-2026-10-28\`; Claude arma la campaña de test (CBO $4.900/día, un mensaje armado por reel) y, con el OK de Tomás, la prende y apaga el TEST 1-3-6 (T1 Granza). La MADRE no se toca — Tomás / Claude — desde 29/10

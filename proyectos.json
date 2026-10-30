@@ -1,38 +1,38 @@
 [
- {
-  "id": "producto",
-  "nombre": "Sistema multi-negocio (núcleo)",
-  "prioridad": 1,
-  "estado": "Corrida 2026-10-09a (v1.1 de Somos Piedra, arreglo (a) del IVA) integrada al 21:00 del 09/10: falta su commit final y leer REVISAR.md. Siguen abiertas las decisiones de plata de la corrida 2026-10-08a (pendientes.md).",
-  "donde": "E:\\vivero (repo del sistema); producto/README.md",
-  "necesita_de_tomas": "Decisiones de plata de la corrida (IVA de facturas A, IVA de ventas sin factura, sobrante USD y las otras de pendientes.md); hosting con dominios propios, Supabase, logos y colores, precio del abono, quién paga los dominios, si Números estima IIBB",
-  "detalle": "producto/README.md"
- },
- {
-  "id": "somos-piedra",
-  "nombre": "Somos Piedra (revestimiento de piedra)",
-  "prioridad": 2,
-  "estado": "Spec v1.1 aprobada (09/10). Corrida 2026-10-09a (v1.1: con y sin factura, IVA al día, empleados, corte inicial, solo piedras) integrada al 21:00 del 09/10, falta leer su REVISAR. Próximo: probar la demo en local con el CSV de ejemplo y mostrársela al dueño. Pauta (19/10): $20.000/día en la cuenta 1945796639629607. MADRE (120250759505930411) $7.000/día con C5 Granza + C1 Frente (86 chats a $563 al 19/10). TEST v2 código (120250865076760411) $13.000/día con 5 carruseles activos desde el 19/10. Conjunta Día de la Madre pausada. Revisión el 26/10. | 29/10: pauta a $21.700/día (MADRE $16.800 con C5 + C1; TEST 1-3-6 solo T1 Granza $4.900). 28/10: 42 chats a $481. Reels de Tomás por subir en una campaña de test que reemplaza al 1-3-6. Ventas por anuncio: export de Evolution del 28/10 leído; falta que Fran confirme los calientes.",
-  "donde": "clientes/somos-piedra/README.md y pauta-piedra.md; claude/investigacion-piedra.md, claude/spec-piedra-v1.md y claude/pauta-piedra.md en el proyecto de Claude; claude/spec-piedra-v1.1.md; E:\\vivero\\prompts\\2026-10-09a\\",
-  "necesita_de_tomas": "Las 8 decisiones de plata de la corrida 2026-10-09a (pendientes.md); probar la demo; datos de empleados; confirmación del contador del cambio de titular al 01/11; alícuotas. Para la pauta: recargar fondos antes del 16/10, confirmar con Fran los datos de los 8 carruseles nuevos, descartar los borradores (cuenta nueva y vieja), editar los 3 Reels, fotos de obras | 19/10: que Fran revise 3 frases del carrusel '5 errores'; ver si los anuncios v2 salen en Instagram; Reels con alguien a cámara en el acopio.",
-  "detalle": "clientes/somos-piedra/README.md"
- },
- {
-  "id": "ibero",
-  "nombre": "Ibero (vivero)",
-  "prioridad": 3,
-  "estado": "v1 completa en modo local (275 tests). En conversión a multi-negocio (corrida 2026-10-08a). Después: que Tomás la pruebe sobre la versión multi-negocio y la puesta en línea (etapa 8).",
-  "donde": "E:\\vivero (CONTEXTO.md §8 y REVISAR.md)",
-  "necesita_de_tomas": "Probarla en modo local; datos fiscales, alícuotas (contador), comisiones reales, export del sistema viejo",
-  "detalle": "clientes/ibero/README.md"
- },
- {
-  "id": "cortex",
-  "nombre": "Este Cortex y el método",
-  "prioridad": 4,
-  "estado": "Creado el 08/10/2026.",
-  "donde": "C:\\Users\\PC\\Documents\\cortex-gestion",
-  "necesita_de_tomas": "Crear el repo privado en GitHub y pegar las instrucciones en el proyecto de Claude",
-  "detalle": "CLAUDE.md"
- }
+  {
+    "id": "producto",
+    "nombre": "Sistema multi-negocio (núcleo)",
+    "prioridad": 1,
+    "estado": "Corrida 2026-10-09a (v1.1 de Somos Piedra, arreglo (a) del IVA) integrada al 21:00 del 09/10: falta su commit final y leer REVISAR.md. Siguen abiertas las decisiones de plata de la corrida 2026-10-08a (pendientes.md).",
+    "donde": "E:\\vivero (repo del sistema); producto/README.md",
+    "necesita_de_tomas": "Decisiones de plata de la corrida (IVA de facturas A, IVA de ventas sin factura, sobrante USD y las otras de pendientes.md); hosting con dominios propios, Supabase, logos y colores, precio del abono, quién paga los dominios, si Números estima IIBB",
+    "detalle": "producto/README.md"
+  },
+  {
+    "id": "somos-piedra",
+    "nombre": "Somos Piedra (revestimiento de piedra)",
+    "prioridad": 2,
+    "estado": "Spec v1.1 aprobada (09/10). Corrida 2026-10-09a (v1.1: con y sin factura, IVA al día, empleados, corte inicial, solo piedras) integrada al 21:00 del 09/10, falta leer su REVISAR. Próximo: probar la demo en local con el CSV de ejemplo y mostrársela al dueño. Pauta (19/10): $20.000/día en la cuenta 1945796639629607. MADRE (120250759505930411) $7.000/día con C5 Granza + C1 Frente (86 chats a $563 al 19/10). TEST v2 código (120250865076760411) $13.000/día con 5 carruseles activos desde el 19/10. Conjunta Día de la Madre pausada. Revisión el 26/10. | 29/10: pauta a $21.700/día (MADRE $16.800 con C5 + C1; TEST 1-3-6 solo T1 Granza $4.900). 28/10: 42 chats a $481. Reels de Tomás por subir en una campaña de test que reemplaza al 1-3-6. Ventas por anuncio: export de Evolution del 28/10 leído; falta que Fran confirme los calientes. | 30/10: contenido — ideas del día 30/10 + 4 carruseles extra de antes y después (banco de 15 escenas IA, USD ~4,20; saldo Higgsfield en 0). Próximo: programarlas en Business Suite desde el 6/11. | 30/10 (tarde): pauta a $32.800/día — MADRE $16.800 + TEST REELS (120251035611560411) CBO $16.000 con 7 reels en 2 lotes; TEST 1-3-6 apagado. 7 reels orgánicos programados 31/10-6/11 a las 18:00. Revisión 24 h el 31/10.",
+    "donde": "clientes/somos-piedra/README.md y pauta-piedra.md; claude/investigacion-piedra.md, claude/spec-piedra-v1.md y claude/pauta-piedra.md en el proyecto de Claude; claude/spec-piedra-v1.1.md; E:\\vivero\\prompts\\2026-10-09a\\",
+    "necesita_de_tomas": "Las 8 decisiones de plata de la corrida 2026-10-09a (pendientes.md); probar la demo; datos de empleados; confirmación del contador del cambio de titular al 01/11; alícuotas. Para la pauta: recargar fondos antes del 16/10, confirmar con Fran los datos de los 8 carruseles nuevos, descartar los borradores (cuenta nueva y vieja), editar los 3 Reels, fotos de obras | 19/10: que Fran revise 3 frases del carrusel '5 errores'; ver si los anuncios v2 salen en Instagram; Reels con alguien a cámara en el acopio.",
+    "detalle": "clientes/somos-piedra/README.md"
+  },
+  {
+    "id": "ibero",
+    "nombre": "Ibero (vivero)",
+    "prioridad": 3,
+    "estado": "v1 completa en modo local (275 tests). En conversión a multi-negocio (corrida 2026-10-08a). Después: que Tomás la pruebe sobre la versión multi-negocio y la puesta en línea (etapa 8).",
+    "donde": "E:\\vivero (CONTEXTO.md §8 y REVISAR.md)",
+    "necesita_de_tomas": "Probarla en modo local; datos fiscales, alícuotas (contador), comisiones reales, export del sistema viejo",
+    "detalle": "clientes/ibero/README.md"
+  },
+  {
+    "id": "cortex",
+    "nombre": "Este Cortex y el método",
+    "prioridad": 4,
+    "estado": "Creado el 08/10/2026.",
+    "donde": "C:\\Users\\PC\\Documents\\cortex-gestion",
+    "necesita_de_tomas": "Crear el repo privado en GitHub y pegar las instrucciones en el proyecto de Claude",
+    "detalle": "CLAUDE.md"
+  }
 ]

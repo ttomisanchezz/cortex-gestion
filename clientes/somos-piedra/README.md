@@ -212,3 +212,17 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 ## Contenido orgánico programado (29/10/2026)
 - IG @somospiedranqn vinculado a la página el 29/10. Semana `contenido\semana-30-10\` programada completa en Business Suite (29/10 al 5/11): 3 piezas por día (carrusel mañana, placa 13:30, reel 20:30), FB + IG; reels con música solo en FB.
 - Próximo: semana desde el 6/11 y medir resultados.
+
+## Contenido 30/10/2026
+- Ideas del día 30/10 en `E:\anuncios somos piedra\contenido\ideas-dia\2026-10-30\` (carruseles A ⭐ Antes y después: chau patio de cemento, B 4 cosas al elegir piedra, C Frases del que va a revestir; placas A ⭐ ¿Cálida o fría?, B El sábado también abrimos, C Si buscás esto; reels A camioneta, B 4 piedras en 12 s, C Mojala).
+- 4 carruseles extra de antes y después (frente, quincho, entrada, pileta) en `...\2026-10-30\extra-antes-y-despues\`.
+- Banco de 15 escenas IA en `contenido\salidas\ideas-2026-10-30\escenas\` (`BANCO.md` dice cuál está usada y su fidelidad). Saldo Higgsfield en 0.
+- Bocetos de 3 estilos con otras tipografías: https://claude.ai/artifact/XD2Hrs6a6bDGiSHHqGm8ms (sin elegir).
+
+
+## Pauta 30/10/2026 — $32.800/día
+- MADRE 120250759505930411: $16.800/día (C5 Granza + C1 Frente). No se toca.
+- TEST REELS 120251035611560411: CBO $16.000/día. R1 Lote 1 (120251035617360411): L1-R1 Envío Neuquén, L1-R2 Local con stock, L1-R3 Entrega cliente, L1-R4 Medida m². R2 Lote 2 (120251035618120411): L2-C1 Envío, L2-C2 Local, L2-C3 Entrega. Videos en `E:\anuncios somos piedra\EDITADOS\_para-meta\`.
+- TEST 1-3-6 120250912907900411: pausado entero.
+- 23-28/10 (releído el 30/10): $147.358, 162 chats, $910/chat. 29/10: $19.939, 22 chats, $906.
+- Orgánico: los 7 reels programados en FB + IG a las 18:00 del 31/10 al 6/11.
