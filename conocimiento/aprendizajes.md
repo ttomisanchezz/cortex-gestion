@@ -105,3 +105,7 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 02/11/2026 — Bajar imágenes de ChatGPT desde Claude in Chrome: scrollear al final, tomar el `<img>` visible con `elementsFromPoint` y hacer fetch del blob; la lista de imágenes reusa blobs. El JS corta a los 45 s y Chrome bloquea descargas seguidas: de a una.
 - 02/11/2026 — ChatGPT Image espeja la escena al pedir "misma casa, cambiá solo la piedra": se corrige dándola vuelta con PIL.
 - 02/11/2026 — En las placas con texto arriba, el protagonista de la imagen tiene que estar en la mitad de abajo (la sombra superior lo tapa).
+- Subir imágenes a la cuenta publicitaria sin URL pública: `ads_creative_upload_local_image` → POST a rupload.facebook.com desde la pestaña de Business Suite (input file propio + fetch con Authorization, offset 0, X-Entity-Length, X-Entity-Name, X-Entity-Type) → `ads_finalize_local_ad_image_upload`. Desde la nube o la PC el proxy lo bloquea (02/11).
+- Sin Tomás en la PC, Chrome deja las descargas como `.tmp` con «Guardar como» abierto: el `.tmp` ya es la imagen completa (02/11).
+- Los nombres «Browser 1/2» de Chrome cambian entre sesiones: identificar por lo que tiene abierto (02/11).
+

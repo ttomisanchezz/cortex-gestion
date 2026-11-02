@@ -82,3 +82,36 @@ Aprendizajes (errores o trucos para no repetir):
 - La sombra superior de la plantilla tapa lo que está arriba en la imagen: el protagonista va en la mitad de abajo.
 Próximo paso: chat nuevo — programar B y C en FB + IG y generar 2 carruseles nuevos — Modelo: —
 Cambia una regla de plata o del método: no (cambian reglas de contenido de Somos Piedra)
+
+---
+CIERRE — somos-piedra — 02/11 14:01 (contenido + Cyber Monday)
+
+Hecho:
+- Programados en Business Suite FB + IG: C «Tu frente pide piedra» mar 10/11 13:30; B «Esto arruina tu piedra» jue 12/11 13:30; D «¿Gris o roja?» mié 11/11 13:30; E «¿Así recibís a las visitas?» sáb 14/11 13:30; F «¿A tu sendero le falta algo?» lun 9/11 13:30; G «¿Qué piedra sos?» vie 13/11 13:30. Ninguno promocionado.
+- 4 carruseles nuevos con las reglas nuevas: D y E en `ideas-dia\2026-11-02-2\` (8 escenas ChatGPT), F y G en `ideas-dia\2026-11-02-3\` (F 4 escenas; G solo fotos reales).
+- Conteo de lo programado por día (2 al 14/11) pasado a Tomás. Desde el 9/11 no hay reels programados. «Tu frente, antes y después» está duplicado (sáb 7/11 y vie 13/11 10:30).
+- Cyber Monday (2 al 4/11): 3 carruseles en `contenido\cyber-2026\` (A toda la piedra ⭐ le gustó a Tomás, B granza, C termina el miércoles) con la oferta real; 2 escenas ChatGPT (bolsones, patio con granza). Portada A subida a la cuenta publicitaria (hash 58e000b9364fd9766c330409f27150f4).
+- Recomendación Cyber según bases Doglio + Lauty: campaña aparte, 6 carruseles + 2 reels ganadores con cinta Cyber, prospección + retargeting.
+Decisiones (qué y por qué):
+- Oferta Cyber: 20% OFF llevando 2 m² o más; bolsón de granza a $20.000 (antes $27.000). Solo 2 al 4/11.
+- Campaña Cyber aparte a $20.000/día, además de lo que corre (madre + test intactos). Estructura como la madre (WhatsApp, misma zona).
+- Más carruseles Cyber con la dinámica del A (escena IA protagonista + cinta CYBER MONDAY · 2 AL 4/11).
+Pendientes nuevos:
+- [ ] Armar 3–5 carruseles Cyber más con la dinámica del A y 2 reels ganadores (L1-R1, L2-C1) con cinta Cyber — Claude
+- [ ] Crear y lanzar campaña «Cyber Monday» $20.000/día (sugerido $15.000 prospección + $5.000 retargeting) del 2 al 4/11 23:59, con OK de Tomás — Claude/Tomás
+- [ ] Publicar en orgánico los carruseles Cyber aprobados — Claude
+- [ ] Sacar el duplicado «Tu frente, antes y después» del 13/11 si Tomás confirma — Claude
+- [ ] Fran confirma que pórfido, ocre rectificada y riojana van en escalones exteriores (E sale el 14/11) — Tomás
+Pendientes cerrados:
+- Programar B y C del 02/11 en FB + IG.
+- Generar 2 carruseles nuevos con las reglas nuevas (se hicieron 4).
+Aprendizajes:
+- Subir imágenes a la cuenta publicitaria sin URL pública: ads_creative_upload_local_image da upload_url de rupload.facebook.com; desde la nube y la PC el proxy lo bloquea, pero desde la pestaña de Business Suite en Chrome funciona: input file propio + file_upload + fetch POST con headers Authorization, offset 0, X-Entity-Length, X-Entity-Name, X-Entity-Type; después ads_finalize_local_ad_image_upload con el completion_token.
+- Business Suite: el input de archivos se captura parcheando HTMLInputElement.prototype.click; file_upload acepta solo archivos de /mnt/user-data/uploads (stage desde E:).
+- Cuando Tomás no está en la PC, Chrome deja las descargas como .tmp con el diálogo «Guardar como» abierto: el .tmp ya tiene la imagen completa (mismo tamaño) y se copia renombrado.
+- Los nombres «Browser 1/2» de Chrome cambian entre sesiones: identificar por lo que tiene abierto (Business Suite Tommy Ciola / ChatGPT Franco Muñoz).
+- Plantilla: tilde en mayúscula en el 2.º renglón del título (Á, Í) puede no verse; achicar fs para que entre en un renglón.
+- armar_dia.py marca como repetidas dos placas con split (img vacío); copia corregida `armar_dia_sin3.py` y `cyber-2026\armar_cyber.py` (permite $ y %).
+Próximo paso: chat nuevo — terminar carruseles Cyber, crear la campaña Cyber $20.000/día y publicar — Modelo: —
+Cambia una regla de plata o del método: no
+- (14:05) Tomás: la oferta no se notaba. Cyber A, B y C rehechos con la oferta grande: título con «20% OFF»/«$20.000» + insignia (círculo rojo 20% OFF desde 2 m² o cartel amarillo ANTES $27.000 / $20.000) + cinta. Plantilla `cyber-2026\armar_plantilla_cyber.py` (campo `oferta`).
