@@ -65,3 +65,6 @@ Las portadas eran todas iguales (texto arriba a la izquierda sobre una foto) y n
 - Sin piedra de Somos Piedra en la imagen → `"rotulo": "Imagen ilustrativa"`.
 - Dónde: regla en `ideas-dia\PROMPT.md` §3; armador en `ideas-dia\kit.zip` (`armar.py` con `layout`, `marcas` y `rotulo`; copia vieja `kit.zip.bak-2026-11-02`).
 - Primeras portadas así: carruseles del 02/11 (A split ocre/verde bronce, B bidón de lavandina tachado, C frente descascarado con círculo y sello SOS).
+
+## Imagen = texto (02/11/2026, Tomás)
+Cada placa de cada carrusel muestra lo que dice su texto («Agua y cepillo suave» → balde y cepillo sobre la piedra). Orden: 1) foto real si muestra exactamente eso; 2) si no, escena nueva de ChatGPT Image para esa placa (con refs de la piedra si aparece); 3) nunca una foto que contradiga el texto. Sin tope de escenas en los carruseles; en placas sueltas, solo la recomendada. `armar_dia.py` ya es la versión con escenas (copia vieja `armar_dia.py.bak-2026-11-02`).
