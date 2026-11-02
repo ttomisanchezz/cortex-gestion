@@ -110,6 +110,13 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Descartar el borrador vacío "L1-R1" en Ads Manager — Tomás — desde 30/10
 - [ ] Saldo de Higgsfield (API) en 0 desde el 30/10: recargar para que la tarea diaria tenga escenas (3 por día ≈ USD 0,84) — Tomás — desde 30/10
 
+- [ ] Crear el proyecto de ChatGPT «Somos Piedra · escenas» (instrucciones + fuentes de `contenido\chatgpt-proyecto\`) — Tomás — desde 02/11
+- [ ] Generar las 2 escenas del 02/11 (frente ocre / verde bronce) y rearmar la portada del carrusel A — Tomás + chat — desde 02/11
+- [ ] Cambiar el punto 3 del texto de la tarea «Ideas del día · Somos Piedra» (nombra hf.py) — Tomás — desde 02/11
+- [ ] BANCO.md: marcar usado el par del frente (extra programado 13/11 10:30) — chat — desde 02/11
+- [ ] Confirmar con Fran: cuidados de la piedra, granza junto a un fogón, cat-017 pizarra, cat-027 verde bronce, "a granel o paletizada" — Tomás — desde 02/11
+- [ ] Reemplazar `ideas-dia\armar_dia.py` por la versión con escenas (`2026-10-31\armar_dia_ia.py`) — chat — desde 02/11
+
 ## 3. Ibero (`ibero`)
 - [ ] Probar la app en modo local (`npm run local`, negocio "Vivero de prueba") siguiendo los 6 pasos de `metodo/` §5.7, **después de la corrida 2026-10-08a**, sobre la versión multi-negocio que va a estar en línea. Pasar todo lo que cambiar en un solo mensaje. Lo cargado antes en modo local no se ve más (la base local cambia de nombre por negocio) — Tomás — desde 08/10
 - [ ] Lo que falta del cliente (`E:\vivero\REVISAR.md` §4): datos fiscales, punto de venta y delegación de wsfe, alícuotas de IVA, comisiones reales, nombre, precios de los servicios y gastos fijos — Tomás / cliente — desde 08/10

@@ -43,6 +43,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — Tomás dicta por voz.** La transcripción cambia palabras: "video" por vivero, "corte" o "xottex" por Cortex, "Diphons" por iPhones, "useful code" por VS Code. Se interpreta por el contexto y, si no cierra, se pregunta.
 - **08/10/2026 — Tomás quiere los prompts listos para pegar**, todos juntos, y ver en la tabla qué modelo va en cada sesión.
 
+- 02/11/2026 — Antes de usar una escena del banco de IA, buscá su id en todas las carpetas de `ideas-dia` (incluidos los extra) y mirá el planificador: BANCO.md puede decir "libre" aunque ya esté en otra pieza.
+- 02/11/2026 — ChatGPT Image cambia la piedra si solo le adjuntás las fotos: describila con palabras (forma, color, tamaño, "NOT rounded pebbles"). Con eso la granza salió fiel.
+- 02/11/2026 — Business Suite desde Claude in Chrome: el input de archivo se crea al hacer clic. Parcheá `HTMLInputElement.prototype.click` para atraparlo, usá `file_upload` y después restaurá el original.
+
 ## Pauta para clientes
 - **30/10/2026 — Subir archivos a Meta o Business Suite desde Chrome sin que Tomás elija el archivo:** stagear el archivo al contenedor (`device_stage_files` → `/mnt/user-data/uploads/...`), en la página interceptar con JS `HTMLInputElement.prototype.click` y `dispatchEvent` del input file para dejarlo visible en el DOM, tocar el botón de subir y hacer `file_upload` con el ref del input. Tope 10 MB por llamada: comprimir antes (ffmpeg, 720 px, ~1,5 Mbps). Las rutas `E:\...` no sirven en `file_upload`.
 - **30/10/2026 — Conector de Meta:** no sube archivos locales; con el video ya en la biblioteca de la cuenta crea creativo y anuncio. Cada cambio de presupuesto pausa la campaña (reactivar y verificar). Aunque no liste la cuenta de IG, los anuncios salen en IG.

@@ -226,3 +226,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - TEST 1-3-6 120250912907900411: pausado entero.
 - 23-28/10 (releído el 30/10): $147.358, 162 chats, $910/chat. 29/10: $19.939, 22 chats, $906.
 - Orgánico: los 7 reels programados en FB + IG a las 18:00 del 31/10 al 6/11.
+
+## Contenido 02/11/2026 — escenas con ChatGPT
+- Higgsfield sin saldo: las escenas IA pasan a ChatGPT Image (proyecto «Somos Piedra · escenas»; fuentes e instrucciones en `E:\anuncios somos piedra\contenido\chatgpt-proyecto\`). La tarea diaria deja `ideas-dia\AAAA-MM-DD\chatgpt\PROMPT-DEL-DIA.txt`.
+- Ideas del 02/11: `ideas-dia\2026-11-02\`, página https://claude.ai/artifact/JUWbuU5Wq5LGgqFRgFUMV8. Placa A con la primera escena de ChatGPT (fogón con granza gris, fidelidad buena).
+- Programado: carrusel extra «Tu frente, antes y después» el vie 13/11 10:30 (FB + IG).
