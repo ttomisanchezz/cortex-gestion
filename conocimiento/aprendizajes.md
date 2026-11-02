@@ -16,6 +16,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **09/10/2026 — `.claude/agents/` no existía en `E:\vivero`.** Las sesiones usaron `Plan` o `general-purpose` con Opus como advisor. Antes de la próxima corrida, crearlos o sacarlos del bloque de delegación.
 - **09/10/2026 — Codex sin cupo** (hasta el 14/10): las sesiones lo reemplazaron con un revisor Opus de solo lectura. `/codex:review` lo lanza solo una persona.
 - **09/10/2026 — Los prompts de las ramas tienen que nombrar el contrato de la base** (`contexto/multinegocio.md` §8 y su REVISAR), no solo la spec.
+- 02/11/2026 — El control automático bloquea un `.cmd` que lanza `claude.cmd` con `--dangerously-skip-permissions`: las corridas se pegan a mano en VS Code, una sesión por prompt.
+- 02/11/2026 — Antes de responder el estado de un sistema, mirar el repo real: el Cortex estaba atrasado (el panel de Piedra se había movido a `E:\somos-piedra-panel` y ya estaba en línea).
+
 ## Investigación de clientes
 - **08/10/2026 — Buscar primero la presencia pública del cliente** (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tiene vivero y que vende por m², bolsón, unidad y planta. Eso llevó la unidad al producto y cambió el diseño multi-negocio.
 - **08/10/2026 — Una SAS no puede ser monotributista:** solo pueden las personas humanas y las sucesiones indivisas. Si el cliente es una SAS, es Responsable Inscripto.
@@ -36,6 +39,7 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **08/10/2026 — El Edge de la PC no está donde se esperaba.** La prueba de punta a punta usa Chrome: el script busca los dos.
 - **08/10/2026 — Multi-negocio: los ids determinísticos llevan el negocio adentro.** `idArqueo(fecha)` o `idConfig(clave)` darían la misma pk para Ibero y Piedra el mismo día.
 - **08/10/2026 — Commitear desde Cowork** pide permiso de borrado en la carpeta, porque git borra sus propios `.lock`.
+- 02/11/2026 — La VM de Cowork no llega a Supabase (ni Postgres ni HTTPS: EAI_AGAIN). Para la base de un panel: el conector de Supabase (`execute_sql`) o un script del repo que corre Tomás en su PC (la contraseña la escribe él).
 
 ## Trabajo con Tomás
 - **09/10/2026 — Si Tomás pega una plantilla de respuestas sin completar, preguntar antes de armar nada** (llegó "factura [persona / SAS] con el CUIT [__]").

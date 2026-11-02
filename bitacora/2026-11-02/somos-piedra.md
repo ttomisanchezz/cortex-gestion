@@ -137,3 +137,30 @@ Aprendizajes:
 - El presupuesto diario en ARS va en centavos (1500000 = $15.000).
 Próximo paso: revisar la Cyber el martes y publicar los Cyber en orgánico — Modelo: —
 Cambia una regla de plata o del método: no
+
+
+CIERRE — somos-piedra — 02/11 15:23 (panel)
+
+Hecho:
+- Estado del panel relevado: vive en `E:\somos-piedra-panel` (no en `E:\vivero`), en línea en https://somos-piedra-panel.vercel.app (Vercel Hobby + Supabase `msanpdcnkroqczwosocr`), con el panel de Meta integrado (migraciones hasta la 0071). Etapa 8 (puesta en línea) en curso. El Cortex no lo reflejaba (decía «probar la demo en local»).
+- Cambio de dueño: `scripts/cambiar-dueno.mjs` + `CAMBIAR-DUENO.cmd` en el repo (atómico, reversible con los mails al revés). Tomás lo corrió; verificado por SQL: dueño `fm98717@gmail.com`; `tomassanchez2018@gmail.com` sin acceso; soporte `sciollatomas@gmail.com`.
+- Corrida 2026-11-02a (sistema visual «Mostrador» de AppVentas en todo el panel): `prompts\2026-11-02a\` con `00-comun.md` y 6 prompts (base, hoy-numeros, meta, vender-stock, plata, integración). Tomás la lanzó.
+Decisiones (qué y por qué):
+- Dueño de Somos Piedra en el panel: `fm98717@gmail.com` (pedido de Tomás).
+- Rediseño visual del panel: todo el panel; íconos Phosphor y armazón de AppVentas (riel en la compu, barra abajo en el celu) con el contenido y el orden de Piedra; base Mostrador con acento piedra (terracota/arena); tema claro, oscuro y sistema. Cero cambios de plata o datos (Tomás: «está perfecto pero muy seco»).
+Pendientes nuevos:
+- [ ] Corrida 2026-11-02a: pegar el PARA COPIAR de la integración; Claude revisa capturas y REVISAR; después, deploy — Tomás/Claude
+- [ ] Commitear `scripts/cambiar-dueno.mjs` y `CAMBIAR-DUENO.cmd` en el repo después de la integración (no se commitearon para no chocar con la corrida) — Claude
+- [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono, no se instala como app, la factura no anda) — Claude/VS Code
+- [ ] Panel: apagar «Allow new users to sign up» en Supabase — Tomás
+- [ ] Panel: qué hacer con `panel@somospiedra.com` (creado sin acceso) — Tomás
+- [ ] Panel de Meta: los 2 hallazgos del /codex:review, después `META_TOKEN`, `npm run meta -- --solo-lectura` y la tarea de Windows — Claude/Tomás
+- [ ] Supabase free se pausa a los 7 días sin uso (pasar a Pro para uso real) y el repo no tiene remoto en GitHub — Tomás
+Pendientes cerrados:
+- (ninguno)
+Aprendizajes (errores o trucos para no repetir):
+- La VM de Cowork no llega a Supabase (ni Postgres ni HTTPS: EAI_AGAIN). Para la base: el conector de Supabase (execute_sql) o un script que corre Tomás en su PC.
+- El control automático bloquea un `.cmd` que lanza `claude.cmd` con `--dangerously-skip-permissions`: las corridas se pegan a mano en VS Code.
+- Antes de responder el estado de un sistema, mirar el repo real: el Cortex puede estar atrasado (el panel se había movido a `E:\somos-piedra-panel` y ya estaba en línea).
+Próximo paso: revisar la integración de la corrida 2026-11-02a y deployar — Modelo: Sonnet 5.5 + advisor
+Cambia una regla de plata o del método: no

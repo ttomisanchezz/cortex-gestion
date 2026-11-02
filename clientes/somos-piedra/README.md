@@ -246,3 +246,10 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Campaña 120251071669960411 (activa desde 15:15): Gente nueva $15.000/día + Ya interactuaron 60 días $5.000/día. 6 carruseles (A–F) + 2 reels (L1-R1, L2-C1) con cinta en cada conjunto.
 - Oferta: 20% OFF desde 2 m²; bolsón de granza $20.000 (antes $27.000). Piezas en `E:\anuncios somos piedra\contenido\cyber-2026\`; IDs en `meta-campana.md`.
 - Pauta total hasta el 4/11: $58.800/día (madre $19.800 + test $19.000 + Cyber $20.000).
+
+## Panel en línea y rediseño visual (02/11/2026)
+- **Dónde vive:** repo `E:\somos-piedra-panel` (copia solo de Piedra; `E:\vivero` sigue como el multi-negocio). En línea en https://somos-piedra-panel.vercel.app (Vercel Hobby + Supabase `msanpdcnkroqczwosocr`). Estado completo en el `CONTEXTO.md` del repo (§6 a §8).
+- **Usuarios:** dueño `fm98717@gmail.com` (desde el 02/11; script `scripts/cambiar-dueno.mjs`); soporte `sciollatomas@gmail.com`; `tomassanchez2018@gmail.com` y `panel@somospiedra.com` sin acceso.
+- **Panel de Meta** integrado (pantalla Meta, recuadro en Hoy, pausar/prender, ventas por anuncio, leads de Erasmo); el script espera `META_TOKEN`.
+- **Corrida 2026-11-02a:** rediseño visual con el sistema «Mostrador» de AppVentas en todo el panel (`prompts\2026-11-02a\`), lanzada el 02/11. Falta revisar la integración y deployar.
+- **Falta para usarlo de verdad:** arreglar `api/` en Vercel, apagar el registro abierto en Supabase, el corte del 01/11, la carga inicial (productos con EFECTIVO y LISTA, medios, cuotas, empleados), y ARCA/CUIT con el contador.
