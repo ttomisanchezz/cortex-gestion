@@ -55,3 +55,13 @@ Sistema: `E:\anuncios somos piedra\contenido\` (ver `LEEME.md` ahí). Generador 
 - Tomás confirmó: **mínimo 1 carrusel por día**. Calendario 19/10–15/11 (28 carruseles) en `E:\anuncios somos piedra\contenido\calendario\calendario.md`, briefs en `piezas/`.
 - Reparto semanal: Lun autoridad · Mar inspiración · Mié prueba social · Jue autoridad · Vie oferta sin precio · Sáb inspiración · Dom local.
 - 20 escenas IA en total (~USD 0,38). Pendiente: confirmaciones de Fran marcadas en `a_confirmar` (obras propias, reseñas literales, pagos, envío, horario, medición sin cargo).
+
+## Portadas de carrusel con hook visual (02/11/2026, Tomás)
+Las portadas eran todas iguales (texto arriba a la izquierda sobre una foto) y no frenaban el scroll. Somos iPhone se diferencia por el hook visual del primer slide, y Somos Piedra pasa a hacer lo mismo en **todos** los carruseles:
+- **Protagonista visible:** la piedra puesta, el error (la lavandina, el revoque que se pela) o el antes. Foto real o escena IA.
+- **Marca gráfica encima** (la dibuja el armador con `"marcas"`): `x` = el error, `check` = lo correcto, `circulo`, `flecha`, `sello` (ERROR, SOS, OJO), `cinta` (cinta de peligro).
+- **El texto rota de lugar** con `"layout"`: `abajo`, `medio`, `arriba` o un split «esto o esto». Las 3 portadas del día van con layouts distintos; `arriba` solo si la imagen tiene cielo o pared limpia.
+- Título que nombra el error o la elección en 3 a 5 palabras («Esto arruina tu piedra», «¿Ocre o verde bronce?»).
+- Sin piedra de Somos Piedra en la imagen → `"rotulo": "Imagen ilustrativa"`.
+- Dónde: regla en `ideas-dia\PROMPT.md` §3; armador en `ideas-dia\kit.zip` (`armar.py` con `layout`, `marcas` y `rotulo`; copia vieja `kit.zip.bak-2026-11-02`).
+- Primeras portadas así: carruseles del 02/11 (A split ocre/verde bronce, B bidón de lavandina tachado, C frente descascarado con círculo y sello SOS).
