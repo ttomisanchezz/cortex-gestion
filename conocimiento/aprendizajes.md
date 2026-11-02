@@ -100,3 +100,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 30/10/2026 — Reels en Business Suite: con música agregada solo se programan para FB ("Tu reel de Instagram editado no se puede programar"). Para IG: sin música, o desde la app.
 - 30/10/2026 — Subir archivos con Chrome: `file_upload` solo acepta lo que está en /mnt/user-data/uploads (no outputs). Para un archivo generado en el contenedor: commit a la carpeta del usuario y volver a stagearlo. Tope 10 MB por tanda (recomprimir reels con ffmpeg a ~4,5 Mbps).
 - 30/10/2026 — El editor de texto de Business Suite puede dar timeout de 30 s al escribir pero el texto entra: verificar con captura y no repetir.
+
+## Contenido con IA (Somos Piedra, 02/11/2026)
+- 02/11/2026 — Bajar imágenes de ChatGPT desde Claude in Chrome: scrollear al final, tomar el `<img>` visible con `elementsFromPoint` y hacer fetch del blob; la lista de imágenes reusa blobs. El JS corta a los 45 s y Chrome bloquea descargas seguidas: de a una.
+- 02/11/2026 — ChatGPT Image espeja la escena al pedir "misma casa, cambiá solo la piedra": se corrige dándola vuelta con PIL.
+- 02/11/2026 — En las placas con texto arriba, el protagonista de la imagen tiene que estar en la mitad de abajo (la sombra superior lo tapa).

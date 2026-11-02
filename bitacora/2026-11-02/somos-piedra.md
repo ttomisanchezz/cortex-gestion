@@ -57,3 +57,28 @@ Aprendizajes:
 - Reels orgánicos en Business Suite: «Crear reel» → interceptar el input file → `file_upload` → texto → Siguiente ×2 → pestaña Programar → fecha `dd/mm/aaaa` y hora/minutos por separado, en FB y en IG.
 Próximo paso: revisión de R3/R4 el 4/11 y subir la tanda nueva de reels — Modelo: —
 Cambia una regla de plata o del método: no
+
+CIERRE — somos-piedra (contenido) — 02/11 12:30
+
+Hecho:
+- Claude manejó ChatGPT (proyecto «CARRUSEL SOMOS PIEDRA», cuenta Franco Muñoz, Chrome «Browser 1») de punta a punta: 11 escenas generadas, comparadas con las fotos de referencia, bajadas y guardadas en `ideas-dia\2026-11-02\chatgpt\`.
+- Carrusel A: portada partida «¿Ocre o verde bronce?» (misma casa; la ocre se corrigió a crema pálida; la verde salió espejada y se dio vuelta a mano).
+- Carruseles B y C rehechos y aprobados por Tomás: B «Esto arruina tu piedra» (bidón tachado + balde y cepillo, pórfido manchado con círculo, manguera sobre ocre en tiras, rastrillo en granza) y C «Tu frente pide piedra a gritos» (frente descascarado con círculo y sello SOS + pintura pelada, cuadra de casas iguales con moto de delivery, base manchada de tierra).
+- Armador: `kit.zip` con `armar.py` nuevo (`layout` abajo/medio/arriba, `marcas` x/check/círculo/flecha/sello/cinta, `rotulo`); copia `kit.zip.bak-2026-11-02`. `armar_dia.py` = versión con escenas, sin tope (copia `armar_dia.py.bak-2026-11-02`).
+- `ideas-dia\PROMPT.md`: reglas PORTADA = HOOK VISUAL e IMAGEN = TEXTO (copias `.bak-2026-11-02b` y `c`).
+- Página del día actualizada: https://claude.ai/artifact/JUWbuU5Wq5LGgqFRgFUMV8
+Decisiones (qué y por qué):
+- Portada de todo carrusel = hook visual con layout rotativo (las portadas eran monótonas; Somos iPhone se diferencia por el hook del primer slide).
+- Imagen = texto en cada placa; escenas sin tope en carruseles (Tomás: si no, no tiene sentido). Reemplaza el tope de 3 solo en recomendadas.
+- ChatGPT a mano (por Claude en Chrome) unos días más; cuando se cargue crédito, todo se automatiza con Higgsfield y Tomás solo aprueba.
+Pendientes nuevos:
+- [ ] Programar B y C en FB + IG — chat
+- [ ] Generar 2 carruseles nuevos con la regla nueva — chat
+Pendientes cerrados:
+- Proyecto de ChatGPT creado (ya existía con fuentes e instrucciones), escenas del 02/11 y portada A, armar_dia.py con escenas.
+Aprendizajes (errores o trucos para no repetir):
+- Bajar imágenes de ChatGPT: scrollear al final y hacer fetch del blob del `<img>` que está en el punto visible (elementsFromPoint); la lista de imgs reusa blobs y engaña. El JS de Chrome corta a los 45 s: esperar con `wait` y después bajar. Chrome bloquea la 2.ª descarga seguida: de a una.
+- ChatGPT espeja la casa al "cambiar solo la piedra": se arregla dándola vuelta con PIL (sin texto en la imagen).
+- La sombra superior de la plantilla tapa lo que está arriba en la imagen: el protagonista va en la mitad de abajo.
+Próximo paso: chat nuevo — programar B y C en FB + IG y generar 2 carruseles nuevos — Modelo: —
+Cambia una regla de plata o del método: no (cambian reglas de contenido de Somos Piedra)
