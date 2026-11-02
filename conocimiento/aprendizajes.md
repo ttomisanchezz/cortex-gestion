@@ -48,6 +48,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 02/11/2026 — Business Suite desde Claude in Chrome: el input de archivo se crea al hacer clic. Parcheá `HTMLInputElement.prototype.click` para atraparlo, usá `file_upload` y después restaurá el original.
 
 ## Pauta para clientes
+- 02/11/2026 — Meta API, CBO: crear el conjunto con `daily_min_spend_target` hace fallar la activación («minimum spend higher than budget»). Crear sin mínimo, activar y después ponerlo (centavos: 300000 = $3.000).
+- 02/11/2026 — Videos para anuncios por API: comprimir a < 10 MB (ffmpeg CRF 30), subir a Higgsfield (`media_upload` + PUT + `media_confirm`) y pasar esa URL de cloudfront a `ads_creative_upload_media`. La API no ve la cuenta de IG ni carga el mensaje armado de WhatsApp.
+- 02/11/2026 — Reels en Business Suite: «Crear reel» → interceptar input file → `file_upload` → texto → Siguiente ×2 → pestaña Programar → fecha dd/mm/aaaa y horas/minutos por separado (FB e IG).
 - **30/10/2026 — Subir archivos a Meta o Business Suite desde Chrome sin que Tomás elija el archivo:** stagear el archivo al contenedor (`device_stage_files` → `/mnt/user-data/uploads/...`), en la página interceptar con JS `HTMLInputElement.prototype.click` y `dispatchEvent` del input file para dejarlo visible en el DOM, tocar el botón de subir y hacer `file_upload` con el ref del input. Tope 10 MB por llamada: comprimir antes (ffmpeg, 720 px, ~1,5 Mbps). Las rutas `E:\...` no sirven en `file_upload`.
 - **30/10/2026 — Conector de Meta:** no sube archivos locales; con el video ya en la biblioteca de la cuenta crea creativo y anuncio. Cada cambio de presupuesto pausa la campaña (reactivar y verificar). Aunque no liste la cuenta de IG, los anuncios salen en IG.
 - **09/10/2026 — Precios, impuestos, fees de gestión y método:** `conocimiento/pauta-precios-2026-10.md`.

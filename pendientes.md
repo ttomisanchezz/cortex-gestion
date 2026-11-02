@@ -27,6 +27,11 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] Revisar R3 Retest y R4 Lote 3 a las 48 h: seguir < $450/chat, cortar > $900 con $3.000 gastados — Claude — desde 02/11
+- [ ] Ver que R4 salga en IG con @somospiedranqn y cargar el mensaje armado de WhatsApp de R3/R4 en el Administrador — Tomás/Claude — desde 02/11
+- [ ] Usar #vendido / #perdido en cada chat (225 chats con anuncio, 0 ventas marcadas) — Fran — desde 02/11
+- [ ] Grabar reels con los guiones del artifact (BOFU 13, 14, 17 primero) y dejarlos en EDITADOS — Tomás — desde 02/11
+- [ ] Confirmar con Fran datos de los guiones: origen de cada piedra, medidas verde bronce, formas de pago, frases técnicas, Añelo y Roca — Tomás — desde 02/11
 - [ ] **Datos para la app** (no frenan la construcción: quedan `FALTA DATO`):
   - los medios de pago: nombre, cuenta, % y comisión de cada uno (efectivo, transferencia, débito, crédito, cuotas);
   - planes de cuotas, con su recargo y su comisión;

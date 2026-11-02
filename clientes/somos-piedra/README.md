@@ -231,3 +231,12 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Higgsfield sin saldo: las escenas IA pasan a ChatGPT Image (proyecto «Somos Piedra · escenas»; fuentes e instrucciones en `E:\anuncios somos piedra\contenido\chatgpt-proyecto\`). La tarea diaria deja `ideas-dia\AAAA-MM-DD\chatgpt\PROMPT-DEL-DIA.txt`.
 - Ideas del 02/11: `ideas-dia\2026-11-02\`, página https://claude.ai/artifact/JUWbuU5Wq5LGgqFRgFUMV8. Placa A con la primera escena de ChatGPT (fogón con granza gris, fidelidad buena).
 - Programado: carrusel extra «Tu frente, antes y después» el vie 13/11 10:30 (FB + IG).
+
+## Pauta 02/11/2026 — $38.800/día
+- **MADRE** (120250759505930411) $19.800: granza + frente + conjunto «Envío Neuquén» (120251070313580411) con L1-R1 y L2-C1 (el ganador: 38 chats a $337–448 del 31/10 al 2/11).
+- **TEST REELS** (120251035611560411) $19.000: R2 (L2-C2), R3 Retest (120251068348720411, los 4 reels sin gasto, mín. $3.000) y R4 Lote 3 (120251070334890411, entrega a domicilio + pedido de granza, mín. $3.000).
+- Reglas: pasa a la madre < $450/chat en 48 h; se corta > $900/chat con $3.000 gastados; 12–15 creativos nuevos por semana.
+- Guiones (21, con locución completa): https://claude.ai/artifact/QmZm2ja42oa42w6v25t28D
+- Orgánico por día: reel de fotos + carrusel + video real. Videos del 02/11 programados el 7/11 y 8/11 a las 18:00.
+- Ventas por anuncio: el bot ya registra el anuncio de cada chat (225); falta que Fran marque #vendido/#perdido.
+
