@@ -109,3 +109,7 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Sin Tomás en la PC, Chrome deja las descargas como `.tmp` con «Guardar como» abierto: el `.tmp` ya es la imagen completa (02/11).
 - Los nombres «Browser 1/2» de Chrome cambian entre sesiones: identificar por lo que tiene abierto (02/11).
 
+
+- 02/11/2026 — **Subir creativos a Meta cuando la PC no llega a Facebook:** la VM de Cowork no ve facebook.com ni pypi y la nube no ve E:. Tomás arrastra los archivos al chat → `file_upload` (Chrome) a un `<input type=file>` creado en una pestaña de Business Suite (máx. ~10 MB por llamada, por eso los videos van a < 6,5 MB) → fetch POST al `upload_url` de `ads_creative_upload_local_image` → `ads_finalize_local_ad_image_upload`. Leer los tokens de a 2 (la salida de JS se corta ~1.000 caracteres).
+- 02/11/2026 — **Render de placas en la PC sin Playwright:** `npm i puppeteer-core@23 @sparticuz/chromium@131` en /tmp, con HOME y TMPDIR apuntando a /tmp (el home de la VM está lleno). `build_html.py` en `cyber-2026\` arma el HTML con `armar.py` del kit.
+- 02/11/2026 — **Presupuestos en ARS por la API de Meta van en centavos:** 1500000 = $15.000/día (la lectura los muestra en pesos).

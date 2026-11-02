@@ -115,3 +115,25 @@ Aprendizajes:
 Próximo paso: chat nuevo — terminar carruseles Cyber, crear la campaña Cyber $20.000/día y publicar — Modelo: —
 Cambia una regla de plata o del método: no
 - (14:05) Tomás: la oferta no se notaba. Cyber A, B y C rehechos con la oferta grande: título con «20% OFF»/«$20.000» + insignia (círculo rojo 20% OFF desde 2 m² o cartel amarillo ANTES $27.000 / $20.000) + cinta. Plantilla `cyber-2026\armar_plantilla_cyber.py` (campo `oferta`).
+
+
+CIERRE — somos-piedra — 02/11 15:22
+
+Hecho:
+- Carruseles Cyber D «Revestí el frente con 20% OFF» (lajas, 5), E «Tu patio con 20% OFF» (pórfido/adoquín, 5) y F «Verde bronce con 20% OFF» (verde bronce + ocre, 6), con la plantilla del A (círculo 20% OFF + cinta) y fotos reales que no repiten A/B/C. En `contenido\cyber-2026\carrusel-D/E/F-*` (`ideas-2.json`, `build_html.py`).
+- Reels L1-R1 y L2-C1 con cinta «CYBER MONDAY · HASTA EL 4/11» + círculo 20% OFF: `cyber-2026\reels\`.
+- Campaña Meta «Somos Piedra - CYBER MONDAY - 2 al 4/11» (120251071669960411) ACTIVA 15:15: Gente nueva $15.000/día (120251071671790411, excluye público) + Ya interactuaron 60 días $5.000/día (120251071672230411, público de página 120251071670040411). 16 anuncios (6 carruseles + 2 reels por conjunto), 10 activos y 6 en revisión al cierre. Fin 4/11 23:59. IDs en `cyber-2026\meta-campana.md`.
+Decisiones (qué y por qué):
+- Tomás dio OK y se activó la campaña Cyber con los 8 creativos en los dos conjuntos.
+- Portada de los reels en Meta: placa 1 del carrusel A (L1-R1) y del C (L2-C1), por no tener un cuadro del video subido.
+Pendientes nuevos:
+- [ ] Revisar mar 3/11: < $500/chat +25%; > $900/chat −25%; ver los 6 anuncios en revisión — Claude
+- [ ] Publicar los Cyber (A–F) en orgánico FB + IG — Claude
+Pendientes cerrados:
+- Cyber: 3 carruseles más + 2 reels con cinta + campaña $20.000/día creada y activa.
+Aprendizajes:
+- La PC (VM de Cowork) no llega a Facebook ni a pypi y la nube no ve E:. Camino que funcionó: Tomás arrastra los archivos al chat → `file_upload` a un `<input>` en una pestaña de Business Suite (máx. ~10 MB por llamada, videos < 6,5 MB) → fetch POST a rupload → `ads_finalize_local_ad_image_upload`.
+- Render de placas en la PC sin Playwright: `npm i puppeteer-core@23 @sparticuz/chromium@131` en /tmp (con HOME y TMPDIR en /tmp porque el home está lleno).
+- El presupuesto diario en ARS va en centavos (1500000 = $15.000).
+Próximo paso: revisar la Cyber el martes y publicar los Cyber en orgánico — Modelo: —
+Cambia una regla de plata o del método: no

@@ -47,3 +47,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] Crear el proyecto de ChatGPT «Somos Piedra · escenas» (instrucciones + fuentes de `contenido\chatgpt-proyecto\`) — Tomás — desde 02/11 — hecho 02/11
 - [x] Generar las 2 escenas del 02/11 (frente ocre / verde bronce) y rearmar la portada del carrusel A — Tomás + chat — desde 02/11 — hecho 02/11
 - [x] Reemplazar `ideas-dia\armar_dia.py` por la versión con escenas (`2026-10-31\armar_dia_ia.py`) — chat — desde 02/11 — hecho 02/11
+
+
+## Somos Piedra (`somos-piedra`) — cerrados 02/11
+- [x] **Cyber Monday (2 al 4/11):** terminar 3–5 carruseles más con la dinámica del A + 2 reels ganadores con cinta; crear campaña «Cyber Monday» $20.000/día (sug. $15.000 prospección + $5.000 retargeting) hasta 4/11 23:59 con OK de Tomás; publicar en orgánico. Oferta: 20% OFF desde 2 m²; bolsón granza $20.000 (antes $27.000). Archivos en `contenido\cyber-2026\` — Claude/Tomás — desde 02/11 — hecho 02/11: carruseles D, E, F + reels L1-R1/L2-C1 con cinta; campaña Cyber activa a $20.000/día

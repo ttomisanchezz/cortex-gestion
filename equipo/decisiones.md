@@ -3,6 +3,7 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 02/11/2026 — **Campaña Cyber Monday ACTIVA** (OK de Tomás, 15:15): 120251071669960411, ABO: Gente nueva $15.000/día (excluye a los que interactuaron) + Ya interactuaron 60 días $5.000/día; 6 carruseles (A–F) y 2 reels (L1-R1, L2-C1) con cinta en cada conjunto; fin 4/11 23:59. Regla del martes: < $500/chat +25%, > $900/chat −25% — Tomás — Meta
 - 02/11/2026 — **En piezas de oferta (Cyber y similares) el descuento/precio se ve GRANDE en cada placa:** título con la oferta resaltada + insignia (círculo «20% OFF» o cartel «ANTES / AHORA») + cinta; nunca en chiquito en el subtítulo (Tomás: «tienen que notarse para que la gente entre») — Tomás — `contenido\cyber-2026\armar_plantilla_cyber.py`
 - 02/11/2026 — **Cyber Monday Somos Piedra (2 al 4/11):** oferta 20% OFF llevando 2 m² o más; bolsón de granza a $20.000 (antes $27.000). Campaña aparte a $20.000/día además de madre + test, estructura como la madre (WhatsApp, misma zona); carruseles con la dinámica del Cyber A (escena IA protagonista + cinta) — Tomás — Meta, `contenido\cyber-2026\`
 - 02/11/2026 — **Carruseles D, E, F y G programados** (FB + IG, 13:30): F 9/11, D 11/11, G 13/11, E 14/11; C 10/11 y B 12/11 — Tomás — Business Suite

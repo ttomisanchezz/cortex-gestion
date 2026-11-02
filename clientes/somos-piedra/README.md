@@ -240,3 +240,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Orgánico por día: reel de fotos + carrusel + video real. Videos del 02/11 programados el 7/11 y 8/11 a las 18:00.
 - Ventas por anuncio: el bot ya registra el anuncio de cada chat (225); falta que Fran marque #vendido/#perdido.
 
+
+
+## Cyber Monday 02/11/2026 — campaña aparte, $20.000/día hasta el 4/11 23:59
+- Campaña 120251071669960411 (activa desde 15:15): Gente nueva $15.000/día + Ya interactuaron 60 días $5.000/día. 6 carruseles (A–F) + 2 reels (L1-R1, L2-C1) con cinta en cada conjunto.
+- Oferta: 20% OFF desde 2 m²; bolsón de granza $20.000 (antes $27.000). Piezas en `E:\anuncios somos piedra\contenido\cyber-2026\`; IDs en `meta-campana.md`.
+- Pauta total hasta el 4/11: $58.800/día (madre $19.800 + test $19.000 + Cyber $20.000).

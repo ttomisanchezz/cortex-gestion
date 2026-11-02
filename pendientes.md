@@ -27,7 +27,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
-- [ ] **Cyber Monday (2 al 4/11):** terminar 3–5 carruseles más con la dinámica del A + 2 reels ganadores con cinta; crear campaña «Cyber Monday» $20.000/día (sug. $15.000 prospección + $5.000 retargeting) hasta 4/11 23:59 con OK de Tomás; publicar en orgánico. Oferta: 20% OFF desde 2 m²; bolsón granza $20.000 (antes $27.000). Archivos en `contenido\cyber-2026\` — Claude/Tomás — desde 02/11
+- [ ] **Cyber Monday — seguimiento:** revisar mar 3/11 (< $500/chat +25%; > $900/chat −25%) y los 6 anuncios en revisión; campaña 120251071669960411, IDs en `contenido\cyber-2026\meta-campana.md` — Claude — desde 02/11
+- [ ] **Publicar los carruseles Cyber A–F en orgánico** FB + IG (`contenido\cyber-2026\`) — Claude — desde 02/11
 - [ ] Sacar el duplicado «Tu frente, antes y después» del vie 13/11 10:30 (ya sale el sáb 7/11) si Tomás confirma — Claude — desde 02/11
 - [ ] Fran confirma que pórfido, ocre rectificada y riojana van en escalones exteriores (carrusel E sale el 14/11) — Tomás — desde 02/11
 - [ ] No hay reels programados desde el 9/11: subir la tanda que graba Tomás — Tomás/Claude — desde 02/11
