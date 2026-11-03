@@ -1,5 +1,11 @@
 # Somos Piedra — Plan de contenido con IA (desde 15/10/2026)
 
+## ⚠️ Datos fijos de producto — chequear ANTES de publicar o subir cualquier pieza (03/11/2026, Tomás)
+- Granza: se vende en **bolsas**. **Nunca escribir "bolsón"/"bolsones"** (ni en placas, ni en caption, ni en hooks, ni en nombres de anuncio).
+- Medida: **1 bolsa (~40 kg) cubre 1 m² a 3 cm.** No hay otra medida. Nunca "25 m²".
+- Antes de entregar piezas: buscar `bols[oó]n` y `25 m` en los textos y en el HTML de las placas; si aparece, se corrige antes de mostrarlo.
+- Cualquier medida, precio o unidad que no esté en esta sección o en `README.md` §Respuestas de Fran: **se pregunta a Tomás, no se deduce.**
+
 Sistema: `E:\anuncios somos piedra\contenido\` (ver `LEEME.md` ahí). Generador de escenas `hf.py` (Higgsfield API, Marketing Studio Image) + compositor `componer.py` (texto, logo y rótulo).
 
 ## Decisiones (Tomás, 15/10 — cerradas)

@@ -19,6 +19,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 02/11/2026 — El control automático bloquea un `.cmd` que lanza `claude.cmd` con `--dangerously-skip-permissions`: las corridas se pegan a mano en VS Code, una sesión por prompt.
 - 02/11/2026 — Antes de responder el estado de un sistema, mirar el repo real: el Cortex estaba atrasado (el panel de Piedra se había movido a `E:\somos-piedra-panel` y ya estaba en línea).
 
+## Contenido y pauta
+- **03/11/2026 — Se publicó y pautó "bolsón de granza" y "1 bolsón cubre 25 m²" (Cyber B y G2) cuando Somos Piedra vende bolsas de 1 m² a 3 cm.** El dato del bolsón venía de una respuesta suelta de Fran (23/10) que además estaba pendiente de confirmar («bolsón 20 o 25 m²»), y se usó como si fuera el producto de la oferta. Regla: en una pieza solo van datos confirmados en `clientes/<id>/contenido.md` o el README; un dato pendiente no se publica, y antes de entregar se buscan las palabras prohibidas.
+
 ## Investigación de clientes
 - **08/10/2026 — Buscar primero la presencia pública del cliente** (web, Guía Cores, Facebook, CUIT). En Somos Piedra mostró que también tiene vivero y que vende por m², bolsón, unidad y planta. Eso llevó la unidad al producto y cambió el diseño multi-negocio.
 - **08/10/2026 — Una SAS no puede ser monotributista:** solo pueden las personas humanas y las sucesiones indivisas. Si el cliente es una SAS, es Responsable Inscripto.

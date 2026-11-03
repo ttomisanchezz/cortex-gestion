@@ -26,6 +26,7 @@ Tomás la arma, la hostea y cobra un abono mensual. **El cliente no usa Claude**
 | 2 | Somos Piedra | Revestimiento de piedra (y vivero), Neuquén | `somos-piedra` | Spec v1 aprobada (08/10). En construcción en la corrida 2026-10-08a |
 
 - El detalle de cada cliente está en `clientes/<id>/README.md`.
+- **Somos Piedra — regla fija de contenido:** la granza se vende en **bolsas** (nunca "bolsón") y **1 bolsa (~40 kg) cubre 1 m² a 3 cm**. Ver `clientes/somos-piedra/contenido.md` antes de armar cualquier pieza (03/11/2026).
 - El registro con las prioridades está en `proyectos.json`, y **ese orden manda** cuando se pregunta "qué tengo pendiente".
 
 ## Cómo trabajo con Claude

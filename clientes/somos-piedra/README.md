@@ -126,7 +126,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 ## Respuestas de Fran (vía Tomás, 09/10/2026)
 - **Precios:** Tomás va a pasar la lista de precios que ya tienen hecha. Va en las etiquetas "Desde $__ el m²" y en la carga de productos.
 - **Cuotas:** se usan poco. Se cobran con el posnet de Mercado Pago, con interés, y el cliente se entera en el momento. **Pedido para la app:** una parte de **cotizaciones** para cotizar las cuotas desde ahí, sin usar el posnet para cotizar (va a la spec v1.1).
-- **Granza:** se vende **por m²**. Una bolsa (~40 kg) cubre **1 m² a 3 cm** (la altura máxima de la piedra), puesta pareja. Va en bolsas con la camioneta; si es mucho, a veces en bolsón.
+- **Granza:** se vende **por m²**. Una bolsa (~40 kg) cubre **1 m² a 3 cm** (la altura máxima de la piedra), puesta pareja. Va en bolsas con la camioneta. **En el contenido y la pauta se dice siempre "bolsa", nunca "bolsón"** (Tomás, 03/11).
 - **Envío:** a veces se cobra y a veces no, **siempre se consulta antes**. Añelo y esa zona van **en camión** (por el peso y el recorrido). En los anuncios: nada de "envío gratis".
 - **Facebook para anunciar:** la página **"Somos Piedra, elija piedra"** https://www.facebook.com/profile.php?id=61589214484295 (es página: categoría Materiales de construcción, 4 seguidores, WhatsApp 299 459-0936, Belgrano 3090). Reemplaza a SomosPiedraoficial y al perfil "Elija Piedra Sas".
 - **@viverosomospiedra (Cinco Saltos):** es el vivero del papá de Fran, un negocio familiar aparte. No tiene que ver con las piedras: **no se usan sus fotos ni su nombre**.
@@ -191,7 +191,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
   - local L a V 9 a 18 corrido, sábados 9 a 14, domingo cerrado; bot de 9 a 20 (quizás 22); lo de la madrugada se contesta desde las 9;
   - no venden pegamento ni nailon; sí tela antimaleza, piedras y lajas, granza y césped en rollo;
   - se cotiza el total con efectivo/transferencia y con tarjeta si no dice cómo paga;
-  - granza: bolsa ~40 kg ≈ 1 m² a 3 cm; bolsón ≈ 1 m³ ≈ 25 m²; precio por tramos (12 m² va con el de más de 10 bolsas);
+  - granza: bolsa ~40 kg ≈ 1 m² a 3 cm; ~~bolsón ≈ 1 m³ ≈ 25 m²~~ (**no usar**: no venden bolsones, Tomás 03/11; este dato causó el error de las piezas Cyber B y G2); precio por tramos (12 m² va con el de más de 10 bolsas);
   - sin tarifa de envío (se escala); entrega 2–3 días (hasta una semana); sin seña; el bot nunca pasa alias ni CBU;
   - factura: se suma el 21 %, sale sobre todo la A; dólares: promedio de compra y venta del blue;
   - se escala desde 100 m² y con cheques, cuotas, descuentos, datos de pago, envío o cliente listo para comprar;
@@ -244,7 +244,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 
 ## Cyber Monday 02/11/2026 — campaña aparte, $20.000/día hasta el 4/11 23:59
 - Campaña 120251071669960411 (activa desde 15:15): Gente nueva $15.000/día + Ya interactuaron 60 días $5.000/día. 6 carruseles (A–F) + 2 reels (L1-R1, L2-C1) con cinta en cada conjunto.
-- Oferta: 20% OFF desde 2 m²; bolsón de granza $20.000 (antes $27.000). Piezas en `E:\anuncios somos piedra\contenido\cyber-2026\`; IDs en `meta-campana.md`.
+- Oferta: 20% OFF desde 2 m²; bolsa de granza $20.000 (antes $27.000) — las piezas dijeron «bolsón» por error, ver decisión del 03/11. Piezas en `E:\anuncios somos piedra\contenido\cyber-2026\`; IDs en `meta-campana.md`.
 - Pauta total hasta el 4/11: $58.800/día (madre $19.800 + test $19.000 + Cyber $20.000).
 
 ## Panel en línea y rediseño visual (02/11/2026)

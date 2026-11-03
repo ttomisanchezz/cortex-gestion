@@ -108,7 +108,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Contar las ventas de los chats con la etiqueta "anuncio" en WhatsApp Business — Fran — desde 17/10
 
 - [ ] **Bot y simulador:** cargar en el `.env` del bot `OPENAI_API_KEY` y `GEMINI_IMAGEN_API_KEY` (proyecto con facturación) y dejar 5 a 10 fotos de clientes en `E:\bot-piedra\fotos\prueba-ab\` — Tomás — desde 23/10
-- [ ] **Fran, ronda 2** (`E:\bot-piedra\preguntas-fran-ronda2.md`): IVA con efectivo y con tarjeta, logo y datos del PDF, tramos de la granza (bolsón 20 o 25 m²), seguimiento (cuándo y cuántas veces), horario final del bot, cuotas; además el Excel, las fotos de cada piedra (`guia-fotos-piedra.md`), los contactos excluidos y las cuentas — Fran — desde 23/10
+- [ ] **Fran, ronda 2** (`E:\bot-piedra\preguntas-fran-ronda2.md`): IVA con efectivo y con tarjeta, logo y datos del PDF, tramos de precio de la granza por cantidad de bolsas (bolsón descartado: no se vende, 03/11), seguimiento (cuándo y cuántas veces), horario final del bot, cuotas; además el Excel, las fotos de cada piedra (`guia-fotos-piedra.md`), los contactos excluidos y las cuentas — Fran — desde 23/10
 - [ ] Decidir qué Cortex manda para el bot: el `CLAUDE.md` del bot apunta a `cortex-somosiphone\piedra\` y el proyecto a `cortex-gestion` — Tomás — desde 23/10
 - [ ] Aprobar las reglas del bot (`E:\bot-piedra\reglas\cerebro-reglas-piedra.md`, v2 del 23/10) y la spec v1 del simulador (`E:\bot-piedra\bot\spec-simulador-v1.md`) — Tomás — desde 23/10
 
