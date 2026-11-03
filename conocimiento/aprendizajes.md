@@ -52,6 +52,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 02/11/2026 — Business Suite desde Claude in Chrome: el input de archivo se crea al hacer clic. Parcheá `HTMLInputElement.prototype.click` para atraparlo, usá `file_upload` y después restaurá el original.
 
 ## Pauta para clientes
+- 02/11/2026 — Subida de imágenes a Meta (ads_creative_upload_local_image): el `image_name` tiene que ser IGUAL al nombre del archivo que se sube (si no, «uploaded file metadata changed» y la sesión muere). Guardar el completion_token en `window` y leerlo de a 2 (la salida JS se corta ~400 caracteres). El fetch a rupload anda desde cualquier pestaña de business.facebook.com, aunque esté deslogueada.
+- 02/11/2026 — Caption en el editor de Business Suite: pegarlo con un evento `paste` (DataTransfer text/plain) al elemento enfocado; respeta saltos de línea y emojis. Programar: fecha con el calendario y hora/minutos con un clic en cada campo (escribir «1100» de corrido pisa la hora).
+- 02/11/2026 — `file_upload` de Chrome solo acepta archivos de /mnt/user-data/uploads (staged desde E:), no de outputs ni rutas de E: directo.
 - 02/11/2026 — Meta API, CBO: crear el conjunto con `daily_min_spend_target` hace fallar la activación («minimum spend higher than budget»). Crear sin mínimo, activar y después ponerlo (centavos: 300000 = $3.000).
 - 02/11/2026 — Videos para anuncios por API: comprimir a < 10 MB (ffmpeg CRF 30), subir a Higgsfield (`media_upload` + PUT + `media_confirm`) y pasar esa URL de cloudfront a `ads_creative_upload_media`. La API no ve la cuenta de IG ni carga el mensaje armado de WhatsApp.
 - 02/11/2026 — Reels en Business Suite: «Crear reel» → interceptar input file → `file_upload` → texto → Siguiente ×2 → pestaña Programar → fecha dd/mm/aaaa y horas/minutos por separado (FB e IG).

@@ -34,8 +34,10 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Panel: qué hacer con `panel@somospiedra.com` (creado sin acceso) — Tomás — desde 02/11
 - [ ] Panel de Meta: arreglar los 2 hallazgos del /codex:review (CONTEXTO §7 del repo), después cargar `META_TOKEN`, `npm run meta -- --solo-lectura` y la tarea de Windows — Claude/Tomás — desde 02/11
 - [ ] Panel: Supabase free se pausa a los 7 días sin uso (Pro para uso real) y el repo no tiene remoto en GitHub — Tomás — desde 02/11
-- [ ] **Cyber Monday — seguimiento:** revisar mar 3/11 (< $500/chat +25%; > $900/chat −25%) y los 6 anuncios en revisión; campaña 120251071669960411, IDs en `contenido\cyber-2026\meta-campana.md` — Claude — desde 02/11
-- [ ] **Publicar los carruseles Cyber A–F en orgánico** FB + IG (`contenido\cyber-2026\`) — Claude — desde 02/11
+- [ ] **Cyber Monday — seguimiento (sin tocar presupuestos, decidido 02/11):** ver cómo entregan las 4 variaciones de granza (conjunto 120251076731010411) y el 5/11 confirmar que todo terminó el 4/11 23:59 — Claude — desde 02/11
+- [ ] **Ventas reales por anuncio:** Tomás pasa cuáles ventas vinieron de anuncio → comparar costo por venta Cyber / Madre / Test — Tomás → Claude — desde 02/11
+- [ ] **Etiqueta «pago confirmado» en WhatsApp Business:** definir quién etiqueta (Erasmo no puede); después pasar la Madre a «compras por mensajes» — Tomás — desde 02/11
+- [ ] **R3 Retest:** la tarea programada del 3/11 12:00 lo apaga si no funciona; revisar el aviso — Claude — desde 02/11
 - [ ] Sacar el duplicado «Tu frente, antes y después» del vie 13/11 10:30 (ya sale el sáb 7/11) si Tomás confirma — Claude — desde 02/11
 - [ ] Fran confirma que pórfido, ocre rectificada y riojana van en escalones exteriores (carrusel E sale el 14/11) — Tomás — desde 02/11
 - [ ] No hay reels programados desde el 9/11: subir la tanda que graba Tomás — Tomás/Claude — desde 02/11

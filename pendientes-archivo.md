@@ -44,6 +44,9 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] (hecho 30/10: TEST REELS armada y prendida a $16.000/día, TEST 1-3-6 apagado) **Reels del 28/10:** subirlos a `E:\anuncios somos piedra\reels-2026-10-28\`; Claude arma la campaña de test (CBO $4.900/día, un mensaje armado por reel) y, con el OK de Tomás, la prende y apaga el TEST 1-3-6 (T1 Granza). La MADRE no se toca — Tomás / Claude — desde 29/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+
+- [x] **Cyber Monday — seguimiento:** revisar mar 3/11 (< $500/chat +25%; > $900/chat −25%) y los 6 anuncios en revisión; campaña 120251071669960411, IDs en `contenido\cyber-2026\meta-campana.md` — Claude — desde 02/11 — cerrado 02/11: los 16 anuncios salieron; Tomás decidió no aplicar la regla ±25%
+- [x] **Publicar los carruseles Cyber A–F en orgánico** FB + IG (`contenido\cyber-2026\`) — Claude — desde 02/11 — cerrado 02/11: A publicado; D 2/11 20:30, B 3/11 11:00, E 3/11 19:00, F 4/11 11:00, C 4/11 18:00 (FB + IG)
 - [x] Crear el proyecto de ChatGPT «Somos Piedra · escenas» (instrucciones + fuentes de `contenido\chatgpt-proyecto\`) — Tomás — desde 02/11 — hecho 02/11
 - [x] Generar las 2 escenas del 02/11 (frente ocre / verde bronce) y rearmar la portada del carrusel A — Tomás + chat — desde 02/11 — hecho 02/11
 - [x] Reemplazar `ideas-dia\armar_dia.py` por la versión con escenas (`2026-10-31\armar_dia_ia.py`) — chat — desde 02/11 — hecho 02/11

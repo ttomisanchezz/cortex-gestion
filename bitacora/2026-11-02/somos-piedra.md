@@ -164,3 +164,39 @@ Aprendizajes (errores o trucos para no repetir):
 - Antes de responder el estado de un sistema, mirar el repo real: el Cortex puede estar atrasado (el panel se había movido a `E:\somos-piedra-panel` y ya estaba en línea).
 Próximo paso: revisar la integración de la corrida 2026-11-02a y deployar — Modelo: Sonnet 5.5 + advisor
 Cambia una regla de plata o del método: no
+
+## 15:30 — Cyber: revisión + orgánico
+- Cyber Monday: los 16 anuncios ACTIVOS (salieron los 6 que estaban en revisión). A las 15:30 todavía $0 de gasto (campaña de 15 min): la regla ±25% se aplica mañana 3/11.
+- Orgánico FB + IG de los Cyber: A publicado ya (2/11 15:29); D lun 2/11 20:30; B mar 3/11 11:00; E mar 3/11 19:00; F mié 4/11 11:00 (6 placas); C «termina el miércoles» mié 4/11 18:00. Caption de cada `texto.txt`. Ninguno promocionado.
+- Método que anduvo: stage desde E: → file_upload al input capturado (parche de HTMLInputElement.prototype.click) → caption con evento paste (DataTransfer) en el editor → Programar: fecha con el calendario, hora y minutos con clic separado en cada campo.
+
+## 22:30 — Variaciones de granza + decisión de presupuesto
+- Decidió Tomás: no tocar presupuestos de lo que corre (mañana NO se aplica el −25% de la Cyber); sí sumar plata para variaciones de granza.
+- Armadas y subidas 4 variaciones del ganador NUEVA B Granza (8 de 11 chats el 2/11): G1 «¿Gris o roja?» (carrusel 5), G2 «¿Cuántos bolsones?» (carrusel 5, tabla m²), G3 precio gigante (imagen), G4 antes/después (imagen). Conjunto nuevo en la Cyber a $6.000/día → pauta total $64.800/día hasta el 4/11. IDs en meta-campana.md.
+- Ventas reales por anuncio: Tomás las consigue mañana (están anotadas cuáles vinieron de anuncio). Etiquetar «pago confirmado» en WhatsApp: se puede, pero Erasmo no puede etiquetar → pendiente definir quién.
+- Pendiente: con las ventas de mañana, comparar costo por venta Cyber vs Madre vs Test; pasar la Madre a «compras por mensajes» cuando haya etiquetado.
+- Autorizado por Tomás (02/11 22:20): si el R3 Retest (120251068348720411, TEST REELS) no funciona mañana, apagarlo. Tarea programada mar 3/11 12:00 (trig_01Jj2FrJBsQFuCfnHmRji8mt): pausa solo ese conjunto si con ≥ $3.000 gastados entre 2 y 3/11 tiene 0 chats o más de $900 por chat; avisa por celular.
+
+CIERRE — somos-piedra — 02/11 22:25
+
+Hecho:
+- Cyber revisada: los 16 anuncios activos (salieron los 6 en revisión). Reporte 18hs por tarea programada con push.
+- Orgánico Cyber A–F en FB + IG (A publicado; D, B, E, F, C programados hasta el 4/11).
+- 4 variaciones de granza (G1–G4) armadas en HTML, subidas y activas en conjunto nuevo de la Cyber a $6.000/día.
+- Tarea programada 3/11 12:00: apaga R3 Retest si no funciona.
+- Recomendaciones con Cortex + cerebros Lauty, Doglio y Santiago Bilbao (no tocar presupuestos, variaciones del ganador, medir ventas, speed to lead).
+Decisiones (qué y por qué):
+- No tocar presupuestos; sin ±25% en la Cyber (Lauty/Santiago: no cambiar con pocos datos).
+- Variaciones de granza con plata extra ($6.000/día).
+- Apagar R3 Retest si no funciona.
+Pendientes nuevos:
+- [ ] Ventas por anuncio — Tomás
+- [ ] Quién etiqueta «pago confirmado» — Tomás
+- [ ] Revisar aviso R3 Retest y entrega de G1–G4 — Claude
+Pendientes cerrados:
+- Revisión Cyber del martes y publicación orgánica Cyber A–F.
+Aprendizajes:
+- image_name = nombre del archivo en la subida a Meta; tokens leídos de a 2; caption por evento paste.
+- El conector de Meta y el login de Chrome se cayeron a la tarde (otro perfil); Tomás los reconectó.
+Próximo paso: con las ventas por anuncio de Tomás, comparar costo por venta de Cyber / Madre / Test — Modelo: —
+Cambia una regla de plata o del método: no
