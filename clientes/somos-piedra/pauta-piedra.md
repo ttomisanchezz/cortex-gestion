@@ -434,3 +434,10 @@ Tomás usa las fotos de los carruseles del IG.
   - Carrusel 5: "Blanca · gris · Olavarría", (actualizado abajo con las respuestas de Fran).
 - **Falta:** la lista de precios (Tomás) para las etiquetas.
 - **Respuestas de Fran (09/10):** el detalle está en el README del cliente. Carrusel 5 actualizado: "1 bolsa (40 kg aprox.) cubre 1 m² a 3 cm", "En bolsas, con la camioneta" y la etiqueta "Desde $__ el m²". Página para anunciar: "Somos Piedra, elija piedra" (profile.php?id=61589214484295). Las fotos de la web no se usan hasta saber cuáles son propias (algunas son de Google).
+
+## Cambios 04/11/2026 (Tomás aprobó en el chat)
+- Pausados en TEST REELS: L3-V2 Pedido de granza ($7.117, 5 chats, $1.423/chat) y los 3 anuncios muertos de R3 Retest (R3-R2, R3-R4, R3-C3). R3-R3 Entrega cliente sigue (18 chats a $963).
+- L3-V1 Entrega lajas pasó a la MADRE como conjunto nuevo «Entrega lajas (ganador reels L3-V1)» (adset 120251108215030411, ad 120251108217280411, mismo creativo 1805970003689110). El L3-V1 original sigue en el test.
+- Presupuestos: MADRE $19.800 → $25.000; TEST REELS $19.000 → $17.000. Total diario $68.000 (con carruseles V1 $26.000).
+- Lectura 7 días al 04/11: $185.682, 253 chats, $734/chat. Motor: C5 Granza (85 chats a $811). C1 Frente $599 con poco gasto.
+- Variaciones nuevas listas (sin subir): VG3, VG4, VF3, VF4 en `E:\anuncios somos piedra\_trabajo-nuevos\var-2026-11-04\` (estilo B fotos reales de los videos, estilo C calculadora; textos en textos.txt). «Precio en el día».
