@@ -150,3 +150,4 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Crear el repo privado en GitHub para este Cortex y conectarlo (`git remote add origin <url>`): hasta entonces `sync.cmd` solo commitea — Tomás — desde 08/10
 - [ ] Pegar `herramientas/instrucciones-proyectos/sistema-gestion.md` en las instrucciones del proyecto de Claude "Sistema de Gestión de Empresas" — Tomás — desde 08/10
 - [ ] Sacar de las instrucciones del proyecto de Claude el prompt del bot de Somos iPhone que quedó pegado al final ("Otro modelo con la entrega ya dicha…") — Tomás — desde 08/10
+- [somos-piedra] Subir VG3/VG4/VF3/VF4 a test de carruseles (decidir presupuesto) · revisar V1 · descartar borrador viejo L3-V3 (ad 120251109138600411) · confirmar entrega de L3-V3 (04/11)
