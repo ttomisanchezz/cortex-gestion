@@ -441,3 +441,6 @@ Tomás usa las fotos de los carruseles del IG.
 - Presupuestos: MADRE $19.800 → $25.000; TEST REELS $19.000 → $17.000. Total diario $68.000 (con carruseles V1 $26.000).
 - Lectura 7 días al 04/11: $185.682, 253 chats, $734/chat. Motor: C5 Granza (85 chats a $811). C1 Frente $599 con poco gasto.
 - Variaciones nuevas listas (sin subir): VG3, VG4, VF3, VF4 en `E:\anuncios somos piedra\_trabajo-nuevos\var-2026-11-04\` (estilo B fotos reales de los videos, estilo C calculadora; textos en textos.txt). «Precio en el día».
+- 04/11 11:20: carruseles VG3/VF3/VG4/VF4 rehechos con fotos retocadas en ChatGPT (originales en `var-2026-11-04\ia\`); a Tomás le encantaron. Falta subirlos a Meta.
+- 04/11: reel «Entrega de granza v2» publicado por Tomás en FB+IG (reel FB 1116163964645900, a confirmar). PENDIENTE: anuncio de test con ese posteo en TEST REELS (el conector no ve la cuenta de IG ni el video de la página; hacerlo desde Ads Manager con «Usar publicación existente»).
+- Conversaciones 04/11 hasta 10:59: 17 a $898 (ayer a la misma hora: 17 a $1.443).
