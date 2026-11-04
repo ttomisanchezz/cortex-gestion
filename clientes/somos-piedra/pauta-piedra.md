@@ -444,3 +444,4 @@ Tomás usa las fotos de los carruseles del IG.
 - 04/11 11:20: carruseles VG3/VF3/VG4/VF4 rehechos con fotos retocadas en ChatGPT (originales en `var-2026-11-04\ia\`); a Tomás le encantaron. Falta subirlos a Meta.
 - 04/11: reel «Entrega de granza v2» publicado por Tomás en FB+IG (reel FB 1116163964645900, a confirmar). PENDIENTE: anuncio de test con ese posteo en TEST REELS (el conector no ve la cuenta de IG ni el video de la página; hacerlo desde Ads Manager con «Usar publicación existente»).
 - Conversaciones 04/11 hasta 10:59: 17 a $898 (ayer a la misma hora: 17 a $1.443).
+- 04/11 cierre: anuncio «L3-V3 Entrega granza v2» (ad 120251109138600411, post FB 122129579427307149) quedó en BORRADOR en R4 Lote 3, con texto y botón WhatsApp; falta publicarlo (solo ese: hay otros 4 borradores ajenos en «Revisar y publicar»). Traspaso en el proyecto: claude/traspaso-2026-11-04.md.
