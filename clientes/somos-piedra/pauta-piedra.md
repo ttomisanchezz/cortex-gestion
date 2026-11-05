@@ -474,3 +474,10 @@ Tomás usa las fotos de los carruseles del IG.
 - Pauta desde el 06/11: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $32.000 (VG1 5.000, VG2 2.000, VG3 5.000, VG4 5.000, S0–S5 2.500 c/u) = **$79.000/día**.
 - Queda un borrador sin publicar (ad 120251127339370411, "Nuevo anuncio de Interacción" en S0) creado desde el Administrador para subir las placas: no gasta; descartarlo.
 - 05/11 10:45 — **Corrección de Tomás:** no subir el total diario sin preguntarle el número antes. Se bajó: S0–S5 de $2.500 a **$1.600 c/u** (mínimo de Meta por conjunto: $1.544) y VG3/VG4 de $5.000 a **$3.000 c/u**. Ninguno se pausó. Total desde el 06/11: MADRE 35.000 + TEST REELS 12.000 + TEST CREATIVOS 22.600 = **$69.600/día**. Pendiente: Tomás quería $65.000, falta definir de dónde salen los $4.600.
+- 05/11 ~12:10 — **Reels nuevos (editados por Tomás, van tal cual):** R5 Entrega de piedra (23 s) y R6 Entrega de granza (9,6 s; el texto dice «ENTREGA DE PIEDRA», Tomás pidió dejarlo). Copias comprimidas en `E:\anuncios somos piedra\_trabajo-nuevos\reels-2026-11-05\`.
+  - Test en TEST CREATIVOS desde HOY, $1.600 c/u: R5 adset 120251128651660411 / ad 120251128717640411 (video 1442922610555358); R6 adset 120251128652530411 / ad 120251128730720411 (video 2635494550231528).
+  - Orgánico FB + IG programado: R5 vie 6/11 13:00, R6 sáb 7/11 13:00.
+- Los 6 carruseles S0–S5 arrancan HOY 05/11 11:40 (no mañana).
+- Bajas: VG1 $5.000 → $2.000; VG3 y VG4 → $1.600 c/u.
+- Análisis 03–05/11 (lo que no funciona): L2-C2 Local con stock $2.606/conv (3 días) y VG2 $5.932/conv → **pausarlos (Tomás quiere; el control de permisos de la sesión bloqueó la pausa, falta confirmarla)**. C5 Granza (MADRE) $2.095 → decisión lunes 9/11. L3-V3 $1.736 con 1,5 días → mirar sábado.
+- Total hoy: MADRE 35.000 + TEST REELS 12.000 + TEST CREATIVOS 20.000 (VG1 2.000, VG2 2.000, VG3 1.600, VG4 1.600, S0–S5 9.600, R5–R6 3.200) = **$67.000/día**. Con VG2 pausado queda en **$65.000**.
