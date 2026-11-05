@@ -55,6 +55,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 02/11/2026 — Business Suite desde Claude in Chrome: el input de archivo se crea al hacer clic. Parcheá `HTMLInputElement.prototype.click` para atraparlo, usá `file_upload` y después restaurá el original.
 
 ## Pauta para clientes
+- 04/11/2026 — Cambiar el presupuesto de una campaña CBO por el MCP de Meta la deja PAUSADA: reactivar enseguida con ads_activate_entity.
+- 04/11/2026 — Pausar un conjunto dentro de una CBO no baja el gasto; para gastar menos se baja el presupuesto de la campaña.
+- 04/11/2026 — El conector de Meta puede volver con otro usuario: verificar que aparezca la cuenta 1945796639629607 antes de analizar.
 - 02/11/2026 — Subida de imágenes a Meta (ads_creative_upload_local_image): el `image_name` tiene que ser IGUAL al nombre del archivo que se sube (si no, «uploaded file metadata changed» y la sesión muere). Guardar el completion_token en `window` y leerlo de a 2 (la salida JS se corta ~400 caracteres). El fetch a rupload anda desde cualquier pestaña de business.facebook.com, aunque esté deslogueada.
 - 02/11/2026 — Caption en el editor de Business Suite: pegarlo con un evento `paste` (DataTransfer text/plain) al elemento enfocado; respeta saltos de línea y emojis. Programar: fecha con el calendario y hora/minutos con un clic en cada campo (escribir «1100» de corrido pisa la hora).
 - 02/11/2026 — `file_upload` de Chrome solo acepta archivos de /mnt/user-data/uploads (staged desde E:), no de outputs ni rutas de E: directo.

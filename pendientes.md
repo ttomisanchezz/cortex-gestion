@@ -27,6 +27,16 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] Pasar ventas desde octubre (cantidad, $ y anuncio que trajo cada una) — Tomás — desde 04/11
+- [ ] Costo por cliente + presupuesto semanal con las ventas — Claude — desde 04/11
+- [ ] Revisar si la Madre mejoró tras subirla a $35.000 (4/11 16:10) — Claude — desde 04/11
+- [ ] Videos de entregas nuevos → conjunto R5 en Test reels — Tomás + Claude — desde 04/11
+- [ ] 5 variaciones de hook de L1-R1 Envío Neuquén — Claude — desde 04/11
+- [ ] Fran graba 10 guiones (cuántas bolsas + precio a cámara) — Fran — desde 04/11
+- [ ] Subir carruseles VG3/VG4/VF3/VF4 con presupuesto bajo — Claude — desde 04/11
+- [ ] Descartar borrador viejo L3-V3 (ad 120251109138600411) — Claude — desde 04/11
+- [ ] Cortar carruseles V1 flojos el viernes 6/11 si siguen > $1.200/conv — Claude — desde 04/11
+- [ ] Decidir "Toda la zona – abierto" el lunes 9/11 (> $1.200/conv → pausar) — Claude — desde 04/11
 - [ ] **Panel — corrida 2026-11-02a (rediseño visual Mostrador):** pegar el PARA COPIAR de la integración; Claude revisa capturas (`capturas\2026-11-02a\final\`) y REVISAR; después, deploy — Tomás/Claude — desde 02/11
 - [ ] Panel: commitear `scripts/cambiar-dueno.mjs` y `CAMBIAR-DUENO.cmd` en `E:\somos-piedra-panel` después de la integración — Claude — desde 02/11
 - [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11
