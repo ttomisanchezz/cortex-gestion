@@ -74,3 +74,10 @@ Las portadas eran todas iguales (texto arriba a la izquierda sobre una foto) y n
 
 ## Imagen = texto (02/11/2026, Tomás)
 Cada placa de cada carrusel muestra lo que dice su texto («Agua y cepillo suave» → balde y cepillo sobre la piedra). Orden: 1) foto real si muestra exactamente eso; 2) si no, escena nueva de ChatGPT Image para esa placa (con refs de la piedra si aparece); 3) nunca una foto que contradiga el texto. Sin tope de escenas en los carruseles; en placas sueltas, solo la recomendada. `armar_dia.py` ya es la versión con escenas (copia vieja `armar_dia.py.bak-2026-11-02`).
+
+## Plantillas fijas de carruseles (05/11/2026, Tomás)
+- 5 estilos elegidos entre 10 variaciones: **noche** (círculo a mano), **cinta** (cinta de obra), **lupa** (zoom a la piedra), **chat** (conversación de WhatsApp) y **sello** (sello circular, SIN porcentajes).
+- Armador: `E:\anuncios somos piedra\contenido\carruseles-2026-11-05\plantillas.py` + `carruseles.json` (`mk.py` arma el JSON). Valida antes de armar: foto distinta por placa y nada de `%`, `$`, bolsón, gratis, descuento, cuotas, 25 m².
+- Fotos: las 40 del predio (`referencias\fotos-2026-11-04\`) mejoradas con ChatGPT en Chrome (cuenta Franco Muñoz): luz cálida, nítidas, sin autos ni basura; la piedra queda igual. Mejoradas en `_trabajo-nuevos\stock-2026-11-04\ia\` (5) e `ia2\` (29). Se descargan solas a Descargas; si Chrome las deja como `.tmp`, se identifican por tamaño.
+- Primer lote (05/11): S1 lupa «Mirala de cerca», S2 chat «¿Qué tienen?», S3 sello «¿Qué color va con tu casa?», S4 noche «¿Qué piedra va en cada lugar?», S5 cinta «Lista para tu obra». Cada carpeta tiene 01–06.jpg y `texto.txt` (caption, texto del anuncio y mensaje de WhatsApp). Más el VS1 «Todo esto en stock» del 04/11 en `_trabajo-nuevos\stock-2026-11-04\VS1\`.
+- Fotos del predio todavía sin usar: IMG_1754, IMG_1755, IMG_1756, IMG_1757, lote2-09 y lote2-13 (gemela de lote2-12).

@@ -446,3 +446,14 @@ Tomás usa las fotos de los carruseles del IG.
 - Conversaciones 04/11 hasta 10:59: 17 a $898 (ayer a la misma hora: 17 a $1.443).
 - 04/11 cierre: anuncio «L3-V3 Entrega granza v2» (ad 120251109138600411, post FB 122129579427307149) quedó en BORRADOR en R4 Lote 3, con texto y botón WhatsApp; falta publicarlo (solo ese: hay otros 4 borradores ajenos en «Revisar y publicar»). Traspaso en el proyecto: claude/traspaso-2026-11-04.md.
 - 04/11 11:55: PUBLICADO «L3-V3 Entrega granza v2» (ad 120251109440430411) en R4 Lote 3, video subido por Ads Manager, botón WhatsApp; en revisión de Meta. Meta le sumó 2 videos «relacionados». Queda un borrador viejo trabado (ad 120251109138600411) sin publicar: descartarlo.
+
+## Cambios 04/11/2026 noche — una sola campaña de testeo ABO
+- **Estructura desde ahora:** MADRE (CBO 120250759505930411, $35.000, no se toca) + **TEST CREATIVOS (ABO 120251097483640411, ex «TEST CARRUSELES V1»)** para todo creativo nuevo, de cualquier formato. Test reels (CBO 120251035611560411, $12.000) no recibe nada nuevo y se va apagando.
+- **Regla del test:** un conjunto por creativo o tanda del mismo formato, ~$5.000/día cada uno, público abierto, misma zona y objetivo (mensajes a WhatsApp). < $800/conv → conjunto nuevo en la MADRE (con mínimo de gasto si la CBO no le da presupuesto, según Santiago); > $1.200/conv → se apaga.
+- Renombre aplicado por el conector de Meta el 04/11 ~22:15; la campaña sigue activa.
+- Lectura 04/11 (día completo): MADRE $22.147, 24 conv, $923 (antes de las 16 h $930, después $913: sin cambio todavía). Test reels $13.374, 9 conv, $1.486. Carruseles $20.196, 8 conv, $2.525 (VG1 7 a $1.049; VG2 1 a $4.742; VF1 y VF2 0 con ~$4.000 c/u). Cuenta: $55.717, 41 conv, $1.359.
+- Pendiente de Tomás: OK para apagar VF1, VF2 y VG2 antes del viernes.
+- 04/11 23:45: **VF1 y VF2 PAUSADOS** (OK de Tomás; 0 conv con ~$5.000 c/u, CTR 0,6–1,1%). VG2 sigue a $2.000 hasta el viernes 6/11.
+- 04/11 23:50: **VG3 y VG4 cargados en TEST CREATIVOS (ABO), arrancan el 05/11 00:00**, $5.000/día c/u, misma zona y configuración que VG1 (WhatsApp, conversaciones, A+A): VG3 adset 120251118932130411 / ad 120251118969770411 (6 placas «Así sale tu granza»); VG4 adset 120251118933900411 / ad 120251118970090411 (5 placas «¿Cuántas bolsas necesitás?»). Activos y verificados.
+- Pauta desde el 05/11: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $17.000 (VG1 5.000, VG2 2.000, VG3 5.000, VG4 5.000) = **$64.000/día**.
+- Lectura de conversaciones por día: 30/10 43 ($582) · 31/10 49 ($546) · 02/11 72 ($766) · 03/11 74 ($1.196) · 04/11 43 ($1.325). Test reels perdió a su ganador (Envío Neuquén pasó a la Madre el 02/11); el CPM subió de ~$2.200 a $3.174. Foco: variaciones de hook de Envío Neuquén + videos de entregas (Tomás los edita el 05/11). Meta de Tomás: volver a 70 y pasar a 100 conversaciones/día.

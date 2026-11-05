@@ -27,6 +27,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] Revisar los 6 carruseles nuevos (VS1 + S1–S5 en `E:\anuncios somos piedra\contenido\carruseles-2026-11-05\`) y elegir cuáles van a orgánico y cuáles a TEST CREATIVOS (ABO) — Tomás — desde 05/11
+- [ ] Programar los elegidos en Business Suite y cargar conjuntos en TEST CREATIVOS (~$5.000/día c/u) con OK de Tomás — Claude — desde 05/11
 - [ ] Pasar ventas desde octubre (cantidad, $ y anuncio que trajo cada una) — Tomás — desde 04/11
 - [ ] Costo por cliente + presupuesto semanal con las ventas — Claude — desde 04/11
 - [ ] Revisar si la Madre mejoró tras subirla a $35.000 (4/11 16:10) — Claude — desde 04/11
