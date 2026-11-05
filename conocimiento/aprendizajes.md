@@ -137,3 +137,6 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 ## Programar en Meta Business Suite desde Chrome (05/11/2026)
 - «Añadir foto o vídeo» abre el selector nativo de archivos: antes de hacer clic, parchear `HTMLInputElement.prototype.click` para capturar el input file, agregarlo al DOM y subir las fotos con file_upload (en orden quedan como carrusel).
 - La fecha y la hora de Facebook y de Instagram se cargan por separado. Verificar en Contenido → Programadas (el planificador semanal muestra una sola tarjeta por publicación).
+
+- 05/11/2026 — Meta (Piedra): mínimo por conjunto ABO ~$1.544/día; con `page_welcome_message` o CTA por tarjeta el carrusel por API da error interno (sin eso anda); video por API = subir mp4 desde «Contenido multimedia → Vídeos → Subir» del editor (input capturado, < 10 MB) + `ads_create_ad` con `video_data` e `image_hash` de miniatura.
+- 05/11/2026 — Una carpeta con espacio al final del nombre no se puede stagear: copiar los archivos a otra. Los nombres «Browser N» de Chrome cambian entre turnos: elegir el navegador por deviceId.

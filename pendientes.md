@@ -27,12 +27,14 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] Confirmar pausa de L2-C2 Local con stock y VG2 (bloqueada por permisos) — Tomás — desde 05/11
+- [ ] Descartar borrador ad 120251127339370411 («Nuevo anuncio de Interacción» en S0) — Claude — desde 05/11
+- [ ] Sáb 7/11: leer L3-V3 Entrega granza v2 — Claude — desde 05/11
+- [ ] Lun 9/11: corte de S0–S5, R5, R6, VG3, VG4 + decidir C5 / «Toda la zona – abierto» — Claude + Tomás — desde 05/11
 - [x] 05/11 Los 6 carruseles (S0–S5) programados en FB + IG: jue 5 19:30, vie 6 09:00, sáb 7 19:30, dom 8 09:00, lun 9 19:30, mar 10 09:00 — Claude
-- [ ] Decidir si los 6 carruseles van también a TEST CREATIVOS (ABO), ~$5.000/día cada uno — Tomás — desde 05/11
 - [ ] Pasar ventas desde octubre (cantidad, $ y anuncio que trajo cada una) — Tomás — desde 04/11
 - [ ] Costo por cliente + presupuesto semanal con las ventas — Claude — desde 04/11
 - [ ] Revisar si la Madre mejoró tras subirla a $35.000 (4/11 16:10) — Claude — desde 04/11
-- [ ] Videos de entregas nuevos → conjunto R5 en Test reels — Tomás + Claude — desde 04/11
 - [ ] 5 variaciones de hook de L1-R1 Envío Neuquén — Claude — desde 04/11
 - [ ] Fran graba 10 guiones (cuántas bolsas + precio a cámara) — Fran — desde 04/11
 - [ ] Subir carruseles VG3/VG4/VF3/VF4 con presupuesto bajo — Claude — desde 04/11

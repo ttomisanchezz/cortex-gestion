@@ -54,3 +54,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 
 ## Somos Piedra (`somos-piedra`) — cerrados 02/11
 - [x] **Cyber Monday (2 al 4/11):** terminar 3–5 carruseles más con la dinámica del A + 2 reels ganadores con cinta; crear campaña «Cyber Monday» $20.000/día (sug. $15.000 prospección + $5.000 retargeting) hasta 4/11 23:59 con OK de Tomás; publicar en orgánico. Oferta: 20% OFF desde 2 m²; bolsón granza $20.000 (antes $27.000). Archivos en `contenido\cyber-2026\` — Claude/Tomás — desde 02/11 — hecho 02/11: carruseles D, E, F + reels L1-R1/L2-C1 con cinta; campaña Cyber activa a $20.000/día
+
+## Somos Piedra (05/11)
+- [x] 05/11 Decidir si los 6 carruseles van a TEST CREATIVOS — van a $1.600 c/u desde el 05/11
+- [x] 05/11 Videos de entregas nuevos → test — R5 y R6 en TEST CREATIVOS
