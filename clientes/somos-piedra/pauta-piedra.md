@@ -481,3 +481,10 @@ Tomás usa las fotos de los carruseles del IG.
 - Bajas: VG1 $5.000 → $2.000; VG3 y VG4 → $1.600 c/u.
 - Análisis 03–05/11 (lo que no funciona): L2-C2 Local con stock $2.606/conv (3 días) y VG2 $5.932/conv → **pausarlos (Tomás quiere; el control de permisos de la sesión bloqueó la pausa, falta confirmarla)**. C5 Granza (MADRE) $2.095 → decisión lunes 9/11. L3-V3 $1.736 con 1,5 días → mirar sábado.
 - Total hoy: MADRE 35.000 + TEST REELS 12.000 + TEST CREATIVOS 20.000 (VG1 2.000, VG2 2.000, VG3 1.600, VG4 1.600, S0–S5 9.600, R5–R6 3.200) = **$67.000/día**. Con VG2 pausado queda en **$65.000**.
+
+## Cambios 05/11/2026 12:10 (OK de Tomás en el chat)
+- **L2-C2 Local con stock** (ad 120251036010260411, R2 de TEST REELS) **PAUSADO**. Gastó $14.366 en total.
+- **VG2 Entrada en un finde** (adset 120251097486940411) **PAUSADO**.
+- Pauta desde ahora: MADRE 35.000 + TEST REELS 12.000 + TEST CREATIVOS 18.000 (VG1 2.000, VG3 1.600, VG4 1.600, S0–S5 9.600, R5–R6 3.200) = **$65.000/día**. No se sube sin preguntarle a Tomás el número.
+- Borrador «Nuevo anuncio de Interacción» (ad 120251127339370411, conjunto S0): **sigue sin descartar**. El MCP de Meta no ve borradores en esta cuenta y Ads Manager se colgó en Chrome. No gasta.
+- Cola: sábado 7/11 leer L3-V3; lunes 9/11 corte de S0–S5, R5, R6, VG3 y VG4 (+ decisión C5 Granza / Toda la zona – abierto).
