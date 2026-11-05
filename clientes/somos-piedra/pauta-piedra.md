@@ -473,3 +473,4 @@ Tomás usa las fotos de los carruseles del IG.
 - Corte de los S a los 3 días (lunes 9/11): < $800/conv → conjunto nuevo en la MADRE; > $1.200 o 0 conv con $2.500 gastados → se apaga.
 - Pauta desde el 06/11: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $32.000 (VG1 5.000, VG2 2.000, VG3 5.000, VG4 5.000, S0–S5 2.500 c/u) = **$79.000/día**.
 - Queda un borrador sin publicar (ad 120251127339370411, "Nuevo anuncio de Interacción" en S0) creado desde el Administrador para subir las placas: no gasta; descartarlo.
+- 05/11 10:45 — **Corrección de Tomás:** no subir el total diario sin preguntarle el número antes. Se bajó: S0–S5 de $2.500 a **$1.600 c/u** (mínimo de Meta por conjunto: $1.544) y VG3/VG4 de $5.000 a **$3.000 c/u**. Ninguno se pausó. Total desde el 06/11: MADRE 35.000 + TEST REELS 12.000 + TEST CREATIVOS 22.600 = **$69.600/día**. Pendiente: Tomás quería $65.000, falta definir de dónde salen los $4.600.
