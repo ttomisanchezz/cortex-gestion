@@ -133,3 +133,7 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Una foto por mensaje y de a una: si se mandan dos juntas, ChatGPT las mezcla o devuelve un recorte hecho con código en vez de una imagen generada. Pedir siempre «imagen estática» (una vez devolvió un GIF).
 - La imagen se baja con JS (fetch del src + `<a download>`) y queda en Descargas; a veces Chrome la deja como `.tmp`: se identifica por el tamaño en bytes.
 - Placas en HTML: siempre `<!doctype html>`. Sin eso (modo quirks) las clases `.s` y `.S` se confunden y se rompe el diseño.
+
+## Programar en Meta Business Suite desde Chrome (05/11/2026)
+- «Añadir foto o vídeo» abre el selector nativo de archivos: antes de hacer clic, parchear `HTMLInputElement.prototype.click` para capturar el input file, agregarlo al DOM y subir las fotos con file_upload (en orden quedan como carrusel).
+- La fecha y la hora de Facebook y de Instagram se cargan por separado. Verificar en Contenido → Programadas (el planificador semanal muestra una sola tarjeta por publicación).

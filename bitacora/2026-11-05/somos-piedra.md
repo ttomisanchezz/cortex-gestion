@@ -16,3 +16,14 @@ Aprendizajes:
 - En el HTML de las placas va siempre `<!doctype html>`: sin eso el CSS confunde las clases `.s` y `.S` y se rompe todo.
 Próximo paso: Tomás elige y se programan / suben a pauta — Modelo: —
 Cambia una regla de plata o del método: no
+
+CIERRE — somos-piedra — 05/11 10:03
+
+Hecho:
+- Saqué «STOCK REAL» y «FOTO REAL» de las placas (S0, S1, S2, S5) y de los captions; ahora dicen «Listo para la venta», «Listo para entregar», «Te la llevamos».
+- Programé los 6 carruseles en Business Suite (FB + IG, verificados en Programadas): S0 jue 5 19:30 · S1 vie 6 09:00 · S2 sáb 7 19:30 · S3 dom 8 09:00 · S4 lun 9 19:30 · S5 mar 10 09:00.
+Pendientes nuevos:
+- [ ] Pauta de los 6 carruseles en TEST CREATIVOS: decide Tomás.
+Aprendizajes:
+- Business Suite: el botón «Añadir foto o vídeo» abre el selector nativo; se captura el input file parchando HTMLInputElement.prototype.click y se sube con file_upload. Las fechas FB e IG se cargan por separado.
+Próximo paso: Tomás decide la pauta — Modelo: —
