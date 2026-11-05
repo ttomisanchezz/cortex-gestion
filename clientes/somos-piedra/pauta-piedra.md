@@ -457,3 +457,19 @@ Tomás usa las fotos de los carruseles del IG.
 - 04/11 23:50: **VG3 y VG4 cargados en TEST CREATIVOS (ABO), arrancan el 05/11 00:00**, $5.000/día c/u, misma zona y configuración que VG1 (WhatsApp, conversaciones, A+A): VG3 adset 120251118932130411 / ad 120251118969770411 (6 placas «Así sale tu granza»); VG4 adset 120251118933900411 / ad 120251118970090411 (5 placas «¿Cuántas bolsas necesitás?»). Activos y verificados.
 - Pauta desde el 05/11: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $17.000 (VG1 5.000, VG2 2.000, VG3 5.000, VG4 5.000) = **$64.000/día**.
 - Lectura de conversaciones por día: 30/10 43 ($582) · 31/10 49 ($546) · 02/11 72 ($766) · 03/11 74 ($1.196) · 04/11 43 ($1.325). Test reels perdió a su ganador (Envío Neuquén pasó a la Madre el 02/11); el CPM subió de ~$2.200 a $3.174. Foco: variaciones de hook de Envío Neuquén + videos de entregas (Tomás los edita el 05/11). Meta de Tomás: volver a 70 y pasar a 100 conversaciones/día.
+
+## Cambios 05/11/2026 ~11:00 — análisis Lauty/Doglio/Santiago aplicado (OK de Tomás: "aplicá todo lo beneficioso, que no se pause nada")
+- Lectura 7 días: MADRE $121.653 · 133 conv · $915 (Envío Neuquén $816, motor; Toda la zona abierto $1.006 y $1.834 el 03–04/11). TEST REELS $692 a 7 días pero $1.251 el 03–04/11 sin ganador. TEST CREATIVOS: VG1 $1.225, VG2 $5.492 (CTR 0,51%).
+- Recomendé apagar TEST REELS ($12.000) y VG2 ($2.000): Tomás NO quiere pausar nada → siguen corriendo.
+- **Entrega lajas (adset 120251108215030411): mínimo de gasto diario $3.500** dentro de la MADRE (Santiago: 10% del presupuesto). MADRE sigue activa, $35.000, sin pausa.
+- **6 carruseles S0–S5 en TEST CREATIVOS, $2.500/día c/u, arrancan 06/11 00:00** (WhatsApp, conversaciones, misma zona que VG3). Placas subidas a la biblioteca como S0-01…S5-06 (copias en `E:\anuncios somos piedra\_trabajo-nuevos\subida-2026-11-05\`).
+  - S0 adset 120251127323430411 / ad 120251127437270411
+  - S1 adset 120251127330920411 / ad 120251127452820411
+  - S2 adset 120251127331650411 / ad 120251127453420411
+  - S3 adset 120251127332050411 / ad 120251127454010411
+  - S4 adset 120251127332360411 / ad 120251127454660411
+  - S5 adset 120251127333250411 / ad 120251127455160411
+- Sin mensaje de WhatsApp precargado (con `page_welcome_message` la API devolvió error interno; sin él anda).
+- Corte de los S a los 3 días (lunes 9/11): < $800/conv → conjunto nuevo en la MADRE; > $1.200 o 0 conv con $2.500 gastados → se apaga.
+- Pauta desde el 06/11: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $32.000 (VG1 5.000, VG2 2.000, VG3 5.000, VG4 5.000, S0–S5 2.500 c/u) = **$79.000/día**.
+- Queda un borrador sin publicar (ad 120251127339370411, "Nuevo anuncio de Interacción" en S0) creado desde el Administrador para subir las placas: no gasta; descartarlo.
