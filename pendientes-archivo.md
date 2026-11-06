@@ -58,3 +58,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 ## Somos Piedra (05/11)
 - [x] 05/11 Decidir si los 6 carruseles van a TEST CREATIVOS — van a $1.600 c/u desde el 05/11
 - [x] 05/11 Videos de entregas nuevos → test — R5 y R6 en TEST CREATIVOS
+
+## Somos Piedra (`somos-piedra`) — cerrados 06/11
+- [x] **Panel — corrida 2026-11-02a (rediseño visual Mostrador):** pegar el PARA COPIAR de la integración; Claude revisa capturas (`capturas\2026-11-02a\final\`) y REVISAR; después, deploy — Tomás/Claude — desde 02/11 — cerrado 06/11 (rediseño aprobado por Tomás; el script ya está commiteado en a0e9fba)
+- [x] Panel: commitear `scripts/cambiar-dueno.mjs` y `CAMBIAR-DUENO.cmd` en `E:\somos-piedra-panel` después de la integración — Claude — desde 02/11 — cerrado 06/11 (rediseño aprobado por Tomás; el script ya está commiteado en a0e9fba)

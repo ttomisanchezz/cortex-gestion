@@ -3,6 +3,8 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 06/11/2026 — **Rediseño visual Mostrador del panel aprobado para producción** (Tomás: «yo apruebo el rediseño»). Sale junto con Cotizaciones con `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd` (migración 0072 + `vercel --prod`) — Tomás — panel de Somos Piedra
+- 06/11/2026 — **Cotizaciones de Somos Piedra: precios SIN IVA, siempre con la leyenda «SIN IVA» y sin calcular el IVA** (Tomás: «pone sin iva y dejalo anotado para siempre»). El PDF lleva logo, número correlativo, fecha, Emite (Somos Piedra · Jesús R. Muñoz · CUIT 20-45734050-9 · Belgrano 3090, Neuquén), cliente (nombre y, si hay, CUIT, teléfono y obra), tabla cantidad × precio, total, condiciones (validez y forma de pago) y firma. Se guardan con historial; los renglones salen del catálogo (precio EFECTIVO, editable) o se escriben a mano — Tomás — panel `E:\somos-piedra-panel` (migración 0072, pantalla Cotizaciones)
 - 05/11/2026 — **No subir el presupuesto diario total de Somos Piedra sin preguntarle a Tomás con el número concreto** (se subió de $64.000 a $79.000 sin consultar y Tomás lo marcó) — Tomás — Meta
 - 05/11/2026 — **Test a $1.600 por conjunto** (mínimo de Meta ~$1.544) para meter más creativos sin subir el total; lo nuevo arranca el mismo día. Pauta: MADRE $35.000 + TEST REELS $12.000 + TEST CREATIVOS $20.000 = $67.000 ($65.000 al pausar VG2) — Tomás — Meta
 - 05/11/2026 — **Entrega lajas (MADRE) con mínimo de gasto $3.500/día** (Santiago: 10% del presupuesto para que la CBO no le saque todo al conjunto nuevo) — Tomás/Claude — Meta

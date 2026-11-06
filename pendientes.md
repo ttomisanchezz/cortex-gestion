@@ -41,8 +41,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Descartar borrador viejo L3-V3 (ad 120251109138600411) — Claude — desde 04/11
 - [ ] Cortar carruseles V1 flojos el viernes 6/11 si siguen > $1.200/conv — Claude — desde 04/11
 - [ ] Decidir "Toda la zona – abierto" el lunes 9/11 (> $1.200/conv → pausar) — Claude — desde 04/11
-- [ ] **Panel — corrida 2026-11-02a (rediseño visual Mostrador):** pegar el PARA COPIAR de la integración; Claude revisa capturas (`capturas\2026-11-02a\final\`) y REVISAR; después, deploy — Tomás/Claude — desde 02/11
-- [ ] Panel: commitear `scripts/cambiar-dueno.mjs` y `CAMBIAR-DUENO.cmd` en `E:\somos-piedra-panel` después de la integración — Claude — desde 02/11
+- [ ] **Panel — subir rediseño + Cotizaciones:** Tomás hace doble clic en `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd` (migra la 0072 y hace `vercel --prod`; si Vercel pide login, `npx vercel login`). Después Claude prueba en el celu y la compu. A Claude el control automático no lo dejó migrar la base real — Tomás — desde 06/11
+- [ ] Cotizaciones: el WhatsApp del negocio para el PDF y confirmar validez (7 días) y forma de pago (transferencia o efectivo) por defecto; `npm test` en Windows (`marca/sin-logo` y `meta/prueba` no corren en la VM) — Tomás/Claude — desde 06/11
 - [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11
 - [ ] Panel: apagar «Allow new users to sign up» en Supabase (Authentication → Sign In / Providers → Email) — Tomás — desde 02/11
 - [ ] Panel: qué hacer con `panel@somospiedra.com` (creado sin acceso) — Tomás — desde 02/11
