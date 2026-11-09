@@ -81,3 +81,25 @@ Aprendizajes:
 - Ver conocimiento/aprendizajes.md (09/11): Graph API desde Ads Manager, conector de Meta sin la cuenta de Piedra, frames con texto quemado.
 Próximo paso: correr el prompt 2026-11-09b en VS Code; chat nuevo de reels/carruseles y chat nuevo de Erasmo/panel; mañana escalar con OK del número — Modelo: Sonnet 5.5
 Cambia una regla de plata o del método: no
+
+
+CIERRE — somos-piedra — 09/11 20:05
+
+Hecho:
+- Lectura por Graph (Chrome deviceId b74c…, la cuenta de Somos Piedra): 08/11 $32.829 / 19 conv = $1.728; 09/11 hasta 16 h $48.379 / 46 = $1.052; 3 días $152.972 / 114 = $1.342. L1-R1 MADRE $787 hoy; L2-C1 $1.029 (3d); C1 Frente $1.429 sin conv (3d); L3-V3 Entrega granza v2 $1.097 (3d). Cuenta pospaga con tarjeta, sin tope, debe $8.892.
+- Campaña «Somos Piedra - ESCALA - Ganadores (CBO)» $30.000/día: L1-R1, L2-C1 y L3-V3 (C1 Frente archivado), mismo post del ganador, segmentación de Envío Neuquén. Arranca 10/11 00:00.
+- TEST CREATIVOS: N1, N2, N3 (carruseles-2026-11-08) y N4, N5, N6 rehechos con fotos IA, $1.600 c/u, arrancan 10/11 00:00.
+- Total desde el 10/11: ~$88.200/día (MADRE $35.000 + TEST REELS $12.000 + VG3-H1 $1.600 + ESCALA $30.000 + 6 × $1.600).
+- 16 fotos de los videos mejoradas en ChatGPT (proyecto CARRUSEL SOMOS PIEDRA, cuenta Franco Muñoz): sin texto ni marca de agua. En `E:\anuncios somos piedra\carruseles-2026-11-09\ia\`. N4–N6 nuevos en `carruseles-2026-11-09-ia\`. Se le mandaron a Tomás.
+Decisiones (qué y por qué):
+- Escalar desde el 10/11 00:00 con todo programado para leer métricas por día completo (Tomás, 09/11).
+- En la ESCALA va L3-V3 Entrega granza v2 en lugar de C1 Frente: C1 lleva $1.429 sin conversaciones en 3 días (recomendación de Claude, aprobada por Tomás).
+Pendientes nuevos:
+- [ ] 10/11 a la mañana: leer el arranque de ESCALA y N1–N6 (gasto y conv) y aplicar reglas de corte — Claude
+- [ ] Revisar los 13 reels de la 09b cuando termine el prompt y programar orgánico — Claude
+Pendientes cerrados:
+- Rehacer carruseles con fotos IA (N4–N6) y escalar el 10/11 (ESCALA + N1–N3 al test).
+Aprendizajes:
+- Ver conocimiento/aprendizajes.md 09/11 (start_time, Chrome, ChatGPT).
+Próximo paso: 10/11 lectura del arranque de la ESCALA — Modelo: —
+Cambia una regla de plata o del método: no

@@ -30,8 +30,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Erasmo a tester (chat nuevo con `E:\bot-piedra`):** pasar al cotizador los precios del panel (36 productos + granza); modo que conteste solo al 299 429-5806; conectar cerebro ↔ cotizador; permitir mandar archivos (catálogo PDF, fotos de anuncios, PDF de cotización, simulador); seguimiento «volver a contactar el día X»; escalar al grupo «Bot Erasmo»; logs para iterar — Claude — desde 09/11
 - [ ] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11
 - [ ] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11
-- [ ] Rehacer los carruseles con fotos mejoradas con IA (ChatGPT, «Browser 1») replicando los ganadores; N4–N6 descartados — Claude — desde 09/11
-- [ ] **Mañana 10/11 — escalar:** Tomás confirma número y saldo → crear ESCALA (CBO) con L1-R1 y L2-C1 Envío Neuquén y C1 Frente; subir N1–N3 + reels + carruseles nuevos al test; MADRE no se toca — Tomás → Claude — desde 09/11
+- [ ] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11
+- [ ] Revisar los 13 reels de la 09b cuando termine el prompt y programar orgánico IG+FB, uno por día — Claude — desde 09/11
 - [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11
 - [ ] Panel: verificar que se corrió `SUBIR-COTIZACIONES.cmd` y que el sign-up está apagado (Tomás dijo el 09/11 que hizo sus pasos); darle empresa/rol al usuario de Erasmo — Claude — desde 09/11
 - [ ] Cargar 299 459-0936 en `EMISORES` (`src/domain/presupuesto.ts`) del panel y confirmar que «Cotizaciones» aparece en el menú en línea — Claude — desde 09/11

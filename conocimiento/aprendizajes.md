@@ -164,3 +164,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 ## Creativos de Somos Piedra (09/11/2026)
 - Los frames de los videos editados traen texto quemado: como fotos de carrusel quedan mal y Tomás los rechazó. Para carruseles, fotos mejoradas con IA.
+
+## Meta y ChatGPT desde Chrome (09/11/2026, noche)
+- Un conjunto creado con la API ya tiene `start_time` y no se puede pasar al futuro: para programar, crear el conjunto nuevo con `start_time` (ej. `2026-11-10T00:00:00-0300`) y status ACTIVE, y archivar el viejo.
+- Un conjunto que use la segmentación vieja con `location_types` (home/recent) ya no se puede copiar: usar la de «Envío Neuquén».
+- Las imágenes de un carrusel se suben a `/adimages` desde Ads Manager: input file inyectado + `file_upload` con la ruta stageada (`/mnt/user-data/uploads/...`; las rutas E:\ y /outputs no se aceptan).
+- Los Chrome conectados cambian de nombre: elegir por deviceId (ads de Somos Piedra = b74c…, ChatGPT Franco Muñoz = dc5a… el 09/11) y probar.
+- ChatGPT: un chat con más de ~10 imágenes de 3 MB congela la pestaña: abrir chat nuevo cada 8 fotos. Esperar ~5 s después de subir la foto antes de Enter (si no, se manda sin foto). Las descargas van a Descargas (pedir acceso a `C:\Users\PC\Downloads`).
