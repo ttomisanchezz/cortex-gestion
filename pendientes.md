@@ -27,6 +27,12 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] **Erasmo a tester (chat nuevo con `E:\bot-piedra`):** pasar al cotizador los precios del panel (36 productos + granza); modo que conteste solo al 299 429-5806; conectar cerebro ↔ cotizador; permitir mandar archivos (catálogo PDF, fotos de anuncios, PDF de cotización, simulador); seguimiento «volver a contactar el día X»; escalar al grupo «Bot Erasmo»; logs para iterar — Claude — desde 09/11
+- [ ] Crear el grupo de WhatsApp «Bot Erasmo» con el número del bot, y dejar `Catalogo-Somos-Piedra-2026_3.pdf` en `E:\bot-piedra` — Tomás — desde 09/11
+- [ ] Crearle un mail a Erasmo para darle usuario en el panel — Tomás — desde 09/11
+- [ ] Cargar 299 459-0936 en `EMISORES` (`src/domain/presupuesto.ts`) del panel y confirmar que «Cotizaciones» aparece en el menú en línea — Claude — desde 09/11
+- [ ] Monto de EPAS en gastos fijos (cargado sin monto) y los gastos fijos que faltan — Tomás — desde 09/11
+- [ ] Confirmar que las piedras del LISTADO van por m² (Garden Block por unidad y laca por litro ya confirmados) — Tomás — desde 09/11
 - [ ] Cargar saldo (≥ $500.000) o poner tarjeta con pago automático en la cuenta 1945796639629607: el 08/11 la entrega se cortó por saldo — Tomás — desde 09/11
 - [ ] Hacer la verificación del anunciante que pide Meta — Tomás — desde 09/11
 - [ ] Marcar cada chat #vendido / #perdido y de qué anuncio vino (hoy solo hay 3 ventas registradas por anuncio) — Fran — desde 09/11
@@ -39,7 +45,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] OK de Fran sobre los 4 cuidados (agua y cepillo, sin ácido ni lavandina, manguera, rastrillo) para el reel 06 — Fran — desde 09/11
 - [ ] Marca somospiedra del editor: licencia de la música copiada de metodoexpress y logo sin fondo — Tomás — desde 09/11
 - [ ] Permisos para Claude: extensión en business.facebook.com (ver saldo) y la carpeta Descargas (imágenes de ChatGPT) — Tomás — desde 09/11
-- [ ] Volver a adjuntar el Excel «día a día» para contar las ventas cargadas — Tomás — desde 09/11
 - [ ] Push opcional de la rama `voz/elevenlabs-2026-11-08b`: `git -C C:\Users\PC\Documents\editor-reels-tomas\.wt\voz-elevenlabs push -u origin voz/elevenlabs-2026-11-08b` — Tomás — desde 09/11
 - [ ] Confirmar pausa de L2-C2 Local con stock y VG2 (bloqueada por permisos) — Tomás — desde 05/11
 - [ ] Descartar borrador ad 120251127339370411 («Nuevo anuncio de Interacción» en S0) — Claude — desde 05/11
@@ -53,7 +58,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Fran graba 10 guiones (cuántas bolsas + precio a cámara) — Fran — desde 04/11
 - [ ] Subir carruseles VG3/VG4/VF3/VF4 con presupuesto bajo — Claude — desde 04/11
 - [ ] Descartar borrador viejo L3-V3 (ad 120251109138600411) — Claude — desde 04/11
-- [ ] Cortar carruseles V1 flojos el viernes 6/11 si siguen > $1.200/conv — Claude — desde 04/11
 - [ ] Decidir "Toda la zona – abierto" el lunes 9/11 (> $1.200/conv → pausar) — Claude — desde 04/11
 - [ ] **Panel — subir rediseño + Cotizaciones:** Tomás hace doble clic en `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd` (migra la 0072 y hace `vercel --prod`; si Vercel pide login, `npx vercel login`). Después Claude prueba en el celu y la compu. A Claude el control automático no lo dejó migrar la base real — Tomás — desde 06/11
 - [ ] Cotizaciones: el WhatsApp del negocio para el PDF y confirmar validez (7 días) y forma de pago (transferencia o efectivo) por defecto; `npm test` en Windows (`marca/sin-logo` y `meta/prueba` no corren en la VM) — Tomás/Claude — desde 06/11

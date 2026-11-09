@@ -149,3 +149,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Un reel de voz en off con una foto chica sobre fondo negro se ve pobre para pauta: usar escenas dibujadas a pantalla completa (el sistema de Remotion de Luna Astral) o la foto a sangre (09/11).
 - `motor.cmd` arranca `main` del editor; la voz local, E06 y ElevenLabs están en ramas sin mergear: una sesión tiene que levantar el motor desde el worktree de la rama (09/11).
 - Ads Manager por Chrome: la cuenta de Somos Piedra está en «Browser 1»; la tabla no da números con get_page_text (se leen arrastrando la barra horizontal y con zoom); la extensión no tiene permiso en business.facebook.com (09/11).
+
+## Pauta y panel de Somos Piedra (06–09/11/2026)
+- **06/11/2026 — Buscar un anuncio en todas las campañas antes de decir que está apagado.** L1-R1 estaba apagado en TEST REELS pero vivo en la MADRE (los ganadores se copian ahí). Se le dijo a Tomás «está apagado» y lo corrigió.
+- **06/11/2026 — Chrome con varios perfiles:** los nombres «Browser 1/2/3» cambian cada vez que se reconectan; probar abriendo una pestaña en cada uno. Si la ventana está minimizada, Ads Manager no carga los números de la tabla y las capturas fallan: pedir que la traiga al frente.
+- **07/11/2026 — Supabase del panel:** los montos van en centavos y el trigger de auditoría pone `seq`, así que lo que se carga por SQL lo sincroniza el teléfono solo.

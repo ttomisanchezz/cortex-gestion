@@ -260,3 +260,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Escala:** escalera hasta $150.000/día el vie 13/11 (ver `equipo/decisiones.md` 08/11).
 - **Reels:** marca `somospiedra` en `C:\Users\PC\EditorReels\marcas\`; 12 guiones y 11 reels (voz ElevenLabs) en `E:\anuncios somos piedra\reels\lote-2026-11-07\`; próximo: 3 reels 100 % código (prompt 2026-11-09a).
 - **Carruseles nuevos:** N1–N3 en `E:\anuncios somos piedra\carruseles-2026-11-08\` (armador `plantillas.py` + `mk.py`, render con Playwright).
+
+## Erasmo a tester y datos del panel (06–09/11/2026)
+- **Erasmo** (`E:\bot-piedra`, en Docker, escuchando) pasa a modo tester: número tester 299 429-5806; escala al grupo «Bot Erasmo»; manda siempre el catálogo `Catalogo-Somos-Piedra-2026_3.pdf` (14 piedras, sin precios) cuando el cliente pide ver o está eligiendo; usa las ~40 fotos de los anuncios; simulador desde el lanzamiento; seguimiento por fecha «volver a contactar el día X».
+- **Precios:** hoja LISTADO del Excel «día a día»: efectivo/transferencia = «efectivo sin IVA», tarjeta = «precio lista» (1 pago). 36 productos + granza cargados en el panel (09/11).
+- **Gastos fijos:** 17 cargados (07/11), $8.369.613/mes.
+- Traspasos: `claude/traspaso-2026-11-06.md` y `claude/traspaso-2026-11-07.md` del proyecto de Claude.

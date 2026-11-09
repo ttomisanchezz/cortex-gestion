@@ -28,3 +28,34 @@ Aprendizajes:
 
 Próximo paso: correr el prompt 2026-11-09a y, en un chat nuevo, lectura de 14 días por anuncio + escalón 1 ($85.000, con OK) + subir N1–N3 al test — Modelo: Sonnet 5.5
 Cambia una regla de plata o del método: no
+
+## CIERRE — somos-piedra — 09/11 13:00 (chat del 06/11 al 09/11: pauta, panel y Erasmo)
+
+Hecho:
+- 06/11 pauta (cuenta 1945796639629607): TEST CREATIVOS — apagados VG4, S0, S1, S2, S3, S5; 6 variaciones de hook de VG1 y VG3 a $1.600/día (test a $18.000); VG1 «Chau barro» pasó a la MADRE (sigue $35.000). Al cierre del 06/11: 34 conversaciones a $898 (madre $746).
+- 06/11: video que más leads trajo (1/1–6/11) = **L1-R1 Envío Neuquén**, 130 conv a $666 ($86.547): MADRE (activo, ad 120251070323040411) 87 a $821 + TEST REELS (apagado) 43 a $351. Siguen L2-C1 50 a $666 y L3-V1 30 a $1.020. Gasto diario $65.000 (MADRE 35.000 + TEST 18.000 + REELS 12.000).
+- 06/11: en el panel había 1 sola venta (de prueba) y 0 leads de Meta.
+- 07/11: **17 gastos fijos cargados** en Supabase (hoja «NOVIEMBRE GASTOS 2026» del Excel): $8.369.613/mes (alquiler Mariela $5.000.000; EPAS sin monto). Mariel no se cargó (empleados: los carga el papá).
+- 09/11: **36 productos cargados** desde la hoja «LISTADO» (34 piedras/baldosas + laca 1 L y 10 L), precio = «efectivo sin IVA», precio_lista = «precio lista» (tarjeta 1 pago), costo vacío. Granza ya estaba (06/11).
+- Decisiones de Erasmo para el modo tester (abajo). Traspasos: `claude/traspaso-2026-11-06.md` y `claude/traspaso-2026-11-07.md` del proyecto.
+
+Decisiones (qué y por qué):
+- Precios de Somos Piedra: efectivo/transferencia = «efectivo sin IVA» del LISTADO; tarjeta = «precio lista», 1 pago; sin cuotas ni comisiones hasta el posnet; «costo flete IVA» no se usa; las notas «efectivo 10% / transferencia 5%» no se usan — Tomás 09/11.
+- Garden Block por unidad, laca por litro; el resto por m² (supuesto, sin objeción de Tomás).
+- Gastos fijos: se cargan también Movistar Juli, Movistar mío, Gym Julieta y Obra social; alquiler $5.000.000 — Tomás 07/11.
+- Erasmo: tester 299 429-5806; escala al grupo «Bot Erasmo»; manda siempre el catálogo PDF cuando el cliente pide ver o está eligiendo; usa las ~40 fotos de los anuncios; simulador desde el lanzamiento; seguimiento = «volver a contactar el día X» con aviso ese día, nada cada 2 días; WhatsApp del PDF 299 459-0936 — Tomás 07/11.
+
+Pendientes nuevos: en pendientes.md (Erasmo a tester, EMISORES, unidades, EPAS).
+
+Pendientes cerrados:
+- Volver a adjuntar el Excel «día a día» (adjuntado 07/11).
+- Cortar carruseles V1 flojos el 6/11 (apagados el 06/11).
+- WhatsApp del negocio para el PDF (299 459-0936; falta cargarlo en el código).
+
+Aprendizajes:
+- Antes de decir que un anuncio está apagado, buscarlo en TODAS las campañas: los ganadores se copian a la MADRE.
+- Chrome: «Browser 1/2/3» cambian al reconectar; si la ventana está minimizada, Ads Manager no carga números ni salen capturas.
+- Supabase del panel: montos en centavos; el trigger pone `seq` (el teléfono lo sincroniza solo).
+
+Próximo paso: chat nuevo con acceso a `E:\bot-piedra` → precios al cotizador de Erasmo y plan del modo tester — Modelo: Sonnet 5.5 + advisor
+Cambia una regla de plata o del método: no
