@@ -154,3 +154,13 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - **06/11/2026 — Buscar un anuncio en todas las campañas antes de decir que está apagado.** L1-R1 estaba apagado en TEST REELS pero vivo en la MADRE (los ganadores se copian ahí). Se le dijo a Tomás «está apagado» y lo corrigió.
 - **06/11/2026 — Chrome con varios perfiles:** los nombres «Browser 1/2/3» cambian cada vez que se reconectan; probar abriendo una pestaña en cada uno. Si la ventana está minimizada, Ads Manager no carga los números de la tabla y las capturas fallan: pedir que la traiga al frente.
 - **07/11/2026 — Supabase del panel:** los montos van en centavos y el trigger de auditoría pone `seq`, así que lo que se carga por SQL lo sincroniza el teléfono solo.
+
+
+## Meta Ads desde Chrome (09/11/2026)
+- La cuenta de Somos Piedra (1945796639629607) no aparece en el conector de Meta (solo ve las de Método Express): se trabaja por Ads Manager en Chrome «Browser 1».
+- Desde la página de Ads Manager, `fetch` a graph.facebook.com/v24.0 con `window.__accessToken` y `credentials:'include'` sirve para insights por anuncio y para pausar (POST `status=PAUSED`). El edge `/ads` con campos anidados devolvió «Invalid request»; con la URL armada sin `encodeURIComponent` sí anduvo.
+- La primera navegación de una pestaña nueva en «Browser 1» a veces no carga: navegar de nuevo. Ads Manager tarda en cargar y congela la pestaña: esperar 10 s.
+- La salida del `javascript_tool` se corta cerca de 1.500 caracteres y se bloquea si trae ids numéricos largos: devolver tablas cortas, sin ids.
+
+## Creativos de Somos Piedra (09/11/2026)
+- Los frames de los videos editados traen texto quemado: como fotos de carrusel quedan mal y Tomás los rechazó. Para carruseles, fotos mejoradas con IA.

@@ -28,8 +28,12 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 
 ## 2. Somos Piedra (`somos-piedra`)
 - [ ] **Erasmo a tester (chat nuevo con `E:\bot-piedra`):** pasar al cotizador los precios del panel (36 productos + granza); modo que conteste solo al 299 429-5806; conectar cerebro ↔ cotizador; permitir mandar archivos (catálogo PDF, fotos de anuncios, PDF de cotización, simulador); seguimiento «volver a contactar el día X»; escalar al grupo «Bot Erasmo»; logs para iterar — Claude — desde 09/11
-- [ ] Crear el grupo de WhatsApp «Bot Erasmo» con el número del bot, y dejar `Catalogo-Somos-Piedra-2026_3.pdf` en `E:\bot-piedra` — Tomás — desde 09/11
-- [ ] Crearle un mail a Erasmo para darle usuario en el panel — Tomás — desde 09/11
+- [ ] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11
+- [ ] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11
+- [ ] Rehacer los carruseles con fotos mejoradas con IA (ChatGPT, «Browser 1») replicando los ganadores; N4–N6 descartados — Claude — desde 09/11
+- [ ] **Mañana 10/11 — escalar:** Tomás confirma número y saldo → crear ESCALA (CBO) con L1-R1 y L2-C1 Envío Neuquén y C1 Frente; subir N1–N3 + reels + carruseles nuevos al test; MADRE no se toca — Tomás → Claude — desde 09/11
+- [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11
+- [ ] Panel: verificar que se corrió `SUBIR-COTIZACIONES.cmd` y que el sign-up está apagado (Tomás dijo el 09/11 que hizo sus pasos); darle empresa/rol al usuario de Erasmo — Claude — desde 09/11
 - [ ] Cargar 299 459-0936 en `EMISORES` (`src/domain/presupuesto.ts`) del panel y confirmar que «Cotizaciones» aparece en el menú en línea — Claude — desde 09/11
 - [ ] Monto de EPAS en gastos fijos (cargado sin monto) y los gastos fijos que faltan — Tomás — desde 09/11
 - [ ] Confirmar que las piedras del LISTADO van por m² (Garden Block por unidad y laca por litro ya confirmados) — Tomás — desde 09/11
@@ -37,9 +41,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Hacer la verificación del anunciante que pide Meta — Tomás — desde 09/11
 - [ ] Marcar cada chat #vendido / #perdido y de qué anuncio vino (hoy solo hay 3 ventas registradas por anuncio) — Fran — desde 09/11
 - [ ] Escalera de pauta: lun 9/11 $85.000 · mar $100.000 · mié $115.000 · jue $130.000 · vie $150.000; cada escalón solo si ayer < $1.200/conv y con el número confirmado por Tomás esa mañana; plata nueva a conjuntos nuevos (campaña ESCALA CBO + test), MADRE no se toca — Claude + Tomás — desde 09/11
-- [ ] Lectura de 14 días por anuncio: ganador de carruseles y de reels → variaciones (estilo N1 «¿Tu entrada es de tierra?») — Claude — desde 09/11
 - [ ] Subir N1, N2 y N3 (`E:\anuncios somos piedra\carruseles-2026-11-08\`) a TEST CREATIVOS a $1.600 c/u — Claude con OK — desde 09/11
-- [ ] Correr `PROMPT-vscode-2026-11-09a-reels-codigo.md` (3 reels 100 % código, voz jIgvw3W75cbd6IP0JYwL) en VS Code con Sonnet 5.5 — Tomás — desde 09/11
 - [ ] Escuchar las voces dudosas del lote 08b: 03 y 07 («metros»), 12 («placas») — Tomás — desde 09/11
 - [ ] Grabar la lista de 10 tomas (barro → granza, entrega, depósito, frente, WhatsApp) — Tomás — desde 09/11
 - [ ] OK de Fran sobre los 4 cuidados (agua y cepillo, sin ácido ni lavandina, manguera, rastrillo) para el reel 06 — Fran — desde 09/11

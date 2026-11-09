@@ -64,3 +64,10 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 ## Somos Piedra (`somos-piedra`) — cerrados 06/11
 - [x] **Panel — corrida 2026-11-02a (rediseño visual Mostrador):** pegar el PARA COPIAR de la integración; Claude revisa capturas (`capturas\2026-11-02a\final\`) y REVISAR; después, deploy — Tomás/Claude — desde 02/11 — cerrado 06/11 (rediseño aprobado por Tomás; el script ya está commiteado en a0e9fba)
 - [x] Panel: commitear `scripts/cambiar-dueno.mjs` y `CAMBIAR-DUENO.cmd` en `E:\somos-piedra-panel` después de la integración — Claude — desde 02/11 — cerrado 06/11 (rediseño aprobado por Tomás; el script ya está commiteado en a0e9fba)
+
+
+## 2. Somos Piedra (`somos-piedra`) — cerrados el 09/11 (tarde)
+- [x] Crear el grupo de WhatsApp «Bot Erasmo» con el número del bot, y dejar `Catalogo-Somos-Piedra-2026_3.pdf` en `E:\bot-piedra` — Tomás — desde 09/11 — hecho 09/11
+- [x] Crearle un mail a Erasmo para darle usuario en el panel — Tomás — desde 09/11 — hecho 09/11
+- [x] Lectura de 14 días por anuncio: ganador de carruseles y de reels → variaciones (estilo N1 «¿Tu entrada es de tierra?») — Claude — desde 09/11 — hecho 09/11
+- [x] Correr `PROMPT-vscode-2026-11-09a-reels-codigo.md` (3 reels 100 % código, voz jIgvw3W75cbd6IP0JYwL) en VS Code con Sonnet 5.5 — Tomás — desde 09/11 — hecho 09/11

@@ -59,3 +59,25 @@ Aprendizajes:
 
 Próximo paso: chat nuevo con acceso a `E:\bot-piedra` → precios al cotizador de Erasmo y plan del modo tester — Modelo: Sonnet 5.5 + advisor
 Cambia una regla de plata o del método: no
+
+CIERRE — somos-piedra — 09/11 15:20 (tarde: lectura, pausas, guiones, reels)
+
+Hecho:
+- Lectura de 14 días por anuncio (26/10–8/11, por Graph API desde Ads Manager en Chrome «Browser 1»): $590.444 / 579 conv = $1.020 c/u. Ganadores: L1-R1 Envío Neuquén ($351 en test, $857 en MADRE), L2-C1 Envío Neuquén ($407), C1 Frente ($640). C5 Granza empeora ($1.332 en 3 días).
+- Pausados 19 anuncios perdedores del TEST CREATIVOS (VG1, VG1-H1/H2/H3, VG2, VG3, VG3-H2/H3, VG4, S0–S5, VF1, VF2, R5, R6). Queda VG3-H1 ($1.600). Gasto real ~$48.600/día. MADRE y TEST REELS sin tocar. No se prendió nada nuevo.
+- Guía interactiva de escala (agente): https://claude.ai/artifact/1oJ171mUJrgTJHTCEexnMZ
+- Carruseles N4–N6 con frames de videos reales (E:\anuncios somos piedra\carruseles-2026-11-09\): Tomás los rechazó; se rehacen con fotos IA.
+- 6 ganadores mandados a Tomás para ver (E:\anuncios somos piedra\carruseles-2026-11-09\ganadores\ + videos de EDITADOS).
+- Revisados los 3 reels con código de la corrida 2026-11-09a (lote-2026-11-07: 01, 03, 08): bien.
+- Página de guiones para Fran (interactiva, teleprompter, estados, 11 reels por piedra, 8 ángulos, 4 guiones a dúo, 15 ideas para Fran): https://claude.ai/artifact/5e5ykyuYsz6JPRgmTHB3fq (+ doc https://claude.ai/artifact/N9NZZW5ve8g5kBsn4fFMWe).
+- Prompt VS Code 2026-11-09b: E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md (voz nueva + 3 regenerados + 10 nuevos).
+- Tomás hizo sus pasos de Erasmo: grupo «Bot Erasmo» creado con el número de Somos Piedra, catálogo en E:\bot-piedra, mail y usuario de Erasmo en el panel.
+Decisiones (qué y por qué):
+- No prender nada hoy: publicar todo junto y escalar fuerte mañana, con todo listo (Tomás: "no quiero hacer las cosas así nomás").
+- Replicar lo que funcionó: video casero con los lentes (entregas, Envío Neuquén) + reels con código + carruseles con fotos IA.
+- Voz de los reels con código: ElevenLabs LZj1dIzYRl9rc9TIXnMt, más rápida (reemplaza jIgvw3W75cbd6IP0JYwL).
+- Guiones para Fran sin precios (se sacó la calculadora «¿Qué te llevás con $X?»).
+Aprendizajes:
+- Ver conocimiento/aprendizajes.md (09/11): Graph API desde Ads Manager, conector de Meta sin la cuenta de Piedra, frames con texto quemado.
+Próximo paso: correr el prompt 2026-11-09b en VS Code; chat nuevo de reels/carruseles y chat nuevo de Erasmo/panel; mañana escalar con OK del número — Modelo: Sonnet 5.5
+Cambia una regla de plata o del método: no

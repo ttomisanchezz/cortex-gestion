@@ -116,3 +116,11 @@ Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazad
 
 - 15/10/2026: presupuesto de la campaña conjunta Día de la Madre sube a $20.000/día (Tomás). Saldo necesario hasta el 17/10: ~$60.000 (más la otra campaña de $10.000/día).
 
+
+## 09/11/2026 — somos-piedra (tarde)
+- **No se prende nada hasta tener todo listo:** se publica todo junto y se escala fuerte el 10/11 (Tomás).
+- **Se pausaron 19 anuncios perdedores del TEST CREATIVOS** (VG1, VG1-H1/H2/H3, VG2, VG3, VG3-H2/H3, VG4, S0–S5, VF1, VF2, R5, R6): más de $1.300/conv o $3.000 sin conversaciones. Queda VG3-H1. MADRE y TEST REELS sin cambios.
+- **Se replica lo que funcionó:** video casero con los lentes (Envío Neuquén, entregas reales), reels con código y carruseles con fotos IA. Los carruseles con frames de video (N4–N6) se descartan.
+- **Voz de los reels con código:** ElevenLabs LZj1dIzYRl9rc9TIXnMt, más rápida (reemplaza jIgvw3W75cbd6IP0JYwL).
+- **Guiones para Fran sin precios:** se sacó la calculadora «¿Qué te llevás con $X?».
+

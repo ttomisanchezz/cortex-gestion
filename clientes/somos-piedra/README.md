@@ -266,3 +266,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Precios:** hoja LISTADO del Excel «día a día»: efectivo/transferencia = «efectivo sin IVA», tarjeta = «precio lista» (1 pago). 36 productos + granza cargados en el panel (09/11).
 - **Gastos fijos:** 17 cargados (07/11), $8.369.613/mes.
 - Traspasos: `claude/traspaso-2026-11-06.md` y `claude/traspaso-2026-11-07.md` del proyecto de Claude.
+
+## Lectura, pausas y guiones (09/11/2026, tarde)
+- Lectura de 14 días: ganadores L1-R1 y L2-C1 Envío Neuquén y C1 Frente. Pausados 19 perdedores del TEST CREATIVOS; gasto real ~$48.600/día. Escala con todo listo el 10/11.
+- Página de guiones para Fran: https://claude.ai/artifact/5e5ykyuYsz6JPRgmTHB3fq · Guía de escala: https://claude.ai/artifact/1oJ171mUJrgTJHTCEexnMZ
+- Reels con código: voz nueva LZj1dIzYRl9rc9TIXnMt más rápida; prompt 2026-11-09b (3 regenerados + 10 nuevos).
+- Erasmo: grupo «Bot Erasmo», catálogo y usuario del panel hechos por Tomás; sigue el chat de Erasmo/panel.
