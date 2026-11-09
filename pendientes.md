@@ -27,6 +27,20 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] Cargar saldo (≥ $500.000) o poner tarjeta con pago automático en la cuenta 1945796639629607: el 08/11 la entrega se cortó por saldo — Tomás — desde 09/11
+- [ ] Hacer la verificación del anunciante que pide Meta — Tomás — desde 09/11
+- [ ] Marcar cada chat #vendido / #perdido y de qué anuncio vino (hoy solo hay 3 ventas registradas por anuncio) — Fran — desde 09/11
+- [ ] Escalera de pauta: lun 9/11 $85.000 · mar $100.000 · mié $115.000 · jue $130.000 · vie $150.000; cada escalón solo si ayer < $1.200/conv y con el número confirmado por Tomás esa mañana; plata nueva a conjuntos nuevos (campaña ESCALA CBO + test), MADRE no se toca — Claude + Tomás — desde 09/11
+- [ ] Lectura de 14 días por anuncio: ganador de carruseles y de reels → variaciones (estilo N1 «¿Tu entrada es de tierra?») — Claude — desde 09/11
+- [ ] Subir N1, N2 y N3 (`E:\anuncios somos piedra\carruseles-2026-11-08\`) a TEST CREATIVOS a $1.600 c/u — Claude con OK — desde 09/11
+- [ ] Correr `PROMPT-vscode-2026-11-09a-reels-codigo.md` (3 reels 100 % código, voz jIgvw3W75cbd6IP0JYwL) en VS Code con Sonnet 5.5 — Tomás — desde 09/11
+- [ ] Escuchar las voces dudosas del lote 08b: 03 y 07 («metros»), 12 («placas») — Tomás — desde 09/11
+- [ ] Grabar la lista de 10 tomas (barro → granza, entrega, depósito, frente, WhatsApp) — Tomás — desde 09/11
+- [ ] OK de Fran sobre los 4 cuidados (agua y cepillo, sin ácido ni lavandina, manguera, rastrillo) para el reel 06 — Fran — desde 09/11
+- [ ] Marca somospiedra del editor: licencia de la música copiada de metodoexpress y logo sin fondo — Tomás — desde 09/11
+- [ ] Permisos para Claude: extensión en business.facebook.com (ver saldo) y la carpeta Descargas (imágenes de ChatGPT) — Tomás — desde 09/11
+- [ ] Volver a adjuntar el Excel «día a día» para contar las ventas cargadas — Tomás — desde 09/11
+- [ ] Push opcional de la rama `voz/elevenlabs-2026-11-08b`: `git -C C:\Users\PC\Documents\editor-reels-tomas\.wt\voz-elevenlabs push -u origin voz/elevenlabs-2026-11-08b` — Tomás — desde 09/11
 - [ ] Confirmar pausa de L2-C2 Local con stock y VG2 (bloqueada por permisos) — Tomás — desde 05/11
 - [ ] Descartar borrador ad 120251127339370411 («Nuevo anuncio de Interacción» en S0) — Claude — desde 05/11
 - [ ] Sáb 7/11: leer L3-V3 Entrega granza v2 — Claude — desde 05/11

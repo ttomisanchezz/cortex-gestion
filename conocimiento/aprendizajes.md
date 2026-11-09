@@ -143,3 +143,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 - 05/11/2026 — Meta (Piedra): mínimo por conjunto ABO ~$1.544/día; con `page_welcome_message` o CTA por tarjeta el carrusel por API da error interno (sin eso anda); video por API = subir mp4 desde «Contenido multimedia → Vídeos → Subir» del editor (input capturado, < 10 MB) + `ads_create_ad` con `video_data` e `image_hash` de miniatura.
 - 05/11/2026 — Una carpeta con espacio al final del nombre no se puede stagear: copiar los archivos a otra. Los nombres «Browser N» de Chrome cambian entre turnos: elegir el navegador por deviceId.
+
+## Reels de Somos Piedra (09/11/2026)
+- La voz local (Chatterbox) inventa frases después de oraciones cortas; ElevenLabs lee el guion tal cual (09/11).
+- Un reel de voz en off con una foto chica sobre fondo negro se ve pobre para pauta: usar escenas dibujadas a pantalla completa (el sistema de Remotion de Luna Astral) o la foto a sangre (09/11).
+- `motor.cmd` arranca `main` del editor; la voz local, E06 y ElevenLabs están en ramas sin mergear: una sesión tiene que levantar el motor desde el worktree de la rama (09/11).
+- Ads Manager por Chrome: la cuenta de Somos Piedra está en «Browser 1»; la tabla no da números con get_page_text (se leen arrastrando la barra horizontal y con zoom); la extensión no tiene permiso en business.facebook.com (09/11).

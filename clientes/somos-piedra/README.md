@@ -254,3 +254,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Corrida 2026-11-02a:** rediseño visual con el sistema «Mostrador» de AppVentas en todo el panel (`prompts\2026-11-02a\`), lanzada el 02/11. Integrada el 02/11 y **aprobada por Tomás el 06/11**; sale con `SUBIR-COTIZACIONES.cmd`.
 - **Cotizaciones (06/11/2026, migración 0072, commit 80ac718):** pantalla «Cotizaciones» que arma presupuestos formales en PDF (logo, N° correlativo, Emite con CUIT 20-45734050-9, cliente, tabla, total **SIN IVA**, condiciones y firma), con historial, duplicar y anular. Fuera del sync del teléfono (necesita señal). Para subirla: doble clic en `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd`. Falta el WhatsApp del negocio para el PDF.
 - **Falta para usarlo de verdad:** arreglar `api/` en Vercel, apagar el registro abierto en Supabase, el corte del 01/11, la carga inicial (productos con EFECTIVO y LISTA, medios, cuotas, empleados), y ARCA/CUIT con el contador.
+
+## Reels con código y escala (09/11/2026)
+- **Números:** 1/10–8/11 $809.644 en anuncios, 826 conversaciones ($980 c/u). Ventas registradas por anuncio: solo 3. Doc para la familia: https://claude.ai/artifact/AbdXR4PLy4JTfyjordXHKd
+- **Escala:** escalera hasta $150.000/día el vie 13/11 (ver `equipo/decisiones.md` 08/11).
+- **Reels:** marca `somospiedra` en `C:\Users\PC\EditorReels\marcas\`; 12 guiones y 11 reels (voz ElevenLabs) en `E:\anuncios somos piedra\reels\lote-2026-11-07\`; próximo: 3 reels 100 % código (prompt 2026-11-09a).
+- **Carruseles nuevos:** N1–N3 en `E:\anuncios somos piedra\carruseles-2026-11-08\` (armador `plantillas.py` + `mk.py`, render con Playwright).
