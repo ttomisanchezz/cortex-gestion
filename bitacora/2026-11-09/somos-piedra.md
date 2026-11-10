@@ -103,3 +103,13 @@ Aprendizajes:
 - Ver conocimiento/aprendizajes.md 09/11 (start_time, Chrome, ChatGPT).
 Próximo paso: 10/11 lectura del arranque de la ESCALA — Modelo: —
 Cambia una regla de plata o del método: no
+
+
+CIERRE (agregado 21:20) — somos-piedra — 09/11
+Hecho:
+- Terminó la corrida 2026-11-09b: 13 reels con la voz Agustina LZj1dIzYRl9rc9TIXnMt a 1,15. Rehechos 01, 03 y 08 en `reels\lote-2026-11-07\` (los anteriores quedaron como `reel-codigo.20261109-a.mp4`) y 10 nuevos (11–20) en `reels\lote-2026-11-10\`. −14 LUFS, 1080×1920. REVISAR: `reels\lote-2026-11-10\REVISAR-codigo-2026-11-09b.md`.
+- ElevenLabs: 1.971 caracteres cobrados.
+- Commit `d1921bb voz: velocidad configurable` en la rama `voz/elevenlabs-2026-11-08b` del editor, sin push.
+Pendientes nuevos:
+- [ ] Revisar los 13 reels de la 09b (fotogramas y palabras dudosas de whisper: 11 «Viene en bolsas», 12 «Esta es», 15 «Es piedra natural», 18 «eso son», cierre del 08), subir los aprobados al test y programar orgánico IG+FB, uno por día — Claude + Tomás
+- [ ] Push de la rama `voz/elevenlabs-2026-11-08b` del editor — Tomás

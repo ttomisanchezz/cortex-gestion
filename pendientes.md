@@ -31,7 +31,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11
 - [ ] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11
 - [ ] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11
-- [ ] Revisar los 13 reels de la 09b cuando termine el prompt y programar orgánico IG+FB, uno por día — Claude — desde 09/11
+- [ ] Revisar los 13 reels de la 09b (YA ESTÁN: 01/03/08 en `reels\lote-2026-11-07`, 11–20 en `reels\lote-2026-11-10`; palabras dudosas en el REVISAR), subir los aprobados al test y programar orgánico IG+FB, uno por día — Claude + Tomás — desde 09/11
+- [ ] Push de la rama `voz/elevenlabs-2026-11-08b` del editor de reels — Tomás — desde 09/11
 - [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11
 - [ ] Panel: verificar que se corrió `SUBIR-COTIZACIONES.cmd` y que el sign-up está apagado (Tomás dijo el 09/11 que hizo sus pasos); darle empresa/rol al usuario de Erasmo — Claude — desde 09/11
 - [ ] Cargar 299 459-0936 en `EMISORES` (`src/domain/presupuesto.ts`) del panel y confirmar que «Cotizaciones» aparece en el menú en línea — Claude — desde 09/11
