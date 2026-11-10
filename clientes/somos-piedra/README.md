@@ -259,6 +259,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Números:** 1/10–8/11 $809.644 en anuncios, 826 conversaciones ($980 c/u). Ventas registradas por anuncio: solo 3. Doc para la familia: https://claude.ai/artifact/AbdXR4PLy4JTfyjordXHKd
 - **Escala:** escalera hasta $150.000/día el vie 13/11 (ver `equipo/decisiones.md` 08/11).
 - **Reels:** marca `somospiedra` en `C:\Users\PC\EditorReels\marcas\`; 12 guiones y 11 reels (voz ElevenLabs) en `E:\anuncios somos piedra\reels\lote-2026-11-07\`; próximo: 3 reels 100 % código (prompt 2026-11-09a).
+- **Escala programada (09/11):** desde el 10/11 00:00 ~$88.200/día: ESCALA CBO $30.000 (L1-R1, L2-C1, L3-V3; C1 Frente archivado) + N1–N6 en el test a $1.600 c/u. MADRE, TEST REELS y VG3-H1 sin cambios.
+- **Fotos IA:** 16 fotos de los videos mejoradas en ChatGPT en `E:\anuncios somos piedra\carruseles-2026-11-09\ia\`; N4–N6 rehechos en `carruseles-2026-11-09-ia\`.
 - **Carruseles nuevos:** N1–N3 en `E:\anuncios somos piedra\carruseles-2026-11-08\` (armador `plantillas.py` + `mk.py`, render con Playwright).
 
 ## Erasmo a tester y datos del panel (06–09/11/2026)
