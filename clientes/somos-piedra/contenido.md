@@ -88,3 +88,8 @@ Cada placa de cada carrusel muestra lo que dice su texto («Agua y cepillo suave
 - Carruseles de plantillas de pauta (N1–N6) también van en orgánico con su «CAPTION (orgánico)» de `texto.txt`. Ya salieron todos: del 22/11 en adelante hay que armar nuevos.
 - Cómo se programa sin ver la pantalla: `conocimiento/aprendizajes.md` (sección 11/11).
 
+## Añelo (11/11/2026, Tomás)
+- **Nunca «Añelo»** en anuncios, orgánico, placas, carruseles ni voces: no se anuncian envíos ahí (la entrega en camión a esa zona sigue siendo un tema de mostrador, no de publicidad).
+- Pie de los textos desde el 11/11: «📲 WhatsApp 299 459-0936» + «📍 Belgrano 3090, Neuquén · Entregamos en Neuquén y el Alto Valle.»
+- Al revisar piezas, buscar `a(ñ|n)elo` junto con `bols[oó]n` y `25 m`.
+

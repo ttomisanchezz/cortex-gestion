@@ -288,3 +288,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - **Venta por anuncio:** el panel cruza el teléfono de cada venta con `meta_leads` (chats de Erasmo que entraron por un anuncio). Desde el 11/11 el teléfono es obligatorio en Vender (`E:\somos-piedra-panel`, `b6cb9af`, en producción) y los leads suben solos con la tarea de Windows «Leads - Piedra» cada 5 minutos: 493 chats cargados (436 con el anuncio identificado). El canal sigue opcional y a mano.
 - **Falta:** `META_TOKEN` (gasto y nombres de anuncios en el panel), los e2e del panel después del cambio, avisarle a Fran que Vender pide el teléfono, y de Fran: mensaje al escalar, granza de 20 m² y qué productos son «lajas» (ninguno se llama así en el panel).
 - **Meta, cobros:** el 10/11 y el 11/11 la tarjeta rechazó cobros y la entrega se cortó (11/11 08:15–09:56). Tomás pagó $69.056,35; la cuenta quedó activa con $59.008 de saldo sin cobrar, arriba del umbral de $52.194.
+
+## 11/11/2026 tarde — orgánico, reels con código y Añelo
+- Orgánico: carrusel 10:30 + placa 13:30 hasta el 21/11; reel 20:30 hasta el 7/12; desde el 11/11, segundo reel a las 18:00 (pendiente de que termine el lote 12). Plan y prompts en el proyecto de Claude (`claude/plan-videos-2026-11-11.md`, `claude/prompt-vscode-2026-11-11c…`, `…11d…`).
+- Añelo fuera de toda la publicidad (ver `contenido.md`). 26 anuncios pausados; R11 Granza gris (el mejor) se rehace sin Añelo.
+

@@ -275,3 +275,44 @@ Próximo paso: reinicio, pestaña en «Somos Piedra» y prueba de laja y granza 
 - Estimación de costo dicha a Tomás: US$3 a 5 por día (sale de las pruebas de hoy; no medido con tráfico real).
 
 Próximo paso: resumen del 12/11 con propuestas contra respuestas de Fran — Modelo: —
+- 14:23 Tomás: hoy tienen que salir 2 reels sí o sí, y más piezas con código. Hecho: (1) programado en FB + IG para hoy 11/11 a las 18:00 el R20 «¿Cuánto pesa una bolsa de granza?» (copia comprimida que quedaba en la nube; confirmación «Se ha programado el reel»); hoy salen R20 18:00 y R11 20:30. El R20 queda repetido el 7/12. (2) Prompt nuevo `PROMPT-vscode-2026-11-11d-mas-contenido.md` (copia en el proyecto): 14 reels 47–60 + 7 carruseles (C1–C7) + 7 placas (Q1–Q7), todo con código; base la 11c si ya terminó, si no la 10a. 2.884 caracteres de voz.
+- Descartados por producto: reel de chicos jugando sobre granza y camino a la pileta descalzo (la granza es piedra partida).
+
+## 11/11 15:28–15:45 — Pausados los anuncios que prometen envíos a Añelo
+- Pedido de Tomás: «¿existe algún anuncio que diga que hacemos envíos a Añelo? Pausalo».
+- Búsqueda por Graph (88 anuncios no borrados, 39 activos): 22 dicen Añelo en el texto y 4 más lo dicen en la voz del video (R11, R17 y R19, con código: «te la llevamos a Neuquén, el Alto Valle y Añelo»).
+- **Pausados los 26 a nivel anuncio (verificado: 26/26 PAUSED).** Estaban corriendo 7: R27 La forma más fácil, N5 Entrega real y N6 No tenés cómo llevarla (texto), y R11 Granza gris (TEST y ESCALA), R17 Pórfido y R19 Todo en stock (voz). Los otros 19 ya no corrían (R01, N2 y N4 con el conjunto pausado; 16 del Cyber con la campaña pausada).
+- Gasto programado: salen 6 conjuntos de TEST × $1.600 = −$9.600/día → de ~$108.200 a ~$98.600/día. La ESCALA sigue en $30.000 sin R11 (quedan R08, R14 y los Envío Neuquén / Entrega).
+- Sin verificar: el audio de los videos reales (Envío Neuquén L1-R1 y L2-C1 en MADRE y ESCALA, L3-V1, L3-V3). No hay transcripción.
+- Prompt `2026-11-11d` corregido antes de lanzarse: sin Añelo (serie 55, carruseles C1 y C7, pie de los textos, placa Q4 cambiada por «Te la llevamos a tu obra») y regla «nunca Añelo».
+- Sigue con Añelo: el reel 42 de la corrida 11c (en curso), el pie de todos los textos del orgánico programado, imágenes de N2, N4, N5, N6 y P6, y los reels orgánicos R01, R11, R17, R19 y R27.
+
+## 11/11 15:49–16:40 — Añelo: lo recomendado (OK de Tomás: «hacé lo recomendado»)
+- Hoy 20:30: el R11 (dice Añelo en la voz) pasó a **borradores** en FB y en IG (Acciones → «Mover a borradores», no se borró). En su lugar quedó programado el **reel 41 «Se llena solo»** del lote 12 (FB + IG 20:30, confirmado «Se ha programado»), con texto sin Añelo. Copia comprimida en `reels\_organico-sin-anelo\R41-se-llena-solo.mp4`.
+- Placa P6 rehecha sin Añelo (mapa con 2 pines, fila «Neuquén y el Alto Valle»): `contenido\semana-15-11\sin-anelo\P6-vie-20-11-te-la-llevamos.jpg`. `gen.py` de semana-15-11 sin Añelo y con «añelo» en las palabras prohibidas. Los `.txt` de las placas y `programacion-15-al-21-11.json` ya tienen el pie nuevo: «📍 Belgrano 3090, Neuquén · Entregamos en Neuquén y el Alto Valle.»
+- Prompt `2026-11-11d` ampliado (Tomás todavía no lo lanzó): parte D = R11, R27, R17, R19, R01 y 42 (+b, c) sin Añelo (misma escena, solo cambia la frase y el mapa); parte E = carruseles N2, N4 y N6 sin Añelo; regla «nunca Añelo». Voz: ~5.500 caracteres, tope 7.000.
+- En Business Suite → Programadas: «Acciones» de cada publicación trae Editar, Reprogramar, Mover a borradores, Eliminar. Se abre haciendo clic en el título de la fila (abre el panel de detalles). El listado es lento: usar `textContent`, no `innerText`.
+
+Falta (para el próximo chat):
+- Editar el pie de los textos de las 14 piezas del 15–21/11 (FB e IG por separado): «Entregamos en el Alto Valle y Añelo» → «Entregamos en Neuquén y el Alto Valle». Textos nuevos en `programacion-15-al-21-11.json`.
+- Cambiar las piezas con Añelo en la imagen por las versiones sin Añelo: N2 (18/11 10:30), N4 (21/11 10:30), N6 (19/11 10:30) cuando las haga la corrida 11d; P6 (20/11 13:30) ya está.
+- Reemplazar los reels orgánicos con Añelo en la voz: R17 (17/11 20:30), R19 (20/11 20:30), R01 (26/11 20:30), R27 (1/12 20:30), con las versiones sin Añelo de la 11d (o con otro reel del lote 12).
+- Pauta: cuando estén, subir R11 sin Añelo a TEST ($1.600) y a la ESCALA, y R27 y R17 sin Añelo al TEST. Verificar que el R11 de FB quedó en borradores.
+
+CIERRE — somos-piedra (orgánico, reels con código, Añelo) — 11/11 16:45
+
+Hecho:
+- Orgánico 15–21/11 programado en FB + IG (7 carruseles 10:30 + 7 placas con código 13:30), verificado en Programadas.
+- Plan de reels con código y dos prompts: corrida 2026-11-11c (lote 12, 35–46 + 6 arranques, en curso: 5 de 18 a las 16:40) y 2026-11-11d (lote 13: partes D y E sin Añelo, 14 reels 47–60, 7 carruseles y 7 placas; lista para lanzar).
+- 2 reels hoy: R20 a las 18:00 y el 41 «Se llena solo» a las 20:30 (en lugar del R11, que pasó a borradores en FB e IG).
+- Añelo: 26 anuncios pausados (7 corrían); placa P6 rehecha; textos del 15–21/11 corregidos en los archivos (falta editarlos en Business Suite).
+Decisiones (qué y por qué):
+- No se anuncian envíos a Añelo; mínimo 2 reels por día; lotes por formato visual distinto (ver `equipo/decisiones.md`).
+Pendientes nuevos:
+- [ ] Lanzar la corrida 2026-11-11d — Tomás
+- [ ] Limpieza de Añelo en el orgánico programado y vuelta de R11 a la pauta — Claude (chat nuevo)
+- [ ] ¿Los videos reales de Envío Neuquén / Entrega dicen Añelo? — Tomás
+Aprendizajes: menú «Acciones» de Programadas; Business Suite lento con la PC renderizando; ffmpeg en la nube.
+Próximo paso: chat nuevo — limpiar Añelo del orgánico programado, programar el segundo reel diario con el lote 12 y volver a pautar R11 sin Añelo — Modelo: —
+Cambia una regla de plata o del método: no
+
