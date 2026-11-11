@@ -27,25 +27,32 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
-- [ ] **Los 14 reels del `lote-2026-11-11` YA ESTÁN** (REVISAR-codigo-2026-11-10a.md; palabras dudosas: 21 «Viene en bolsas» 8,0 s, 24 «granza» 0,8 s, 34 arranque «Este»): Tomás los mira con sonido y aprueba; Claude los sube a TEST CREATIVOS a $1.600 c/u (los textos salen del REVISAR) — Tomás + Claude — desde 11/11
+- [x] 11/11 Los 14 reels del `lote-2026-11-11` (R21–R34) subidos a TEST CREATIVOS: un conjunto por reel a $1.600/día, inicio 12/11 00:00, textos del REVISAR, tapa = cuadro del segundo 1. Verificado por Graph: 14 conjuntos y 14 anuncios ACTIVE — Claude
+- [ ] **Meta, cobros de la tarjeta (vigilar):** el 11/11 09:56 Tomás pagó $69.056,35 (figura «Pagado») y la cuenta 1945796639629607 volvió a estado activo tras ~1 h 40 sin entregar (08:15–09:56). A las 10:02 el «saldo pendiente» era $59.008,30, sin pago atrasado pero arriba del umbral de cobro automático ($52.194): si la Mastercard ···· 6432 vuelve a rechazar (el 10/11 rechazó $52.194 una vez y $17.176,51 dos veces), se corta de nuevo. Ver con el banco el límite, o sumar un segundo método de pago — Tomás — desde 11/11
 - [ ] Lectura del 11/11: juzgar N1, N3, N6, R16, R18, R19, VG3-H1 (0 conv), R13, N5, R17 y la ESCALA con R11, R08, R14; ESCALA +20% solo si el día cierra < $1.200/conv (sin pedir OK) — Claude — desde 11/11
 - [ ] Decidir: ¿la regla de corte juzga todo recién con $3.000 de gasto? (hoy 1 conv cara se corta antes que 0 conv) — Tomás — desde 11/11
 - [ ] Decidir si quiere un tope real de gasto: Meta gasta hasta +75% sobre el diario en un día (10/11: $138.231 con $109.000 programados) — Tomás — desde 11/11
 - [ ] Pasar las ventas de noviembre para la primera tasa de cierre (chats de Meta contra ventas) — Tomás — desde 10/11
-- [ ] Cargar en el panel cada cotización y cada venta con monto (hoy 1 venta y 0 cotizaciones) — Fran — desde 10/11
-- [ ] Programar el orgánico IG+FB de los 13 reels de la 09b, uno por día — Claude — desde 11/11
+- [ ] Cargar en el panel cada cotización y cada venta con monto y con el teléfono del cliente (obligatorio desde el 11/11) (hoy 1 venta y 0 cotizaciones) — Fran — desde 10/11
+- [x] 11/11 Orgánico: 27 reels con código programados en FB + IG, uno por día a las 20:30 del 11/11 al 7/12 (verificado en Programadas: 68 filas = 34 publicaciones × 2). El calendario NO estaba vacío: ya había 7 piezas del 11 al 14/11 (10:30 y 13:30) y el extra del 13/11 10:30 sigue — Claude
+- [x] 11/11 Piezas de siempre del 15 al 21/11 programadas en FB + IG: carrusel 10:30 (N3, N5, N1, N2, N6, A «¿Ocre o verde bronce?», N4) y placa de datos con código 13:30 (P1–P7, `contenido\semana-15-11\`). Verificado en Programadas (94 filas = 47 × 2) — Claude
+- [ ] **Piezas de siempre desde el dom 22/11:** el carrusel/placa llega hasta el sáb 21/11 13:30 (los reels de las 20:30 siguen hasta el 7/12). Ya no quedan carruseles aprobados sin publicar: hay que armar nuevos con `plantillas.py` (fotos nuevas por ChatGPT) y otra tanda de placas con `semana-15-11\gen.py` — Claude arma, Tomás elige — desde 11/11
+- [ ] El sáb 14/11 10:30 no tiene carrusel programado (ese día solo sale la placa de las 13:30 y el reel) — Tomás decide si se suma — desde 11/11
+- [x] 11/11 Borrada `E:\anuncios somos piedra\reels\_subida-2026-11-11` (partes y copias de la subida, 275 MB). El calendario con los textos quedó en `reels\lote-2026-11-11\organico-programado-2026-11-11.json` — Claude
+- [ ] Orgánico de los 13 reels de la 09b: el REVISAR de la 09b no traía texto para orgánico; se usó el texto del anuncio que ya corre + 4 hashtags. Si Tomás quiere otro texto, se edita en Programadas antes de que salgan — Tomás — desde 11/11
 - [ ] 13/11: evaluar juntar MADRE y ESCALA en una sola CBO (Santiago) con los números del 10 al 12/11 — Claude — desde 11/11
 - [ ] **Error de Claude (10/11):** 8 mensajes de prueba salieron al grupo de WhatsApp «vibes a coding»; decidir si se eliminan — Tomás — desde 11/11
 - [ ] **Granza, diferencia con la planilla:** 20 m² en efectivo $310.000 (planilla y venta del 05/11) contra $300.000 de Erasmo; lista de 1 m² $26.500 contra $27.000 — Fran — desde 11/11
-- [ ] Erasmo repite la misma pregunta de la obra si el cliente no la contestó: ajustar `src/cerebro-reglas.md` — Claude — desde 11/11
+- [ ] Erasmo (reglas `db50529e`, reiniciado 11/11 08:51): falta una segunda prueba de «no repite la pregunta» (la primera dio bien: tras «y con tarjeta?» contestó una línea sin repetir «Lo necesitabas para…»); probar también proveedor, cuotas/factura y segundo «lo pienso» — Claude — desde 11/11
 - [ ] Erasmo: probar lo que faltó (proveedor, cuotas/factura, segundo «lo pienso») y pasar 2 días en borrador con clientes reales (frase de Tomás + `.env`) — Tomás / Claude — desde 11/11
-- [ ] **Planilla del local → app:** decidir dónde se anota la venta por anuncio y lo demás que hoy lleva la planilla (`claude/analisis-planilla-2026-11-11.md`); volver a pedir la planilla del 6-11, que llegó vacía — Tomás — desde 11/11
+- [ ] **Planilla del local → app:** quedan dos preguntas de `claude/analisis-planilla-2026-11-11.md`: la mercadería de Cinco Saltos / Cipolletti (¿consignación?) y quién carga las ventas y desde qué día se corta la planilla; volver a pedir la planilla del 6-11, que llegó vacía. (La venta por anuncio quedó resuelta el 11/11: teléfono en Vender.) — Tomás — desde 11/11
 - [ ] **Fran decide sobre Erasmo:** mensaje de espera al escalar (hoy silencio), recomendaciones por uso (frente/patio/pileta/quincho), si pregunta la variante (pizarra tiene 3), tramos de granza 1-9/10-19/20+, velocidad (60–90 s) — Fran — desde 10/11
 - [ ] Reactivación de Erasmo como Chiara (2 mensajes al cliente que dejó de contestar sin comprar) — Claude, con OK de Tomás — desde 10/11
 - [ ] Sumar el parche de Baileys (ack de <status>) a la imagen `evolution-api-baileys-fix`: hoy vive solo en el contenedor y se pierde si se recrea — Claude arma, Tomás corre — desde 10/11
-- [ ] Commit en `E:\bot-piedra` de `src/cerebro-reglas.md`, `src/herramientas-erasmo.js` y `herramientas/diagnostico/` — Tomás — desde 10/11
+- [ ] Push de `E:\bot-piedra` (rama `piedra/archivos-excluidos`, commit del 11/11 con reglas, buscador y diagnóstico) y de `E:\somos-piedra-panel` (`main`, `b6cb9af`) — Tomás — desde 11/11
 - [ ] `reglas/cerebro-reglas-piedra.md` (aprobado 06/11) quedó desfasado de `src/cerebro-reglas.md` (el que usa el bot): decidir la fuente — Tomás — desde 10/11
-- [ ] Buscador de Erasmo: «adoquines» no encuentra «Micosa Adoquin» / «Porfido Adoquin» (singular/plural) — Claude — desde 10/11
+- [ ] Panel: correr los e2e (`e2e:piedra`, `e2e:meta`, `e2e:corte`, `e2e:empleados`) después del teléfono obligatorio en Vender (deployado el 11/11, commit `b6cb9af`; no se corrieron) y avisarle a Fran que Vender ahora pide el teléfono — Claude / Tomás — desde 11/11
+- [ ] Catálogo del panel: ningún producto tiene «laja» en el nombre, así que `buscar_productos("laja")` no trae nada y Erasmo escala o pregunta; decidir qué productos son «lajas» (alias o nombre) — Fran / Tomás — desde 11/11
 - [ ] Fotos de productos por WhatsApp (hoy solo el catálogo PDF): decidir prioridad — Tomás — desde 10/11
 - [ ] Push de la rama `voz/elevenlabs-2026-11-08b` del editor de reels — Tomás — desde 09/11
 - [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11
@@ -55,7 +62,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Confirmar que las piedras del LISTADO van por m² (Garden Block por unidad y laca por litro ya confirmados) — Tomás — desde 09/11
 - [ ] Cargar saldo (≥ $500.000) o poner tarjeta con pago automático en la cuenta 1945796639629607: el 08/11 la entrega se cortó por saldo — Tomás — desde 09/11
 - [ ] Hacer la verificación del anunciante que pide Meta — Tomás — desde 09/11
-- [ ] Marcar cada chat #vendido / #perdido y de qué anuncio vino (hoy solo hay 3 ventas registradas por anuncio) — Fran — desde 09/11
 - [ ] Escalera de pauta: lun 9/11 $85.000 · mar $100.000 · mié $115.000 · jue $130.000 · vie $150.000; cada escalón solo si ayer < $1.200/conv y con el número confirmado por Tomás esa mañana; plata nueva a conjuntos nuevos (campaña ESCALA CBO + test), MADRE no se toca — Claude + Tomás — desde 09/11
 - [ ] Subir N1, N2 y N3 (`E:\anuncios somos piedra\carruseles-2026-11-08\`) a TEST CREATIVOS a $1.600 c/u — Claude con OK — desde 09/11
 - [ ] Escuchar las voces dudosas del lote 08b: 03 y 07 («metros»), 12 («placas») — Tomás — desde 09/11
@@ -82,7 +88,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11
 - [ ] Panel: apagar «Allow new users to sign up» en Supabase (Authentication → Sign In / Providers → Email) — Tomás — desde 02/11
 - [ ] Panel: qué hacer con `panel@somospiedra.com` (creado sin acceso) — Tomás — desde 02/11
-- [ ] Panel de Meta: arreglar los 2 hallazgos del /codex:review (CONTEXTO §7 del repo), después cargar `META_TOKEN`, `npm run meta -- --solo-lectura` y la tarea de Windows — Claude/Tomás — desde 02/11
+- [ ] Panel de Meta: arreglar los 2 hallazgos del /codex:review (CONTEXTO §7 del repo) y después cargar `META_TOKEN` y crear la tarea «Meta - Piedra» (vuelta completa). Los leads ya suben solos desde el 11/11 (tarea «Leads - Piedra», solo lectura); sin el token el panel no tiene gasto ni nombres de anuncios — Claude/Tomás — desde 02/11
 - [ ] Panel: Supabase free se pausa a los 7 días sin uso (Pro para uso real) y el repo no tiene remoto en GitHub — Tomás — desde 02/11
 - [ ] **Cyber Monday — seguimiento (sin tocar presupuestos, decidido 02/11):** ver cómo entregan las 4 variaciones de granza (conjunto 120251076731010411) y el 5/11 confirmar que todo terminó el 4/11 23:59 — Claude — desde 02/11
 - [ ] **Ventas reales por anuncio:** Tomás pasa cuáles ventas vinieron de anuncio → comparar costo por venta Cyber / Madre / Test — Tomás → Claude — desde 02/11
@@ -93,7 +99,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] No hay reels programados desde el 9/11: subir la tanda que graba Tomás — Tomás/Claude — desde 02/11
 - [ ] Revisar R3 Retest y R4 Lote 3 a las 48 h: seguir < $450/chat, cortar > $900 con $3.000 gastados — Claude — desde 02/11
 - [ ] Ver que R4 salga en IG con @somospiedranqn y cargar el mensaje armado de WhatsApp de R3/R4 en el Administrador — Tomás/Claude — desde 02/11
-- [ ] Usar #vendido / #perdido en cada chat (225 chats con anuncio, 0 ventas marcadas) — Fran — desde 02/11
 - [ ] Grabar reels con los guiones del artifact (BOFU 13, 14, 17 primero) y dejarlos en EDITADOS — Tomás — desde 02/11
 - [ ] Confirmar con Fran datos de los guiones: origen de cada piedra, medidas verde bronce, formas de pago, frases técnicas, Añelo y Roca — Tomás — desde 02/11
 - [ ] **Datos para la app** (no frenan la construcción: quedan `FALTA DATO`):

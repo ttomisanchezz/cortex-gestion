@@ -83,3 +83,12 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11 — cerrado 11/11
 - [x] Revisar los 13 reels de la 09b (YA ESTÁN: 01/03/08 en `reels\lote-2026-11-07`, 11–20 en `reels\lote-2026-11-10`; palabras dudosas en el REVISAR), subir los aprobados al test y programar orgánico IG+FB, uno por día — Claude + Tomás — desde 09/11 — cerrado 11/11
 - [x] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-10a-variaciones-granza.md`** (14 reels: 8 de granza + 2 de R08, R13, R14) en VS Code, carpeta `editor-reels-tomas`, Sonnet 5.5 — Tomás — desde 11/11 — cerrado 11/11
+
+## 2. Somos Piedra (`somos-piedra`) — cerrados el 11/11 (Erasmo y panel)
+- [x] 11/11 Buscador de Erasmo: «adoquines» no encontraba «Micosa Adoquin» / «Porfido Adoquin» (singular/plural). Arreglado en `src/catalogo-piedra.js` con su prueba; probado en vivo (lista los 4) — Claude — desde 10/11
+- [x] 11/11 Erasmo repetía la misma pregunta de la obra si el cliente no la contestaba: regla «cada pregunta una sola vez por chat» en `src/cerebro-reglas.md` (hash `db50529e`), reiniciado y probado una vez en vivo — Claude — desde 11/11
+- [x] 11/11 Commit en `E:\bot-piedra` de `src/cerebro-reglas.md`, `src/herramientas-erasmo.js` y `herramientas/diagnostico/`: `cf5cde1` en `piedra/archivos-excluidos` (lo hizo Claude, con el buscador) — desde 10/11
+- [x] 11/11 Definir cómo se marca la venta por anuncio: no hace falta unir `#vendido` con `ventas.canal`; el panel cruza el teléfono de la venta con `meta_leads` (ya estaba hecho desde el 29/10). Teléfono obligatorio en Vender (`b6cb9af`), `SUBIR-TELEFONO.cmd` corrido por Tomás, 493 leads cargados y tarea «Leads - Piedra» cada 5 min — Claude/Tomás — desde 11/11
+- [x] 11/11 Pago de Meta rechazado (cuenta en período de gracia, entrega frenada 08:15–09:56): Tomás pagó $69.056,35 a las 09:56 y la cuenta volvió a activa. Queda «vigilar los cobros de la tarjeta» en pendientes — Tomás — desde 11/11
+- [x] 11/11 (reemplazado: la venta se atribuye sola por el teléfono cargado en Vender contra `meta_leads`) Marcar cada chat #vendido / #perdido y de qué anuncio vino (hoy solo hay 3 ventas registradas por anuncio) — Fran — desde 09/11
+- [x] 11/11 (reemplazado: ídem, teléfono en Vender) Usar #vendido / #perdido en cada chat (225 chats con anuncio, 0 ventas marcadas) — Fran — desde 02/11

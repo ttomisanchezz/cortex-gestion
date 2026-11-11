@@ -81,3 +81,9 @@ Cada placa de cada carrusel muestra lo que dice su texto («Agua y cepillo suave
 - Fotos: las 40 del predio (`referencias\fotos-2026-11-04\`) mejoradas con ChatGPT en Chrome (cuenta Franco Muñoz): luz cálida, nítidas, sin autos ni basura; la piedra queda igual. Mejoradas en `_trabajo-nuevos\stock-2026-11-04\ia\` (5) e `ia2\` (29). Se descargan solas a Descargas; si Chrome las deja como `.tmp`, se identifican por tamaño.
 - Primer lote (05/11): S1 lupa «Mirala de cerca», S2 chat «¿Qué tienen?», S3 sello «¿Qué color va con tu casa?», S4 noche «¿Qué piedra va en cada lugar?», S5 cinta «Lista para tu obra». Cada carpeta tiene 01–06.jpg y `texto.txt` (caption, texto del anuncio y mensaje de WhatsApp). Más el VS1 «Todo esto en stock» del 04/11 en `_trabajo-nuevos\stock-2026-11-04\VS1\`.
 - Fotos del predio todavía sin usar: IMG_1754, IMG_1755, IMG_1756, IMG_1757, lote2-09 y lote2-13 (gemela de lote2-12).
+
+## Placas de datos con código (11/11/2026)
+- Segunda pieza del día (13:30): placa de un solo dato, 1080×1350, hecha 100 % con código (HTML + SVG, sin fotos ni IA). Generador: `E:\anuncios somos piedra\contenido\semana-15-11\gen.py` (Playwright; valida las palabras prohibidas). Primera tanda P1–P7, del 15 al 21/11.
+- Carruseles de plantillas de pauta (N1–N6) también van en orgánico con su «CAPTION (orgánico)» de `texto.txt`. Ya salieron todos: del 22/11 en adelante hay que armar nuevos.
+- Cómo se programa sin ver la pantalla: `conocimiento/aprendizajes.md` (sección 11/11).
+

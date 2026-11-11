@@ -279,4 +279,12 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - 10/11: $138.231 / 104 conv = $1.329 (programado $109.000; Meta gastó +27%). ESCALA $41.570 / 35; MADRE $39.683 / 34; TEST CREATIVOS $42.592 / 27; TEST REELS $14.386 / 8.
 - Desde el 11/11: MADRE $35.000 + ESCALA $30.000 (L1-R1, L2-C1, L3-V3, R11, R08, R14) + 13 conjuntos de test a $1.600 = ~$85.800/día. TEST REELS sin gasto.
 - Ganador nuevo: R11 Granza gris (7 conv a $368). Variaciones: `reels\PROMPT-vscode-2026-11-10a-variaciones-granza.md`.
+- 11/11: R21–R34 (14 reels del lote-2026-11-11) subidos al test a $1.600 c/u, arrancan 12/11 00:00. Programado desde el 12/11: ~$108.200/día (MADRE $35.000 + ESCALA $30.000 + 27 conjuntos de test).
+- Orgánico (11/11): 27 reels con código programados en FB + IG a las 20:30, del 11/11 al 7/12 (orden en `bitacora/2026-11-11/somos-piedra.md`). Carrusel y placa programados solo hasta el sáb 14/11.
 - Detalle: `bitacora/2026-11-11/somos-piedra.md` y `claude/traspaso-2026-11-11.md`.
+
+## Erasmo y venta por anuncio (11/11/2026)
+- **Erasmo** corre las reglas `db50529e` (modo tester): suma «cada pregunta una sola vez por chat» y el buscador ya iguala singular y plural. Commit `cf5cde1` en `E:\bot-piedra` (rama `piedra/archivos-excluidos`), sin push. Probado en vivo: «adoquines» lista los 4 y Adoquines Ojito 15 m² da $607.500 / $945.000 (verificado contra el panel).
+- **Venta por anuncio:** el panel cruza el teléfono de cada venta con `meta_leads` (chats de Erasmo que entraron por un anuncio). Desde el 11/11 el teléfono es obligatorio en Vender (`E:\somos-piedra-panel`, `b6cb9af`, en producción) y los leads suben solos con la tarea de Windows «Leads - Piedra» cada 5 minutos: 493 chats cargados (436 con el anuncio identificado). El canal sigue opcional y a mano.
+- **Falta:** `META_TOKEN` (gasto y nombres de anuncios en el panel), los e2e del panel después del cambio, avisarle a Fran que Vender pide el teléfono, y de Fran: mensaje al escalar, granza de 20 m² y qué productos son «lajas» (ninguno se llama así en el panel).
+- **Meta, cobros:** el 10/11 y el 11/11 la tarjeta rechazó cobros y la entrega se cortó (11/11 08:15–09:56). Tomás pagó $69.056,35; la cuenta quedó activa con $59.008 de saldo sin cobrar, arriba del umbral de $52.194.
