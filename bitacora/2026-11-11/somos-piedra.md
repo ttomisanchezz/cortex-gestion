@@ -257,3 +257,11 @@ Próximo paso: decisiones de Fran y los 2 días de Erasmo en borrador con client
 - **Sin probar en vivo: falta reiniciar a Erasmo.**
 
 Próximo paso: reinicio y prueba en vivo de «laja» — Modelo: —
+
+## 11/11 13:55 — Granza: precios que fijó Tomás; Erasmo reiniciado con la laja
+- Tomás: «que cotice 310.000 y 26.500». En `src/granza.js` (commit `eefad6a`, sin push): bolsa del tramo desde 20 en efectivo $15.000 → $15.500 (20 m² = $310.000) y bolsa del tramo de 1 a 9 con tarjeta $27.000 → $26.500. Cuentas a mano en los tests: 5 m² $110.000 / $132.500 (con factura $133.100 / $160.300, porque 132.500 × 1,21 = 160.325 y baja a la centena); 20 m² $310.000 / $380.000; 25 m² $387.500 / $475.000 (con factura $468.800 / $574.700, porque 387.500 × 1,21 = 468.875). Tests de granza, herramientas, tester, pruebas, cotizador, catálogo y sonnet en verde; los otros 24 archivos no tocan estos precios y no se volvieron a correr.
+- El panel sigue con la granza a los precios viejos (pendiente).
+- `/salud` 13:45: commit `53bf162`, reglas `5c058085`, «en vivo con tester», 2 números tester, 0 pilotos, `modoBorrador` false. O sea: **a los clientes reales no les contesta nadie y no está en borrador.** Los precios nuevos de la granza entran con el próximo reinicio.
+- La prueba en vivo de la laja no se hizo: la pestaña de WhatsApp estaba en otro chat (no se tocó).
+
+Próximo paso: reinicio, pestaña en «Somos Piedra» y prueba de laja y granza — Modelo: —
