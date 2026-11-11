@@ -316,3 +316,31 @@ Aprendizajes: menú «Acciones» de Programadas; Business Suite lento con la PC 
 Próximo paso: chat nuevo — limpiar Añelo del orgánico programado, programar el segundo reel diario con el lote 12 y volver a pautar R11 sin Añelo — Modelo: —
 Cambia una regla de plata o del método: no
 
+## 11/11 16:45–20:10 — Añelo fuera del orgánico programado y R11/R17/R27 de vuelta en la pauta (cola del traspaso 11b)
+Chrome de Somos Piedra: deviceId `b74c0df9…` (hoy «Browser 2»). Business Suite muy lento (la PC renderiza las corridas 11c y 11d).
+
+**Textos (pie sin Añelo)**
+- 15–21/11: editadas en Programadas las 13 piezas que quedaban (FB e IG por separado = 26), con el texto de `programacion-15-al-21-11.json`. La P6 se reemplazó entera (abajo).
+- Extra (no estaba en la cola, misma regla): las 5 piezas del 12–14/11 (pileta, cómo se cuida, tu frente, qué piedra sos, así recibís) también tenían «Entregamos en el Alto Valle y Añelo» en el pie: corregidas las 10 (FB + IG), solo el pie.
+- Control: la búsqueda «Añelo» en Programadas da 0 (ojo: la búsqueda no mira el texto de los reels).
+
+**Piezas reemplazadas (nueva programada FB + IG; la vieja a borradores)**
+- P6 vie 20/11 13:30 → `contenido\semana-15-11\sin-anelo\P6-vie-20-11-te-la-llevamos.jpg` (vieja: FB 2953313905007539, IG 1795885214964649).
+- N2 mié 18/11, N6 jue 19/11 y N4 sáb 21/11 10:30 → versiones de la corrida 11d en `contenido\semana-15-11\sin-anelo\` (revisadas las hojas: sin Añelo). Viejas a borradores (N2 1444525394539925 / 1655698809393282, N6 1407673818218815 / 2918835078483451, N4 1127811583560582 / 2514079892751699).
+- N5 (16/11) no se cambió: sus placas no dicen Añelo (solo el texto, ya corregido).
+- Reels 20:30 con las versiones sin Añelo de la 11d (revisados por hoja de cuadros: mapa solo Neuquén + Alto Valle; copias de <3,6 MB en `reels\_organico-sin-anelo\R*-sin-anelo.mp4`): R17 mar 17/11, R19 vie 20/11, R01 jue 26/11 (texto sin Añelo ni #Añelo), R27 mar 1/12 (ídem). El R20 repetido del lun 7/12 se cambió por el **R11 sin Añelo** (el mejor de granza; no había salido nunca en orgánico).
+- Los 10 reels viejos salieron de Programadas («Mover a borradores»; algunos pasan un rato por «Error al publicar tu contenido» y después desaparecen de la lista).
+- Los reels nuevos quedaron SIN texto (el editor de reels no guarda el texto pegado si se pasa enseguida a «Siguiente»): se les cargó el texto después con «Editar» de cada uno (FB e IG) y una tecla real; verificado R17 FB y R19 IG.
+- Verificado al final: Programadas = 92 filas (46 publicaciones), cada horario con 1 fila de FB y 1 de IG, sin errores. No hay nada a las 18:00 todavía.
+
+**Pauta (Graph desde Ads Manager, sin pedir OK: aprobado «hacé lo recomendado»)**
+- Videos sin Añelo subidos a la cuenta (copia de ~7 MB, 1080×1920, en `reels\_pauta-sin-anelo\`): R11 40414522668160942, R17 3719150148249091, R27 2046127363020063. Tapa = cuadro del segundo 1.
+- Anuncios nuevos ACTIVE en los mismos conjuntos donde estaba el anuncio viejo pausado (el conjunto seguía activo y sin anuncios vivos):
+  - TEST CREATIVOS: R11 (conjunto 120251197697210411, $1.600) → anuncio 120251234665070411; R17 (120251197706770411) → 120251234668180411; R27 (120251225489170411, texto sin Añelo) → 120251234669070411.
+  - ESCALA (CBO $30.000): ESCALA R11 (120251219249110411) → 120251234666940411.
+- Los 4 quedaron «En revisión». Gasto programado: +3 × $1.600 = +$4.800 → **~$103.400/día**.
+
+**No hecho / sigue**
+- Segundo reel a las 18:00: no se tocó; lo programa el control agendado del chat anterior cuando el lote 12 esté completo (a las 18:30 había 10 de los 12 videos principales y ninguno de los arranques b/c, sin REVISAR).
+- 42 sin Añelo (parte D de la 11d) todavía no estaba.
+
