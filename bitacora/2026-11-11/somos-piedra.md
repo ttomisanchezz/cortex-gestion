@@ -223,3 +223,15 @@ Próximo paso: con Erasmo reiniciado, las dos pruebas en vivo (3 a 5 mensajes). 
 - Tests escritos antes y vistos fallar (`tests/meta/dominio.test.ts`, `datos.test.ts`) más `tests/meta/falta-dato.test.ts`. En la copia de Linux: los 12 archivos de `tests/meta`, `tsc` (principal y `api/`), `vite build` y `e2e:meta` en verde. No se corrió `npm test` entero (no entra en 3 minutos por llamada). Commit `08e953f` en `main`, sin push y **sin deploy**: en producción no cambia nada hasta que haya anuncios leídos (`META_TOKEN`).
 
 Próximo paso: la prueba en vivo de Erasmo cuando la pestaña de WhatsApp esté en «Somos Piedra»; deploy del panel cuando Tomás diga — Modelo: —
+
+## 11/11 12:45 — Erasmo con `082f0b3` probado en vivo: el seguimiento anda; la pregunta se repite con otras palabras
+- Tomás dejó la pestaña en «Somos Piedra» y se mandaron 3 mensajes (`#reset` antes y después). Lo que salió se leyó del registro del bot (`data/aprendizaje-v2.jsonl`: `cliente`, `propuesta`, `entrega`), sin depender de la pestaña.
+  | Mensaje | Qué hizo | |
+  |---|---|---|
+  | «cuánto sale la granza blanca para 10 m2?» | $200.000 / $250.000, «Lo necesitabas para el patio, el frente o una pared?» y catálogo | bien |
+  | «se puede pagar en cuotas?» | «Por ahora no tenemos cuotas, con tarjeta es en un pago.» y **«Qué estás armando, el patio, el frente o una pared?»** | la misma pregunta con otras palabras: el filtro textual no la ataja |
+  | «dale, lo pienso. en 15 días arranco la obra» | `herramientas: [agendar_seguimiento, responder]`, seguimiento **2026-11-26** («Arranca la obra en 15 días; cotizada granza blanca 10 m², lo está pensando») en el chat y en la ficha; no promete escribir | **bien: confirmado** |
+- **Seguimiento: causa confirmada.** Sonnet llamaba a `agendar_seguimiento` en la misma respuesta que `responder` y el código la descartaba. Con `082f0b3` queda anotado. El `#reset` final borró el seguimiento de prueba (el chat del tester ya no está en `estado.json`): no va a salir un aviso el 26/11.
+- **Pregunta repetida: arreglo a medias.** La repetición textual ya no sale, pero Sonnet hizo tres versiones de «para qué es» en tres turnos seguidos. Tercer cambio (commit `3956ef9`, sin push): el pedido a Sonnet (`armarContexto`) lleva la lista «Preguntas que ya le hiciste en este chat (no las repitas, ni igual ni con otras palabras…)», armada con `salida.preguntasHechas`. Test nuevo; los 31 archivos en verde. **Sin probar en vivo: hace falta otro reinicio.** Si igual la rehace, el paso siguiente es una vuelta de corrección cuando la pregunta nueva se parece a una hecha (no un filtro por parecido: borraría preguntas legítimas, como los m² de otro producto).
+
+Próximo paso: reiniciar a Erasmo y repetir «cuotas» después de una cotización; mirar que no vuelva a preguntar para qué es — Modelo: —
