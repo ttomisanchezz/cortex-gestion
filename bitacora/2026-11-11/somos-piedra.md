@@ -192,7 +192,7 @@ Decisiones (qué y por qué):
 - Sin reels informativos: cuántas bolsas, cuánto pesa y cómo medir no trajeron conversaciones.
 
 ## 11/11 12:20 — Erasmo: lo que faltaba probar, dos arreglos en el bot y los e2e del panel (chat nuevo)
-- `/salud`: reglas `db50529e`, modo tester, arranque 08:51. Probado desde el WhatsApp de Tomás: la cuenta 298 440-9447 está en el deviceId `dc5ada73…`, que hoy figura como «Browser 1» (identificado por `last-wid-md`, no por el nombre). 10 mensajes y 4 `#reset`; cada envío verificó el chat y mandó en un solo paso de JS (título «Somos Piedra», no grupo, autores `tomy` / `Somos Piedra`, caja vacía).
+- `/salud`: reglas `db50529e`, modo tester, arranque 08:51. Probado desde el WhatsApp de Tomás: la cuenta 298 440-9447 está en el deviceId `dc5ada73…`, que hoy figura como «Browser 1» (identificado por `last-wid-md`, no por el nombre). 9 mensajes y 4 `#reset`; cada envío verificó el chat y mandó en un solo paso de JS (título «Somos Piedra», no grupo, autores `tomy` / `Somos Piedra`, caja vacía).
   | Mensaje | Qué hizo Erasmo | |
   |---|---|---|
   | «cuánto sale la granza blanca para 10 m2?» | Saludo, «Sí, te paso los precios:», 10 bolsas, **$200.000 / $250.000**, «Lo necesitabas para el patio, el frente o una pared?» y catálogo | bien (10 × $20.000 y 10 × $25.000) |
