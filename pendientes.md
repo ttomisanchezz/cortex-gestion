@@ -27,6 +27,14 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] **Los 14 reels del `lote-2026-11-11` YA ESTÁN** (REVISAR-codigo-2026-11-10a.md; palabras dudosas: 21 «Viene en bolsas» 8,0 s, 24 «granza» 0,8 s, 34 arranque «Este»): Tomás los mira con sonido y aprueba; Claude los sube a TEST CREATIVOS a $1.600 c/u (los textos salen del REVISAR) — Tomás + Claude — desde 11/11
+- [ ] Lectura del 11/11: juzgar N1, N3, N6, R16, R18, R19, VG3-H1 (0 conv), R13, N5, R17 y la ESCALA con R11, R08, R14; ESCALA +20% solo si el día cierra < $1.200/conv (sin pedir OK) — Claude — desde 11/11
+- [ ] Decidir: ¿la regla de corte juzga todo recién con $3.000 de gasto? (hoy 1 conv cara se corta antes que 0 conv) — Tomás — desde 11/11
+- [ ] Decidir si quiere un tope real de gasto: Meta gasta hasta +75% sobre el diario en un día (10/11: $138.231 con $109.000 programados) — Tomás — desde 11/11
+- [ ] Pasar las ventas de noviembre para la primera tasa de cierre (chats de Meta contra ventas) — Tomás — desde 10/11
+- [ ] Cargar en el panel cada cotización y cada venta con monto (hoy 1 venta y 0 cotizaciones) — Fran — desde 10/11
+- [ ] Programar el orgánico IG+FB de los 13 reels de la 09b, uno por día — Claude — desde 11/11
+- [ ] 13/11: evaluar juntar MADRE y ESCALA en una sola CBO (Santiago) con los números del 10 al 12/11 — Claude — desde 11/11
 - [ ] **Error de Claude (10/11):** 8 mensajes de prueba salieron al grupo de WhatsApp «vibes a coding»; decidir si se eliminan — Tomás — desde 11/11
 - [ ] **Granza, diferencia con la planilla:** 20 m² en efectivo $310.000 (planilla y venta del 05/11) contra $300.000 de Erasmo; lista de 1 m² $26.500 contra $27.000 — Fran — desde 11/11
 - [ ] Erasmo repite la misma pregunta de la obra si el cliente no la contestó: ajustar `src/cerebro-reglas.md` — Claude — desde 11/11
@@ -39,10 +47,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] `reglas/cerebro-reglas-piedra.md` (aprobado 06/11) quedó desfasado de `src/cerebro-reglas.md` (el que usa el bot): decidir la fuente — Tomás — desde 10/11
 - [ ] Buscador de Erasmo: «adoquines» no encuentra «Micosa Adoquin» / «Porfido Adoquin» (singular/plural) — Claude — desde 10/11
 - [ ] Fotos de productos por WhatsApp (hoy solo el catálogo PDF): decidir prioridad — Tomás — desde 10/11
-- [ ] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11
-- [ ] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11
-- [ ] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11
-- [ ] Revisar los 13 reels de la 09b (YA ESTÁN: 01/03/08 en `reels\lote-2026-11-07`, 11–20 en `reels\lote-2026-11-10`; palabras dudosas en el REVISAR), subir los aprobados al test y programar orgánico IG+FB, uno por día — Claude + Tomás — desde 09/11
 - [ ] Push de la rama `voz/elevenlabs-2026-11-08b` del editor de reels — Tomás — desde 09/11
 - [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11
 - [ ] Panel: verificar que se corrió `SUBIR-COTIZACIONES.cmd` y que el sign-up está apagado (Tomás dijo el 09/11 que hizo sus pasos); darle empresa/rol al usuario de Erasmo — Claude — desde 09/11

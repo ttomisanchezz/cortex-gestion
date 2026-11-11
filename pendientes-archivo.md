@@ -76,3 +76,10 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] Rehacer carruseles con fotos IA: N4–N6 rehechos y subidos al test (09/11)
 - [x] **Mañana 10/11 — escalar:** Tomás confirma número y saldo → crear ESCALA (CBO) con L1-R1 y L2-C1 Envío Neuquén y C1 Frente; subir N1–N3 + reels + carruseles nuevos al test; MADRE no se toca — Tomás → Claude — desde 09/11 — hecho el 09/11, programado para el 10/11 00:00
 - [x] **Erasmo: reiniciar y testear las reglas de setter** («caro», «lo pienso», preguntas de la obra) desde el tester 298 440-9447 (Browser 3) — Tomás reinicia, Claude testea — desde 10/11 — cerrado 11/11
+
+## 2. Somos Piedra (`somos-piedra`) — cerrados el 11/11 (pauta)
+- [x] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11 — cerrado 11/11
+- [x] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11 — cerrado 11/11
+- [x] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11 — cerrado 11/11
+- [x] Revisar los 13 reels de la 09b (YA ESTÁN: 01/03/08 en `reels\lote-2026-11-07`, 11–20 en `reels\lote-2026-11-10`; palabras dudosas en el REVISAR), subir los aprobados al test y programar orgánico IG+FB, uno por día — Claude + Tomás — desde 09/11 — cerrado 11/11
+- [x] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-10a-variaciones-granza.md`** (14 reels: 8 de granza + 2 de R08, R13, R14) en VS Code, carpeta `editor-reels-tomas`, Sonnet 5.5 — Tomás — desde 11/11 — cerrado 11/11

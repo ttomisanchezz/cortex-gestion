@@ -274,3 +274,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Página de guiones para Fran: https://claude.ai/artifact/5e5ykyuYsz6JPRgmTHB3fq · Guía de escala: https://claude.ai/artifact/1oJ171mUJrgTJHTCEexnMZ
 - Reels con código: voz nueva LZj1dIzYRl9rc9TIXnMt más rápida; prompt 2026-11-09b (3 regenerados + 10 nuevos).
 - Erasmo: grupo «Bot Erasmo», catálogo y usuario del panel hechos por Tomás; sigue el chat de Erasmo/panel.
+
+## Pauta 10–11/11/2026
+- 10/11: $138.231 / 104 conv = $1.329 (programado $109.000; Meta gastó +27%). ESCALA $41.570 / 35; MADRE $39.683 / 34; TEST CREATIVOS $42.592 / 27; TEST REELS $14.386 / 8.
+- Desde el 11/11: MADRE $35.000 + ESCALA $30.000 (L1-R1, L2-C1, L3-V3, R11, R08, R14) + 13 conjuntos de test a $1.600 = ~$85.800/día. TEST REELS sin gasto.
+- Ganador nuevo: R11 Granza gris (7 conv a $368). Variaciones: `reels\PROMPT-vscode-2026-11-10a-variaciones-granza.md`.
+- Detalle: `bitacora/2026-11-11/somos-piedra.md` y `claude/traspaso-2026-11-11.md`.

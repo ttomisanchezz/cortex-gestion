@@ -182,3 +182,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Antes de cada envío por WhatsApp Web, verificar el encabezado del chat abierto: el 10/11 salieron 8 mensajes de prueba a un grupo personal de Tomás porque el chat cambió.
 - Los nombres «Browser 1/2/3» se reasignan al reconectar: identificar el navegador por la cuenta que tiene abierta.
 - Erasmo no se puede reiniciar desde Cowork (terminales solo clic): lo reinicia Tomás. Lo que se manda mientras arranca se ignora.
+
+## Meta desde Chrome y presupuesto (10–11/11/2026)
+- Subir videos a Meta desde Chrome: `file_upload` acepta 3,8 MB por llamada. Partir el mp4 con `split -b 3600000`, stagear las partes, cargarlas en un input file inyectado, unirlas con `Blob` y hacer POST a `graph-video.facebook.com/.../advideos`. Borrar las partes al final (pide permiso de borrado).
+- `javascript_tool` corta a los 45 s y bloquea salidas con ids largos o query strings: lo largo va en segundo plano (`(async()=>{…})()`), se guarda en `window` y se consulta con tablas cortas.
+- El grupo de pestañas se pierde entre turnos largos: `tabs_context_mcp(createIfEmpty)` y navegar de nuevo a Ads Manager.
+- El presupuesto diario de Meta es un promedio, no un tope: hasta +75% en un día y 7× el diario por semana (dom–sáb). El 10/11 gastó $138.231 con $109.000 programados (+27%; ESCALA +39%, TEST CREATIVOS +33%). Decirle a Tomás el gasto posible, no solo el programado.
+- `send_later` sirve para la lectura de medianoche: llega al mismo chat y se ejecuta sola.
