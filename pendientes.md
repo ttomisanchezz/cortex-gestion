@@ -51,12 +51,14 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Fran decide sobre Erasmo:** mensaje de espera al escalar (hoy silencio), recomendaciones por uso (frente/patio/pileta/quincho), si pregunta la variante (pizarra tiene 3), tramos de granza 1-9/10-19/20+, velocidad (60–90 s) — Fran — desde 10/11
 - [ ] Reactivación de Erasmo como Chiara (2 mensajes al cliente que dejó de contestar sin comprar) — Claude, con OK de Tomás — desde 10/11
 - [ ] Sumar el parche de Baileys (ack de <status>) a la imagen `evolution-api-baileys-fix`: hoy vive solo en el contenedor y se pierde si se recrea — Claude arma, Tomás corre — desde 10/11
-- [ ] Push de `E:\bot-piedra` (rama `piedra/archivos-excluidos`, hasta `3956ef9`: reglas, buscador, diagnóstico, pregunta repetida, seguimiento y lista de preguntas hechas) y de `E:\somos-piedra-panel` (`main`, hasta `08e953f`) — Tomás — desde 11/11
+- [ ] Push de `E:\bot-piedra` (rama `piedra/archivos-excluidos`, hasta `53bf162`: reglas, buscador, diagnóstico, pregunta repetida, seguimiento, lista de preguntas hechas y laja) y de `E:\somos-piedra-panel` (`main`, hasta `08e953f`) — Tomás — desde 11/11
 - [ ] Panel: deploy (`vercel --prod`) de `08e953f` (FALTA DATO en la lista y la ficha de Meta sin lectura de hoy; órdenes pendientes de más de 24 horas). Sin migración. No urge: no cambia nada hasta cargar `META_TOKEN` — Tomás dice cuándo — desde 11/11
 - [ ] `reglas/cerebro-reglas-piedra.md` (aprobado 06/11) quedó desfasado de `src/cerebro-reglas.md` (el que usa el bot): decidir la fuente — Tomás — desde 10/11
 - [x] 11/11 Panel: los cuatro e2e en verde sobre `b6cb9af` (corte 24 pasos, empleados 12, meta 11, piedra 40), en una copia de Linux desde el chat (`herramientas/e2e-panel-vm/`) — Claude
 - [ ] Avisarle a Fran que Vender ahora pide el teléfono; probar una venta real con teléfono en producción — Tomás — desde 11/11
-- [ ] Catálogo del panel: ningún producto tiene «laja» en el nombre, así que `buscar_productos("laja")` no trae nada y Erasmo escala o pregunta; decidir qué productos son «lajas» (alias o nombre) — Fran / Tomás — desde 11/11
+- [x] 11/11 «Laja» definida por Tomás: toda piedra que se puede abrir; la granza, la laca y las baldosas no. Erasmo ya lo aplica en el código y en las reglas (commit `53bf162`) — Tomás / Claude
+- [ ] **Reiniciar a Erasmo** (toma `53bf162`; cambia el hash de las reglas) y probar en vivo «cuánto sale la laja?» (catálogo y pregunta cuál, sin cotizar) y «tienen laja ocre?» — Tomás reinicia, Claude prueba — desde 11/11
+- [ ] Confirmar si el Garden Block 35X35 cuenta como laja (Claude lo dejó afuera, junto con el envío y el flete) — Tomás / Fran — desde 11/11
 - [ ] Fotos de productos por WhatsApp (hoy solo el catálogo PDF): decidir prioridad — Tomás — desde 10/11
 - [ ] Push de la rama `voz/elevenlabs-2026-11-08b` del editor de reels — Tomás — desde 09/11
 - [ ] Fran confirma los nombres y usos de las piedras de la página de guiones (pizarra, travertino, Zapala y Bariloche no figuran en el catálogo 2026) y graba las ideas ★ con los lentes — Fran — desde 09/11

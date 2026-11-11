@@ -248,3 +248,12 @@ Próximo paso: reiniciar a Erasmo y repetir «cuotas» después de una cotizaci�
 - Quedan cerrados los dos arreglos del día: seguimiento (confirmado 12:36) y pregunta repetida (filtro textual + lista en el pedido).
 
 Próximo paso: decisiones de Fran y los 2 días de Erasmo en borrador con clientes reales — Modelo: —
+
+## 11/11 13:45 — Qué es una laja (decisión de Tomás) y Erasmo
+- Tomás: «Todas las piedras son lajas, laja es toda piedra que se puede abrir. La gente le llama laja a las piedras; la laca, la granza y las baldosas no son lajas. Eso hay que dejarlo en claro.»
+- En Erasmo (commit `53bf162`, sin push): `buscarProductos` con «laja» o «piedra» sin nombrar ninguna devuelve todas las piedras del panel, sin tope (hoy 30 de 38 productos; afuera quedan las 2 lacas, las 3 baldosas, la granza, el envío, el flete y el Garden Block); con «laja ocre» busca «ocre»; la herramienta avisa que no es un producto para cotizar (catálogo y preguntar cuál); la sección «Lajas» de `src/cerebro-reglas.md` lo dice. Cambia el hash de las reglas.
+- Tests primero (vistos fallar): 2 casos en `test/catalogo-piedra.test.js` y 1 en `test/erasmo-herramientas.test.js`. Los 31 archivos en verde (la VM anduvo lenta: `instancia` tardó 104 s).
+- Supuesto de Claude, a confirmar: el Garden Block no es laja. Decisión anotada en `equipo/decisiones.md`, `clientes/somos-piedra/contenido.md` y `CLAUDE.md`.
+- **Sin probar en vivo: falta reiniciar a Erasmo.**
+
+Próximo paso: reinicio y prueba en vivo de «laja» — Modelo: —

@@ -27,6 +27,7 @@ Tomás la arma, la hostea y cobra un abono mensual. **El cliente no usa Claude**
 
 - El detalle de cada cliente está en `clientes/<id>/README.md`.
 - **Somos Piedra — regla fija de contenido:** la granza se vende en **bolsas** (nunca "bolsón") y **1 bolsa (~40 kg) cubre 1 m² a 3 cm**. Ver `clientes/somos-piedra/contenido.md` antes de armar cualquier pieza (03/11/2026).
+- **Somos Piedra — qué es una laja (Tomás, 11/11/2026):** laja es toda piedra que se puede abrir. Todas las piedras son lajas (la gente les dice así); la granza, la laca y las baldosas no. Vale para Erasmo, el contenido y los anuncios.
 - El registro con las prioridades está en `proyectos.json`, y **ese orden manda** cuando se pregunta "qué tengo pendiente".
 
 ## Cómo trabajo con Claude

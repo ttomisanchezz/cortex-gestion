@@ -3,6 +3,7 @@
 ## ⚠️ Datos fijos de producto — chequear ANTES de publicar o subir cualquier pieza (03/11/2026, Tomás)
 - Granza: se vende en **bolsas**. **Nunca escribir "bolsón"/"bolsones"** (ni en placas, ni en caption, ni en hooks, ni en nombres de anuncio).
 - Medida: **1 bolsa (~40 kg) cubre 1 m² a 3 cm.** No hay otra medida. Nunca "25 m²".
+- **Laja (Tomás, 11/11/2026):** laja es toda piedra que se puede abrir; todas las piedras son lajas y la gente les dice así. **La granza, la laca y las baldosas no son lajas:** nunca llamarlas «laja» en una pieza.
 - Antes de entregar piezas: buscar `bols[oó]n` y `25 m` en los textos y en el HTML de las placas; si aparece, se corrige antes de mostrarlo.
 - Cualquier medida, precio o unidad que no esté en esta sección o en `README.md` §Respuestas de Fran: **se pregunta a Tomás, no se deduce.**
 
