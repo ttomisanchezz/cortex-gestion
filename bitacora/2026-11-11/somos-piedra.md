@@ -270,7 +270,7 @@ Próximo paso: reinicio, pestaña en «Somos Piedra» y prueba de laja y granza 
 ## 11/11 14:25 — Erasmo en sombra con los clientes reales (hasta el 13/11)
 - Tomás preguntó qué convenía, borrador o sombra. Recomendación: sombra (no llena el grupo, no sale nada y permite comparar contra lo que contestó Fran). Tomás lo puso en el `.env` y reinició 14:17.
 - `/salud` 14:18: commit `eefad6a`, reglas `5c058085`, `cerebro.modo` sombra, `sombraPersona` activa hasta 2026-11-13 con tope US$5/día, `modoBorrador` false.
-- A los 3 minutos ya había una `propuesta-sonnet` con `conPersona=persona` (un chat que atiende Fran): la sombra con persona anota. **Falta ver una propuesta de un chat sin persona** (la otra mitad de lo que se le dijo a Tomás que no estaba verificado).
+- A los 3 minutos ya había una `propuesta-sonnet` con `conPersona=persona` (un chat que atiende Fran): la sombra con persona anota. A las 14:21 apareció también la de un chat sin persona (`silencio motivo=sombra` y su `propuesta-sonnet` sin `conPersona`): **las dos mitades anotan**. Costo de esas dos propuestas: US$0,034 y US$0,007.
 - La laja y la granza nueva no se probaron con el tester (pestaña en otro chat y, desde las 14:17, en sombra no se le contesta): se van a ver en las propuestas con clientes reales.
 - Estimación de costo dicha a Tomás: US$3 a 5 por día (sale de las pruebas de hoy; no medido con tráfico real).
 
