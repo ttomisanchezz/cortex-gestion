@@ -171,3 +171,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Las imágenes de un carrusel se suben a `/adimages` desde Ads Manager: input file inyectado + `file_upload` con la ruta stageada (`/mnt/user-data/uploads/...`; las rutas E:\ y /outputs no se aceptan).
 - Los Chrome conectados cambian de nombre: elegir por deviceId (ads de Somos Piedra = b74c…, ChatGPT Franco Muñoz = dc5a… el 09/11) y probar.
 - ChatGPT: un chat con más de ~10 imágenes de 3 MB congela la pestaña: abrir chat nuevo cada 8 fotos. Esperar ~5 s después de subir la foto antes de Enter (si no, se manda sin foto). Las descargas van a Descargas (pedir acceso a `C:\Users\PC\Downloads`).
+
+## Erasmo y Evolution (10/11/2026)
+- Instancia «open» que no recibe en vivo: buscar en el log de Evolution «stream errored out» con ack class="status". Es Baileys sin ack de la stanza <status> (evolution-api #2778): el servidor retiene lo entrante. Reiniciar la instancia solo entrega la ráfaga retenida; el arreglo es el parche (E:\bot-piedra\herramientas\diagnostico\APLICAR-PARCHE-STATUS.cmd).
+- Si Erasmo dice que un producto «no figura», mirar primero el login del panel en los logs de Supabase (400 en /auth/v1/token = credenciales del .env).
+- Las reglas del cerebro se leen al arrancar: cada cambio necesita reiniciar a Erasmo y verificar el hash nuevo en /salud.
+- Desde Cowork, `npm test` del bot necesita `TMPDIR=/tmp` (el disco de la sesión se llena y en las carpetas conectadas no se puede borrar); no commitear desde Cowork (git deja locks).

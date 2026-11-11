@@ -27,7 +27,14 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
-- [ ] **Erasmo a tester (chat nuevo con `E:\bot-piedra`):** pasar al cotizador los precios del panel (36 productos + granza); modo que conteste solo al 299 429-5806; conectar cerebro ↔ cotizador; permitir mandar archivos (catálogo PDF, fotos de anuncios, PDF de cotización, simulador); seguimiento «volver a contactar el día X»; escalar al grupo «Bot Erasmo»; logs para iterar — Claude — desde 09/11
+- [ ] **Erasmo: reiniciar y testear las reglas de setter** («caro», «lo pienso», preguntas de la obra) desde el tester 298 440-9447 (Browser 3) — Tomás reinicia, Claude testea — desde 10/11
+- [ ] **Fran decide sobre Erasmo:** mensaje de espera al escalar (hoy silencio), recomendaciones por uso (frente/patio/pileta/quincho), si pregunta la variante (pizarra tiene 3), tramos de granza 1-9/10-19/20+, velocidad (60–90 s) — Fran — desde 10/11
+- [ ] Reactivación de Erasmo como Chiara (2 mensajes al cliente que dejó de contestar sin comprar) — Claude, con OK de Tomás — desde 10/11
+- [ ] Sumar el parche de Baileys (ack de <status>) a la imagen `evolution-api-baileys-fix`: hoy vive solo en el contenedor y se pierde si se recrea — Claude arma, Tomás corre — desde 10/11
+- [ ] Commit en `E:\bot-piedra` de `src/cerebro-reglas.md`, `src/herramientas-erasmo.js` y `herramientas/diagnostico/` — Tomás — desde 10/11
+- [ ] `reglas/cerebro-reglas-piedra.md` (aprobado 06/11) quedó desfasado de `src/cerebro-reglas.md` (el que usa el bot): decidir la fuente — Tomás — desde 10/11
+- [ ] Buscador de Erasmo: «adoquines» no encuentra «Micosa Adoquin» / «Porfido Adoquin» (singular/plural) — Claude — desde 10/11
+- [ ] Fotos de productos por WhatsApp (hoy solo el catálogo PDF): decidir prioridad — Tomás — desde 10/11
 - [ ] **Correr `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-09b-voz-nueva-10-reels.md`** en VS Code (Sonnet 5.5): voz LZj1dIzYRl9rc9TIXnMt más rápida, regenera los 3 reels con código y hace 10 nuevos (lote-2026-11-10) — Tomás — desde 09/11
 - [ ] Revisar los 13 reels de la 09b y programar el orgánico IG+FB, uno por día — Claude — desde 09/11
 - [ ] 10/11 a la mañana: leer el arranque de ESCALA (CBO $30.000: L1-R1, L2-C1, L3-V3) y N1–N6 en el test, y aplicar reglas de corte — Claude — desde 09/11

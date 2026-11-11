@@ -44,6 +44,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 - [x] (hecho 30/10: TEST REELS armada y prendida a $16.000/día, TEST 1-3-6 apagado) **Reels del 28/10:** subirlos a `E:\anuncios somos piedra\reels-2026-10-28\`; Claude arma la campaña de test (CBO $4.900/día, un mensaje armado por reel) y, con el OK de Tomás, la prende y apaga el TEST 1-3-6 (T1 Granza). La MADRE no se toca — Tomás / Claude — desde 29/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [x] **Erasmo a tester (chat nuevo con `E:\bot-piedra`):** pasar al cotizador los precios del panel (36 productos + granza); modo que conteste solo al 299 429-5806; conectar cerebro ↔ cotizador; permitir mandar archivos (catálogo PDF, fotos de anuncios, PDF de cotización, simulador); seguimiento «volver a contactar el día X»; escalar al grupo «Bot Erasmo»; logs para iterar — Claude — desde 09/11 — cerrado 10/11: tester andando, precios del panel, cotizador, catálogo y escalado (falta fotos y PDF de cotización: pendientes aparte)
 - [x] 09/11 Volver a adjuntar el Excel «día a día» para contar las ventas cargadas — Tomás — desde 09/11
 - [x] 09/11 Cortar carruseles V1 flojos el viernes 6/11 si siguen > $1.200/conv — Claude — desde 04/11
 
