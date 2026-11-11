@@ -177,3 +177,41 @@ Aprendizajes (errores o trucos para no repetir):
 - Meta: `account_status` 9 y «Actividad de pagos» en cada lectura.
 Próximo paso: en un chat nuevo, terminar las pruebas de Erasmo (con `#reset` antes) y juntar las decisiones de Fran — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 11/11 11:25–11:45 — Plan de videos nuevos (ángulos + qué es viral)
+- Pedido de Tomás: buscar más ángulos, ver qué es viral y plantear los videos («ahora tengo créditos para gastar»).
+- Hecho: planteo de 11 videos en `claude/plan-videos-2026-11-11.md` del proyecto: 7 reales con los lentes (1 bolsa = 1 metro, cuántas bolsas entran, mojada vs. seca, vení a elegir, del chat a tu casa, antes y después real, serie una piedra por día), 2 a cámara y 2 con código (cuenta regresiva a las fiestas, el error de los 3 cm). Basado en la lectura de pauta (ganan los videos reales de entrega y la granza) y en una búsqueda web de formatos.
+- La cuenta de Higgsfield conectada da 0 créditos (plan free): no se sabe a qué créditos se refiere.
+- Nada producido: faltan los guiones palabra por palabra y filmar.
+- 11:37 Tomás aclaró que quiere **reels con código** (no videos reales). Plan rehecho: lote de 12 reels (35 a 46) en `claude/plan-videos-2026-11-11.md`. Criterio: en la pauta rinden «un producto + un uso + un dolor» (R11 Granza gris $368; frente, laja ocre, adoquín) y no los informativos (cuántas bolsas, cuánto pesa, cómo medir). Las ideas de video real quedaron en un anexo.
+- 12:04 Tomás aprobó el lote («vamos con eso») y pidió un solo prompt. Prompt de VS Code escrito: `E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-11c-formatos-nuevos.md` (copia en el proyecto, `claude/prompt-vscode-2026-11-11c-formatos-nuevos.md`). Corrida `2026-11-11c`, sesión «piedra-codigo-4», base la sesión 10a, misma voz. 12 reels (35 a 46) + 6 arranques alternativos (35, 41 y 42), salida en `reels\lote-2026-11-12\`.
+- Cambios contra el plan, para no usar datos sin confirmar: el 35 no dice cuántas semanas faltan (el anuncio quedaría viejo); el 39 pasó de «camino a la pileta» a «¿Regás la tierra para que no vuele?»; el 40 es el patio de noche (el fogón es decorado, no un uso); el 46 es adoquín en la entrada, armado pieza por pieza (no vereda). No se incluyó «qué te llevás con $X» (sigue la regla del precio en el chat).
+
+Decisiones (qué y por qué):
+- Lote por formato visual distinto y no por más variaciones del mismo estilo: el lote 10a ya repite el estilo del 11 y Meta encarece creativos parecidos.
+- Sin reels informativos: cuántas bolsas, cuánto pesa y cómo medir no trajeron conversaciones.
+
+## 11/11 12:20 — Erasmo: lo que faltaba probar, dos arreglos en el bot y los e2e del panel (chat nuevo)
+- `/salud`: reglas `db50529e`, modo tester, arranque 08:51. Probado desde el WhatsApp de Tomás: la cuenta 298 440-9447 está en el deviceId `dc5ada73…`, que hoy figura como «Browser 1» (identificado por `last-wid-md`, no por el nombre). 10 mensajes y 4 `#reset`; cada envío verificó el chat y mandó en un solo paso de JS (título «Somos Piedra», no grupo, autores `tomy` / `Somos Piedra`, caja vacía).
+  | Mensaje | Qué hizo Erasmo | |
+  |---|---|---|
+  | «cuánto sale la granza blanca para 10 m2?» | Saludo, «Sí, te paso los precios:», 10 bolsas, **$200.000 / $250.000**, «Lo necesitabas para el patio, el frente o una pared?» y catálogo | bien (10 × $20.000 y 10 × $25.000) |
+  | «y con factura?» | «Con factura te queda en **$242.000** en efectivo o transferencia y **$302.500** con tarjeta.» Sin repetir la pregunta | bien (+21 %) |
+  | «se puede pagar en cuotas?» | «Por ahora no tenemos cuotas, con tarjeta es en un pago.» y **repite «Lo necesitabas para el patio, el frente o una pared?»** | la respuesta bien; **la pregunta repetida, mal** |
+  | «bueno, lo pienso» | «Dale, no hay problema!» / «Qué es lo que te hace dudar, el precio o la piedra?» | bien |
+  | «no sé, lo voy a pensar y te aviso» (segundo) | «Dale, cualquier duda me escribís por acá.» | bien: no insiste |
+  | «igual en 15 días arranco la obra» | «Genial, buenísimo!» / pregunta retiro o envío. No promete escribir. **No quedó `agendar_seguimiento`** | **mal: no agenda** |
+  | (reset) «precio de la granza gris para 8 m2?» | Granza gris Tandil, 8 bolsas, **$176.000 / $216.000** | bien (8 × $22.000 y 8 × $27.000) |
+  | «dale, lo pienso. en 15 días arranco la obra» | Contesta igual que el ejemplo de las reglas. **Tampoco quedó `agendar_seguimiento`** (2 de 2) | **mal** |
+  | (reset) «soy de Canteras del Sur, les paso la lista de precios de laja de San Juan» | Silencio y escala: «proveedor (Canteras del Sur) ofrece lista de precios de laja de San Juan» | bien |
+- **Arreglo 1, pregunta repetida** (`src/salida.js`): `sinLoYaDicho` ahora saca de cada texto la pregunta que la cuenta ya hizo en el chat (igual o con otra puntuación; de 12 letras o más, así «Cómo estás?» no cuenta) y sale lo demás. No gasta otra llamada. La regla del prompt sola no alcanzó.
+- **Arreglo 2, seguimiento** (`src/cerebro.js`, `pensar`): las herramientas de datos que venían en la **misma** respuesta que `responder` solo corrían si la guardia frenaba; si no, se perdían sin dejar rastro (`herramientas` decía solo `responder`). Ahora corren antes de la guardia; si una falla, no sale nada y Sonnet ve el error. **Es la causa probable** de que no agendara (Sonnet copia el ejemplo «`agendar_seguimiento` y responder»), pero no se pudo comprobar: el registro no guarda la respuesta cruda. Se confirma con la prueba en vivo después de reiniciar.
+- Tests: 7 casos nuevos (4 en `test/piedra-sonnet.test.js`, 3 en `test/erasmo-tester.test.js`), escritos antes del arreglo y vistos fallar. Los 31 archivos de `npm test` en verde, corridos de a uno en la VM (la corrida entera no entra en 3 minutos). Commit `082f0b3` en `piedra/archivos-excluidos`, sin push. **Erasmo sigue con el código viejo hasta que Tomás lo reinicie.**
+- Observación: «Cuotas» sigue en la lista de «Lo que siempre escalás» de `src/cerebro-reglas.md`, pero la regla de Fran del 06/11 dice contestar que no hay; Erasmo contestó (bien). Conviene sacarla de la lista cuando se unifiquen las reglas.
+- **e2e del panel, los cuatro en verde sobre `b6cb9af`:** `e2e:corte` 24 pasos (44 s), `e2e:empleados` 12 (30 s), `e2e:meta` 11 (21 s), `e2e:piedra` 40 (96 s), todos con salida 0. Corrieron en una copia de Linux en `/tmp` de la VM con Chromium 153 por npm y Google Fonts reemplazado por una hoja vacía (la VM lo bloquea; sin eso los pasos daban ok y el e2e salía con 1 por el error de consola). Receta y scripts en `herramientas/e2e-panel-vm/`. No es Chrome de Windows ni producción. `CONTEXTO.md` §8 del panel actualizado (commit `28e091d`, sin push).
+- Gasto de Sonnet en las pruebas: `usdHoy` pasó de US$0,059 a US$0,157.
+
+Pendientes que deja:
+- [ ] Reiniciar a Erasmo (toma `082f0b3`) — Tomás. Después Claude repite «se puede pagar en cuotas?» y «en 15 días arranco» y mira que quede `agendar_seguimiento` en el registro.
+
+Próximo paso: con Erasmo reiniciado, las dos pruebas en vivo (3 a 5 mensajes). Si sigue sin agendar, la causa es otra (Sonnet no llama a la herramienta) y se ajusta por ahí — Modelo: —
