@@ -235,3 +235,16 @@ Próximo paso: la prueba en vivo de Erasmo cuando la pestaña de WhatsApp esté 
 - **Pregunta repetida: arreglo a medias.** La repetición textual ya no sale, pero Sonnet hizo tres versiones de «para qué es» en tres turnos seguidos. Tercer cambio (commit `3956ef9`, sin push): el pedido a Sonnet (`armarContexto`) lleva la lista «Preguntas que ya le hiciste en este chat (no las repitas, ni igual ni con otras palabras…)», armada con `salida.preguntasHechas`. Test nuevo; los 31 archivos en verde. **Sin probar en vivo: hace falta otro reinicio.** Si igual la rehace, el paso siguiente es una vuelta de corrección cuando la pregunta nueva se parece a una hecha (no un filtro por parecido: borraría preguntas legítimas, como los m² de otro producto).
 
 Próximo paso: reiniciar a Erasmo y repetir «cuotas» después de una cotización; mirar que no vuelva a preguntar para qué es — Modelo: —
+
+## 11/11 13:10 — Erasmo con `3956ef9` en vivo: ya no rehace la pregunta
+- Tomás reinició 13:01 (`/salud`: commit `3956ef9`, reglas `db50529e`). 4 mensajes desde su WhatsApp, `#reset` antes y después; lo que salió, leído del registro del bot.
+  | Mensaje | Qué salió | |
+  |---|---|---|
+  | «cuánto sale la granza blanca para 10 m2?» | $200.000 / $250.000, «Lo necesitabas para el patio, el frente o una pared?» y catálogo | bien |
+  | «se puede pagar en cuotas?» | «Por ahora no tenemos cuotas, con tarjeta es en un pago.» / «Si querés, también podés pagar en efectivo o transferencia. Cuándo lo necesitarías?» | bien: pregunta de otro tema |
+  | «y con factura?» | «Con factura te queda en $242.000 en efectivo o transferencia y $302.500 con tarjeta.» | bien: sin pregunta |
+  | «ah ok, gracias» | «De nada! Cualquier duda que tengas me escribís por acá.» / «Si querés, contame qué estás armando y te ayudo a elegir el color que mejor te quede.» | sin pregunta; vuelve al tema como invitación, no como pregunta |
+- En 3 turnos seguidos sin contestarle, no repitió ni rehízo ninguna pregunta (con `082f0b3` la rehízo en el primero). Es una sola corrida: alcanza para seguir, no para darlo por garantizado. Si reaparece en los 2 días de borrador, el paso siguiente sigue siendo la vuelta de corrección por parecido.
+- Quedan cerrados los dos arreglos del día: seguimiento (confirmado 12:36) y pregunta repetida (filtro textual + lista en el pedido).
+
+Próximo paso: decisiones de Fran y los 2 días de Erasmo en borrador con clientes reales — Modelo: —
