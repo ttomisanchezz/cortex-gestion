@@ -177,3 +177,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Si Erasmo dice que un producto «no figura», mirar primero el login del panel en los logs de Supabase (400 en /auth/v1/token = credenciales del .env).
 - Las reglas del cerebro se leen al arrancar: cada cambio necesita reiniciar a Erasmo y verificar el hash nuevo en /salud.
 - Desde Cowork, `npm test` del bot necesita `TMPDIR=/tmp` (el disco de la sesión se llena y en las carpetas conectadas no se puede borrar); no commitear desde Cowork (git deja locks).
+
+## WhatsApp Web y Erasmo desde Cowork (11/11/2026)
+- Antes de cada envío por WhatsApp Web, verificar el encabezado del chat abierto: el 10/11 salieron 8 mensajes de prueba a un grupo personal de Tomás porque el chat cambió.
+- Los nombres «Browser 1/2/3» se reasignan al reconectar: identificar el navegador por la cuenta que tiene abierta.
+- Erasmo no se puede reiniciar desde Cowork (terminales solo clic): lo reinicia Tomás. Lo que se manda mientras arranca se ignora.

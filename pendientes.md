@@ -27,7 +27,11 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
-- [ ] **Erasmo: reiniciar y testear las reglas de setter** («caro», «lo pienso», preguntas de la obra) desde el tester 298 440-9447 (Browser 3) — Tomás reinicia, Claude testea — desde 10/11
+- [ ] **Error de Claude (10/11):** 8 mensajes de prueba salieron al grupo de WhatsApp «vibes a coding»; decidir si se eliminan — Tomás — desde 11/11
+- [ ] **Granza, diferencia con la planilla:** 20 m² en efectivo $310.000 (planilla y venta del 05/11) contra $300.000 de Erasmo; lista de 1 m² $26.500 contra $27.000 — Fran — desde 11/11
+- [ ] Erasmo repite la misma pregunta de la obra si el cliente no la contestó: ajustar `src/cerebro-reglas.md` — Claude — desde 11/11
+- [ ] Erasmo: probar lo que faltó (proveedor, cuotas/factura, segundo «lo pienso») y pasar 2 días en borrador con clientes reales (frase de Tomás + `.env`) — Tomás / Claude — desde 11/11
+- [ ] **Planilla del local → app:** decidir dónde se anota la venta por anuncio y lo demás que hoy lleva la planilla (`claude/analisis-planilla-2026-11-11.md`); volver a pedir la planilla del 6-11, que llegó vacía — Tomás — desde 11/11
 - [ ] **Fran decide sobre Erasmo:** mensaje de espera al escalar (hoy silencio), recomendaciones por uso (frente/patio/pileta/quincho), si pregunta la variante (pizarra tiene 3), tramos de granza 1-9/10-19/20+, velocidad (60–90 s) — Fran — desde 10/11
 - [ ] Reactivación de Erasmo como Chiara (2 mensajes al cliente que dejó de contestar sin comprar) — Claude, con OK de Tomás — desde 10/11
 - [ ] Sumar el parche de Baileys (ack de <status>) a la imagen `evolution-api-baileys-fix`: hoy vive solo en el contenedor y se pierde si se recrea — Claude arma, Tomás corre — desde 10/11

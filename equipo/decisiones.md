@@ -3,6 +3,8 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 11/11/2026 — **La planilla del local no se importa**: ni los meses pasados ni como dashboard; se arranca de cero anotando todo (no está completa ni bien cargada) — Tomás — app de gestión de `somos-piedra`
+- 10/11/2026 — **Erasmo no busca en la web**: lo que no sabe se cubre con datos del local (ficha por piedra), no con Google (costo por consulta y riesgo de afirmar cosas que el local no validó) — Tomás — `E:\bot-piedra`
 - 10/11/2026 — **Erasmo vende como setter** (como Chiara): no da ventas por perdidas; ante «caro» o «lo pienso» sigue con preguntas de la obra y lo que lo frena, sin presión ni descuentos; saludo cálido + «Sí, te paso los precios» + cotización + para qué lo necesita + catálogo; repreguntas de tarjeta/factura en una línea — Tomás — `E:\bot-piedra\src\cerebro-reglas.md`
 - 10/11/2026 — **Formato de cotización de Erasmo (Fran):** un mensaje con 🪨📦💵💳🧾, solo totales (sin «c/u»), nunca «sin factura» (por AFIP) sino «🧾 + IVA si necesitás factura», sin desperdicio en ninguna venta, sin cuotas por ahora — Fran/Tomás — Erasmo
 - 10/11/2026 — **Tester nuevo de Erasmo: 298 440-9447** (WhatsApp Web en Browser 3), además del 299 429-5806; Claude testea desde ahí — Tomás — Erasmo

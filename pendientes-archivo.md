@@ -75,3 +75,4 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 
 - [x] Rehacer carruseles con fotos IA: N4–N6 rehechos y subidos al test (09/11)
 - [x] **Mañana 10/11 — escalar:** Tomás confirma número y saldo → crear ESCALA (CBO) con L1-R1 y L2-C1 Envío Neuquén y C1 Frente; subir N1–N3 + reels + carruseles nuevos al test; MADRE no se toca — Tomás → Claude — desde 09/11 — hecho el 09/11, programado para el 10/11 00:00
+- [x] **Erasmo: reiniciar y testear las reglas de setter** («caro», «lo pienso», preguntas de la obra) desde el tester 298 440-9447 (Browser 3) — Tomás reinicia, Claude testea — desde 10/11 — cerrado 11/11

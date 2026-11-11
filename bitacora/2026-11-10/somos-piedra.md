@@ -36,3 +36,12 @@ Aprendizajes:
 
 Próximo paso: chat nuevo, reiniciar Erasmo y seguir el test (setter + casos nuevos) — Modelo: —
 Cambia una regla de plata o del método: no
+
+## Lectura del 10/11 cerrado (00:10 del 11/11, sin OK por pedido de Tomás)
+- Día: $138.231 / 104 conv = $1.329 (> $1.200) → ESCALA NO sube (sigue $30.000).
+- ESCALA: L1-R1 $33.950/31 ($1.095), L2-C1 $7.233/4 ($1.808), L3-V3 $387/0 (no tocados: CBO de 1 día). MADRE $39.683/34, no se toca.
+- Pasan a la ESCALA (mismo post, < $800 con 2+ conv): R11 Granza gris ($368, 7), R14 Laja ocre ($774, 3), R08 Tu frente ($732, 3). Siguen también en el test.
+- Pausados (> $1.200/conv): R03, N2, N4, R01, R15, R12, R20 (1 conv con ~$1.750–2.480) y TEST REELS «R4 Lote 3» ($14.386/8 = $1.798) → TEST REELS queda sin gasto.
+- Siguen sin conv pero bajo $3.000 (se juzgan con el 11/11): N1, N3, N6, R16, R18, R19, VG3-H1. Siguen: R13 ($833/3), N5 ($1.074/2), R17 ($1.060/2).
+- Inconsistencia de la regla para revisar con Tomás: con 1 conv y >$1.200 se corta, con 0 conv se espera a $3.000.
+- Prompt nuevo listo: reels\PROMPT-vscode-2026-11-10a-variaciones-granza.md (14 reels: 8 granza + 2 de R08, R13, R14), lote-2026-11-11.
