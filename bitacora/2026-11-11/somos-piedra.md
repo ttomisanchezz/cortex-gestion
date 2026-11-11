@@ -215,3 +215,11 @@ Pendientes que deja:
 - [ ] Reiniciar a Erasmo (toma `082f0b3`) — Tomás. Después Claude repite «se puede pagar en cuotas?» y «en 15 días arranco» y mira que quede `agendar_seguimiento` en el registro.
 
 Próximo paso: con Erasmo reiniciado, las dos pruebas en vivo (3 a 5 mensajes). Si sigue sin agendar, la causa es otra (Sonnet no llama a la herramienta) y se ajusta por ahí — Modelo: —
+
+## 11/11 12:50 — Erasmo reiniciado y los dos hallazgos de `/codex:review` del panel (mismo chat)
+- Tomás reinició a Erasmo: `/salud` da commit `082f0b3`, arranque 12:18, reglas `db50529e` (no cambiaron). **La prueba en vivo de los dos arreglos quedó sin hacer:** la pestaña de WhatsApp Web de Tomás estaba en otro chat y en uso (no se tocó; el envío atómico lo rechaza solo).
+- Panel, hallazgo 1 (la lista de anuncios y la ficha mostraban `$0` y `0` chats de hoy con la PC apagada): `faltaDatoMeta(frescura, periodo)` en `src/domain/meta.ts` es la única regla para las cifras, la lista (`faltaMeta`) y la columna «Hoy» de la ficha (`faltaMetaHoy`); `Meta.tsx` la pasa. Los componentes ya tenían el lugar preparado desde el 02/11.
+- Panel, hallazgo 2 (las órdenes pendientes de más de 24 horas desaparecían): `filtroDeOrdenes(ahora)` en `src/data/meta-filas.ts`, todas las pendientes y las terminadas de las últimas 24 horas por `hecha_en`; `leerMeta` lo pasa a `.or(...)`. Sintaxis probada contra el PostgREST real con la clave pública (pasa el parser y corta en el permiso; un filtro mal armado da `PGRST100`).
+- Tests escritos antes y vistos fallar (`tests/meta/dominio.test.ts`, `datos.test.ts`) más `tests/meta/falta-dato.test.ts`. En la copia de Linux: los 12 archivos de `tests/meta`, `tsc` (principal y `api/`), `vite build` y `e2e:meta` en verde. No se corrió `npm test` entero (no entra en 3 minutos por llamada). Commit `08e953f` en `main`, sin push y **sin deploy**: en producción no cambia nada hasta que haya anuncios leídos (`META_TOKEN`).
+
+Próximo paso: la prueba en vivo de Erasmo cuando la pestaña de WhatsApp esté en «Somos Piedra»; deploy del panel cuando Tomás diga — Modelo: —
