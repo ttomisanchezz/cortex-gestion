@@ -265,3 +265,13 @@ Próximo paso: reinicio y prueba en vivo de «laja» — Modelo: —
 - La prueba en vivo de la laja no se hizo: la pestaña de WhatsApp estaba en otro chat (no se tocó).
 
 Próximo paso: reinicio, pestaña en «Somos Piedra» y prueba de laja y granza — Modelo: —
+- 14:16 Tomás lanzó el prompt (sesión `2026-11-11c\piedra-codigo-4` activa desde las 12:16; a las 14:18 tenía las 18 voces hechas y estaba en revisión y arreglos, sin mp4 entregados todavía) y pidió que en orgánico salgan 2 reels por día como mínimo. Decisión: segundo reel diario a las 18:00 con el lote 12, sin mover los 27 de las 20:30. Control agendado para las 15:30.
+
+## 11/11 14:25 — Erasmo en sombra con los clientes reales (hasta el 13/11)
+- Tomás preguntó qué convenía, borrador o sombra. Recomendación: sombra (no llena el grupo, no sale nada y permite comparar contra lo que contestó Fran). Tomás lo puso en el `.env` y reinició 14:17.
+- `/salud` 14:18: commit `eefad6a`, reglas `5c058085`, `cerebro.modo` sombra, `sombraPersona` activa hasta 2026-11-13 con tope US$5/día, `modoBorrador` false.
+- A los 3 minutos ya había una `propuesta-sonnet` con `conPersona=persona` (un chat que atiende Fran): la sombra con persona anota. **Falta ver una propuesta de un chat sin persona** (la otra mitad de lo que se le dijo a Tomás que no estaba verificado).
+- La laja y la granza nueva no se probaron con el tester (pestaña en otro chat y, desde las 14:17, en sombra no se le contesta): se van a ver en las propuestas con clientes reales.
+- Estimación de costo dicha a Tomás: US$3 a 5 por día (sale de las pruebas de hoy; no medido con tráfico real).
+
+Próximo paso: resumen del 12/11 con propuestas contra respuestas de Fran — Modelo: —
