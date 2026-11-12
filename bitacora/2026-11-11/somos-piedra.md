@@ -344,3 +344,11 @@ Chrome de Somos Piedra: deviceId `b74c0df9…` (hoy «Browser 2»). Business Sui
 - Segundo reel a las 18:00: no se tocó; lo programa el control agendado del chat anterior cuando el lote 12 esté completo (a las 18:30 había 10 de los 12 videos principales y ninguno de los arranques b/c, sin REVISAR).
 - 42 sin Añelo (parte D de la 11d) todavía no estaba.
 
+
+## Segundo reel diario a las 18:00 (control agendado, noche 11/11)
+- Lote 12 completo (18 videos + REVISAR). Revisado: 42 y sus arranques 42b/42c dicen Añelo → fuera. El 41 ya salió el 11/11 20:30.
+- Programados a las 18:00 en FB + IG (copias <3,6 MB en `reels\_organico-sin-anelo\L12-*.mp4`, texto con pie nuevo «Entregamos en Neuquén y el Alto Valle»):
+  12/11 36 · 13/11 44 · 14/11 37 · 15/11 39 · 16/11 46 · 17/11 35 · 18/11 43 · 19/11 38 · 20/11 45 · 21/11 40 · 22/11 35b · 23/11 41b · 24/11 35c · 25/11 41c.
+- Verificado en Programadas: del 12 al 25/11 hay 1 fila de FB y 1 de IG a las 18:00 cada día (28 filas). Los de las 20:30 no se tocaron.
+- No se subió nada a la pauta.
+- Desde el 26/11 las 18:00 quedan vacías: las llena el lote 13 (corrida 11d, reels 47–60) cuando Tomás la corra.
