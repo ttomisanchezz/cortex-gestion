@@ -51,3 +51,43 @@ Pendientes cerrados:
 Aprendizajes: en `conocimiento/aprendizajes.md` (Business Suite, 12/11).
 Próximo paso: Tomás mira la 11e. Con su respuesta, Claude programa el orgánico desde el 8/12 y sube a la pauta lo que elija — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 12/11 10:25 — chat de la mañana: decisiones 1–4 de Tomás aplicadas
+
+CIERRE — somos-piedra — 12/11 10:25
+
+Hecho:
+- **Pauta (Graph desde Ads Manager, Chrome deviceId b74c0df9…):**
+  - ESCALA $30.000 → **$36.000/día** (campaña 120251195297760411, ACTIVE).
+  - **ESCALA R13 Adoquín entrada** creada en la ESCALA con el mismo post del test (creativo 1682856786527754): conjunto 120251245765800411, anuncio 120251245766830411, ACTIVE. Segmentación copiada de ESCALA R14.
+  - **R61–R65 «reales + código» al TEST CREATIVOS a $1.600 c/u**, arrancan el 13/11 00:00 (lectura limpia): R61 granza gris (conjunto 120251245987560411 / anuncio 120251245989490411), R62 frente (…990530411 / …992230411), R63 laja ocre (…992870411 / …995340411), R64 adoquín (…995840411 / …998720411), R65 pórfido (…999640411 / 120251246000530411). Videos subidos a ~10 MB (`reels\_pauta-11e\61–65.mp4`), texto de anuncio de los REVISAR 11e, CTA WhatsApp. Quedaron IN_PROCESS (revisión de Meta).
+  - **Cortes para no inflar el gasto:** R17 Pórfido pausado (10–12/11: $3.643 / 3 = $1.214, arriba de $1.200). N6 y R19 pausados a nivel conjunto (sus anuncios ya estaban pausados por Añelo, no gastaban).
+  - **Gasto programado: ~$107.800/día** = MADRE $35.000 + ESCALA $36.000 + 23 conjuntos de test con anuncio vivo × $1.600 ($36.800). Es $1.600 menos que lo aprobado ($109.400) por el corte de R17.
+  - Hoy a las 09:30 (parcial): R21–R34 llevan ~$750–1.240 cada uno, sin juzgar hasta el 13/11.
+- **Orgánico 11e:** comprimidos los 18 para orgánico (`_organico-sin-anelo\L14-*.mp4`, 3,16–3,28 MB; el 68 y el 42b se rehicieron porque el primer pase quedó cortado). Programados con texto en FB + IG: **61 8/12 20:30 · 62 9/12 20:30 · 42 10/12 18:00 · 63 10/12 20:30** (verificado en Programadas: 182 filas, ninguna «Tu reel»). El 62 y el 63 salieron sin texto del composer nuevo y se les cargó con «Editar».
+- **Los otros 14 no se pueden programar hoy:** Meta solo deja programar hasta 29 días adelante (el 11/12 da error). Quedó una tarea programada para el **19/11 15:17** (trig_01Fc8bUSDdz97ibDzboaEQPD, corre en la PC) que programa del 11 al 17/12 con texto y verifica.
+- **R20 y 41 del 11/11 sin texto:** no se pudo. instagram.com pide iniciar sesión (no se inicia sesión por Tomás) y facebook.com abre el reel como el perfil «Elija Piedra Sas», sin opción de editar como página. Queda para Tomás desde la app.
+
+Decisiones (qué y por qué):
+- 61–65 arrancan el 13/11 00:00 y no hoy, para leerlos limpios (como el resto de los conjuntos nuevos).
+- Calendario del orgánico 11e (recomendado y aprobado): 8/12 20:30 = 61 · 9/12 20:30 = 62 · 10/12 18:00 = 42 / 20:30 = 63 · 11/12 64 / 66 · 12/12 65 / 67 · 13/12 69 / 42b · 14/12 70 / 68 · 15/12 73 / 71 · 16/12 72 / 75 · 17/12 74 / 42c. Ningún día junta dos de granza ni los tres 42 seguidos.
+- Texto del orgánico de 42b y 42c: empieza con la frase de su gancho («Pedir granza te lleva 3 mensajes.» / «¿Nunca pediste granza? Es así de fácil.») para no repetir el del 42.
+- R17 se corta por la regla del test (> $1.200/conv con 3 días).
+
+Pendientes nuevos:
+- [ ] Cargar el texto del R20 (18:00) y del 41 (20:30) publicados el 11/11 sin texto, desde la app de IG y de FB (textos en `reels\_organico-sin-anelo\textos-reels-2026-11-12.json` / `textos-lote12.json`) — Tomás
+- [ ] 19/11 15:17: la tarea programada programa los 14 reels de la 11e del 11 al 17/12; revisar su resultado — Claude
+- [ ] 13/11: primera lectura de R61–R65 y de ESCALA R13 — Claude
+
+Pendientes cerrados:
+- Escalón ESCALA $36.000 y R13 a la ESCALA (frenados el 12/11 00:05).
+- Qué de la 11e va a la pauta (61–65) y si los 18 van al orgánico (sí, 8–17/12).
+
+Aprendizajes:
+- Business Suite no deja programar más de 29 días adelante («deben compartirse entre 20 minutos y 29 días»).
+- Calendario del composer sin coordenadas: foco + clic al input de fecha por JS, «Mes siguiente» hasta que aparezca el botón con aria-label «<día-semana>, <d> December 2026» y `.click()`. Horas: foco al `[role=spinbutton]` por JS y tecla real. La ventana de Chrome cambia de tamaño sola: no depender de coordenadas.
+- El token de la página que da Ads Manager no tiene permiso para `video_reels` (#10): el orgánico sigue por Business Suite.
+- `ffmpeg` en la PC: correr en primer plano con `timeout 170` y saltar los que ya están; un `nohup` se corta al terminar la llamada y un archivo cortado puede pasar `ffprobe` (comparar la duración con el original).
+
+Próximo paso: lectura nocturna del 12/11 (escalón solo si el día cierra < $1.200/conv) y el 13/11 la primera de R61–R65 — Modelo: —
+Cambia una regla de plata o del método: no

@@ -301,3 +301,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Programado con texto en FB + IG (verificado el 12/11 a las 04:20, 87 publicaciones): carrusel 10:30 y placa 13:30 hasta el 28/11; reel 20:30 hasta el 7/12; reel 18:00 hasta el 9/12 (lote 12 hasta el 25/11 y lote 13 del 26/11 al 9/12).
 - Material listo sin programar: 15 reels «reales + código» (61–75, `reels\lote-2026-11-14\`) y el 42 sin Añelo (+b, c). Falta que Tomás los mire y decida pauta u orgánico.
 - El R20 y el 41 del 11/11 salieron sin texto en FB e IG (Business Suite no deja editar un reel publicado).
+
+## Estado de la pauta (12/11/2026, 10:25)
+- ~$107.800/día programados: MADRE $35.000 + ESCALA $36.000 (con ESCALA R13 Adoquín entrada desde el 12/11) + 23 conjuntos del TEST CREATIVOS × $1.600 (R61–R65 «reales + código» arrancan el 13/11 00:00). R17 cortado el 12/11.
+- Orgánico programado con texto: reels hasta el 10/12 (61, 62, 42 y 63 de la 11e el 8–10/12); del 11 al 17/12, 14 reels de la 11e que programa la tarea del 19/11.

@@ -237,3 +237,10 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 11/11/2026 — **Subir a Meta desde Ads Manager:** `graph-video…/advideos` y `/adimages` dan «Invalid request» si el `fetch` no lleva `credentials:'include'`.
 - 11/11/2026 — **La carpeta de salida de la nube no sirve para rehacer archivos:** un archivo vuelto a escribir con el mismo nombre llegó a la PC con otro contenido. Para partir videos: hacerlo en la carpeta conectada (`split -n 2`) y comparar md5 antes de subir.
 
+
+## Business Suite y videos (12/11/2026, mañana)
+- Business Suite no deja programar más de 29 días adelante: lo que pase de ahí se deja para una tarea programada.
+- Calendario del composer sin coordenadas: foco y clic al input de fecha por JS, «Mes siguiente» hasta el botón con aria-label «…, <d> December 2026» y `.click()`; horas: foco al `[role=spinbutton]` por JS y tecla real. La ventana de Chrome cambia de tamaño sola (pasó de 1034×779 a 1568×705): no usar coordenadas fijas. Ayuda `h14` en IndexedDB `claude_sp`.
+- El token de página que se saca desde Ads Manager no puede usar `video_reels` (#10 Permission Denied): el orgánico va por Business Suite.
+- `ffmpeg` en la PC: en primer plano con `timeout 170`, saltando lo ya hecho; un `nohup` muere al terminar la llamada y un archivo cortado puede pasar `ffprobe`: comparar la duración con el original.
+- instagram.com no tiene sesión en el Chrome de la pauta, y facebook.com abre como el perfil «Elija Piedra Sas»: editar el texto de un reel publicado lo hace Tomás desde la app.
