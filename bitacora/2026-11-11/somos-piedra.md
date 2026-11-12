@@ -360,4 +360,4 @@ Chrome de Somos Piedra: deviceId `b74c0df9…` (hoy «Browser 2»). Business Sui
 - Para no repetir ganchos: C4 no el mismo día que el reel 44; C2 lejos del reel 12; en pauta no juntar 47 con 35 ni 49 con 36.
 - Lote 12 completo a las 22:38 (18 mp4 + `REVISAR-codigo-2026-11-11c.md`): el control del chat de la tarde programa las 18:00 del 12 al 25/11 (36, 44, 37, 39, 46, 35, 43, 38, 45, 40, 35b, 41b, 35c, 41c). El lote 13 entra a las 18:00 del 26/11 al 7/12 (12 lugares para 14 reels).
 - Decisión abierta (Tomás): N2, N4 y N6 ya programados (18, 19 y 21/11) traen personas y manos en fotos de IA, un cartel de obra ajeno (N6-02), la pantalla de WhatsApp imitada (N2, N4) y «En pocos días» (N2-04, plazo no confirmado).
-
+- 22:49 Tomás: N2, N4 y N6 se quedan como están (opción a); los videos reales de Envío Neuquén / Entrega se dejan así.
