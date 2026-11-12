@@ -296,3 +296,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 ## Pauta 12/11/2026 — ~$95.400/día
 - MADRE $35.000 (no se toca) · ESCALA CBO $30.000 (R11, R08, R14, L1-R1, L2-C1, L3-V3) · TEST CREATIVOS: 19 conjuntos vivos a $1.600 (R21–R34, R08, R11, R13, R14, R17). TEST REELS: $12.000 de presupuesto, sin anuncios activos.
 - 11/11: $86.560 / 81 conv = $1.069. Pausados el 12/11: N1, N3, R16, R18, VG3-H1. Pendiente de OK de Tomás: ESCALA a $36.000 y R13 a la ESCALA.
+
+## Orgánico 12/11/2026
+- Programado con texto en FB + IG (verificado el 12/11 a las 04:20, 87 publicaciones): carrusel 10:30 y placa 13:30 hasta el 28/11; reel 20:30 hasta el 7/12; reel 18:00 hasta el 9/12 (lote 12 hasta el 25/11 y lote 13 del 26/11 al 9/12).
+- Material listo sin programar: 15 reels «reales + código» (61–75, `reels\lote-2026-11-14\`) y el 42 sin Añelo (+b, c). Falta que Tomás los mire y decida pauta u orgánico.
+- El R20 y el 41 del 11/11 salieron sin texto en FB e IG (Business Suite no deja editar un reel publicado).
