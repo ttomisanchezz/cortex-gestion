@@ -352,3 +352,12 @@ Chrome de Somos Piedra: deviceId `b74c0df9…` (hoy «Browser 2»). Business Sui
 - Verificado en Programadas: del 12 al 25/11 hay 1 fila de FB y 1 de IG a las 18:00 cada día (28 filas). Los de las 20:30 no se tocaron.
 - No se subió nada a la pauta.
 - Desde el 26/11 las 18:00 quedan vacías: las llena el lote 13 (corrida 11d, reels 47–60) cuando Tomás la corra.
+
+## 11/11 22:40 — Revisión de la corrida 2026-11-11d (Tomás pegó el resultado)
+- Entregado: parte D (R11, R27, R17, R19, R01 sin Añelo; ya usados hoy en orgánico y pauta), parte E (N2, N4, N6 sin Añelo; ya programados), 14 reels nuevos 47–60 en `reels\lote-2026-11-13\` (14 mp4 + REVISAR), 7 carruseles C1–C7 y 7 placas Q1–Q7 en `contenido\semana-22-11\`. Falta el **42 sin Añelo** (la 11c no había terminado).
+- Plata: ElevenLabs 4.595 caracteres mandados (tope 7.000), 2.023 cobrados. Nada más.
+- Revisado por Claude: las 7 hojas de carruseles y la de placas (sin personas, sin Añelo, sin `$`/`%`/bolsón; datos solo de los confirmados; el local se dibuja como depósito) y los 14 guiones (solo datos confirmados: 1 bolsa ~40 kg = 1 m² a 3 cm, horarios, pallet, Neuquén y el Alto Valle, «coordinamos el día»). Whisper oyó todo; las voces nuevas no las escuchó nadie.
+- Para no repetir ganchos: C4 no el mismo día que el reel 44; C2 lejos del reel 12; en pauta no juntar 47 con 35 ni 49 con 36.
+- Lote 12 completo a las 22:38 (18 mp4 + `REVISAR-codigo-2026-11-11c.md`): el control del chat de la tarde programa las 18:00 del 12 al 25/11 (36, 44, 37, 39, 46, 35, 43, 38, 45, 40, 35b, 41b, 35c, 41c). El lote 13 entra a las 18:00 del 26/11 al 7/12 (12 lugares para 14 reels).
+- Decisión abierta (Tomás): N2, N4 y N6 ya programados (18, 19 y 21/11) traen personas y manos en fotos de IA, un cartel de obra ajeno (N6-02), la pantalla de WhatsApp imitada (N2, N4) y «En pocos días» (N2-04, plazo no confirmado).
+
