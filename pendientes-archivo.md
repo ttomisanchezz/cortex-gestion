@@ -96,3 +96,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 ## 2. Somos Piedra (`somos-piedra`) — cerrados el 12/11 (orgánico)
 - [x] **Corrida 2026-11-11d: entregada y revisada (11/11 22:40).** Falta programar: C1–C7 a las 10:30 y Q1–Q7 a las 13:30 del dom 22 al sáb 28/11 (C4 no el día del reel 44; C2 lejos del reel 12); lote 13 (47–60) a las 18:00 del 26/11 al 7/12, después de confirmar qué dejó el control del lote 12 a las 18:00. Textos en `REVISAR-contenido-2026-11-11d.md`, en los `texto.txt`/`Qn.txt` y en `REVISAR-codigo-2026-11-11d.md` — Claude (chat nuevo) — desde 11/11 — cerrado 12/11: C/Q del 22 al 28/11 y lote 13 (26/11 al 9/12) programados en FB + IG y con texto; Programadas verificado (87 publicaciones, ninguna «Tu reel»)
 - [x] 42 sin Añelo (+b, c): pendiente de la 11c; armar prompt chico o sumarlo a la próxima corrida — Claude — desde 11/11 — cerrado 12/11: hecho en la corrida 2026-11-11e, sesión 6a (`reels\sin-anelo-2026-11-11\42-pedilo-en-tres-mensajes\`)
+
+## 2. Somos Piedra (`somos-piedra`) — cerrados el 12/11 (11:15)
+- [x] 12/11 Texto del R20 (18:00, «¿Cuánto pesa una bolsa de granza?…») y del 41 (20:30, «Así se llena un patio de 20 metros cuadrados…») cargado en IG (instagram.com) y FB (como la página) y verificado en las 4 publicaciones — Claude
+- [x] 12/11 R61–R65 y ESCALA R13 pasaron la revisión de Meta: los 6 anuncios ACTIVE, sin rechazos ni issues — Claude

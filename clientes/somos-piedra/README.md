@@ -164,7 +164,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Lo de abajo (12/10) quedó en la cuenta 2044879766141120, que es del Facebook de Somos iPhone: hay que descartarlo.
 
 ## Pauta en Meta (12/10/2026) — reemplazada
-- Cuenta publicitaria **2044879766141120** (tarjeta cargada). Página "Somos Piedra, elija piedra" (id 1025898313949204), administrada por Tomás con la invitación a frantomiphones@gmail.com. WhatsApp 299 459-0936 conectado (id 1025932387279130).
+- Cuenta publicitaria **1945796639629607** para Graph (la 2044879766141120 de abajo es la del Facebook de Somos iPhone; corregido el 12/11). Tarjeta cargada. Página "Somos Piedra, elija piedra" (id 1025898313949204), administrada por Tomás con la invitación a frantomiphones@gmail.com. WhatsApp 299 459-0936 conectado (id 1025932387279130).
 - En **borrador y sin errores:** campaña "Somos Piedra - WhatsApp - Test 4 carruseles - Oct 2026" (id 120252633268900624, $5.000/día) y conjunto "Toda la zona - abierto" (id 120252633271510624: Neuquén +40 km, Roca, Añelo y Rincón +15 km, público abierto, conversaciones a WhatsApp).
 - Anuncio vacío de la UI (id 120252633342820624): borrar cuando estén los 4 carruseles.
 - **Placas finales:** las de ChatGPT de Tomás, en `E:\anuncios somos piedra\nuevooss\` (c1-frente, c2-piedra, c3-estilo, c5-granza). Las tarjetas de código, sin precio ("Consultá precio"), quedan en `carruseles/` y en `Descargas\piedra-tarjetas-anuncios`.

@@ -91,3 +91,34 @@ Aprendizajes:
 
 Próximo paso: lectura nocturna del 12/11 (escalón solo si el día cierra < $1.200/conv) y el 13/11 la primera de R61–R65 — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 12/11 11:15 — textos del R20 y del 41, revisión de Meta y lecturas programadas
+
+CIERRE — somos-piedra — 12/11 11:15
+
+Hecho:
+- **Texto del R20 y del 41 (publicados el 11/11 sin texto) cargado en las 4 publicaciones** desde Chrome (deviceId b74c0df9…), verificado recargando cada una:
+  - IG R20 (DfnZZmekoXU) e IG 41 (DfnqjyPDAtF) desde instagram.com, con Editar.
+  - FB R20 (reel 1663828785344782) y FB 41 (reel 2683991248720018), cambiando al perfil de la página «Somos Piedra, elija piedra»; «Promocionar» apagado.
+  - Textos: R20 = el de `textos-reels-2026-11-12.json` (r_2030, R20); 41 = el de `textos-lote12.json` («41-se-llena-solo») con el pie de WhatsApp y dirección de siempre.
+- **Revisión de Meta:** ESCALA R13 y R61–R65 están ACTIVE (anuncio y conjunto), sin rechazo ni issues. No hubo nada que arreglar.
+- **Parcial de hoy a las 11:00:** MADRE $9.103 / 11 conv = $828; TEST $15.864 / 19 = $835; ESCALA $6.359 / 2 = $3.180. Cuenta: $31.326 / 32 = $979/conv.
+- **Lecturas programadas (corren en la PC, Chrome b74c0df9):**
+  - 12/11 23:40 — lectura nocturna (trig_01SiMMFNFRJBGusdLDej9ARV).
+  - 13/11 23:40 — primera lectura de R61–R65 y ESCALA R13, y juzgar R21–R34 (trig_012mMGGZudaYvGACarpqoMxp).
+  - Las dos pueden pausar, pero no suben presupuesto: dejan el número para Tomás.
+
+Decisiones (qué y por qué):
+- El escalón de la ESCALA ya no se aplica solo: Tomás pidió que no se suba el presupuesto total sin pasarle el número. Si corresponde: $36.000 → $43.200 (total ~$107.800 → ~$115.000/día).
+
+Pendientes nuevos:
+- [ ] Aprobar el escalón de la ESCALA si la lectura nocturna lo recomienda — Tomás
+- [ ] Revisar las salidas de las tareas del 12/11 23:40 y 13/11 23:40 — Claude
+
+Pendientes cerrados:
+- Texto del R20 y del 41 (11/11) en IG y FB.
+- Revisión de Meta de R61–R65 y ESCALA R13.
+
+Aprendizajes: en `conocimiento/aprendizajes.md` («Editar texto de reels publicados», 12/11). La cuenta publicitaria para Graph es act_1945796639629607.
+Próximo paso: la tarea de las 23:40 lee el día y deja el número del escalón — Modelo: —
+Cambia una regla de plata o del método: no
