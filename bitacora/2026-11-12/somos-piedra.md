@@ -155,3 +155,14 @@ Cambia una regla de plata o del método: no
 Pendientes: escalón para aprobar (Tomás, con el pago al día).
 Próximo paso: lectura del 13/11 23:40 (R61–R65, ESCALA R13, R21–R34 y ESCALA Granza) — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 12/11 23:50 — control de la tarea nocturna y de la granza
+
+- La tarea de las 23:40 corrió bien: bitácora y commit 992cfd8. Sin pausas y con el escalón para aprobar.
+- **Cuenta: `account_status` 1 (activa), ya salió de la gracia**, pero el saldo pendiente sigue en $37.435,80. El escalón a ~$115.000 sigue esperando el OK de Tomás.
+- **Granza:** «ESCALA Granza R21 + R27» y sus dos anuncios están ACTIVE, y C5 está PAUSED. Hoy no gastó nada: la primera lectura es la del 13/11.
+- **MADRE sin C5:** el conjunto «Toda la zona - abierto» quedó **solo con C1 Frente** (12/11: $317 / 1 conv). La CBO puede pasarle la plata de C5 a C1 Frente.
+- **Para la lectura del 13/11 23:40, sumar** (no estaba en el prompt de la tarea):
+  - ESCALA Granza: gasto, conv, $/conv y qué parte de la ESCALA se llevó, contra C5 ($1.651 el 12/11; $1.456 del 10 al 12/11). Día 1, no se pausa.
+  - MADRE sin C5: $/conv por anuncio contra los $1.099 del 12/11. Si C1 Frente pasa los $5.000 con más de $1.500/conv, recomendar pausar «Toda la zona - abierto» (no pausarlo solo, porque es la MADRE).
+  - account_status y saldo.
