@@ -132,3 +132,9 @@ Cambia una regla de plata o del método: no
   - **Conjunto nuevo «ESCALA Granza R21 + R27»** (120251254453600411) dentro de la ESCALA CBO, con los mismos creativos del test: ESCALA R21 Barro adentro (120251254454700411) y ESCALA R27 La forma más fácil (120251254455210411). En el test, el 12/11: R21 $2.016 / 5 = $403 y R27 $2.013 / 5 = $403. Quedaron IN_PROCESS. La ESCALA sigue en $36.000: no suma gasto.
 - **Presupuesto:** queda en ~$107.800/día. No se sube a $115.000 mientras la cuenta esté en gracia por el cobro: más gasto = más cobro rechazado = corte.
 - Decisión de Tomás: el precio de la granza en el panel no se cambia; no hay promo por cantidad.
+
+CIERRE — somos-piedra — 12/11 23:40
+Hecho: lo del bloque de las 23:35 (C5 pausado, ESCALA Granza R21 + R27, día a $962/conv, cuenta en gracia).
+Pendientes nuevos: lectura de ESCALA Granza el 13/11 (Claude); escalón frenado hasta que se pague la tarjeta (Tomás).
+Próximo paso: tarea de las 23:40 y lectura del 13/11 — Modelo: —
+Cambia una regla de plata o del método: no
