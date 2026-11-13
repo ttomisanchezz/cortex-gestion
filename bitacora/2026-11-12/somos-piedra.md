@@ -138,3 +138,20 @@ Hecho: lo del bloque de las 23:35 (C5 pausado, ESCALA Granza R21 + R27, día a $
 Pendientes nuevos: lectura de ESCALA Granza el 13/11 (Claude); escalón frenado hasta que se pague la tarjeta (Tomás).
 Próximo paso: tarea de las 23:40 y lectura del 13/11 — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 12/11 23:40 — lectura nocturna
+
+(Tarea programada trig_01SiMMFNFRJBGusdLDej9ARV, Graph desde Ads Manager en Chrome b74c0df9, 23:41.)
+
+- **Día 12/11 (date_preset today, 23:41):** cuenta $89.645 / 93 conv = **$964/conv**.
+  - MADRE: $28.563 / 26 = $1.099 (Envío Neuquén $16.130 / 14; Toda la zona $8.586 / 6; Entrega lajas $3.429 / 6; VG1 $418 / 0).
+  - TEST CREATIVOS: $32.933 / 39 = $844.
+  - ESCALA: $28.148 / 28 = $1.005 (L1-R1 $10.667 / 11; R11 $11.680 / 11; L2-C1 $3.637 / 0; R13 $1.398 / 6; L3-V3 $625 / 0; R14 $32; R08 $109). «ESCALA Granza R21 + R27» ya está ACTIVE (anuncios aprobados), sin gasto hoy.
+- **Cuenta:** sigue en `account_status` 9 (período de gracia), saldo pendiente $37.435,80.
+- **Escalón ESCALA:** por la regla corresponde (< $1.200/conv): $36.000 → $43.200/día, gasto programado ~$107.800 → ~$115.000/día. **No se aplicó**: Tomás pidió pasarle el número y además está frenado mientras la cuenta esté en gracia.
+- **Test con 3 días (10–12/11), todos bajo $1.200 → no se pausa nada:** R11 $5.435 / 12 = $453; R13 $5.674 / 13 = $436; R08 $5.931 / 10 = $593; R14 $5.353 / 7 = $765.
+- R21–R34 (1er día, se juzgan desde el 13/11): R21 $2.016 / 5, R27 $2.023 / 5, R23 $2.147 / 4, R31 $1.713 / 3; con 0 conv: R24 $1.682, R30 $1.964, R33 $1.988. R61–R65 arrancan el 13/11: no se tocaron.
+
+Pendientes: escalón para aprobar (Tomás, con el pago al día).
+Próximo paso: lectura del 13/11 23:40 (R61–R65, ESCALA R13, R21–R34 y ESCALA Granza) — Modelo: —
+Cambia una regla de plata o del método: no
