@@ -122,3 +122,13 @@ Pendientes cerrados:
 Aprendizajes: en `conocimiento/aprendizajes.md` («Editar texto de reels publicados», 12/11). La cuenta publicitaria para Graph es act_1945796639629607.
 Próximo paso: la tarea de las 23:40 lee el día y deja el número del escalón — Modelo: —
 Cambia una regla de plata o del método: no
+
+## 12/11 23:35 — día cerrado, corte por pago y granza a la ESCALA
+
+- **Día 12/11 (hasta 23:35):** $89.455 / 93 conv = **$962/conv** (MADRE $28.511 / 26 = $1.097; TEST $32.871 / 39 = $843; ESCALA $28.073 / 28 = $1.003). El mejor de la semana.
+- **Corte por pago:** la cuenta está en `account_status` 9 (período de gracia: cobro rechazado) con $37.435,80 de saldo pendiente en la Mastercard ···· 6432. La entrega cayó casi a cero de 15:00 a 16:00 ($335 en esa hora contra ~$5.500 de las otras): se perdieron ~$5.200 de pauta y ~5 conv.
+- **Granza (pedido de Tomás: más ventas de granza por el camión nuevo; sin promo y sin cambiar precio):**
+  - **C5 Granza pausado** (anuncio 120250759618840411, MADRE): hoy $8.257 / 5 = $1.651; 10–12/11 $1.456. La MADRE reparte su plata entre L1-R1 y L3-V1.
+  - **Conjunto nuevo «ESCALA Granza R21 + R27»** (120251254453600411) dentro de la ESCALA CBO, con los mismos creativos del test: ESCALA R21 Barro adentro (120251254454700411) y ESCALA R27 La forma más fácil (120251254455210411). En el test, el 12/11: R21 $2.016 / 5 = $403 y R27 $2.013 / 5 = $403. Quedaron IN_PROCESS. La ESCALA sigue en $36.000: no suma gasto.
+- **Presupuesto:** queda en ~$107.800/día. No se sube a $115.000 mientras la cuenta esté en gracia por el cobro: más gasto = más cobro rechazado = corte.
+- Decisión de Tomás: el precio de la granza en el panel no se cambia; no hay promo por cantidad.
