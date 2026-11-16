@@ -34,3 +34,14 @@ Decisiones (tomadas por Claude, cambiables):
 Pendientes nuevos:
 - Elegir el reel de la prueba (que no esté programado en Business Suite) — Tomás.
 Próximo paso: con el `.env`, `trial.cmd estado` y la prueba con 1 reel — Modelo: —
+
+## somos-piedra — 16/11 12:40 — Qué rindió en el orgánico de IG (29/10–15/11) y hasta cuándo hay programado
+
+Datos (Business Suite → Insights → Contenido, reels de IG; vistas · alcance · tiempo medio):
+- Arriba de todo, **entrega real** (video de la camioneta/carga): «Así llega tu piedra: la cargamos…» 7/11 **5.364** · 3.834 · 15 s; «Te llevamos la piedra a tu casa en Neuquén» 1/11 2.570 · 11 s · **9 seguidores** (el que más sumó); «Así sale una entrega de granza» 4/11 1.997; «Otra entrega en Neuquén» 5/11 1.638.
+- **Calculadora**: «¿Cuántos m² querés cubrir?» 6/11 2.556 · 12 s; «Así se llena un patio de 20 m²» 11/11 1.684.
+- **Problema + solución (reels con código 11e)**: parejos 1.450–1.850 · 7–11 s: «¿Regás la tierra del patio…?» 1.843 (3 guardados), «Te entregaron la casa…» 1.792, «¿La entrada del auto es de tierra?» 1.727, «Huellas cuando llueve» 1.704, «Lavás el auto…» 1.683.
+- **Fracasan (≈200–450 · 3 s)**: mostrar la piedra sola o el catálogo: «Piedra Bariloche de cerca» 192, «4 piedras en 12 s» 228, «3 ideas para tu patio» 223, rectificada 209, verde bronce 251, riojana 291, «Tenemos stock en el local» 387, «¿Cuánto pesa una bolsa?» 446.
+- No es el horario: el 11–15/11 las 20:30 rinden igual que las 18:00; lo que se cayó a las 20:30 antes era el contenido de catálogo.
+Conclusión: entrega real > problema + solución ≈ calculadora >>> catálogo. Coincide con la pauta (R11, R13, Envío Neuquén, Entrega lajas).
+Programado en Business Suite (verificado 16/11 12:35): reels FB + IG hasta el **jue 10/12 20:30**; fotos y carruseles hasta el **sáb 28/11 13:30**.
