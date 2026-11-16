@@ -128,3 +128,22 @@ Aprendizajes:
 - Ver `conocimiento/aprendizajes.md` → «Video IA con APIMart (16/11/2026, tarde)».
 Próximo paso: chat nuevo con el resultado del reel 76 → revisar granza IA vs real — Modelo: —
 Cambia una regla de plata o del método: no
+
+## CIERRE — somos-piedra (Erasmo) — 16/11 17:59
+
+Hecho:
+- Revisión de la sombra (11–14/11, 1.041 propuestas): ver bloque de arriba. Doc para el papá de Fran: https://claude.ai/artifact/PyQyECbByrjhL4i5L7fP36
+- E:\bot-piedra (rama piedra/archivos-excluidos, sin push): 69bc910 (anuncio en el pedido, «cuadrados» = m², «la bolsa» = 1 bolsa), df4f280 (respuestas de Fran: 3 colores de granza, charla ante precio sin producto, bolsón → m², «gracias»), 18fdeae (granza 15–19 bolsas a $16.000), 5720211 (VS Code: «Enseguida te respondemos.» al escalar). Evaluar 18/18.
+Decisiones (qué y por qué):
+- Ver equipo/decisiones.md del 16/11 (Fran y Tomás).
+Pendientes nuevos:
+- [ ] Fran: precios del panel (Verde Bronce $35.000 efectivo + tarjeta), tarjeta de granza 15–19, cómo avisar un color sin stock — Fran
+- [ ] Reiniciar Erasmo en modo tester y probar los cambios del 16/11 — Tomás / Claude
+- [ ] Push de E:\bot-piedra hasta 5720211 — Tomás
+Pendientes cerrados:
+- Sombra revisada; «Enseguida te respondemos» hecho (5720211)
+Aprendizajes:
+- La VM del chat se quedó sin disco en $HOME: usar TMPDIR=/tmp y correr los tests de a pocos (más de ~6 por llamada corta por tiempo).
+- git desde el chat necesita permiso de borrado (locks) y -c user.name/user.email.
+Próximo paso: Tomás reinicia Erasmo en tester y probamos; después pilotos — Modelo: —
+Cambia una regla de plata o del método: sí (tramos de granza de Piedra; solo del cliente)

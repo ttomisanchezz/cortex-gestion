@@ -283,3 +283,5 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Lo que sale raro y hay que controlar: colores de club (toallas azul y amarillo = Boca), ripio o grava donde no tiene que haber, el clip dibujado adentro de un marco de celular, polvo en bolas, ropa que se suelta y vuelve igual. En los prompts: colores neutros y «no gravel, no stones».
 - El selector del panel de VS Code pisa al modelo del prompt: la sesión 8a corrió con Fable 5.2 aunque el prompt decía Sonnet 5.5.
 
+
+- 16/11/2026 — Cowork: la VM del chat puede quedarse sin disco en $HOME; correr node con TMPDIR=/tmp y los tests de a 5 o 6 por llamada. Para commitear hace falta el permiso de borrado (locks de git) y `-c user.name/-c user.email`.
