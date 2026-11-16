@@ -106,7 +106,6 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Fran graba 10 guiones (cuántas bolsas + precio a cámara) — Fran — desde 04/11
 - [ ] Subir carruseles VG3/VG4/VF3/VF4 con presupuesto bajo — Claude — desde 04/11
 - [ ] Descartar borrador viejo L3-V3 (ad 120251109138600411) — Claude — desde 04/11
-- [ ] Decidir "Toda la zona – abierto" el lunes 9/11 (> $1.200/conv → pausar) — Claude — desde 04/11
 - [ ] **Panel — subir rediseño + Cotizaciones:** Tomás hace doble clic en `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd` (migra la 0072 y hace `vercel --prod`; si Vercel pide login, `npx vercel login`). Después Claude prueba en el celu y la compu. A Claude el control automático no lo dejó migrar la base real — Tomás — desde 06/11
 - [ ] Cotizaciones: el WhatsApp del negocio para el PDF y confirmar validez (7 días) y forma de pago (transferencia o efectivo) por defecto; `npm test` en Windows (`marca/sin-logo` y `meta/prueba` no corren en la VM) — Tomás/Claude — desde 06/11
 - [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11
@@ -218,10 +217,15 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 
 - [ ] **Trial Reels:** crear app de Meta (Business + Instagram, «inicio de sesión de Instagram») y token de @somospiedranqn (instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights) en `E:\anuncios somos piedra\trial-reels\.env` (`IG_TOKEN=`, modelo en `env-ejemplo.txt`); no pasarlo por el chat — Tomás — desde 16/11
 - [ ] **Trial Reels:** elegir el reel de la prueba (uno que NO esté programado en Business Suite: reels programados hasta el 10/12, fotos y carruseles hasta el 28/11, verificado el 16/11) — Tomás — desde 16/11
-- [ ] **Video con IA (OK de Tomás, US$ 10):** correr `E:\anuncios somos piedra\contenido\video-ia\video_ia.py piezas/2026-11-16-prueba-ganchos.json` (4 clips Veo 3.1 Fast / Seedance 2.5 para el gancho de los reels 64 y 61), los reels los arma el editor de Tomás (`C:\Users\PC\Documents\editor-reels-tomas`) por un prompt de VS Code, que puede correr también la generación (Windows sí llega a APIMart). En este chat api.apimart.ai daba 403 en el filtro de red — Claude arma el prompt, Tomás lo corre — desde 16/11
 - [ ] **Videos de entregas reales:** pedirle a Fran que filme cada carga/entrega con el celular (es lo que más rinde: «Así llega tu piedra» 5.364 vistas) — Tomás — desde 16/11
 - [ ] **Trial Reels:** OK para el Programador de tareas de Windows (3 publicaciones por día + ranking nocturno; PC prendida) — Tomás — desde 16/11
 - [ ] **Trial Reels:** probar el script con 1 reel (`trial.cmd estado`, después `trial.cmd publicar --video … --caption …`) y al día siguiente `trial.cmd ranking` para ver qué métricas da la API en un trial; después registrar las tareas y apagar lo programado en Business Suite — Claude/Tomás — desde 16/11 (script hecho el 16/11: `trial-reels\`, 7 tests en verde)
+- [ ] **Elegir modelo IA para el gancho de 64 y 61** (Veo o Seedance; mirar `E:\anuncios somos piedra\reels\lote-2026-11-16-ia\COMPARAR.md`; 61-Veo tiene toallas azul y amarillo) — Tomás — desde 16/11
+- [ ] **Trial Reels: revisar los 9 reels de la sesión piedra-trial-7b** (`trial-reels\por-revisar\`, REVISAR en `reels\lote-2026-11-17-trial\`) y pasar a `cola\` los que van — Claude revisa / Tomás pasa — desde 16/11
+- [ ] **Jue 19/11: decidir R61 y R65 (TEST) y «Toda la zona – abierto» (MADRE, $1.278/conv del 9 al 15/11)** — Claude + Tomás — desde 16/11
+- [ ] **Ventas por anuncio:** los empleados anotan las ventas que vinieron de anuncios; Tomás las carga en un chat nuevo y Claude las cruza con `meta_leads` por teléfono → costo por venta por anuncio — Tomás / Claude — desde 16/11
+- [ ] **Meta:** 10 pagos con error en los últimos 7 días (de 18) y 15 borradores sin publicar («Revisar y publicar (15)»; «ESCALA Granza R21 + R27» con cambios sin publicar) — Tomás — desde 16/11
+- [ ] Ver si «pago confirmado» / optimizar a «compras a través de mensajes» se puede con el número actual (Evolution) — Claude — desde 16/11
 
 ## 3. Ibero (`ibero`)
 - [ ] Probar la app en modo local (`npm run local`, negocio "Vivero de prueba") siguiendo los 6 pasos de `metodo/` §5.7, **después de la corrida 2026-10-08a**, sobre la versión multi-negocio que va a estar en línea. Pasar todo lo que cambiar en un solo mensaje. Lo cargado antes en modo local no se ve más (la base local cambia de nombre por negocio) — Tomás — desde 08/10

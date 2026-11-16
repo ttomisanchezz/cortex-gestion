@@ -268,3 +268,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Orgánico de IG (29/10–15/11): entrega real > problema + solución ≈ calculadora >>> catálogo (la piedra sola: ~200 vistas y 3 s). No es el horario.
 - La VM de Cowork se quedó sin disco en $HOME («No space left on device»): los archivos temporales van a una carpeta conectada (`contenido\video-ia\_trabajo\`).
 - APIMart: Veo 3.1 dura 8 s fijos (`veo3.1-fast|quality|lite`); Seedance 2.5 de 4 a 30 s (`seedance-2.5`, `generate_audio`); el estado sale en GET /v1/tasks/{id} y los links del video vencen a las 24 h: bajarlo enseguida.
+
+## Ads Manager desde Chrome con ventana chica (16/11/2026)
+- Hay 3 Chrome conectados: la cuenta de Somos Piedra (1945796639629607) está en «Browser 1»; en el que tiene a Franco Muñoz el porfolio «Somos Piedra, elija piedra» muestra 0 cuentas. Antes de decir «no hay acceso», mirar todos (`list_connected_browsers` + `select_browser`).
+- Si la ventana es angosta, la tabla no carga las columnas de números (virtualizada) y no se puede agrandar. Truco: URL con `&columns=name%2Cresults%2Ccost_per_result%2Cspend` y `&sort=spend~0` (desc), `~1` (asc), `results~0`, `cost_per_result~0`: se leen 6 filas por orden. `selected_campaign_ids=` para una campaña. El total sale de «Resultados de N …» (con `find`).
+- El filtro por nombre por URL y la búsqueda «Describe lo que buscas» no filtran; para saber si algo está prendido, leer `[role=switch]` de la fila (`aria-checked`). Con la ventana minimizada el JS se cuelga (timeout 45 s).
+- Video IA: en Windows `video_ia.py` necesita `PYTHONIOENCODING=utf-8` (si no, se cae al imprimir «✓» y no anota el gasto). Veo 3.1 Fast US$ 0,14 por clip de 8 s; Seedance 2.5 US$ 1,089 por 5 s.

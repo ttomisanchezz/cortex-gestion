@@ -78,3 +78,29 @@ Cambia una regla de plata o del método: no
 - Demora de Fran: mediana 8 min, p75 51 min, p90 5,5 h.
 - 10 errores de la API (timeouts de 20 s).
 - Checklist para el papá de Fran: doc https://claude.ai/artifact/PyQyECbByrjhL4i5L7fP36
+
+## CIERRE — somos-piedra — 16/11 14:45 — Video IA, trials y lectura de la pauta
+
+Hecho:
+- Prompt de VS Code de la corrida 2026-11-16b en 2 sesiones en paralelo (`E:\anuncios somos piedra\reels\PROMPT-vscode-2026-11-16b-A-gancho-ia.md` y `-B-trials.md`): A = clips IA + reels 64 y 61 con gancho IA (Veo y Seedance); B = 9 reels nuevos para Trial Reels (3 entrega real, 4 problema + solución: perro, viento, fiestas, chicos; 2 calculadora 5×4 = 20 y 3×3 = 9), en `trial-reels\por-revisar\` (no en la cola).
+- Sesión A entregada: 4 reels en `reels\lote-2026-11-16-ia\` + `COMPARAR.md`; gasto APIMart **US$ 2,60** de 10 (Veo US$ 0,14 por clip, Seedance US$ 1,089; 61-veo regenerado una vez). Recomienda 64 con Veo y 61 con Seedance; en 61-Veo las toallas salieron azul y amarillo (Boca). La sesión B todavía no entregó.
+- Pauta leída desde Chrome (Browser 1, cuenta 1945796639629607), 9–15/11: $696.583 / 717 conv = $972/conv; ayer 15/11 $101.040 / 130 = $777. ESCALA $747 (R21+R27 $430 con 103 conv; R13 $482), MADRE $1.069, TEST $1.121, TEST REELS $1.648. «Toda la zona – abierto» 36 conv a $1.278; «Entrega lajas» 19 a $1.293. En pauta los «reales + código» rinden peor que los dibujados (R61 $2.504 vs R11 $576; R64 $1.216 vs R13 $477).
+- Los 6 del TEST que recomendé pausar (N1, N6, R24, N3, R25, R03) ya estaban pausados: no se tocó nada en Meta.
+- Corriendo hoy (con impresiones el 16/11 hasta las 14 h): 3 campañas, 24 conjuntos, 26 anuncios.
+- Contraste con los cerebros de Santiago Bilbao y JP Sangregorio: no se apaga nada adentro de lo que vende; optimizar a conversaciones puede escalar chats que no compran → hace falta la venta por anuncio («pago confirmado» / compras por mensaje).
+Decisiones (qué y por qué):
+- Los empleados anotan todas las ventas que vinieron de anuncios; Tomás las carga en un chat nuevo para cruzarlas con el anuncio (para decidir por costo por venta y no por costo por chat) — Tomás.
+- «Toda la zona – abierto», R61 y R65 no se tocan hasta el jueves 19/11 (MADRE no se toca por dentro; R61/R65 llevan pocos días) — recomendación de Claude, Tomás no la cambió.
+Pendientes nuevos:
+- [ ] Elegir modelo IA para 64 y 61 mirando `reels\lote-2026-11-16-ia\COMPARAR.md` — Tomás
+- [ ] Revisar los 9 reels de la sesión B (`trial-reels\por-revisar\`) y pasar a `cola\` los que van — Claude revisa / Tomás pasa
+- [ ] Jue 19/11: decidir R61, R65 y «Toda la zona – abierto» — Claude + Tomás
+- [ ] Ventas por anuncio: cargar las ventas anotadas por los empleados y cruzarlas con `meta_leads` (teléfono) → costo por venta por anuncio — Tomás / Claude
+- [ ] Meta: 10 pagos con error en 7 días (18 en total) y 15 borradores sin publicar («ESCALA Granza R21 + R27» con cambios sin publicar) — Tomás
+- [ ] Ver si «pago confirmado» / optimizar a compras por mensaje se puede con el número actual (Evolution) — Claude
+Pendientes cerrados:
+- Video con IA: prompt armado y prueba corrida (US$ 2,60) — 16/11
+Aprendizajes:
+- Ver `conocimiento/aprendizajes.md` → «Ads Manager desde Chrome con ventana chica (16/11/2026)».
+Próximo paso: chat nuevo con las ventas que anotaron los empleados → cruce venta–anuncio — Modelo: —
+Cambia una regla de plata o del método: no

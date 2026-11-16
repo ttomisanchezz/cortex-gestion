@@ -316,3 +316,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Qué rinde en el orgánico de IG: entrega real (hasta 5.364 vistas) > problema + solución y calculadora (1.450–2.556) >>> catálogo (~200, 3 s). Detalle en `bitacora/2026-11-16/somos-piedra.md`.
 - Programado en Business Suite: reels hasta el 10/12; fotos y carruseles hasta el 28/11.
 - Video con IA (OK de Tomás, US$ 10): `contenido\video-ia\video_ia.py`, solo para el gancho y sin piedra. Prueba de 4 clips pendiente (en este chat APIMart estaba bloqueado por el filtro de red).
+
+## Video IA, trials y pauta (16/11/2026, 14:45)
+- Gancho con IA: 4 reels en `E:\anuncios somos piedra\reels\lote-2026-11-16-ia\` (64 y 61, Veo y Seedance; US$ 2,60 de 10). Falta que Tomás elija.
+- Trial Reels: 9 reels nuevos en armado (sesión piedra-trial-7b) → `trial-reels\por-revisar\`.
+- Pauta 9–15/11: $972/conv (ESCALA $747, MADRE $1.069, TEST $1.121). Corren 3 campañas, 24 conjuntos y 26 anuncios (16/11).
+- Falta la venta por anuncio para decidir por costo por venta: los empleados anotan las ventas de anuncios desde el 16/11.
