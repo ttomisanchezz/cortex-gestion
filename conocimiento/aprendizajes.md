@@ -249,3 +249,13 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - IG: desde instagram.com/p/<código>/ (la URL /reel/ redirige al feed de Reels) → «…» → Editar → escribir → Listo. Al tocar Listo la pestaña se cuelga (las capturas dan timeout), pero el texto se guarda: verificar en otra pestaña («Editado»). No cerrar la pestaña colgada: cerrar pestañas de Claude in Chrome puede borrar el grupo de pestañas.
 - FB: facebook.com abre como el perfil «Elija Piedra Sas». Menú de cuenta → «Cambiar a Somos Piedra, elija piedra» (find), después la pestaña Reels de la página (profile.php?id=61589214484295&sk=reels_tab) → reel → «…» → «Editar reel». Antes de Guardar, confirmar que el switch «Promocionar» está apagado. Guardar tarda ~10 s.
 - La cuenta publicitaria de Somos Piedra para Graph es **act_1945796639629607** (la 2044879766141120 da «does not exist»). El conector meta MCP no tiene acceso a ninguna de las dos: todo va por Graph desde Ads Manager.
+
+## Trial Reels de Instagram (16/11/2026)
+- No hay conector oficial de Instagram. El conector «meta» es de Ads (`ads_get_ig_media` lista posts para promocionar); no publica orgánico.
+- La API de publicación de Instagram acepta Trial Reels: `trial_params={"graduation_strategy":"MANUAL"|"SS_PERFORMANCE"}` con `media_type=REELS` al crear el contenedor (POST /<IG_ID>/media). Pasarlo al perfil no está en la API: se hace en la app. Las métricas del trial por API no están documentadas: probarlo con la cuenta real.
+- Requisitos: cuenta profesional pública, apta para recomendaciones, con 200+ seguidores. Instagram limita el alcance de contenido reutilizado: los ganadores se repiten como variación nueva, no el mismo archivo.
+- El composer de reels de Business Suite NO tiene la opción de Trial Reel (verificado hasta el paso «Compartir»).
+- La VM de Cowork no llega a graph.facebook.com, rupload.facebook.com ni graph.instagram.com: un script que publique tiene que correr en Windows.
+- El sistema de Claude bloquea usar el `window.__accessToken` de Ads Manager para llamar a Graph de Instagram («Unauthorized Access»): para publicar hace falta un token propio de una app de Meta.
+- `device_request_folder_access` puede rechazarse solo por un control automático: después de 2 intentos, pedirle a Tomás que agregue la carpeta con «Agregar carpeta».
+- `file_upload` de Chrome solo acepta archivos stageados desde una carpeta conectada (no sirve un archivo hecho en `/mnt/user-data/outputs`).

@@ -305,3 +305,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 ## Estado de la pauta (12/11/2026, 10:25)
 - ~$107.800/día programados: MADRE $35.000 + ESCALA $36.000 (con ESCALA R13 Adoquín entrada desde el 12/11) + 23 conjuntos del TEST CREATIVOS × $1.600 (R61–R65 «reales + código» arrancan el 13/11 00:00). R17 cortado el 12/11.
 - Orgánico programado con texto: reels hasta el 10/12 (61, 62, 42 y 63 de la 11e el 8–10/12); del 11 al 17/12, 14 reels de la 11e que programa la tarea del 19/11.
+
+## Orgánico: Trial Reels (16/11/2026)
+- Decidido: el orgánico pasa a 3 trial reels por día; a las 24 h se pasan al perfil los de más vistas y los ganadores vuelven a trial como variaciones nuevas. Script propio con la API oficial (`trial_params` MANUAL), corriendo en Windows.
+- Lo programado en Business Suite sigue hasta que los trials anden; después se apaga.
+- Falta de Tomás: agregar `E:\anuncios somos piedra` al chat, app de Meta + token en `.env` y OK para el Programador de tareas.
