@@ -21,3 +21,16 @@ Aprendizajes:
 - Ver `conocimiento/aprendizajes.md` → «Trial Reels de Instagram (16/11/2026)».
 Próximo paso: con carpeta + token + OK, armar el script de Trial Reels y probarlo con 1 reel — Modelo: —
 Cambia una regla de plata o del método: no
+
+## somos-piedra — 16/11 11:05 — Script de Trial Reels
+
+Hecho:
+- Carpeta `E:\anuncios somos piedra` ya conectada al chat.
+- Script en `E:\anuncios somos piedra\trial-reels\` (`trial_reels.py`, solo Python estándar): `publicar` (próximo par mp4+txt de `cola/`, contenedor REELS resumable con `trial_params` MANUAL, subida al uri, espera FINISHED, media_publish, mueve a `publicados/AAAA-MM-DD/`; con error a `cola/_error/`), `ranking` (trials con 24 h o más: prueba views/reach/likes/etc., escribe `ranking/AAAA-MM-DD.md` con ✅ los de más vistas por día; sin vistas = FALTA DATO), `estado` (cuenta, seguidores, cupo de publicación), `--simular`. Tope 3 por día, candado contra corridas dobles, el token nunca va al log ni al registro.
+- `trial.cmd` (lanzador), `registrar-tareas.cmd` (10, 14, 19 y ranking 23:30; NO corrido), `env-ejemplo.txt`, `LEEME.md`, `test_trial_reels.py` (7 tests con un Instagram de mentira, en verde).
+Decisiones (tomadas por Claude, cambiables):
+- Host por defecto `graph.instagram.com` v24.0 (token de «inicio de sesión de Instagram», el que se saca directo del panel de la app); con token de Facebook: `IG_API_HOST=graph.facebook.com` + `IG_USER_ID`.
+- Ganadores: el 1 de más vistas de cada día (`GANADORES_POR_DIA`). Horarios 10, 14 y 19.
+Pendientes nuevos:
+- Elegir el reel de la prueba (que no esté programado en Business Suite) — Tomás.
+Próximo paso: con el `.env`, `trial.cmd estado` y la prueba con 1 reel — Modelo: —

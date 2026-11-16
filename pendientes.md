@@ -215,10 +215,10 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] BANCO.md: marcar usado el par del frente (extra programado 13/11 10:30) — chat — desde 02/11
 - [ ] Confirmar con Fran: cuidados de la piedra, granza junto a un fogón, cat-017 pizarra, cat-027 verde bronce, "a granel o paletizada" — Tomás — desde 02/11
 
-- [ ] **Trial Reels:** agregar `E:\anuncios somos piedra` al chat («Agregar carpeta»; el pedido automático se rechazó) — Tomás — desde 16/11
-- [ ] **Trial Reels:** crear app de Meta (Business + Instagram) y token de @somospiedranqn (instagram_content_publish, instagram_basic, instagram_manage_insights) en un `.env` (`IG_TOKEN=`); no pasarlo por el chat — Tomás — desde 16/11
+- [ ] **Trial Reels:** crear app de Meta (Business + Instagram, «inicio de sesión de Instagram») y token de @somospiedranqn (instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights) en `E:\anuncios somos piedra\trial-reels\.env` (`IG_TOKEN=`, modelo en `env-ejemplo.txt`); no pasarlo por el chat — Tomás — desde 16/11
+- [ ] **Trial Reels:** elegir el reel de la prueba (uno que NO esté programado en Business Suite: casi todo lo hecho está programado hasta el 17/12) — Tomás — desde 16/11
 - [ ] **Trial Reels:** OK para el Programador de tareas de Windows (3 publicaciones por día + ranking nocturno; PC prendida) — Tomás — desde 16/11
-- [ ] **Trial Reels:** armar y probar el script (subida resumable, trial MANUAL, ranking a 24 h, lista para pasar al perfil); después apagar lo programado en Business Suite — Claude — desde 16/11
+- [ ] **Trial Reels:** probar el script con 1 reel (`trial.cmd estado`, después `trial.cmd publicar --video … --caption …`) y al día siguiente `trial.cmd ranking` para ver qué métricas da la API en un trial; después registrar las tareas y apagar lo programado en Business Suite — Claude/Tomás — desde 16/11 (script hecho el 16/11: `trial-reels\`, 7 tests en verde)
 
 ## 3. Ibero (`ibero`)
 - [ ] Probar la app en modo local (`npm run local`, negocio "Vivero de prueba") siguiendo los 6 pasos de `metodo/` §5.7, **después de la corrida 2026-10-08a**, sobre la versión multi-negocio que va a estar en línea. Pasar todo lo que cambiar en un solo mensaje. Lo cargado antes en modo local no se ve más (la base local cambia de nombre por negocio) — Tomás — desde 08/10
