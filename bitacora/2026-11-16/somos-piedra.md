@@ -67,3 +67,14 @@ Aprendizajes:
 Próximo paso: chat nuevo → `python3 video_ia.py piezas/2026-11-16-prueba-ganchos.json` y armar los 2 reels — Modelo: —
 Cambia una regla de plata o del método: no
 - 13:10 Tomás: los reels se arman en VS Code con su editor (`C:\\Users\\PC\\Documents\\editor-reels-tomas`), no con ffmpeg. El próximo chat arma el prompt de VS Code: generar los 4 clips con `video_ia.py` (desde Windows APIMart responde) y que el editor los use como gancho de 64 y 61.
+
+## Revisión de la sombra de Erasmo (11–14/11) — Claude, 16/11 tarde
+- 1.041 propuestas en 376 chats, US$ 12,96 (≈ US$ 0,012 c/u). La sombra dejó de proponer el 14/11 (venció `CEREBRO_SOMBRA_PERSONA_HASTA`); desde ahí solo escucha.
+- Chats nuevos (496 tandas sin persona): responde 379 (76 %), escala 117 (24 %); la mitad de las escaladas, por envío/zona.
+- Con persona en el chat (545): se calla/escala bien (reclamos, pagos, entregas).
+- Montos: 16 casos con total; 13 iguales a Fran. Errores: «4 negros cuadrados» → 40 m² ($620.000); Verde Bronce 20 m² $600.000 vs Fran $580.000 (precio del panel ≠ el de Fran); 1 bolsa con precio de tramo 20+.
+- 88 casos: Fran da el precio de entrada y Erasmo solo catálogo + pregunta. Casi todos del anuncio «Somos Piedra, elija piedra» (477 chats): Fran asume granza ($22.000 la bolsa). Arreglo: mapear anuncio → producto.
+- Fran vende el **bolsón 1 m³ (20 m²) a $310.000**; Erasmo dice «no vendemos por bolsón» (decisión 03/11). Choca: decide Tomás/Fran.
+- Demora de Fran: mediana 8 min, p75 51 min, p90 5,5 h.
+- 10 errores de la API (timeouts de 20 s).
+- Checklist para el papá de Fran: doc https://claude.ai/artifact/PyQyECbByrjhL4i5L7fP36
