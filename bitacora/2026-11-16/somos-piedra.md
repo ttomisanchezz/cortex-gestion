@@ -66,3 +66,4 @@ Aprendizajes:
 - Ver `conocimiento/aprendizajes.md` → «Chrome, filtro de red y Business Suite (16/11/2026)».
 Próximo paso: chat nuevo → `python3 video_ia.py piezas/2026-11-16-prueba-ganchos.json` y armar los 2 reels — Modelo: —
 Cambia una regla de plata o del método: no
+- 13:10 Tomás: los reels se arman en VS Code con su editor (`C:\\Users\\PC\\Documents\\editor-reels-tomas`), no con ffmpeg. El próximo chat arma el prompt de VS Code: generar los 4 clips con `video_ia.py` (desde Windows APIMart responde) y que el editor los use como gancho de 64 y 61.
