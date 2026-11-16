@@ -102,3 +102,4 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 ## 2. Somos Piedra (`somos-piedra`) — cerrados el 12/11 (11:15)
 - [x] 12/11 Texto del R20 (18:00, «¿Cuánto pesa una bolsa de granza?…») y del 41 (20:30, «Así se llena un patio de 20 metros cuadrados…») cargado en IG (instagram.com) y FB (como la página) y verificado en las 4 publicaciones — Claude
 - [x] 12/11 R61–R65 y ESCALA R13 pasaron la revisión de Meta: los 6 anuncios ACTIVE, sin rechazos ni issues — Claude
+- [x] 16/11 **Trial Reels: revisar los 9 reels de la sesión piedra-trial-7b** (`trial-reels\por-revisar\`, REVISAR en `reels\lote-2026-11-17-trial\`) y pasar a `cola\` los que van — Claude revisa / Tomás pasa — desde 16/11 (revisados por Claude: listos; Tomás los pasa)

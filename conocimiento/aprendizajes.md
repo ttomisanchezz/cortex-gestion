@@ -274,3 +274,12 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Si la ventana es angosta, la tabla no carga las columnas de números (virtualizada) y no se puede agrandar. Truco: URL con `&columns=name%2Cresults%2Ccost_per_result%2Cspend` y `&sort=spend~0` (desc), `~1` (asc), `results~0`, `cost_per_result~0`: se leen 6 filas por orden. `selected_campaign_ids=` para una campaña. El total sale de «Resultados de N …» (con `find`).
 - El filtro por nombre por URL y la búsqueda «Describe lo que buscas» no filtran; para saber si algo está prendido, leer `[role=switch]` de la fila (`aria-checked`). Con la ventana minimizada el JS se cuelga (timeout 45 s).
 - Video IA: en Windows `video_ia.py` necesita `PYTHONIOENCODING=utf-8` (si no, se cae al imprimir «✓» y no anota el gasto). Veo 3.1 Fast US$ 0,14 por clip de 8 s; Seedance 2.5 US$ 1,089 por 5 s.
+
+## Video IA con APIMart (16/11/2026, tarde)
+- `video_ia.py` frena solo cuando lo gastado YA llegó al tope: con un clip de Seedance (USD 1,089) se puede pasar. El prompt tiene que pedir que se controle a mano: lo gastado + el costo del clip ≤ tope.
+- Todas las sesiones anotan en el mismo `gastos-apimart.csv`, así que el tope es común: dos corridas a la vez se comen el margen de regeneraciones de la otra.
+- Correr el script con `PYTHONIOENCODING=utf-8` (en Windows, con la salida redirigida, se caía después de bajar el clip y antes de anotar el gasto).
+- APIMart genera los pedidos casi en paralelo: 7 u 8 clips están en ~5 min. Una tanda completa (clips + 2 reels + controles) lleva ~1 h.
+- Lo que sale raro y hay que controlar: colores de club (toallas azul y amarillo = Boca), ripio o grava donde no tiene que haber, el clip dibujado adentro de un marco de celular, polvo en bolas, ropa que se suelta y vuelve igual. En los prompts: colores neutros y «no gravel, no stones».
+- El selector del panel de VS Code pisa al modelo del prompt: la sesión 8a corrió con Fable 5.2 aunque el prompt decía Sonnet 5.5.
+

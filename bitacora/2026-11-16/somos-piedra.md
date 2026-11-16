@@ -104,3 +104,27 @@ Aprendizajes:
 - Ver `conocimiento/aprendizajes.md` → «Ads Manager desde Chrome con ventana chica (16/11/2026)».
 Próximo paso: chat nuevo con las ventas que anotaron los empleados → cruce venta–anuncio — Modelo: —
 Cambia una regla de plata o del método: no
+
+## CIERRE — somos-piedra — 16/11 16:35 — Video IA tanda 2 (66 y 67), reel 76 todo IA y trial reels
+
+Hecho:
+- Revisada la sesión piedra-ia-7a (gancho IA en 64 y 61): plata verificada en `gastos-apimart.csv` (5 clips = USD 2,598), hojas mirada. Recomendación: 64 con Veo (salpicadura fuerte) y 61 con Seedance (en Veo las toallas se leen como Boca).
+- Prompt corrida 2026-11-16c (`reels\PROMPT-vscode-2026-11-16c-ia-66-67.md` + pieza `contenido\video-ia\piezas\2026-11-16-ia-66-67.json`): 66 y 67 con IA en TODA la parte del problema y planos de 1,5 s como máximo. Entregado: `reels\lote-2026-11-16-ia-2\` (66: 7 cortes, 67: 6 cortes; voz, textos y cierre iguales al lote 14). Tanda: 7 clips + 2 regeneraciones = USD 3,158. Corrió con Fable 5.2 (selector), no Sonnet 5.5. `67-lluvia-2` va recortado para sacar una franja de ripio (excepción a la letra de la regla).
+- Revisada la sesión piedra-trial-7b: 9 trial reels en `trial-reels\por-revisar\` (md5 iguales al lote `reels\lote-2026-11-17-trial\`), cuentas 5×4 = 20 bolsas y 3×3 = 9 bolsas OK, ElevenLabs 1.996 de 2.200 caracteres.
+- Prompt corrida 2026-11-16d (`reels\PROMPT-vscode-2026-11-16d-todo-ia-76.md` + pieza `2026-11-16-todo-ia.json`): reel 76 TODO con IA (8 escenas, una por frase del guion; granza gris generada por IA, descripta según `granza-gris_1.jpg`). Al cierre: 8 clips + 2 regeneraciones (USD 3,298) y voz hechos; el reel todavía se estaba armando (`reels\lote-2026-11-16-ia-3\76-todo-ia-granza\` sin `reel.mp4`).
+- `gastos-apimart.csv` al cierre: 24 filas, **USD 9,054 de 10**.
+Decisiones (qué y por qué):
+- Video IA tanda 2: IA en todo el problema (no solo el gancho) y más retención; Veo + Seedance — Tomás.
+- Reel 76 todo IA con la granza generada por IA: excepción a «la piedra nunca la hace la IA» solo para esa prueba — Tomás. Rótulo «Imagen ilustrativa» en los planos con granza (regla de `contenido.md`) — Claude; Tomás puede sacarlo.
+Pendientes nuevos:
+- [ ] Trial reels a `cola\`: T02, T04, T05, T06, T07 y T09 ya; T01 y T03 si «bajamos a mano / te lo llevamos» es lo de siempre; T08 no el 18/11 (placa P4 con 5×4); T05 y T06 no el mismo día; escuchar el arranque de T08 y T09 — Tomás
+- [ ] Mirar 66 y 67 IA (`reels\lote-2026-11-16-ia-2\`) y decidir el recorte de `67-lluvia-2` (recomendación: dejarlo) — Tomás
+- [ ] Reel 76 todo IA: pegar el resultado de la sesión piedra-ia-9a en un chat nuevo; revisar la granza IA contra la real y el rótulo — Claude revisa / Tomás decide
+- [ ] Video IA: quedan USD 0,946 del tope de 10; para otra tanda hace falta tope nuevo — Tomás
+- [ ] Selector de VS Code en Sonnet 5.5 (la 8a corrió con Fable 5.2) — Tomás
+Pendientes cerrados:
+- Revisar los 9 trial reels de la 7b — Claude, 16/11
+Aprendizajes:
+- Ver `conocimiento/aprendizajes.md` → «Video IA con APIMart (16/11/2026, tarde)».
+Próximo paso: chat nuevo con el resultado del reel 76 → revisar granza IA vs real — Modelo: —
+Cambia una regla de plata o del método: no

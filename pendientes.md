@@ -223,7 +223,11 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Trial Reels:** OK para el Programador de tareas de Windows (3 publicaciones por día + ranking nocturno; PC prendida) — Tomás — desde 16/11
 - [ ] **Trial Reels:** probar el script con 1 reel (`trial.cmd estado`, después `trial.cmd publicar --video … --caption …`) y al día siguiente `trial.cmd ranking` para ver qué métricas da la API en un trial; después registrar las tareas y apagar lo programado en Business Suite — Claude/Tomás — desde 16/11 (script hecho el 16/11: `trial-reels\`, 7 tests en verde)
 - [ ] **Elegir modelo IA para el gancho de 64 y 61** (Veo o Seedance; mirar `E:\anuncios somos piedra\reels\lote-2026-11-16-ia\COMPARAR.md`; 61-Veo tiene toallas azul y amarillo) — Tomás — desde 16/11
-- [ ] **Trial Reels: revisar los 9 reels de la sesión piedra-trial-7b** (`trial-reels\por-revisar\`, REVISAR en `reels\lote-2026-11-17-trial\`) y pasar a `cola\` los que van — Claude revisa / Tomás pasa — desde 16/11
+- [ ] **Trial reels a `cola\`:** T02, T04, T05, T06, T07 y T09 ya; T01 y T03 si «bajamos a mano / te lo llevamos» es lo de siempre; T08 no el 18/11 (placa P4 con 5×4); T05 y T06 no el mismo día; escuchar el arranque de T08 y T09 — Tomás — desde 16/11
+- [ ] **Mirar 66 y 67 con IA** (`E:\anuncios somos piedra\reels\lote-2026-11-16-ia-2\`, `COMPARAR.md`) y decidir el recorte de `67-lluvia-2` (recomendación: dejarlo) — Tomás — desde 16/11
+- [ ] **Reel 76 todo IA:** pegar el resultado de la sesión piedra-ia-9a en un chat nuevo; revisar la granza IA contra la real y el rótulo «Imagen ilustrativa» (`reels\lote-2026-11-16-ia-3\`) — Claude revisa / Tomás decide — desde 16/11
+- [ ] **Video IA: quedan USD 0,946 del tope de 10** (`gastos-apimart.csv` en 9,054); otra tanda necesita tope nuevo — Tomás — desde 16/11
+- [ ] Selector de VS Code en Sonnet 5.5 (la sesión 8a corrió con Fable 5.2) — Tomás — desde 16/11
 - [ ] **Jue 19/11: decidir R61 y R65 (TEST) y «Toda la zona – abierto» (MADRE, $1.278/conv del 9 al 15/11)** — Claude + Tomás — desde 16/11
 - [ ] **Ventas por anuncio:** los empleados anotan las ventas que vinieron de anuncios; Tomás las carga en un chat nuevo y Claude las cruza con `meta_leads` por teléfono → costo por venta por anuncio — Tomás / Claude — desde 16/11
 - [ ] **Meta:** 10 pagos con error en los últimos 7 días (de 18) y 15 borradores sin publicar («Revisar y publicar (15)»; «ESCALA Granza R21 + R27» con cambios sin publicar) — Tomás — desde 16/11

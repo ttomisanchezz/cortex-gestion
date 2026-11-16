@@ -322,3 +322,10 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Trial Reels: 9 reels nuevos en armado (sesión piedra-trial-7b) → `trial-reels\por-revisar\`.
 - Pauta 9–15/11: $972/conv (ESCALA $747, MADRE $1.069, TEST $1.121). Corren 3 campañas, 24 conjuntos y 26 anuncios (16/11).
 - Falta la venta por anuncio para decidir por costo por venta: los empleados anotan las ventas de anuncios desde el 16/11.
+
+## Video IA tanda 2 y reel todo IA (16/11/2026, 16:35)
+- 66 y 67 con IA en toda la parte del problema: `E:\anuncios somos piedra\reels\lote-2026-11-16-ia-2\` (+ `COMPARAR.md`).
+- Reel 76 todo IA (granza incluida, excepción solo para la prueba): `reels\lote-2026-11-16-ia-3\76-todo-ia-granza\`, en armado al cierre.
+- `contenido\video-ia\gastos-apimart.csv`: USD 9,054 de 10.
+- Trial reels revisados: `trial-reels\por-revisar\` (9), pasan a `cola\` los que elija Tomás.
+
