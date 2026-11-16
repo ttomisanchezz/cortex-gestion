@@ -45,3 +45,24 @@ Datos (Business Suite → Insights → Contenido, reels de IG; vistas · alcance
 - No es el horario: el 11–15/11 las 20:30 rinden igual que las 18:00; lo que se cayó a las 20:30 antes era el contenido de catálogo.
 Conclusión: entrega real > problema + solución ≈ calculadora >>> catálogo. Coincide con la pauta (R11, R13, Envío Neuquén, Entrega lajas).
 Programado en Business Suite (verificado 16/11 12:35): reels FB + IG hasta el **jue 10/12 20:30**; fotos y carruseles hasta el **sáb 28/11 13:30**.
+
+## CIERRE — somos-piedra — 16/11 13:10 — Trial Reels, orgánico y video con IA
+
+Hecho:
+- Script de Trial Reels en `E:\anuncios somos piedra\trial-reels\` (7 tests en verde); falta el token.
+- Claude in Chrome conectado (después de varias vueltas: la extensión tenía que estar abierta e iniciada en la misma cuenta). Análisis del orgánico de IG 29/10–15/11 y verificación de lo programado (bloque de las 12:40).
+- Video con IA: investigado APIMart (Seedance 2.5: `seedance-2.5`, 4–30 s, 480p/720p/1080p, 9:16, `generate_audio`; Veo 3.1: `veo3.1-fast|quality|lite`, 8 s fijos, 9:16; POST /v1/videos/generations, GET /v1/tasks/{id}; los links de video vencen a las 24 h). Script `contenido\video-ia\video_ia.py` (tope US$ 10 sumando `gastos-apimart.csv`, no repite clips) y pieza `piezas/2026-11-16-prueba-ganchos.json`: 4 clips (Veo 3.1 Fast 8 s y Seedance 2.5 5 s sin audio) para el gancho de los reels 64 (auto entrando a una entrada de tierra con barro) y 61 (viento levantando polvo en un patio de tierra). Sin piedra en ningún clip.
+- NO se corrió: api.apimart.ai rechazado por el filtro de red (403) desde la VM y desde la nube, aun después de que Tomás lo agregara; se sigue en un chat nuevo.
+Decisiones (qué y por qué):
+- Prueba de video con IA aprobada: hasta US$ 10 en APIMart (Seedance 2.5 y Veo 3.1) para ver si los reels se ven más reales que con stock + código (Tomás).
+- Formato del video con IA (Claude, por la regla «la piedra no se toca»): la IA hace solo el gancho (el problema o el ambiente); la piedra, la entrega y el cierre van reales. El clip IA reemplaza el stock de los primeros 3 s y se conserva el texto del gancho.
+Pendientes nuevos:
+- [ ] Correr la prueba de video IA (4 clips) en el chat nuevo, armar 64 y 61 con el gancho IA y mandarle a Tomás la comparación Veo vs Seedance — Claude
+- [ ] Pedirle a Fran que filme cada carga/entrega con el celular (el formato que más rinde en orgánico y en pauta) — Tomás
+Pendientes cerrados:
+- Agregar `E:\anuncios somos piedra` al chat — hecho 16/11
+- Armar el script de Trial Reels — hecho 16/11 (queda la prueba con 1 reel)
+Aprendizajes:
+- Ver `conocimiento/aprendizajes.md` → «Chrome, filtro de red y Business Suite (16/11/2026)».
+Próximo paso: chat nuevo → `python3 video_ia.py piezas/2026-11-16-prueba-ganchos.json` y armar los 2 reels — Modelo: —
+Cambia una regla de plata o del método: no

@@ -216,7 +216,9 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Confirmar con Fran: cuidados de la piedra, granza junto a un fogón, cat-017 pizarra, cat-027 verde bronce, "a granel o paletizada" — Tomás — desde 02/11
 
 - [ ] **Trial Reels:** crear app de Meta (Business + Instagram, «inicio de sesión de Instagram») y token de @somospiedranqn (instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights) en `E:\anuncios somos piedra\trial-reels\.env` (`IG_TOKEN=`, modelo en `env-ejemplo.txt`); no pasarlo por el chat — Tomás — desde 16/11
-- [ ] **Trial Reels:** elegir el reel de la prueba (uno que NO esté programado en Business Suite: casi todo lo hecho está programado hasta el 17/12) — Tomás — desde 16/11
+- [ ] **Trial Reels:** elegir el reel de la prueba (uno que NO esté programado en Business Suite: reels programados hasta el 10/12, fotos y carruseles hasta el 28/11, verificado el 16/11) — Tomás — desde 16/11
+- [ ] **Video con IA (OK de Tomás, US$ 10):** correr `E:\anuncios somos piedra\contenido\video-ia\video_ia.py piezas/2026-11-16-prueba-ganchos.json` (4 clips Veo 3.1 Fast / Seedance 2.5 para el gancho de los reels 64 y 61), armar los 2 reels y mandar la comparación. En este chat api.apimart.ai daba 403 en el filtro de red — Claude — desde 16/11
+- [ ] **Videos de entregas reales:** pedirle a Fran que filme cada carga/entrega con el celular (es lo que más rinde: «Así llega tu piedra» 5.364 vistas) — Tomás — desde 16/11
 - [ ] **Trial Reels:** OK para el Programador de tareas de Windows (3 publicaciones por día + ranking nocturno; PC prendida) — Tomás — desde 16/11
 - [ ] **Trial Reels:** probar el script con 1 reel (`trial.cmd estado`, después `trial.cmd publicar --video … --caption …`) y al día siguiente `trial.cmd ranking` para ver qué métricas da la API en un trial; después registrar las tareas y apagar lo programado en Business Suite — Claude/Tomás — desde 16/11 (script hecho el 16/11: `trial-reels\`, 7 tests en verde)
 

@@ -259,3 +259,12 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - El sistema de Claude bloquea usar el `window.__accessToken` de Ads Manager para llamar a Graph de Instagram («Unauthorized Access»): para publicar hace falta un token propio de una app de Meta.
 - `device_request_folder_access` puede rechazarse solo por un control automático: después de 2 intentos, pedirle a Tomás que agregue la carpeta con «Agregar carpeta».
 - `file_upload` de Chrome solo acepta archivos stageados desde una carpeta conectada (no sirve un archivo hecho en `/mnt/user-data/outputs`).
+
+## Chrome, filtro de red y Business Suite (16/11/2026)
+- Claude in Chrome: que el conector esté prendido en el chat no alcanza. La extensión tiene que estar abierta en Chrome e iniciada con la misma cuenta (BLING BLING); hasta entonces `list_connected_browsers` da vacío.
+- Agregar un dominio en Configuración → Capacidades no llegó a este chat (api.apimart.ai siguió con 403 desde la VM y desde la nube): después de cambiar los dominios permitidos, seguir en un chat nuevo.
+- Business Suite → Insights → Contenido: la tabla carga todas las filas; para juntarlas por JS la clave tiene que llevar la red (FB/IG), porque el mismo posteo cruzado tiene igual título y fecha y se pisan. Un `await` largo en `javascript_tool` se cuelga (45 s): correr el bucle en segundo plano y consultar después.
+- Business Suite cambia de cuenta desde el avatar de arriba a la izquierda → «Somos Piedra, elija piedra» (portafolio 1025929717279397, página 1025898313949204). Por defecto abre Somos iPhone.
+- Orgánico de IG (29/10–15/11): entrega real > problema + solución ≈ calculadora >>> catálogo (la piedra sola: ~200 vistas y 3 s). No es el horario.
+- La VM de Cowork se quedó sin disco en $HOME («No space left on device»): los archivos temporales van a una carpeta conectada (`contenido\video-ia\_trabajo\`).
+- APIMart: Veo 3.1 dura 8 s fijos (`veo3.1-fast|quality|lite`); Seedance 2.5 de 4 a 30 s (`seedance-2.5`, `generate_audio`); el estado sale en GET /v1/tasks/{id} y los links del video vencen a las 24 h: bajarlo enseguida.

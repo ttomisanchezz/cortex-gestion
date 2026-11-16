@@ -310,3 +310,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Decidido: el orgánico pasa a 3 trial reels por día; a las 24 h se pasan al perfil los de más vistas y los ganadores vuelven a trial como variaciones nuevas. Script propio con la API oficial (`trial_params` MANUAL), corriendo en Windows.
 - Lo programado en Business Suite sigue hasta que los trials anden; después se apaga.
 - Falta de Tomás: agregar `E:\anuncios somos piedra` al chat, app de Meta + token en `.env` y OK para el Programador de tareas.
+
+## Orgánico y video con IA (16/11/2026, tarde)
+- Trial Reels: script listo en `E:\anuncios somos piedra\trial-reels\` (falta el token de Meta en `.env`).
+- Qué rinde en el orgánico de IG: entrega real (hasta 5.364 vistas) > problema + solución y calculadora (1.450–2.556) >>> catálogo (~200, 3 s). Detalle en `bitacora/2026-11-16/somos-piedra.md`.
+- Programado en Business Suite: reels hasta el 10/12; fotos y carruseles hasta el 28/11.
+- Video con IA (OK de Tomás, US$ 10): `contenido\video-ia\video_ia.py`, solo para el gancho y sin piedra. Prueba de 4 clips pendiente (en este chat APIMart estaba bloqueado por el filtro de red).
