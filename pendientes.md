@@ -27,6 +27,13 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+- [ ] **CBO «IA – Nov 2026» a $20.000/día** con 76 (re-render SIN rótulo «Imagen ilustrativa»: pedir acceso a `C:\Users\PC\Documents\editor-reels-tomas`), 66 IA, 67 IA (con el recorte de `67-lluvia-2`) y 64 Veo; comprimir cada uno a <3,8 MB; un mensaje precargado distinto por anuncio; misma zona y configuración que la ESCALA — Claude — desde 17/11
+- [ ] Rehacer las piezas JSON de los reels IA 77–81 (se perdieron al cortarse el puente) y el prompt de VS Code; tope USD 10 — Claude, después de que Tomás cargue USD 10 en APIMart — desde 17/11
+- [ ] Cargar USD 10 en APIMart — Tomás — desde 17/11
+- [ ] «Entrega lajas» (MADRE): revisar/descartar sus «Cambios sin publicar» y recién ahí sacar el mínimo de $3.500; mirar los 15 borradores de «Revisar y publicar» — Tomás — desde 17/11
+- [ ] Avisarle a Fran: cada venta → `#vendido <número del cliente>` en el grupo «Bot Erasmo» (nunca en el chat del cliente) — Tomás — desde 17/11
+- [ ] Cruce automático venta del panel (teléfono de «Vender») ↔ anuncio que guarda el bot → costo por venta por anuncio — Claude — desde 17/11
+- [ ] Confirmar con Fran: «la piedra no se pinta más / aguanta helada y viento» (cierres de 78 y 81) y si la granza roja rinde 1 bolsa = 1 m² — Tomás — desde 17/11
 - [ ] **Erasmo, corrida 2026-11-17a** (respuestas de Fran: pagos, IVA, tarjeta/posnet, bolsón, granza tarjeta 15-19, `#sinstock`, envíos): Tomás pega `E:\bot-piedra\bot\prompts\PROMPT-vscode-2026-11-17a-erasmo-fran.md` en VS Code; después Claude revisa REVISAR, reinicio en tester y prueba con el 298 440-9447 — Tomás / Claude — desde 17/11
 - [ ] **Excel ↔ panel** (chat nuevo): diseñar la sincronización del Excel «día a día» (Drive del papá de Fran) con el panel: LISTADO + ventas, gastos, proveedores y gastos fijos desde 01/2025, alias de productos (~20 por producto), sin duplicados entre Excel y panel; después prompts de VS Code — Claude — desde 17/11
 - [ ] Instalar Google Drive para escritorio con la cuenta del papá de Fran en la PC del local y mover ahí el Excel «día a día» — Tomás — desde 17/11

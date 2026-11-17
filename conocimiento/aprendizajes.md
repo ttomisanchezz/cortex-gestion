@@ -296,3 +296,8 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 ## Audios de WhatsApp sin modelo local (17/11/2026)
 - 17/11/2026: el contenedor y la VM no llegan a Hugging Face ni a OpenAI (proxy 403), así que no hay Whisper. La vuelta: Google AI Studio en el Chrome de Tomás. Gemini app responde «solo genero texto». En AI Studio el .ogg falla como «Unsupported file» si se sube tal cual: subirlo con `file_upload` a un `<input type=file>` propio, re-envolverlo en JS como `new File([f], f.name, {type:'audio/ogg'})` y asignarlo al input nativo con `DataTransfer` + evento `change`.
+- 17/11: Ads Manager con ventana chica: para tocar una celda fuera de pantalla (presupuesto), `transform: translateX(-470px)` al `[role=table]` y clic en la celda; el lápiz abre un cuadro con «Publicar» que publica SOLO ese presupuesto (sin arrastrar borradores). Apagar una campaña con su interruptor se aplica al instante.
+- 17/11: Pasar un conjunto a otra campaña: seleccionarlo, **Ctrl+C**, ir a la pestaña Campañas SIN recargar (clic en la pestaña), tildar solo la campaña destino y **Ctrl+V**. Si se navega con URL, el portapapeles se pierde («No has copiado ningún elemento»). «Duplicar» ya no deja elegir campaña. Al publicar: «Omitir» contenido relacionado.
+- 17/11: Un campo del editor que no se puede tipear (panel izquierdo tapado): setter nativo de `value` + eventos `input` y `change`.
+- 17/11: En «Revisar», «Lugares incluidos: Ninguna» no es la zona geográfica: la audiencia estimada (~800.000–950.000) confirma Neuquén y Alto Valle.
+- 17/11: No publicar un conjunto que ya tiene «Cambios sin publicar» que no se ven: se publican todos juntos.
