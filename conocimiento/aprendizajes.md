@@ -285,3 +285,14 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 
 - 16/11/2026 — Cowork: la VM del chat puede quedarse sin disco en $HOME; correr node con TMPDIR=/tmp y los tests de a 5 o 6 por llamada. Para commitear hace falta el permiso de borrado (locks de git) y `-c user.name/-c user.email`.
+
+## Ads Manager por Chrome: leer la tabla entera (17/11/2026)
+- La cuenta 1945796639629607 hoy está en **Browser 2** (Browser 1 cae en otra cuenta, 2044879766141120, con un borrador viejo).
+- `fetch` a Graph con `window.__accessToken` lo bloquea el control de permisos: se lee la tabla del Administrador.
+- Ventana chica: `resize_window` 1800×1000 a veces anda (después la ventana vuelve a 638×806 y ya no deja agrandar).
+- **Para ver todas las filas:** ponerle `height: 5200px` a la tabla (`[role=table]`) y a sus 10 padres, `dispatchEvent(resize)` y esperar 3 s; después agrupar las hojas de texto por altura (`getBoundingClientRect().top`, filas de 46 px). La rueda del mouse no mueve la tabla.
+- Los borradores (15) quedan arriba en la vista de anuncios: leer por **conjuntos**, o con `selected_campaign_ids=`.
+- «Lo que está corriendo» = conjuntos con impresiones ayer: `date=…%2Cyesterday` + `filter_set=adset.impressions-NUMBER%1EGREATER_THAN%1E0`. El filtro por `delivery_info` en la URL no filtra.
+
+## Audios de WhatsApp sin modelo local (17/11/2026)
+- 17/11/2026: el contenedor y la VM no llegan a Hugging Face ni a OpenAI (proxy 403), así que no hay Whisper. La vuelta: Google AI Studio en el Chrome de Tomás. Gemini app responde «solo genero texto». En AI Studio el .ogg falla como «Unsupported file» si se sube tal cual: subirlo con `file_upload` a un `<input type=file>` propio, re-envolverlo en JS como `new File([f], f.name, {type:'audio/ogg'})` y asignarlo al input nativo con `DataTransfer` + evento `change`.

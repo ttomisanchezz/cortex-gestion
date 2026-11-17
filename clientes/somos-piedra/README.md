@@ -334,3 +334,9 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Sombra 11–14/11: 1.041 propuestas en 376 chats (US$ 13). En los chats nuevos contesta 3 de cada 4; 13 de 16 totales iguales a Fran. Errores corregidos: «4 cuadrados» leído como 40 m², precio de una bolsa, no sabía de qué anuncio venía el chat.
 - Respuestas de Fran aplicadas: bolsón → m², charla ante «precio?», granza en 3 colores (gris Tandil, roja, blanca Mar del Plata), «gracias» con invitación a mejorar presupuesto, «Enseguida te respondemos.» al escalar, granza 15–19 bolsas a $16.000 en efectivo (tarjeta FALTA DATO). Envíos siguen escalando.
 - `E:\bot-piedra` hasta `5720211` (rama `piedra/archivos-excluidos`, sin push). Falta: precios del panel (Fran), reiniciar en tester y probar, después pilotos. Checklist: https://claude.ai/artifact/PyQyECbByrjhL4i5L7fP36
+
+## Erasmo probado y Excel ↔ panel (16–17/11/2026)
+- Erasmo en tester con el 298 440-9447: precios del panel (primer login real a Supabase) y PDF del catálogo por Evolution funcionan. Charla en `E:\bot-piedra\data\pruebas\2026-11-16.md`.
+- Respuestas de Fran (decisiones del 17/11) en el prompt `E:\bot-piedra\bot\prompts\PROMPT-vscode-2026-11-17a-erasmo-fran.md`.
+- **Excel «día a día»:** 97 hojas (VENTAS y GASTOS por mes desde 02/2023: fecha, cantidad en texto, descripción a mano, monto por medio de pago, observaciones, nombre, teléfono, pendiente; GASTOS con bloques de proveedores y gastos fijos; LISTADO con costo con flete / efectivo / lista). Plan: Drive del papá de Fran → sincronización al panel desde 01/2025, alias por producto, sin duplicados con lo que se carga en el panel.
+- Erasmo se muda a la PC del local más adelante.
