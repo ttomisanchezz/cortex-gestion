@@ -490,3 +490,12 @@ Tomás usa las fotos de los carruseles del IG.
 - Cola: sábado 7/11 leer L3-V3; lunes 9/11 corte de S0–S5, R5, R6, VG3 y VG4 (+ decisión C5 Granza / Toda la zona – abierto).
 - Lectura 05/11 15:10 (Ads Manager por Chrome; el MCP de Meta ya no ve la cuenta): MADRE $18.760 · 20 conv · $938 (Envío Neuquén 16 a $762, Entrega lajas 2 a $745, Toda la zona – abierto 2 a $2.536). TEST REELS $6.816 · 7 · $974 (R4 7 a $778; R2 $1.373 sin conv, ya sin L2-C2). TEST CREATIVOS $13.730 · 7 · $1.961 (VG1 3 a $904, VG3 3 a $952, VG4 1 a $3.354 —gastó mucho a $5.000 antes de la baja—, VG2 $667 sin conv antes de pausarse, S0–S5 $3.433 sin conv en ~3,5 h, R5 $317 y R6 $390 sin conv). Cuenta: $39.306 · 34 conv · $1.156.
 - Ads Manager muestra «Revisar y publicar (6)»: hay 6 cambios en borrador sin publicar (incluye el borrador de S0). No se publicó ni descartó nada.
+
+## Cambios 17/11/2026 ~12:00 (OK de Tomás en el chat, Ads Manager por Chrome Browser 2)
+- Lectura 7 días (10–16/11): ESCALA $266.170 · 385 conv · $691 | MADRE $257.740 · 237 · $1.088 | TEST CREATIVOS $199.805 · 180 · $1.110 | TEST REELS $14.752 · 8 · $1.844 | Total $738.467 · 810 · $912. Ayer 16/11: $119.247 · 161 · $741 (ESCALA 105 a $544, MADRE 36 a $1.179, TEST 20 a $986).
+- **TEST CREATIVOS (120251097483640411) APAGADA** entera (Tomás: «pausá el test»). Los conjuntos quedan prendidos adentro.
+- **MADRE: $35.000 → $30.000/día** (publicado inline, solo la campaña).
+- **R31 Adoquín barro → ESCALA:** conjunto nuevo «ESCALA R31 Adoquín barro» (adset 120251317750180411, ad 120251317750190411), copia del R31 del TEST (copiar/pegar), sin contenido relacionado. Publicado 11:45.
+- **NO hecho:** sacar el mínimo de $3.500 de «Entrega lajas» (adset 120251108215030411): el conjunto ya tiene «Cambios sin publicar» de antes y no se sabe cuáles; publicar los arrastraría. Lo decide Tomás (descartar ese borrador o revisarlo en Ads Manager).
+- Presupuesto programado ahora: ESCALA $43.200 + MADRE $30.000 = **$73.200/día** (antes ~$99.000).
+- Trazabilidad: el bot ya anota de qué anuncio vino cada chat (1.174 chats con anuncio en `estado.json`; `node herramientas/anuncios/reporte.js`), pero nadie marca `#vendido`: 0 ventas registradas. Los anuncios NO tienen mensaje precargado.
