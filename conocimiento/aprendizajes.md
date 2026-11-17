@@ -301,3 +301,11 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 17/11: Un campo del editor que no se puede tipear (panel izquierdo tapado): setter nativo de `value` + eventos `input` y `change`.
 - 17/11: En «Revisar», «Lugares incluidos: Ninguna» no es la zona geográfica: la audiencia estimada (~800.000–950.000) confirma Neuquén y Alto Valle.
 - 17/11: No publicar un conjunto que ya tiene «Cambios sin publicar» que no se ven: se publican todos juntos.
+
+## Ads Manager: armar una campaña nueva copiando la ESCALA (17/11/2026)
+- Campaña nueva con la misma configuración: campaña ESCALA tildada → Duplicar → «Duplicar rápido» → destildar las recomendaciones de Meta → se abre el editor con la copia en borrador. Ahí: nombre y presupuesto, y se eliminan los conjuntos copiados que sobran (menú «…» del árbol → Eliminar; son borradores nunca publicados).
+- Para subir un video: parchear `HTMLInputElement.prototype.click` (que el input de archivo no abra el selector nativo), «Reemplazar contenido multimedia» → clic en «Subir» por JS → mostrar el input y `file_upload`. Un video de 3,5 MB tarda 20 s a 1,5 min. En «Publicar como contenido relacionado» dejar todo destildado.
+- Al cambiar el video, Meta vuelve a prender cosas: la traducción (English), «Añadir detalles al diseño» y **variantes de texto con IA** («Aplicar todo (4 de 4)» en «Generación de texto de contenido de Advantage+», escritas de «tú»). Revisar cada anuncio y destildarlas.
+- El mensaje precargado está en «Conversaciones» → plantilla guardada. Editar la plantilla la cambia en todos los anuncios que la usan: para uno distinto, «Duplicar» la plantilla y editar la copia.
+- «Obtener vista previa para publicar» desde el editor de una campaña publica solo esa campaña (la vista previa lista 1 campaña, sus conjuntos y anuncios); los 17 borradores de «Revisar y publicar» no se tocaron.
+- El render del editor de reels (Remotion) corre en Windows: la VM no puede (node_modules de Windows, rutas C:\). Computer use da el Explorador solo con clics y no puede ejecutar comandos: un `.cmd` listo y que Tomás le haga doble clic.

@@ -27,7 +27,9 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
-- [ ] **CBO «IA – Nov 2026» a $20.000/día** con 76 (re-render SIN rótulo «Imagen ilustrativa»: pedir acceso a `C:\Users\PC\Documents\editor-reels-tomas`), 66 IA, 67 IA (con el recorte de `67-lluvia-2`) y 64 Veo; comprimir cada uno a <3,8 MB; un mensaje precargado distinto por anuncio; misma zona y configuración que la ESCALA — Claude — desde 17/11
+- [x] CBO «IA – Nov 2026» a $20.000/día publicada el 17/11 (64 Veo, 66 IA, 67 IA, 76 sin rótulo; un mensaje precargado por anuncio) — ver `clientes/somos-piedra/pauta-piedra.md`
+- [ ] Leer la CBO IA a las 48-72 h y pasar el ganador a la ESCALA — Claude — desde 17/11
+- [ ] 76 sin rótulo para el orgánico: está en `editor-reels-tomas\.sesiones\2026-11-16d\piedra-ia-9a\trabajo\P76IA\reel-codigo.mp4` (no se entregó al lote) — Tomás — desde 17/11
 - [ ] Rehacer las piezas JSON de los reels IA 77–81 (se perdieron al cortarse el puente) y el prompt de VS Code; tope USD 10 — Claude, después de que Tomás cargue USD 10 en APIMart — desde 17/11
 - [ ] Cargar USD 10 en APIMart — Tomás — desde 17/11
 - [ ] «Entrega lajas» (MADRE): revisar/descartar sus «Cambios sin publicar» y recién ahí sacar el mínimo de $3.500; mirar los 15 borradores de «Revisar y publicar» — Tomás — desde 17/11

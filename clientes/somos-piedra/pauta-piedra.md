@@ -499,3 +499,15 @@ Tomás usa las fotos de los carruseles del IG.
 - **NO hecho:** sacar el mínimo de $3.500 de «Entrega lajas» (adset 120251108215030411): el conjunto ya tiene «Cambios sin publicar» de antes y no se sabe cuáles; publicar los arrastraría. Lo decide Tomás (descartar ese borrador o revisarlo en Ads Manager).
 - Presupuesto programado ahora: ESCALA $43.200 + MADRE $30.000 = **$73.200/día** (antes ~$99.000).
 - Trazabilidad: el bot ya anota de qué anuncio vino cada chat (1.174 chats con anuncio en `estado.json`; `node herramientas/anuncios/reporte.js`), pero nadie marca `#vendido`: 0 ventas registradas. Los anuncios NO tienen mensaje precargado.
+
+## CBO «IA – Nov 2026» publicada (17/11/2026 ~14:10, Browser 2)
+- Campaña **«Somos Piedra - IA - Nov 2026 (CBO)»** (120251319712670411), **$20.000/día** (gasto diario máx. $35.000; semanal $140.000). Copia de la ESCALA (duplicado sin recomendaciones de Meta) con un solo conjunto: **«IA 4 reels - Neuquén y Alto Valle»** (120251319712690411), la misma zona, edad y ubicaciones que «ESCALA R31».
+- 4 anuncios, cada uno con su plantilla de conversación y su mensaje precargado:
+  - **IA 64 Veo Adoquín**: «Hola! Me interesa el adoquín, ¿me pasan info?» (texto del R31).
+  - **IA 66 Viento patio**: «Hola! Me cansé del polvo en el patio, ¿qué me recomiendan?»
+  - **IA 67 Lluvia barro** (con el recorte de 67-lluvia-2): «Hola! Cuando llueve el patio se hace barro, ¿qué opciones tienen?»
+  - **IA 76 Todo IA granza** (re-render SIN rótulo «Imagen ilustrativa»): «Hola! Quiero cubrir el patio con granza, ¿cuántas bolsas necesito?»
+- Sin contenido relacionado, sin variantes de texto de IA, sin traducción y sin «Añadir detalles al diseño». El mensaje de bienvenida automático es el de la plantilla de siempre («¡Hola! Indícanos cómo podemos ayudarte.»).
+- Videos comprimidos (x264, 2 pasadas, <3,8 MB) en `E:\anuncios somos piedra\reels\_pauta-cbo-ia\`.
+- Programado ahora: ESCALA $43.200 + MADRE $30.000 + IA $20.000 = **$93.200/día**.
+- Regla: el ganador de la CBO IA pasa a la ESCALA.
