@@ -34,3 +34,23 @@ Aprendizajes:
 - Ver `conocimiento/aprendizajes.md` → «Ads Manager por Chrome: leer la tabla entera (17/11/2026)» y lo de editar en Ads Manager con ventana chica.
 Próximo paso: chat nuevo — re-render del 76 sin rótulo, comprimir 4 reels a <3,8 MB, armar la CBO IA a $20.000 con mensajes precargados — Modelo: —
 Cambia una regla de plata o del método: no
+
+## CIERRE — somos-piedra — 17/11 16:25 — CBO IA publicada, Erasmo desconectado, panel deployado, corrida Excel 17b frenada
+
+Hecho:
+- Reel 76 re-renderizado SIN rótulo (`SIN_ROTULO=1` en `especificaciones-16d.mjs`; sin la variable queda igual). Copia en `lote-2026-11-16-ia-3\76-todo-ia-granza\reel-sin-rotulo.mp4`.
+- 64 Veo, 66 IA, 67 IA y 76 comprimidos a <3,8 MB en `reels\_pauta-cbo-ia\`.
+- **CBO «Somos Piedra - IA - Nov 2026 (CBO)» publicada** (120251319712670411), $20.000/día, 1 conjunto «IA 4 reels - Neuquén y Alto Valle» (copia de ESCALA R31) y 4 anuncios con mensaje precargado distinto. Programado total $93.200/día. Detalle en `clientes/somos-piedra/pauta-piedra.md`.
+- Erasmo: la instancia `somospiedra` está en «close» desde las 13:19 (sesión de WhatsApp caída). El bot sigue corriendo; el QR del `conectar-piedra.ps1` venció sin escanear. El error de `Tee-Object` era porque ya había una ventana BOT PIEDRA escribiendo `consola.log`.
+- Corrida 2026-11-17a de Erasmo: terminada y commiteada (`cea7308`). Push: `git push -u origin piedra/archivos-excluidos` (lo corre Tomás).
+- Panel: deploy hecho por Tomás tras `npx vercel login` (cuenta del equipo `sciollatomas-4726s-projects`). El repo del panel no tiene remoto en GitHub: no hay push posible.
+- Corrida 2026-11-17b (Excel → panel): la base cortó porque faltaba el Excel en `E:\somos-piedra-panel\datos\dia-a-dia\`; las otras 6 sesiones quedaron esperando. Apartada como `.sesiones\_2026-11-17b-intento1`, creada la carpeta `datos\dia-a-dia\` y repuesto `datos/` en el `.gitignore` (Vercel lo había pisado; sin commitear).
+
+Decisiones (qué y por qué):
+- Ventas: no se cargan a mano en el panel; siguen en el Excel y el panel las lee de ahí, de ahora en adelante. Para atribuir anuncio → venta, en VENTAS del Excel va el WhatsApp del cliente — Tomás/Claude.
+- Los costos del panel salen del LISTADO del Excel — Tomás.
+
+Pendientes nuevos: ver `pendientes.md` (17/11 tarde).
+Aprendizajes: Ads Manager (campaña copiando la ESCALA, subir video, Meta prende variantes IA/traducción al cambiar el video, plantillas de conversación compartidas); render de reels solo en Windows. En `conocimiento/aprendizajes.md`.
+Próximo paso: Tomás pone el Excel más nuevo en `E:\somos-piedra-panel\datos\dia-a-dia\`, cierra las sesiones viejas de la 17b y relanza las 7; reconectar Erasmo escaneando el QR — Modelo: Sonnet 5.5 + advisor
+Cambia una regla de plata o del método: no

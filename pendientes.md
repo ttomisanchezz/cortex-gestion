@@ -29,14 +29,22 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 ## 2. Somos Piedra (`somos-piedra`)
 - [x] CBO «IA – Nov 2026» a $20.000/día publicada el 17/11 (64 Veo, 66 IA, 67 IA, 76 sin rótulo; un mensaje precargado por anuncio) — ver `clientes/somos-piedra/pauta-piedra.md`
 - [ ] Leer la CBO IA a las 48-72 h y pasar el ganador a la ESCALA — Claude — desde 17/11
+- [ ] **Reconectar Erasmo:** correr `powershell -ExecutionPolicy Bypass -File E:\bot-piedra\conectar-piedra.ps1` con el celu de Somos Piedra a mano y escanear el QR (Dispositivos vinculados) dentro de los 6 min; NO correr otro `npm start` (el bot ya corre) — Tomás — desde 17/11
+- [ ] Push de `E:\bot-piedra`: `cd E:\bot-piedra; git push -u origin piedra/archivos-excluidos` (la rama no está en GitHub) — Tomás — desde 17/11
+- [ ] Revisar la corrida 2026-11-17a de Erasmo (`cea7308`, REVISAR.md) y el `package-lock.json` que modificó `npm install` de `conectar-piedra.ps1` (sacó 26 paquetes): no commitearlo hasta revisarlo — Claude — desde 17/11
+- [ ] **Corrida 2026-11-17b (Excel → panel):** Tomás pone el Excel más nuevo (Drive del papá de Fran) en `E:\somos-piedra-panel\datos\dia-a-dia\`, cierra las sesiones de la 17b que quedaron esperando y relanza las 7 (`prompts\2026-11-17b\LANZAR.md`); Claude revisa la integración; Tomás corre `SUBIR-EXCEL.cmd` — Tomás → Claude — desde 17/11
+- [ ] Excel: columna con el WhatsApp del cliente en las hojas de VENTAS, desde hoy (para el cruce anuncio → venta) — Tomás/Fran — desde 17/11
+- [ ] Panel: apagar «Allow new users to sign up» en Supabase **`msanpdcnkroqczwosocr`** (no en appsomospiedra) — Tomás — desde 17/11
+- [ ] Panel: commitear el `.gitignore` con `datos/` y `.vercel`; crear el repo en GitHub para poder hacer push — Claude/Tomás — desde 17/11
+- [ ] Supabase Pro para el panel (el free se pausa a los 7 días sin uso) — Tomás decide — desde 17/11
 - [ ] 76 sin rótulo para el orgánico: está en `editor-reels-tomas\.sesiones\2026-11-16d\piedra-ia-9a\trabajo\P76IA\reel-codigo.mp4` (no se entregó al lote) — Tomás — desde 17/11
 - [ ] Rehacer las piezas JSON de los reels IA 77–81 (se perdieron al cortarse el puente) y el prompt de VS Code; tope USD 10 — Claude, después de que Tomás cargue USD 10 en APIMart — desde 17/11
 - [ ] Cargar USD 10 en APIMart — Tomás — desde 17/11
 - [ ] «Entrega lajas» (MADRE): revisar/descartar sus «Cambios sin publicar» y recién ahí sacar el mínimo de $3.500; mirar los 15 borradores de «Revisar y publicar» — Tomás — desde 17/11
-- [ ] Avisarle a Fran: cada venta → `#vendido <número del cliente>` en el grupo «Bot Erasmo» (nunca en el chat del cliente) — Tomás — desde 17/11
+- [x] 17/11 Avisarle a Fran: cada venta → `#vendido <número del cliente>` en el grupo «Bot Erasmo» (nunca en el chat del cliente) — Tomás — desde 17/11
 - [ ] Cruce automático venta del panel (teléfono de «Vender») ↔ anuncio que guarda el bot → costo por venta por anuncio — Claude — desde 17/11
 - [ ] Confirmar con Fran: «la piedra no se pinta más / aguanta helada y viento» (cierres de 78 y 81) y si la granza roja rinde 1 bolsa = 1 m² — Tomás — desde 17/11
-- [ ] **Erasmo, corrida 2026-11-17a** (respuestas de Fran: pagos, IVA, tarjeta/posnet, bolsón, granza tarjeta 15-19, `#sinstock`, envíos): Tomás pega `E:\bot-piedra\bot\prompts\PROMPT-vscode-2026-11-17a-erasmo-fran.md` en VS Code; después Claude revisa REVISAR, reinicio en tester y prueba con el 298 440-9447 — Tomás / Claude — desde 17/11
+- [x] 17/11 **Erasmo, corrida 2026-11-17a** (respuestas de Fran: pagos, IVA, tarjeta/posnet, bolsón, granza tarjeta 15-19, `#sinstock`, envíos): Tomás pega `E:\bot-piedra\bot\prompts\PROMPT-vscode-2026-11-17a-erasmo-fran.md` en VS Code; después Claude revisa REVISAR, reinicio en tester y prueba con el 298 440-9447 — Tomás / Claude — desde 17/11
 - [ ] **Excel ↔ panel** (chat nuevo): diseñar la sincronización del Excel «día a día» (Drive del papá de Fran) con el panel: LISTADO + ventas, gastos, proveedores y gastos fijos desde 01/2025, alias de productos (~20 por producto), sin duplicados entre Excel y panel; después prompts de VS Code — Claude — desde 17/11
 - [ ] Instalar Google Drive para escritorio con la cuenta del papá de Fran en la PC del local y mover ahí el Excel «día a día» — Tomás — desde 17/11
 - [ ] Mudar Erasmo a la PC del local (Docker Desktop, Node 22, Git, Drive; QR de nuevo) cuando esté todo listo — Tomás / Claude — desde 17/11
