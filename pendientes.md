@@ -27,6 +27,18 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Decidir si Números estima los Ingresos Brutos como el IVA. Hoy se cargan como gasto cuando se pagan; en Somos Piedra son 5% minorista, o 2% con la escala de microempresa — Tomás — desde 08/10
 
 ## 2. Somos Piedra (`somos-piedra`)
+
+### Erasmo — para salir a todos (desde 17/11 noche)
+- [ ] Prueba en vivo de 10 min de lo del 17/11 (envío con precio, despedida, factura con forma de pago) — Claude, desde 17/11
+- [ ] "Prendé para todos": `CEREBRO_MODO=nuevos` + `NUMEROS_PILOTO=todos` y limpiar las claves repetidas del `.env` (NUMEROS_TESTER, MODO_ESCUCHA, MODO_BORRADOR); Tomás reinicia — Claude con la frase de Tomás, desde 17/11
+- [ ] Recarga automática en la Console (o confirmar de qué cuenta es la `ANTHROPIC_API_KEY` de Erasmo y si Chiara gasta de ahí); con todos, ~US$12/día — Tomás, desde 17/11
+- [ ] Número de Somos Piedra en `CONTACTOS_PERSONALES` de Chiara — Tomás, desde 17/11
+- [ ] Fran confirma: localidades a $45.000 (General Roca quedó afuera), envío sin IVA aunque haya factura, ya no "pocas bolsas no se cobra" — Fran, desde 17/11
+- [ ] Fran: 12-14 bolsas de granza salen más caras que 15 (efectivo 13-14, tarjeta 12-14) — Fran, desde 17/11
+- [ ] Push: `cd E:\bot-piedra; git push -u origin piedra/archivos-excluidos` (hasta `c977402`) — Tomás, desde 17/11
+- [ ] `CEREBRO_USD_CACHE_LEIDA` por defecto 0,20 y es 0,10 (el gasto estimado sale inflado) — Claude, desde 17/11
+- [ ] Cruce WhatsApp del Excel → chat de Erasmo → anuncio → venta: falta el Excel en `E:\somos-piedra-panel\datos\dia-a-dia\` — Tomás/Claude, desde 17/11
+- [ ] Borrar los 2 mensajes de prueba mandados por error al grupo UN MOSTACHOW (17/11 17:09) — Tomás, desde 17/11
 - [x] CBO «IA – Nov 2026» a $20.000/día publicada el 17/11 (64 Veo, 66 IA, 67 IA, 76 sin rótulo; un mensaje precargado por anuncio) — ver `clientes/somos-piedra/pauta-piedra.md`
 - [ ] Leer la CBO IA a las 48-72 h y pasar el ganador a la ESCALA — Claude — desde 17/11
 - [ ] **Reconectar Erasmo:** correr `powershell -ExecutionPolicy Bypass -File E:\bot-piedra\conectar-piedra.ps1` con el celu de Somos Piedra a mano y escanear el QR (Dispositivos vinculados) dentro de los 6 min; NO correr otro `npm start` (el bot ya corre) — Tomás — desde 17/11

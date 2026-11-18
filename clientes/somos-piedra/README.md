@@ -340,3 +340,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Respuestas de Fran (decisiones del 17/11) en el prompt `E:\bot-piedra\bot\prompts\PROMPT-vscode-2026-11-17a-erasmo-fran.md`.
 - **Excel «día a día»:** 97 hojas (VENTAS y GASTOS por mes desde 02/2023: fecha, cantidad en texto, descripción a mano, monto por medio de pago, observaciones, nombre, teléfono, pendiente; GASTOS con bloques de proveedores y gastos fijos; LISTADO con costo con flete / efectivo / lista). Plan: Drive del papá de Fran → sincronización al panel desde 01/2025, alias por producto, sin duplicados con lo que se carga en el panel.
 - Erasmo se muda a la PC del local más adelante.
+
+## Erasmo (17/11/2026, noche)
+- Corre en vivo en modo tester (Sonnet 5.5) con 4 números: los 2 testers y 2 clientes reales de prueba (549 2996127253 y 549 2994594370).
+- Nuevo: dice el costo del envío él mismo (`cotizar_envio`: capital $35.000, Alto Valle cercano $45.000, el resto escala), se despide como pidió Fran cuando el cliente cierra sin comprar, y la factura sale con la forma de pago aclarada. `E:\bot-piedra` hasta `c977402`, sin push.
+- Para salir a todos: prueba de 10 min, la frase "prendé para todos" (`nuevos` + `NUMEROS_PILOTO=todos`), recarga de la API (~US$12/día con todos) y el número de Piedra en los contactos personales de Chiara.

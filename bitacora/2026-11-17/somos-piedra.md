@@ -54,3 +54,28 @@ Pendientes nuevos: ver `pendientes.md` (17/11 tarde).
 Aprendizajes: Ads Manager (campaña copiando la ESCALA, subir video, Meta prende variantes IA/traducción al cambiar el video, plantillas de conversación compartidas); render de reels solo en Windows. En `conocimiento/aprendizajes.md`.
 Próximo paso: Tomás pone el Excel más nuevo en `E:\somos-piedra-panel\datos\dia-a-dia\`, cierra las sesiones viejas de la 17b y relanza las 7; reconectar Erasmo escaneando el QR — Modelo: Sonnet 5.5 + advisor
 Cambia una regla de plata o del método: no
+
+
+## CIERRE — somos-piedra — 17/11 23:15 (Erasmo: revisión 17a, pruebas, clientes reales, envío)
+
+Hecho:
+- Corrida 17a de Erasmo (`cea7308`) revisada: 20 cuentas de la tabla de granza verificadas a mano, tests y evaluar 28/28 en verde. El `package-lock.json` "modificado" era solo CRLF→LF y el nombre somosiphone→somospiedra (no sacó paquetes).
+- Prueba en tester por WhatsApp Web (subagente): 8 de 9 bien (12 m² $240.000, tarjeta $300.000, bolsón $405.000 adoquines / $310.000 bolsón, 5 bolsones $1.550.000, cuotas/tarjeta/envío escalan). Falla: "y con factura?" después de la tarjeta dio $290.400 (efectivo) sin aclarar → corregido en las reglas.
+- Despedida de Fran al cerrar sin comprar, en las reglas.
+- Envío opción A: herramienta `cotizar_envio` (capital $35.000; Plottier, Centenario, Cipolletti, Senillosa, Vista Alegre, Cinco Saltos, Fernández Oro, Allen, Balsa Las Perlas, Contralmirante Cordero, Barda del Medio $45.000; el resto escala) y total con envío sumado por el código. Test `test/envio.test.js`. Commit `c977402` en bot-piedra (sin push).
+- Prueba real: 549 2996127253 y 549 2994594370 en NUMEROS_TESTER. Al 2994594370 Erasmo ya le contestó (3 mensajes + catálogo); la 2996127253 quedó en "humano atendiendo" (le escribió alguien de la cuenta).
+- `.env` de Erasmo: NUMEROS_TESTER, MODO_ESCUCHA y MODO_BORRADOR están repetidos (líneas 27 y 36); vale la de abajo. Por eso el primer `#sigue` no anduvo.
+- Costos: Erasmo usa Sonnet 5.5, ~US$0,014 por llamada (caché 90 %), ~US$0,02 por respuesta; hoy US$0,72 en 34 respuestas. Para todos: ~US$12/día. Cuenta "tomyy's Individual Org": US$16,98 + US$156,09 del crédito Ultra (US$200/mes, vence 9/12) = US$173 → ~14 días con Sonnet.
+- Cruce Excel → Erasmo → anuncio → venta: no se armó (no está el Excel). Lado de Erasmo listo: 1.177 de 1.458 chats con anuncio; 0 `#vendido`.
+
+Decisiones (qué y por qué):
+- Erasmo dice el costo del envío él mismo (opción A).
+- Despedida de Fran al cerrar sin comprar.
+- Erasmo sale para todos con Sonnet 5.5 (no Haiku).
+- Dos clientes reales en tester para probar.
+
+Pendientes nuevos: ver `pendientes.md` (17/11 noche).
+Pendientes cerrados: revisar la 17a y el lockfile; reconectar Erasmo.
+Aprendizajes: `.env` con claves repetidas; verificar el chat abierto en WhatsApp Web antes de escribir (se mandaron 2 mensajes de prueba al grupo UN MOSTACHOW); `#sigue` solo desde la cuenta del negocio; tests en la VM con TMPDIR y por archivo.
+Próximo paso: mañana prueba de 10 min de envío/despedida/factura y, con "prendé para todos", Erasmo en `nuevos` + `NUMEROS_PILOTO=todos` — Modelo: —
+Cambia una regla de plata o del método: no

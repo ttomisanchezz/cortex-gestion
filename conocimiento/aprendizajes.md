@@ -309,3 +309,13 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - El mensaje precargado está en «Conversaciones» → plantilla guardada. Editar la plantilla la cambia en todos los anuncios que la usan: para uno distinto, «Duplicar» la plantilla y editar la copia.
 - «Obtener vista previa para publicar» desde el editor de una campaña publica solo esa campaña (la vista previa lista 1 campaña, sus conjuntos y anuncios); los 17 borradores de «Revisar y publicar» no se tocaron.
 - El render del editor de reels (Remotion) corre en Windows: la VM no puede (node_modules de Windows, rutas C:\). Computer use da el Explorador solo con clics y no puede ejecutar comandos: un `.cmd` listo y que Tomás le haga doble clic.
+
+
+## Erasmo en vivo (17/11/2026, noche)
+- 17/11 — El `.env` de Erasmo tiene claves repetidas (NUMEROS_TESTER, MODO_ESCUCHA y MODO_BORRADOR en la línea ~10/27 y otra vez, con sangría, en la ~36): dotenv se queda con la ÚLTIMA. Para verificar un cambio, cargar `src/config.js` en node y mirar el valor (sin imprimir claves), no confiar en un grep.
+- 17/11 — WhatsApp Web es el WhatsApp de Tomás y él cambia de chat mientras Claude trabaja: antes de cada mensaje, `find` del cuadro de texto y confirmar que diga "Escribir un mensaje para +54 9 2994 59-0936" (Somos Piedra) y hacer clic por ref, no por coordenadas. Se mandaron 2 mensajes de prueba al grupo UN MOSTACHOW por no mirarlo.
+- 17/11 — Los comandos del grupo "Bot Erasmo" (`#sigue <n>` y otros) solo valen si salen de la cuenta de Somos Piedra (`fromMe`): desde el WhatsApp del tester no se pueden mandar. Un número que se suma a `NUMEROS_TESTER` necesita reinicio y, para lo que ya escribió, `#sigue`.
+- 17/11 — WhatsApp Web a veces no muestra un mensaje del bot ("Esperando el mensaje"): verificarlo con `npm run pruebas -- <tester>`.
+- 17/11 — Tests de bot-piedra en la VM: `$HOME/tmp` se llena (ENOSPC) → `TMPDIR=/tmp/bp`; la suite entera pasa los 180 s del comando → correrla por archivo.
+- 17/11 — Un `package-lock.json` con 892 líneas cambiadas puede ser solo CRLF→LF: mirarlo con `git diff --ignore-cr-at-eol` antes de suponer que se sacaron paquetes.
+- 17/11 — Costo real de Erasmo con Sonnet 5.5: ~US$0,014 por llamada con 90 % de caché (US$0,02 por respuesta); Haiku 5.5 ~US$0,0008; Opus 5.5 el doble que Sonnet. El crédito Ultra es de US$200 por mes.
