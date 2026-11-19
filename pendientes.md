@@ -28,14 +28,20 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 
 ## 2. Somos Piedra (`somos-piedra`)
 
+### Cotizaciones en PDF (desde 18/11)
+- [ ] Confirmar el dígito verificador del CUIT de la razón social (20-45734050-9) — Tomás — desde 18/11
+- [ ] «Precio final» en la 0002 y 0003: ¿IVA incluido? ¿La granza va también en bolsas? — Tomás — desde 18/11
+- [ ] Cotización 0003 (piedra ocre $250.000): ¿El Sauce o sin cliente? — Tomás — desde 18/11
+
 ### Erasmo — para salir a todos (desde 17/11 noche)
-- [ ] Prueba en vivo de 10 min de lo del 17/11 (envío con precio, despedida, factura con forma de pago) — Claude, desde 17/11
-- [ ] "Prendé para todos": `CEREBRO_MODO=nuevos` + `NUMEROS_PILOTO=todos` y limpiar las claves repetidas del `.env` (NUMEROS_TESTER, MODO_ESCUCHA, MODO_BORRADOR); Tomás reinicia — Claude con la frase de Tomás, desde 17/11
+- [ ] **Mirar Erasmo en vivo a la mañana** (`E:\bot-piedra\data\consola.log`): que los chats nuevos los atienda Sonnet (`chat nuevo, lo atiende Sonnet`), ninguno en sombra, y la primera transcripción de audio (si Gemini da error, crear una key nueva en AI Studio y cambiar `GEMINI_API_KEY`) — Claude, desde 18/11
+- [ ] Crédito de Gemini (AI Studio, tomassanchez2018): USD 3,81 al 18/11; cargar USD 10 con recarga automática y tope mensual, o mirar Usage el viernes — Tomás, desde 18/11
+- [ ] Rotar la key de OpenAI del `.env` de Erasmo si la captura del 18/11 (se ven los primeros caracteres) quedó en algún lado — Tomás, desde 18/11
 - [ ] Recarga automática en la Console (o confirmar de qué cuenta es la `ANTHROPIC_API_KEY` de Erasmo y si Chiara gasta de ahí); con todos, ~US$12/día — Tomás, desde 17/11
 - [ ] Número de Somos Piedra en `CONTACTOS_PERSONALES` de Chiara — Tomás, desde 17/11
 - [ ] Fran confirma: localidades a $45.000 (General Roca quedó afuera), envío sin IVA aunque haya factura, ya no "pocas bolsas no se cobra" — Fran, desde 17/11
 - [ ] Fran: 12-14 bolsas de granza salen más caras que 15 (efectivo 13-14, tarjeta 12-14) — Fran, desde 17/11
-- [ ] Push: `cd E:\bot-piedra; git push -u origin piedra/archivos-excluidos` (hasta `c977402`) — Tomás, desde 17/11
+- [ ] Push: `cd E:\bot-piedra; git push -u origin piedra/archivos-excluidos` (hasta `d19e0b7`, el arreglo de `nuevos` del 18/11) — Tomás, desde 17/11
 - [ ] `CEREBRO_USD_CACHE_LEIDA` por defecto 0,20 y es 0,10 (el gasto estimado sale inflado) — Claude, desde 17/11
 - [ ] Cruce WhatsApp del Excel → chat de Erasmo → anuncio → venta: falta el Excel en `E:\somos-piedra-panel\datos\dia-a-dia\` — Tomás/Claude, desde 17/11
 - [ ] Borrar los 2 mensajes de prueba mandados por error al grupo UN MOSTACHOW (17/11 17:09) — Tomás, desde 17/11

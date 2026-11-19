@@ -108,3 +108,7 @@ Lo que se cerró de `pendientes.md`, en la misma sección, con la fecha. No se b
 ## 2. Somos Piedra (`somos-piedra`) — cerrados 17/11 noche
 - [x] 17/11 — Revisar la corrida 17a de Erasmo (`cea7308`) y el `package-lock.json` (era solo CRLF→LF)
 - [x] 17/11 — Reconectar Erasmo (QR escaneado; corre en vivo en tester)
+
+## 2. Somos Piedra (`somos-piedra`) — cerrados 18/11 (madrugada)
+- [x] 18/11 Prueba en vivo de 10 min de lo del 17/11 (envío con precio, despedida, factura con forma de pago) — Claude, desde 17/11
+- [x] 18/11 "Prendé para todos": `CEREBRO_MODO=nuevos` + `NUMEROS_PILOTO=todos` y limpiar las claves repetidas del `.env` (NUMEROS_TESTER, MODO_ESCUCHA, MODO_BORRADOR); Tomás reinicia — Claude con la frase de Tomás, desde 17/11

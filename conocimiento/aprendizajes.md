@@ -319,3 +319,18 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - 17/11 — Tests de bot-piedra en la VM: `$HOME/tmp` se llena (ENOSPC) → `TMPDIR=/tmp/bp`; la suite entera pasa los 180 s del comando → correrla por archivo.
 - 17/11 — Un `package-lock.json` con 892 líneas cambiadas puede ser solo CRLF→LF: mirarlo con `git diff --ignore-cr-at-eol` antes de suponer que se sacaron paquetes.
 - 17/11 — Costo real de Erasmo con Sonnet 5.5: ~US$0,014 por llamada con 90 % de caché (US$0,02 por respuesta); Haiku 5.5 ~US$0,0008; Opus 5.5 el doble que Sonnet. El crédito Ultra es de US$200 por mes.
+
+## Erasmo en vivo para todos (18/11/2026)
+- Antes de prender `nuevos`, probar el camino real de un chat nuevo de punta a punta (webhook → ¿es nuevo? → contesta), no solo `quienAtiende`: `state.obtener` CREA el chat, y cualquier bloque que lo llame antes de `esChatNuevo` (el del anuncio) hace que ningún chat cuente como nuevo. Los tests miraban `quienAtiende` con la marca puesta a mano y no lo veían.
+- Un comentario en el `.env` ("agregada por Claude…") no prueba que la línea esté: listar los NOMBRES de las claves (sin valores) y compararlos con lo que lee `config.js`.
+- `npm start` a mano no escribe `data\consola.log`: para que Claude siga el log, arrancar con `ARRANCAR-PIEDRA.cmd` (después de Ctrl+C: si el puerto 3002 está ocupado no hace nada).
+- Los comandos del grupo mandados mientras el bot arranca se ignoran (son "de antes de arrancar"): esperar a "OK: Piedra escucha" o al banner.
+- VM de Cowork: `/sessions` puede estar lleno (ENOSPC en mkdtemp) → tests con `TMPDIR=/tmp/pt`. `git commit` en la VM necesita el permiso de borrado (locks) y `-c user.name/-c user.email` del último commit.
+
+## Transcribir audios desde el chat (19/11/2026)
+- En el contenedor del chat no se puede: Hugging Face está bloqueado (faster-whisper no baja el modelo), y un modelo Whisper subido a npm por un tercero lo frena el control de seguridad (paquete no confiable). La VM de Cowork no tiene red (no llega a Gemini ni a HF).
+- Qué hacer: pedirle a Tomás que use "Transcribir" de WhatsApp (mantener apretado el audio) o que lo escriba. No perder tiempo probando otras vías.
+
+## Cotizaciones y búsquedas en la VM (18/11/2026)
+- Cotización: Tomás pasa la cantidad y el total; precio por unidad = total ÷ cantidad y el script hace las cuentas en centavos. Sin nombre ni CUIT, sin bloque CLIENTE.
+- Un `grep -r` sobre el Cortex entero y E:\ desde la VM se colgó (timeout de 120 s): buscar en carpetas puntuales o preguntar.

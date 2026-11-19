@@ -1,0 +1,14 @@
+{
+  "numero": "0001",
+  "fecha": "2026-11-06",
+  "cliente": {"nombre": "Santiago Braidotti", "cuit": "20-39128602-8"},
+  "items": [
+    {"cantidad": "42", "unidad": "m²", "descripcion": "Pórfido adoquín", "precio_unitario": 85000}
+  ],
+  "con_iva": false,
+  "condiciones": [
+    "Validez: 7 días desde la fecha.",
+    "Forma de pago: transferencia o efectivo.",
+    "Todos los precios son sin IVA."
+  ]
+}

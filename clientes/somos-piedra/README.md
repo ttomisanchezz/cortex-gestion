@@ -345,3 +345,12 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Corre en vivo en modo tester (Sonnet 5.5) con 4 números: los 2 testers y 2 clientes reales de prueba (549 2996127253 y 549 2994594370).
 - Nuevo: dice el costo del envío él mismo (`cotizar_envio`: capital $35.000, Alto Valle cercano $45.000, el resto escala), se despide como pidió Fran cuando el cliente cierra sin comprar, y la factura sale con la forma de pago aclarada. `E:\bot-piedra` hasta `c977402`, sin push.
 - Para salir a todos: prueba de 10 min, la frase "prendé para todos" (`nuevos` + `NUMEROS_PILOTO=todos`), recarga de la API (~US$12/día con todos) y el número de Piedra en los contactos personales de Chiara.
+
+## Erasmo en vivo para todos (18/11/2026, 00:35)
+- Prueba de 10 min en vivo OK (envío Plottier/capital, Roca escala, factura después de tarjeta, despedida de Fran). `.env`: `CEREBRO_MODO=nuevos`, `NUMEROS_PILOTO=todos`, sin claves repetidas, `GEMINI_API_KEY` agregada (audios).
+- Bug arreglado al prender: ningún chat nuevo contaba como nuevo (lo tapaba anotar el anuncio). Commit `d19e0b7` en `E:\bot-piedra`, sin push. Los chats que ya existían siguen en sombra.
+
+## Cotizaciones en PDF (18/11/2026)
+- Generador: `presupuestos/cotizacion.py` (un `.json` por cotización → `presupuestos/salida/`). Reglas en `presupuestos/README.md`.
+- Emite: razón social Franco Nicolás Muñoz, CUIT 20-45734050-9, Belgrano 3090, Neuquén Capital. Cliente solo si se lo pasa Tomás.
+- Última usada: **0003** (18/11).

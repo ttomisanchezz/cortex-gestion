@@ -1,0 +1,14 @@
+{
+  "numero": "0002",
+  "fecha": "2026-11-18",
+  "cliente": {"nombre": "Comisión de Fomento El Sauce", "cuit": "30-67265273-8"},
+  "items": [
+    {"cantidad": "100", "unidad": "m²", "descripcion": "Granza blanca Mar del Plata 10-30 mm", "precio_unitario": 16250}
+  ],
+  "leyenda_total": "PRECIO FINAL",
+  "condiciones": [
+    "Validez: 7 días desde la fecha.",
+    "Forma de pago: transferencia o efectivo.",
+    "El total es precio final."
+  ]
+}
