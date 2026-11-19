@@ -358,3 +358,11 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 ## Orgánico por Upload-Post (18/11/2026)
 - Tomás paga Upload-Post (plan Basic) para publicar automático en Instagram, TikTok y YouTube y subir Trial Reels. Perfil `SOMOSPIEDRA` creado; las redes todavía no están conectadas (link de conexión del 18/11, vence 20/11).
 - Reemplaza el script propio de `trial-reels\` con token de una app de Meta (16/11). Falta ver si @somospiedranqn llega al mínimo de seguidores para Trial Reels por API.
+
+## Competidor, pauta y programado (19/11/2026)
+- Competidor de referencia: @piedrassanjose (Exaltación de la Cruz, Bs As). Lo que les funciona: placa de producto con «Ideal para» (34.500 vistas), sorteo fijado (1.319 me gusta), video con una persona, destacadas como menú, hashtags de barrios privados. Detalle en `bitacora/2026-11-19/somos-piedra.md`.
+- Réplica: fichas F1–F3 (orgánico) en `E:\anuncios somos piedra\contenido\replica-san-jose\`; checklist para Fran/familia (fotos antes y después, testimonios, sorteo, alianzas).
+- Pauta al 18/11: $93.200/día (IA $20.000 · ESCALA $43.200 · MADRE $30.000); 30 días ~$1.700.000 / 1.796 conv ≈ $947. Reel 76 pautado en la campaña IA ($795/conv el 17–18/11).
+- Meta: saldo pendiente $14.352 + impuestos con 1 pago en error; cobro automático 7/12 (Mastercard ···· 6432).
+- Orgánico programado en Business Suite: reels hasta el 10/12, carruseles y placas hasta el 28/11.
+- Somos Piedra (Instagram, Ads Manager, Business Suite) se lee por Chrome **Browser 1**; el conector de Meta no tiene esa cuenta.

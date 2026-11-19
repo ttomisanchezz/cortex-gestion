@@ -335,3 +335,9 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 ## Cotizaciones y búsquedas en la VM (18/11/2026)
 - Cotización: Tomás pasa la cantidad y el total; precio por unidad = total ÷ cantidad y el script hace las cuentas en centavos. Sin nombre ni CUIT, sin bloque CLIENTE.
 - Un `grep -r` sobre el Cortex entero y E:\ desde la VM se colgó (timeout de 120 s): buscar en carpetas puntuales o preguntar.
+
+## Ads Manager de Somos Piedra por Chrome (19/11/2026)
+- La cuenta de Somos Piedra (1945796639629607) NO está en el conector de Meta (solo las de ebooks): va por Chrome **Browser 1**, donde también está iniciado @somospiedranqn.
+- Con la ventana chica la tabla virtualiza columnas y filas: poner las columnas en la URL (`&columns=name,delivery,results,cost_per_result,budget,spend&date=AAAA-MM-DD_AAAA-MM-DD`) y leer con `get_page_text`. Anuncios de una campaña: `/adsmanager/manage/ads?act=...&selected_campaign_ids=<id>`. El scroll horizontal congela la pestaña.
+- Saldo: `business.facebook.com/billing_hub/accounts/details?asset_id=<cuenta>`. Programado: `business.facebook.com/latest/posts/scheduled_posts?asset_id=1025898313949204` (lista paginada, de la más lejana a la más cercana).
+- Métricas de una cuenta de Instagram ajena: logueado en IG, abrir la publicación y pasar con la flecha derecha; `get_page_text` trae me gusta y caption. La grilla /reels/ muestra las vistas aun sin login.

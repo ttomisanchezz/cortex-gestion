@@ -28,6 +28,14 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 
 ## 2. Somos Piedra (`somos-piedra`)
 
+### Competidor, pauta y programado (desde 19/11)
+- [ ] Pagar el saldo pendiente de Meta ($14.352 + impuestos; 1 pago con error en 7 días, Meta avisa pausa) — Tomás / Fran — desde 19/11
+- [ ] Revisar los 17 borradores de Ads Manager («Revisar y publicar (17)», casi todos «Nuevo anuncio de Interacción») antes de publicar nada — Claude con OK de Tomás — desde 19/11
+- [ ] Fichas F1–F3 (`E:\anuncios somos piedra\contenido\replica-san-jose\`): confirmar con Fran usos de cada piedra, si la foto de granza es IA y stock de granza gris; después programarlas en orgánico — Tomás / Fran — desde 19/11
+- [ ] Mandar a Fran la checklist (captura) y sumarle contestar los comentarios que preguntan precio (+10 sin respuesta en FB/IG) — Tomás — desde 19/11
+- [ ] Orgánico del 11/12 en adelante: no hay nada programado (la tarea del 19/11 para 11–17/12 no aparecía a las 08:00) — Claude — desde 19/11
+- [ ] Campaña IA: con más días, decidir si el 76 ($795/conv el 17–18/11) pasa a la ESCALA ($676) — Tomás — desde 19/11
+
 ### Cotizaciones en PDF (desde 18/11)
 - [ ] Confirmar el dígito verificador del CUIT de la razón social (20-45734050-9) — Tomás — desde 18/11
 - [ ] «Precio final» en la 0002 y 0003: ¿IVA incluido? ¿La granza va también en bolsas? — Tomás — desde 18/11
