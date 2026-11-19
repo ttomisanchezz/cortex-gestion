@@ -259,7 +259,9 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] BANCO.md: marcar usado el par del frente (extra programado 13/11 10:30) — chat — desde 02/11
 - [ ] Confirmar con Fran: cuidados de la piedra, granza junto a un fogón, cat-017 pizarra, cat-027 verde bronce, "a granel o paletizada" — Tomás — desde 02/11
 
-- [ ] **Trial Reels:** crear app de Meta (Business + Instagram, «inicio de sesión de Instagram») y token de @somospiedranqn (instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights) en `E:\anuncios somos piedra\trial-reels\.env` (`IG_TOKEN=`, modelo en `env-ejemplo.txt`); no pasarlo por el chat — Tomás — desde 16/11
+- [ ] **Upload-Post:** conectar Instagram, TikTok y YouTube de Somos Piedra al perfil `SOMOSPIEDRA` con el link del chat del 18/11 (vence 20/11 ~12:14; si vence, Claude genera otro con el conector) — Tomás — desde 19/11
+- [ ] **Upload-Post:** con las redes conectadas, ver seguidores de @somospiedranqn y el límite diario de publicaciones; armar el plan de prueba de Trial Reels por Upload (si no llega al mínimo: reels comunes por Upload + trial a mano, o TikTok como banco de pruebas) — Claude — desde 19/11
+- [ ] (¿sigue? Upload-Post lo reemplazaría, 18/11) **Trial Reels:** crear app de Meta (Business + Instagram, «inicio de sesión de Instagram») y token de @somospiedranqn (instagram_business_basic, instagram_business_content_publish, instagram_business_manage_insights) en `E:\anuncios somos piedra\trial-reels\.env` (`IG_TOKEN=`, modelo en `env-ejemplo.txt`); no pasarlo por el chat — Tomás — desde 16/11
 - [ ] **Trial Reels:** elegir el reel de la prueba (uno que NO esté programado en Business Suite: reels programados hasta el 10/12, fotos y carruseles hasta el 28/11, verificado el 16/11) — Tomás — desde 16/11
 - [ ] **Videos de entregas reales:** pedirle a Fran que filme cada carga/entrega con el celular (es lo que más rinde: «Así llega tu piedra» 5.364 vistas) — Tomás — desde 16/11
 - [ ] **Trial Reels:** OK para el Programador de tareas de Windows (3 publicaciones por día + ranking nocturno; PC prendida) — Tomás — desde 16/11

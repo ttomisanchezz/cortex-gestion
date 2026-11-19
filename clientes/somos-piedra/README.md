@@ -354,3 +354,7 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Generador: `presupuestos/cotizacion.py` (un `.json` por cotización → `presupuestos/salida/`). Reglas en `presupuestos/README.md`.
 - Emite: razón social Franco Nicolás Muñoz, CUIT 20-45734050-9, Belgrano 3090, Neuquén Capital. Cliente solo si se lo pasa Tomás.
 - Última usada: **0003** (18/11).
+
+## Orgánico por Upload-Post (18/11/2026)
+- Tomás paga Upload-Post (plan Basic) para publicar automático en Instagram, TikTok y YouTube y subir Trial Reels. Perfil `SOMOSPIEDRA` creado; las redes todavía no están conectadas (link de conexión del 18/11, vence 20/11).
+- Reemplaza el script propio de `trial-reels\` con token de una app de Meta (16/11). Falta ver si @somospiedranqn llega al mínimo de seguidores para Trial Reels por API.

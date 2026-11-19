@@ -3,6 +3,7 @@ Cada decisión va con su fecha, y la más nueva arriba.
 Formato: `- DD/MM/AAAA — <qué se decidió> (<por qué>) — <quién> — <dónde impacta>`.
 Si una decisión reemplaza a otra, la vieja se queda y se le agrega "(reemplazada el DD/MM: …)".
 
+- 18/11/2026 — **Orgánico de Somos Piedra por Upload-Post** (plan pago): publica automático en Instagram, TikTok y YouTube y sube los Trial Reels para ver qué contenido trae más vistas antes de pasarlo al perfil. Reemplaza el script propio con token de una app de Meta del 16/11 (Upload ya tiene el permiso de Meta) — Tomás — perfil `SOMOSPIEDRA` de Upload, `trial-reels\`
 - 18/11/2026 — **Cotizaciones de Somos Piedra en PDF con `presupuestos/cotizacion.py`:** emite Somos Piedra, razón social Franco Nicolás Muñoz, CUIT 20-45734050-9, Belgrano 3090, Neuquén Capital; firma «Somos Piedra». **El cliente va solo si Tomás pasa nombre o CUIT**; si no, sin bloque CLIENTE y sin preguntar (los clientes cambian, no gastar tokens) — Tomás — `clientes/somos-piedra/presupuestos/`
 - 18/11/2026 — **Erasmo en vivo para todos los chats nuevos** (`CEREBRO_MODO=nuevos`, `NUMEROS_PILOTO=todos`, 00:35; la prueba de 10 min dio todo bien). Los chats que ya existían siguen en sombra; los que entraron antes del arreglo `d19e0b7` (…6673) no se reactivan con `#sonnet-si` — Tomás — Erasmo `.env`
 - 18/11/2026 — **Audios de Erasmo con la misma key de Gemini que las imágenes** (`GEMINI_API_KEY` = `GEMINI_IMAGEN_API_KEY`; crédito de AI Studio de tomassanchez2018) — Tomás / Claude — Erasmo `.env`

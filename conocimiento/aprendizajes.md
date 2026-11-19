@@ -259,6 +259,7 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - El sistema de Claude bloquea usar el `window.__accessToken` de Ads Manager para llamar a Graph de Instagram («Unauthorized Access»): para publicar hace falta un token propio de una app de Meta.
 - `device_request_folder_access` puede rechazarse solo por un control automático: después de 2 intentos, pedirle a Tomás que agregue la carpeta con «Agregar carpeta».
 - `file_upload` de Chrome solo acepta archivos stageados desde una carpeta conectada (no sirve un archivo hecho en `/mnt/user-data/outputs`).
+- (18/11) Upload-Post no esquiva a Meta: publica por la API oficial y vale el mismo mínimo de seguidores para Trial Reels. Ese mínimo no está claro (200+ arriba; una ayuda de terceros dice 1.000+): verificarlo con @somospiedranqn ya conectada. El conector de Upload sí llega desde el chat (no depende de la VM).
 
 ## Chrome, filtro de red y Business Suite (16/11/2026)
 - Claude in Chrome: que el conector esté prendido en el chat no alcanza. La extensión tiene que estar abierta en Chrome e iniciada con la misma cuenta (BLING BLING); hasta entonces `list_connected_browsers` da vacío.
