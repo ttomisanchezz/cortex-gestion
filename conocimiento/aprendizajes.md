@@ -341,3 +341,6 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 - Con la ventana chica la tabla virtualiza columnas y filas: poner las columnas en la URL (`&columns=name,delivery,results,cost_per_result,budget,spend&date=AAAA-MM-DD_AAAA-MM-DD`) y leer con `get_page_text`. Anuncios de una campaña: `/adsmanager/manage/ads?act=...&selected_campaign_ids=<id>`. El scroll horizontal congela la pestaña.
 - Saldo: `business.facebook.com/billing_hub/accounts/details?asset_id=<cuenta>`. Programado: `business.facebook.com/latest/posts/scheduled_posts?asset_id=1025898313949204` (lista paginada, de la más lejana a la más cercana).
 - Métricas de una cuenta de Instagram ajena: logueado en IG, abrir la publicación y pasar con la flecha derecha; `get_page_text` trae me gusta y caption. La grilla /reels/ muestra las vistas aun sin login.
+
+## Cuentas de cada servicio (20/11/2026)
+- Al crear cualquier servicio (Supabase, Vercel, Upload-Post, GitHub, etc.), anotar en el README del cliente con qué cuenta se creó. El Supabase del panel de Somos Piedra (`msanpdcnkroqczwosocr`) no aparece en las cuentas revisadas (conector, Franco, tomassanchez2018, tominicoaxel; Vercel → Storage vacío) y hubo que salir a buscarlo. `appsomospiedra` es otro proyecto, no el del panel. Cuentas todavía por probar: sciollatomas@gmail.com y GitHub ttomisanchezz.

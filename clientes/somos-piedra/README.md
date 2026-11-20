@@ -366,3 +366,8 @@ Segundo cliente del sistema. Arrancó el 08/10/2026.
 - Meta: saldo pendiente $14.352 + impuestos con 1 pago en error; cobro automático 7/12 (Mastercard ···· 6432).
 - Orgánico programado en Business Suite: reels hasta el 10/12, carruseles y placas hasta el 28/11.
 - Somos Piedra (Instagram, Ads Manager, Business Suite) se lee por Chrome **Browser 1**; el conector de Meta no tiene esa cuenta.
+
+## Panel: Supabase y Excel ↔ panel (20/11/2026)
+- Corrida 2026-11-17b (Excel → panel) frenada: cortó 2 veces porque `E:\somos-piedra-panel\datos\dia-a-dia\` está vacía; intentos apartados en `.sesiones\_2026-11-17b-intento1` e `_intento2`; se relanza limpio con `prompts\2026-11-17b\LANZAR.md`.
+- Supabase del panel `msanpdcnkroqczwosocr`: no aparece en las cuentas revisadas (conector, Franco, tomassanchez2018, tominicoaxel; Vercel → Storage vacío; `appsomospiedra` no es el panel). Falta probar sciollatomas@gmail.com y GitHub ttomisanchezz; si no aparece, Supabase nuevo y mudar el panel (con OK de Tomás).
+- Sin decidir: Google Sheets en vez del Excel (sincronización instantánea en las dos direcciones y sin depender de una PC prendida; el papá de Fran tendría que abrir la planilla en Sheets). Si Sheets, se reescribe la 17b.

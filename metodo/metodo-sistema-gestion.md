@@ -163,6 +163,7 @@ Tomás la hostea y cobra un abono mensual. El cliente no usa Claude.
 - **Hosting y base:**
   - Vercel Hobby no permite uso comercial: hace falta Vercel Pro u otro hosting con Node;
   - Supabase gratis deja pocos proyectos activos, pero con multi-negocio alcanza uno solo.
+- **Cuentas:** al crear cada servicio (Supabase, Vercel, GitHub, dominios), anotar con qué cuenta se creó en el README del cliente (20/11/2026: se perdió en qué cuenta estaba el Supabase del panel de Somos Piedra).
 - **Git:** la identidad global de la PC es `frannnn87`. En cada repo nuevo, configurar `user.name` y `user.email` locales.
 - **Modo local:** después de cambiar el esquema, borrar los datos del sitio en el navegador.
 

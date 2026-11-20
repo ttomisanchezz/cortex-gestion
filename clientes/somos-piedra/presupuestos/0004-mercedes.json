@@ -1,0 +1,14 @@
+{
+  "numero": "0004",
+  "fecha": "2026-11-19",
+  "cliente": {"nombre": "Mercedes"},
+  "items": [
+    {"cantidad": "250", "unidad": "m²", "descripcion": "Piedra ocre 10 y 15 cm, largo libre", "precio_unitario": 34000}
+  ],
+  "leyenda_total": "MÁS IVA",
+  "condiciones": [
+    "Validez: 7 días desde la fecha.",
+    "Forma de pago: transferencia o efectivo.",
+    "Los precios no incluyen IVA."
+  ]
+}

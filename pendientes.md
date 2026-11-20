@@ -33,13 +33,21 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Revisar los 17 borradores de Ads Manager («Revisar y publicar (17)», casi todos «Nuevo anuncio de Interacción») antes de publicar nada — Claude con OK de Tomás — desde 19/11
 - [ ] Fichas F1–F3 (`E:\anuncios somos piedra\contenido\replica-san-jose\`): confirmar con Fran usos de cada piedra, si la foto de granza es IA y stock de granza gris; después programarlas en orgánico — Tomás / Fran — desde 19/11
 - [ ] Mandar a Fran la checklist (captura) y sumarle contestar los comentarios que preguntan precio (+10 sin respuesta en FB/IG) — Tomás — desde 19/11
-- [ ] Orgánico del 11/12 en adelante: no hay nada programado (la tarea del 19/11 para 11–17/12 no aparecía a las 08:00) — Claude — desde 19/11
+- [x] 19/11 08:35 Orgánico 11–17/12: los 14 reels de la 11e programados por Upload-Post (perfil SOMOSPIEDRA, solo Instagram, 18:00 y 20:30, calendario y textos aprobados el 12/11). Desde el 18/12 no hay nada — Claude — desde 19/11
+- [ ] 20/11 Programar en Business Suite los 14 reels de la 11e solo para FB (11–17/12, 18:00 y 20:30; IG ya va por Upload-Post). La tarea programada del 20/11 no pudo: no había Chrome conectado — Claude (Tomás: dejar Chrome Browser 1 abierto con la extensión) — desde 20/11
+- [ ] Orgánico desde el 18/12 (y Facebook desde el 11/12): armar material nuevo; en Upload el FB conectado es «Elija Piedra Sas», no la página «Somos Piedra, elija piedra» — Claude/Tomás — desde 19/11
 - [ ] Campaña IA: con más días, decidir si el 76 ($795/conv el 17–18/11) pasa a la ESCALA ($676) — Tomás — desde 19/11
 
 ### Cotizaciones en PDF (desde 18/11)
 - [ ] Confirmar el dígito verificador del CUIT de la razón social (20-45734050-9) — Tomás — desde 18/11
 - [ ] «Precio final» en la 0002 y 0003: ¿IVA incluido? ¿La granza va también en bolsas? — Tomás — desde 18/11
 - [ ] Cotización 0003 (piedra ocre $250.000): ¿El Sauce o sin cliente? — Tomás — desde 18/11
+
+### Panel: Supabase y Excel ↔ panel (desde 20/11)
+- [ ] Encontrar la cuenta de Supabase del panel `msanpdcnkroqczwosocr`: no está en la del conector, la de Franco, tomassanchez2018 ni tominicoaxel; Vercel → Storage vacío; `appsomospiedra` no es el panel. Falta probar sciollatomas@gmail.com (cuenta de Vercel del panel) y GitHub ttomisanchezz. El proyecto existe (Erasmo se logueó al panel el 16/11): está en alguna cuenta. Si no aparece: Supabase nuevo y mudar el panel, con OK de Tomás — Claude (Tomás: login/2FA si hace falta) — desde 20/11
+- [ ] **Decidir Google Sheets o Excel para la sincronización con el panel.** Propuesta sin decidir: Sheets, para que sincronice al instante en las dos direcciones y no dependa de una PC prendida; costo: el papá de Fran abre la planilla en Sheets. Si Sheets, se reescribe la corrida 17b; si Excel, Tomás copia el archivo y se relanza — Tomás — desde 20/11
+- [ ] Pasar el Excel a `E:\somos-piedra-panel\datos\dia-a-dia\` (si es Excel) y relanzar la 17b limpia con `prompts\2026-11-17b\LANZAR.md` — Tomás → Claude — desde 20/11
+- [ ] Prompt para arreglar `api/` de Vercel (no urge; ver línea del 02/11 abajo) — Claude — desde 20/11
 
 ### Erasmo — para salir a todos (desde 17/11 noche)
 - [ ] **Mirar Erasmo en vivo a la mañana** (`E:\bot-piedra\data\consola.log`): que los chats nuevos los atienda Sonnet (`chat nuevo, lo atiende Sonnet`), ninguno en sombra, y la primera transcripción de audio (si Gemini da error, crear una key nueva en AI Studio y cambiar `GEMINI_API_KEY`) — Claude, desde 18/11
@@ -58,9 +66,9 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] **Reconectar Erasmo:** correr `powershell -ExecutionPolicy Bypass -File E:\bot-piedra\conectar-piedra.ps1` con el celu de Somos Piedra a mano y escanear el QR (Dispositivos vinculados) dentro de los 6 min; NO correr otro `npm start` (el bot ya corre) — Tomás — desde 17/11
 - [ ] Push de `E:\bot-piedra`: `cd E:\bot-piedra; git push -u origin piedra/archivos-excluidos` (la rama no está en GitHub) — Tomás — desde 17/11
 - [ ] Revisar la corrida 2026-11-17a de Erasmo (`cea7308`, REVISAR.md) y el `package-lock.json` que modificó `npm install` de `conectar-piedra.ps1` (sacó 26 paquetes): no commitearlo hasta revisarlo — Claude — desde 17/11
-- [ ] **Corrida 2026-11-17b (Excel → panel):** Tomás pone el Excel más nuevo (Drive del papá de Fran) en `E:\somos-piedra-panel\datos\dia-a-dia\`, cierra las sesiones de la 17b que quedaron esperando y relanza las 7 (`prompts\2026-11-17b\LANZAR.md`); Claude revisa la integración; Tomás corre `SUBIR-EXCEL.cmd` — Tomás → Claude — desde 17/11
+- [ ] **Corrida 2026-11-17b (Excel → panel):** Tomás pone el Excel más nuevo (Drive del papá de Fran) en `E:\somos-piedra-panel\datos\dia-a-dia\`, cierra las sesiones de la 17b que quedaron esperando y relanza las 7 (`prompts\2026-11-17b\LANZAR.md`); Claude revisa la integración; Tomás corre `SUBIR-EXCEL.cmd` — Tomás → Claude — desde 17/11 | 20/11: cortó 2 veces (`datos\dia-a-dia\` vacía); intentos apartados en `.sesiones\_2026-11-17b-intento1` e `_intento2`; se relanza limpio con `LANZAR.md` cuando esté el Excel. Si Tomás elige Google Sheets en vez de Excel, se reescribe la 17b (ver abajo)
 - [ ] Excel: columna con el WhatsApp del cliente en las hojas de VENTAS, desde hoy (para el cruce anuncio → venta) — Tomás/Fran — desde 17/11
-- [ ] Panel: apagar «Allow new users to sign up» en Supabase **`msanpdcnkroqczwosocr`** (no en appsomospiedra) — Tomás — desde 17/11
+- [ ] Panel: apagar «Allow new users to sign up» en Supabase **`msanpdcnkroqczwosocr`** (no en appsomospiedra) — Tomás — desde 17/11 (20/11: bloqueado hasta encontrar en qué cuenta está ese proyecto)
 - [ ] Panel: commitear el `.gitignore` con `datos/` y `.vercel`; crear el repo en GitHub para poder hacer push — Claude/Tomás — desde 17/11
 - [ ] Supabase Pro para el panel (el free se pausa a los 7 días sin uso) — Tomás decide — desde 17/11
 - [ ] 76 sin rótulo para el orgánico: está en `editor-reels-tomas\.sesiones\2026-11-16d\piedra-ia-9a\trabajo\P76IA\reel-codigo.mp4` (no se entregó al lote) — Tomás — desde 17/11
@@ -75,7 +83,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Instalar Google Drive para escritorio con la cuenta del papá de Fran en la PC del local y mover ahí el Excel «día a día» — Tomás — desde 17/11
 - [ ] Mudar Erasmo a la PC del local (Docker Desktop, Node 22, Git, Drive; QR de nuevo) cuando esté todo listo — Tomás / Claude — desde 17/11
 - [ ] Panel: «Envío» y «Flete paletizado» sin precio (el envío depende de la zona y el flete se cotiza aparte): decidir si se sacan como producto — Claude / Tomás — desde 17/11
-- [ ] 19/11 15:17: tarea programada trig_01Fc8bUSDdz97ibDzboaEQPD programa los 14 reels de la 11e del 11 al 17/12 con texto; revisar el resultado — Claude — desde 12/11
+- [x] 19/11 la tarea trig_01Fc8bUSDdz97ibDzboaEQPD no existe en las tareas programadas; los 14 se programaron por Upload — Claude — desde 12/11
 - [x] 13/11 23:40 Primera lectura de R61–R65, ESCALA R13 y R21–R34: día $918/conv, sin pausas (R21–R34 llevan 2 días). Detalle en la bitácora del 13/11 — Claude
 - [ ] 14/11 noche: cortar los R21–R34 con 3 días > $1.200/conv (candidatos R22, R24, R25, R28, R29, R30, R33, R34; al límite R26 y R32) y segunda lectura de R61–R65 — Claude — desde 13/11
 - [x] 12/11 23:40 lectura nocturna hecha (bitácora 12/11): día $89.645 / 93 = $964/conv; no se pausó nada (R08, R11, R13, R14 bajo $1.200 con 3 días) — Claude — 12/11
@@ -160,7 +168,7 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Descartar borrador viejo L3-V3 (ad 120251109138600411) — Claude — desde 04/11
 - [ ] **Panel — subir rediseño + Cotizaciones:** Tomás hace doble clic en `E:\somos-piedra-panel\SUBIR-COTIZACIONES.cmd` (migra la 0072 y hace `vercel --prod`; si Vercel pide login, `npx vercel login`). Después Claude prueba en el celu y la compu. A Claude el control automático no lo dejó migrar la base real — Tomás — desde 06/11
 - [ ] Cotizaciones: el WhatsApp del negocio para el PDF y confirmar validez (7 días) y forma de pago (transferencia o efectivo) por defecto; `npm test` en Windows (`marca/sin-logo` y `meta/prueba` no corren en la VM) — Tomás/Claude — desde 06/11
-- [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11
+- [ ] Panel: arreglar las funciones de `api/` en Vercel (ERR_MODULE_NOT_FOUND: sin manifest ni ícono; la factura no anda) — Claude/VS Code — desde 02/11 (20/11: no urge; falta armar el prompt)
 - [ ] Panel: apagar «Allow new users to sign up» en Supabase (Authentication → Sign In / Providers → Email) — Tomás — desde 02/11
 - [ ] Panel: qué hacer con `panel@somospiedra.com` (creado sin acceso) — Tomás — desde 02/11
 - [ ] Panel de Meta: arreglar los 2 hallazgos del /codex:review (CONTEXTO §7 del repo) y después cargar `META_TOKEN` y crear la tarea «Meta - Piedra» (vuelta completa). Los leads ya suben solos desde el 11/11 (tarea «Leads - Piedra», solo lectura); sin el token el panel no tiene gasto ni nombres de anuncios — Claude/Tomás — desde 02/11
