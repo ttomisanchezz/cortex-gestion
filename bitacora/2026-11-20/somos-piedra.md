@@ -30,3 +30,12 @@ Aprendizajes:
 - Anotar siempre con qué cuenta se crea cada servicio (Supabase, Vercel, Upload-Post, etc.): hoy no se sabe en qué cuenta quedó el Supabase del panel.
 Próximo paso: encontrar la cuenta del Supabase y que Tomás decida Sheets o Excel — Modelo: Sonnet 5.5 + advisor (esquema y sincronización del panel)
 Cambia una regla de plata o del método: sí, una línea en `metodo/` §7 (anotar la cuenta de cada servicio)
+
+Reels 11e en Facebook — 20/11 13:35 (Tomás: «si está todo con Upload, programá lo que falte»)
+Hecho:
+- Los 14 reels de la 11e quedaron programados en **Facebook, página «Somos Piedra, elija piedra» (1025898313949204)**, por Upload-Post (perfil SOMOSPIEDRA), 11–17/12 a las 18:00 y 20:30, con el mismo texto que en IG. No hizo falta Business Suite ni Chrome.
+- Arreglado el texto de IG del 42b (13/12 20:30) y del 42c (17/12 20:30): tenían el del 42; ahora empiezan con «Pedir granza te lleva 3 mensajes.» y «¿Nunca pediste granza? Es así de fácil.».
+- Verificado en list_scheduled: 28 filas, cada horario del 11 al 17/12 con una de FB y una de IG, sin duplicados.
+Aprendizajes:
+- En Upload-Post la cuenta de FB figura como «Elija Piedra Sas», pero `get_facebook_pages` da la página correcta: se publica con `facebookPageId: 1025898313949204` y `facebookMediaType: REELS`.
+- Para no volver a subir el video: `get_scheduled_post` del post de IG da la URL firmada del mp4 (dura 6 h) y `upload_video` la acepta como `videoPathOrUrl`. Subir archivos propios por `create_media_upload` no anda: el PUT a r2.cloudflarestorage.com lo bloquea el proxy en la nube y en la PC.

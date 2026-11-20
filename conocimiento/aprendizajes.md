@@ -344,3 +344,5 @@ Errores que no queremos repetir y trucos que funcionaron. Cada uno con su fecha.
 
 ## Cuentas de cada servicio (20/11/2026)
 - Al crear cualquier servicio (Supabase, Vercel, Upload-Post, GitHub, etc.), anotar en el README del cliente con qué cuenta se creó. El Supabase del panel de Somos Piedra (`msanpdcnkroqczwosocr`) no aparece en las cuentas revisadas (conector, Franco, tomassanchez2018, tominicoaxel; Vercel → Storage vacío) y hubo que salir a buscarlo. `appsomospiedra` es otro proyecto, no el del panel. Cuentas todavía por probar: sciollatomas@gmail.com y GitHub ttomisanchezz.
+
+- 20/11/2026 — **Upload-Post para Somos Piedra:** la cuenta de FB figura como «Elija Piedra Sas», pero `get_facebook_pages` da la página «Somos Piedra, elija piedra»: publicar con `facebookPageId: 1025898313949204` y `facebookMediaType: REELS`. Para reusar un video ya subido, `get_scheduled_post` da la URL firmada del mp4 (6 h) y sirve como `videoPathOrUrl`. El PUT de `create_media_upload` a r2.cloudflarestorage.com lo bloquea el proxy (nube y PC).

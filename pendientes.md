@@ -34,8 +34,8 @@ Lista viva, ordenada por la prioridad de `proyectos.json`.
 - [ ] Fichas F1–F3 (`E:\anuncios somos piedra\contenido\replica-san-jose\`): confirmar con Fran usos de cada piedra, si la foto de granza es IA y stock de granza gris; después programarlas en orgánico — Tomás / Fran — desde 19/11
 - [ ] Mandar a Fran la checklist (captura) y sumarle contestar los comentarios que preguntan precio (+10 sin respuesta en FB/IG) — Tomás — desde 19/11
 - [x] 19/11 08:35 Orgánico 11–17/12: los 14 reels de la 11e programados por Upload-Post (perfil SOMOSPIEDRA, solo Instagram, 18:00 y 20:30, calendario y textos aprobados el 12/11). Desde el 18/12 no hay nada — Claude — desde 19/11
-- [ ] 20/11 Programar en Business Suite los 14 reels de la 11e solo para FB (11–17/12, 18:00 y 20:30; IG ya va por Upload-Post). La tarea programada del 20/11 no pudo: no había Chrome conectado — Claude (Tomás: dejar Chrome Browser 1 abierto con la extensión) — desde 20/11
-- [ ] Orgánico desde el 18/12 (y Facebook desde el 11/12): armar material nuevo; en Upload el FB conectado es «Elija Piedra Sas», no la página «Somos Piedra, elija piedra» — Claude/Tomás — desde 19/11
+- [x] 20/11 13:35 Los 14 reels de la 11e programados en FB (página «Somos Piedra, elija piedra») por Upload-Post, 11–17/12 18:00 y 20:30; IG ya estaba. Textos de 42b/42c corregidos en IG — Claude — desde 20/11
+- [ ] Orgánico desde el 18/12 (FB + IG): armar material nuevo; por Upload se programa a la página correcta con facebookPageId 1025898313949204 — Claude/Tomás — desde 19/11
 - [ ] Campaña IA: con más días, decidir si el 76 ($795/conv el 17–18/11) pasa a la ESCALA ($676) — Tomás — desde 19/11
 
 ### Cotizaciones en PDF (desde 18/11)
